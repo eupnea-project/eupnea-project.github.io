@@ -17,7 +17,7 @@ Due to licensing restraints, Eupnea cannot be distributed as an iso. Instead, it
 
 1. Open the terminal and run: ``git clone --recurse-submodules --depth=1 https://github.com/eupnea-linux/eupnea && cd eupnea``
 
-2. Then start the script with: ``chmod +x build.py && build.py``
+2. Then start the script with: ``chmod +x build.py && ./build.py``
 
 3. Follow the instructions inside the Terminal.
 
