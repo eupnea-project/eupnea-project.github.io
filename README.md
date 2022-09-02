@@ -1,86 +1,60 @@
-<!-- select:start -->
-<!-- select-menu-labels: View: -->
+# Building Eupnea
+Due to licensing restraints, Eupnea cannot be distributed as an iso. Instead, it has to be build locally on the device.
 
-#### --Installation Instructions--
+## Prerequisites: 
+* A device to build Eupnea on, which can be one of the following:
+  * A Chromebook with Crostini enabled(aka "Linux" in settings).
+  * A Linux pc/laptop(all distros supported)
+  * Windows users will need to [install WSL](https://ubuntu.com/tutorials/install-ubuntu-desktop#1-overview).
+  * Apple device support is unknown.
+  * Android with Termux is not supported
+* Developer mode enabled on your chromebook([How to enable developer mode](https://www.androidauthority.com/how-to-enable-developer-mode-on-a-chromebook-906688/))
+* A USB-stick or SD-card with 12GB of storage
+* IF not using direct write: 14GB of free space on the "builder" device
 
-<br>
-
->🎉 OMGUbuntu article: https://www.omgubuntu.co.uk/2022/07/i-used-breath-on-my-acer-chromebook-cp713
-<br><br>
-We couldn't have done this without the help of the community and all of our users 💖
-
-## Supported Devices
-
-**All 64-bit Intel/AMD (x64) Chromebooks are supported with a bare-minimum of booting.**
-
-For an exhaustive list of Chromebooks and their CPU Generations, [look here](https://wiki.mrchromebox.tech/Supported_Devices).
-
-### Intel
-
-* Amberlake, Whiskeylake (-UE CPUs), and Skylake
-  * All peripherals supported, audio may need extra modules
-* Apollolake, Geminilake, Cometlake, Jasperlake, Tigerlake
-  * All peripherals supported
-
-### AMD
-
-* Stoneyridge
-  * All peripherals supported except audio
-  * These Chromebooks are unable to handle Windows on custom UEFI firmware
-* Picasso/Dali
-  * All peripherals supported except audio, of which I can get running with a tester
-
-## Running Breath
-
-Due to licensing restraints, you cannot just download an ISO of Breath and flash it. Instead, you *build* the bootable USB or the ISO.
-
-**Prerequisite:** Git is installed and you have a mainstream, fast 12GB or bigger USB/SDCard plugged in
-
+## Instructions:
 **If you are running Crostini:** Follow the instructions [here](https://bugs.chromium.org/p/chromium/issues/detail?id=1303315#c3) first.
 
-1. ```
-    git clone --recurse-submodules https://github.com/cb-linux/breath && cd breath
-    ```
-2. ```
-   FEATURES=ISO,KEYMAP bash setup.sh cli ubuntu
-   ```
-    This command should take around 30 minutes.
+1. Open the terminal and run: ``git clone --depth=1 https://github.com/eupnea-linux/eupnea && cd eupnea``
 
-    If you **don't want a minimal environment without a desktop** or **are running Crostini**, don't run the command and read below.
+2. Then start the script with: ``chmod +x build.py && build.py``
 
-> * You must add `CROSTINI` to `FEATURES` (so `FEATURES=ISO,KEYMAP,CROSTINI`)  if you're running this script from Crostini.
-> * **Using the CLI argument installs a minimal CLI (no desktop!) environment on the USB.** If you would like to install a desktop, you can use `gnome`, `kde`, `minimal`, `deepin`, `budgie`, `xfce`, `lxqt`, `mate` or `openbox` instead of `cli`.
-> * You can replace `ubuntu` with `arch`, `fedora` (you can only use `cli`) or `debian` (all desktops are supported)
-> * Ubuntu supports custom versions. If you want to install Ubuntu 21.10 instead of the default Ubuntu 22.04, just run: `bash setup.sh cli ubuntu impish-21.10`, where `impish` is the codename and `21.10` is the version.
-> * Fedora also supports custom versions. Just add the desired version number at the end of `setup.sh` command: `bash setup.sh cli fedora 36`.
-> * You can remove the `FEATURES=ISO` to use the classic way which directly writes to a USB.
+3. Follow the instructions inside the Terminal.
 
-1. Done! Flash the IMG file to a USB using something like Etcher.
+4. If you chose the image option, flash the image to a USB-stick/SD-card using Etcher, Rufus, DD, or any other tool.
     - If you're running this within Crostini, copy it to a folder you can access from ChromeOS's Files App and then change the `.img` file's extension to `.bin`.
     - You can then [flash](https://www.virtuallypotato.com/burn-an-iso-to-usb-with-the-chromebook-recovery-utility/) it by using the Chrome Recovery Tool.
-    - More information [here](https://github.com/cb-linux/breath/issues/186#issuecomment-1120342250)
-2. **[RECOMMENDED if you are not on Crostini]** Resize the partition of your USB by running `bash expand.sh`. This will expand your USB image to use the entire available space.
-3. Now just boot into ChromeOS, enter the shell (<kbd>CTRL</kbd> <kbd>ALT</kbd> <kbd>T</kbd>, `shell`), and run:  
-`sudo crossystem dev_boot_usb=1; sudo crossystem dev_boot_signed_only=0; sync`
-to enable USB and Custom Kernel Booting.
 
-Reboot, and with the USB plugged in, press <kbd>CTRL</kbd> <kbd>U</kbd> instead of <kbd>CTRL</kbd> <kbd>D</kbd>. After a short black screen, the system should display a login screen.
+5. **[RECOMMENDED if you are not on Crostini]** Resize the partition of your USB by running `bash expand.sh`. This will expand your USB image to use the entire available space.
 
-NetworkManager is installed by default on all distros. You can connect to the Wifi by using `nmtui` (for a terminal user interface) or `nmcli`.
+6. [Enable Devloper mode](https://www.androidauthority.com/how-to-enable-developer-mode-on-a-chromebook-906688/) now, if you havent done so yet.
 
-### Audio
+6. Boot into ChromeOS, open the shell by pressing <kbd>CTRL</kbd>+<kbd>ALT</kbd>+<kbd>T</kbd>, enter `shell` and press <kbd>Enter</kbd>.  
 
-Once booted into Breath run the command depending on your device's board:
+7. Run: `sudo crossystem dev_boot_usb=1; sudo crossystem dev_boot_signed_only=0; sync` inside the chromeos shell, to enable USB and Custom Kernel Booting.
 
-1. Connect to Wifi on your Chromebook! You can use a GUI for this or `nmcli`/`nmtui`
+8. Reboot with the USB plugged in and press <kbd>CTRL</kbd>+<kbd>U</kbd> or select "External". 
 
-2. - Skylake, Kabylake, or Coffeelake (7th/8th Gen Intel CPU):
-     1. `VERSION=ALT bash updatekernel.sh` on the PC you built Breath with (cannot be run from Crostini)
-     2. `setup-audio` on your Chromebook that has booted Breath
-   - All Apollo Lake Devices (`CORAL` and `REEF`): `apl-sof-setup-audio` on your Chromebook that has booted Breath
-   - Everything else: `sof-setup-audio` on your Chromebook that has booted Breath
+After a short black screen, Eupnea should boot.
 
-If audio still doesn't work, [open up an issue](https://github.com/cb-linux/breath/issues) and provide the file/link created by `sudo alsa-info`.
+## Enable Audio
+To enable audio on Eunea, follow the instructions below:
+
+1. Boot into Eupnea
+
+2. Make sure you are connected to the internet.
+
+- Skylake, Kaby Lake, or Coffee Lake (7th/8th Gen Intel CPU):
+  1. Switch to alt kernel by running: *insert alt switch command here* in the Terminal.
+  2. Reboot Eupnea
+  3. Run `setup-audio` in the Terminal.
+  4. Reboot again
+- Apollo Lake(codenames: `CORAL` and `REEF`):
+  1. Run: `apl-sof-setup-audio` in the Terminal.
+- Everything else: 
+  1. Run: `sof-setup-audio` in the Terminal.
+
+If audio still doesn't work, please open an issue with your device codename and generation.
 
 > #### Skylake (SKL) / Kabylake (KBL) disclaimer
 >
@@ -88,20 +62,14 @@ If audio still doesn't work, [open up an issue](https://github.com/cb-linux/brea
 >
 > PulseAudio, without UCM modifications, errors out. If you modify the UCM to remove the `Front Mic`, `Rear Mic`, and `Mic` (all of these are related to PCM3 on `da7219max`), PulseAudio and general audio will work, but your speakers **will be fried** or their membranes **will burst**.
 
-## OpenCollective Page
-
-If you find this useful, consider donating. Since I'm only a student, acquiring the resources to expand this project is only possible [with your support 💚](https://opencollective.com/breath)
-
-## Goodies
-
-**ZRAM:**  
-https://github.com/cb-linux/breath/issues/204#issuecomment-1133802766
-
-**Fan Control/ectool:**  
-https://github.com/cb-linux/breath/issues/168#issuecomment-1142534066
-
-#### --Project Overview--
-
-[README.md](https://raw.githubusercontent.com/cb-linux/breath/main/README.md ':include')
-
-<!-- select:end -->
+## Optional:
+#### ZRAM(aka swap):
+To enable swap memory run the following commands in the terminal:
+The commands below will create 6GB of swap compressed to 2GB.
+1. ``sudo modprobe zram``
+2. ``SIZE=6144 # change the size here if you want more/less swap memory``
+3. ``sudo echo $(($SIZE*1024*1024)) > /sys/block/zram0/disksize``
+4. ``sudo mkswap /dev/zram0``
+5. ``sudo swapon /dev/zram0 -p 10``
+#### Fan Control/ectool:
+To install the chromeos ectool utility run: ``install-ectool``
