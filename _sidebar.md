@@ -1,25 +1,20 @@
-**Docs**
+**Instructions**
 
   - [💻 Installation](/)
-  - [📹 Demos](/demos)
-  - [⌨️ Github](https://github.com/cb-linux/breath)
-
-👨‍💻 **Development**
-
   - [Installing to Internal Storage](/internalstorage)
-  - [Linux Distros in Breath](/distros)
+
+👨‍💻 **Docs**
+
+  - [Linux Distros](/distros)
   - [Depthcharge](/depthcharge)
   - [Sleep and "Bootlock"](/bootlock)
-  - [File Structure](/file_structure)
   - [Building the kernel](/kernel)
-  - [Limitations](/limitations)
-  - [Upstream](/upstream)
-  - [Bootlogo](/bootlogo)
+  - [About the ChromeOS kernel](/limitations)
 
-🌐 **Further reading**
+🌐 **External docs**
 
-  - [Depthcharge (from a person who knows it)](https://libreboot.org/docs/depthcharge/#booting-from-different-mediums)
-  - [Info about chain-loading bootloaders with Depthcharge](https://github.com/nh2/chrubuntu-anyos)
-  - [Building the stock ChromeOS Kernel](https://github.com/yusefnapora/pixelbook-linux)
+  - [UEFI/rw_legacy](https://mrchromebox.tech/#bootmodes)
+  - [Depthcharge](https://libreboot.org/docs/depthcharge/#booting-from-different-mediums)
+  - [Linux on pre-2017 Chromebooks](https://github.com/nh2/chrubuntu-anyos)
 
-**Made with ❤️ by MilkyDeveloper**
+**[Eupnea Github](https://github.com/eupnea-linux/eupnea)**
