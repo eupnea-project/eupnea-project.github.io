@@ -35,7 +35,7 @@ Due to licensing restraints, Eupnea cannot be distributed as an iso. Instead, it
 
 8. Reboot with the USB plugged in and press <kbd>CTRL</kbd>+<kbd>U</kbd> or select "External". 
 
-After a short black screen, Eupnea should boot.
+After a short black screen Eupnea should boot.
 
 ## Enable Audio
 To enable audio on Eunea, follow the instructions below:
@@ -64,8 +64,8 @@ If audio still doesn't work, please open an issue with your device codename and 
 
 ## Optional:
 ####ZRAM(aka swap):
-To enable swap memory run the following commands in the terminal:
-The commands below will create 6GB of swap compressed to 2GB.
+The commands below will create 6GB of swap compressed to 2GB.  
+To enable swap memory run the following commands in the terminal:  
 1. ``sudo modprobe zram``
 2. ``SIZE=6144 # change the size here if you want more/less swap memory``
 3. ``sudo echo $(($SIZE*1024*1024)) > /sys/block/zram0/disksize``
