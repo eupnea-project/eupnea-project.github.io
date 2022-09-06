@@ -63,9 +63,9 @@ If audio still doesn't work, please open an issue with your device codename and 
 > PulseAudio, without UCM modifications, errors out. If you modify the UCM to remove the `Front Mic`, `Rear Mic`, and `Mic` (all of these are related to PCM3 on `da7219max`), PulseAudio and general audio will work, but your speakers **will be fried** or their membranes **will burst**.
 
 ## Optional:
-#### ZRAM(aka swap):
-The commands below will create 6GB of swap compressed to 2GB.  
-To enable swap memory run the following commands in the terminal:  
+#### ZRAM(aka swap in ram):
+The commands below will create 6GB of memory compressed to 2GB.  
+To enable "extra" memory run the following commands in the terminal:  
 1. ``sudo modprobe zram``
 2. ``SIZE=6144 # change the size here if you want more/less swap memory``
 3. ``sudo echo $(($SIZE*1024*1024)) > /sys/block/zram0/disksize``
