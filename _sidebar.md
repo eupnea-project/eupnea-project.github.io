@@ -10,7 +10,6 @@
   - [Depthcharge](/depthcharge)
   - [Sleep and "bootlock"](/bootlock)
   - [Building the kernel](/kernel)
-  - [About the ChromeOS kernel](/limitations)
 
 🌐 **External docs**
 
