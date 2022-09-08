@@ -1,14 +1,6 @@
-# ChromeOS kernel
+## Building the ChromeOS Kernel
 
-The ChromeOS kernel has some notable differences. There are probably some major changes in the ChromeOS kernel that are not documented.
-
-## Limitations of the ChromeOS kernel
-
-Suspending to RAM triggers an NVRAM reset and disables all `crossystem` options, including booting an unsigned kernel or from a USB.
-
-## Building the Kernel
-
-The image build script of Eupnea downloads two precompiled binaries:
+The [image build script](https://github.com/eupnea-linux/eupnea/blob/main/build.py) of Eupnea downloads two precompiled binaries:
 
 * The Linux Kernel Executable (vmlinuz/bzImage)
 * A Tar Archive of the kernel modules
@@ -30,7 +22,7 @@ In the kernel folder, you should run the `build.sh` for a guided kernel build.
 ### Manually(not recommended)
 1. Clone the repository with git by running:
 ```bash
-git clone --branch chromeos-5.10 --depth 1 https://chromium.googlesource.com/chromiumos/third_party/kernel.git
+git clone --branch chromeos-5.10 --depth=1 https://chromium.googlesource.com/chromiumos/third_party/kernel.git
 cd kernel
 ```
 
