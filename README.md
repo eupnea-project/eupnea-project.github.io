@@ -15,12 +15,15 @@ Due to licensing restraints, Eupnea cannot be distributed as an iso. Instead, it
 
 ## Instructions:
 
-**If running under crostini("Linux" on ChromeOS)**, follow [these instructions](/crostini?id=crostini-specific-instructions) first.
-
-1. Open the terminal and run: ``git clone --recurse-submodules --depth=1 https://github.com/eupnea-linux/eupnea && cd eupnea``
-
-2. Then start the script with: ``chmod +x build.py && ./build.py``
-
+**If running under crostini(aka "Linux" on ChromeOS)**, follow [these instructions](/crostini?id=crostini-specific-instructions) first.
+1. Open the terminal and clone the repo:
+    ```
+    git clone --recurse-submodules --depth=1 https://github.com/eupnea-linux/eupnea && cd eupnea
+    ```
+2. Then start the script with:
+    ```
+    chmod +x build.py && ./build.py
+    ```
 3. Follow the instructions inside the Terminal.
 
 4. If you chose the image option, flash the image to a USB-stick/SD-card using Etcher, Rufus, DD, or any other tool.
@@ -33,7 +36,10 @@ Due to licensing restraints, Eupnea cannot be distributed as an iso. Instead, it
 
 6. Boot into ChromeOS, open the shell by pressing <kbd>CTRL</kbd>+<kbd>ALT</kbd>+<kbd>T</kbd>, enter `shell` and press <kbd>Enter</kbd>.  
 
-7. Run: `sudo crossystem dev_boot_usb=1; sudo crossystem dev_boot_signed_only=0; sync` inside the chromeos shell, to enable USB and Custom Kernel Booting.
+7. Inside the chromeos shell enable USB and Custom Kernel Booting by running:
+    ```
+    sudo crossystem dev_boot_usb=1; sudo crossystem dev_boot_signed_only=0; sync
+    ```
 
 8. Reboot with the USB plugged in and press <kbd>CTRL</kbd>+<kbd>U</kbd> or select "External". 
 
