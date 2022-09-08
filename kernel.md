@@ -1,4 +1,19 @@
+# ChromeOS kernel
+
+The ChromeOS kernel has some notable differences. There are probably some major changes in the ChromeOS kernel that are not documented.
+
+## Limitations of the ChromeOS kernel
+
+Suspending to RAM triggers an NVRAM reset and disables all `crossystem` options, including booting an unsigned kernel or from a USB.
+
 ## Building the Kernel
+
+The image build script of Eupnea downloads two precompiled binaries:
+
+* The Linux Kernel Executable (vmlinuz/bzImage)
+* A Tar Archive of the kernel modules
+
+These binaries are compiled using Github Actions and require a powerful computer and at least an hour of compilation. The GPL permits distributing binaries, as long as you give the source code of them. The source of the kernel and modules is [here](https://chromium.googlesource.com/chromiumos/third_party/kernel).
 
 ### Requirements
 The following must be installed in order to successfully build the kernel:
@@ -9,25 +24,13 @@ The following must be installed in order to successfully build the kernel:
 * imagemagick (provides mogrify command)
 * libssl-dev (supports openssl development)
 
-### New build script
+### Kernel build script
 In the kernel folder, you should run the `build.sh` for a guided kernel build.
 
-### Manually
-
-Millions of lines of code have been poured into the Linux Kernel, along with thousands contributed by Google Engineers.
-
-To honor their contributions and give to the open-source community, this project is free and open-source.
-
-The installer of this project, which you are currently on, downloads 2 things in binary format:
-
-* The Linux Kernel Executable (vmlinuz/bzImage)
-* A Tar Archive of the kernel modules
-
-Both of which require a powerful computer and at least an hour of compilation, which many users this project is made for don't have. The GPL permits distributing binaries, as long as you give the source code of them. The source of the kernel and modules is [here](https://chromium.googlesource.com/chromiumos/third_party/kernel). You can follow the bellow directions to compile your own kernel.
-
+### Manually(not recommended)
 1. Clone the repository with git by running:
 ```bash
-git clone --branch chromeos-4.19 --depth 1 https://chromium.googlesource.com/chromiumos/third_party/kernel.git
+git clone --branch chromeos-5.10 --depth 1 https://chromium.googlesource.com/chromiumos/third_party/kernel.git
 cd kernel
 ```
 
