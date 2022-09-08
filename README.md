@@ -6,7 +6,7 @@ Due to licensing restraints, Eupnea cannot be distributed as an iso. Instead, it
 * A device to build Eupnea on, which can be one of the following:
   * A Chromebook with Crostini enabled(aka "Linux" in settings).
   * A Linux pc/laptop(all distros supported)
-  * Windows users will need to [install WSL](https://ubuntu.com/tutorials/install-ubuntu-desktop#1-overview).
+  * Windows users will need to [install WSL](https://ubuntu.com/tutorials/install-ubuntu-on-wsl2-on-windows-10#1-overview).
   * Apple device support is unknown.
   * Android with Termux is not supported
 * Developer mode enabled on your chromebook([How to enable developer mode](https://www.androidauthority.com/how-to-enable-developer-mode-on-a-chromebook-906688/))
