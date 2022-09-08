@@ -2,6 +2,7 @@
 Due to licensing restraints, Eupnea cannot be distributed as an iso. Instead, it has to be build locally on the device.
 
 ## Prerequisites: 
+* [A supported Chromebook](/devices)
 * A device to build Eupnea on, which can be one of the following:
   * A Chromebook with Crostini enabled(aka "Linux" in settings).
   * A Linux pc/laptop(all distros supported)
@@ -77,7 +78,7 @@ To install the chromeos ectool utility run: ``install-ectool``
 
 #### Installing to Internal Storage
 
-This will wipe ChromeOS(or any other currently installed OS). It is always possible to [restore ChromeOS using a recovery USB](https://support.google.com/chromebook/answer/1080595?hl=en). It's recommended to [setup audio](https://eupnea-linux.github.io/docs.html#/?id=enable-audio) and confirm all hardware is working correctly(touchpad, touchscreen, speakers).
+This will wipe ChromeOS(or any other currently installed OS). It is always possible to [restore ChromeOS using a recovery USB](https://support.google.com/chromebook/answer/1080595?hl=en). It's recommended to [setup audio](?id=enable-audio) and confirm all hardware is working correctly(touchpad, touchscreen, speakers).
 
 1. ~~Find your internal storage disk by running `lsblk`. Chances are this will be `/dev/mmcblk0` or similar. Keep this device name in mind.
    If you are unable to find your internal storage, run `mount | sed -n 's|^/dev/\(.*\) on / .*|\1|p'` within the ChromeOS Terminal. The ChromeOS Terminal is accessed by typing in CTRL + ALT + T and entering in `shell`~~
