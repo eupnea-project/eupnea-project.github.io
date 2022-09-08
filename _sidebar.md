@@ -1,6 +1,6 @@
 **Instructions**
   - [Supported devices](/devices)
-  - [SETUP EUPNEA](/)
+  - [SETUP](/)
 
 👨‍💻 **Docs**
 
