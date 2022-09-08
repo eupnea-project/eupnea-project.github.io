@@ -79,8 +79,8 @@ To install the chromeos ectool utility run: ``install-ectool``
 
 This will wipe ChromeOS(or any other currently installed OS). It is always possible to [restore ChromeOS using a recovery USB](https://support.google.com/chromebook/answer/1080595?hl=en). It's recommended to [setup audio](https://eupnea-linux.github.io/docs.html#/?id=enable-audio) and confirm all hardware is working correctly(touchpad, touchscreen, speakers).
 
-~~1. Find your internal storage disk by running `lsblk`. Chances are this will be `/dev/mmcblk0` or similar. Keep this device name in mind.
+1. ~~Find your internal storage disk by running `lsblk`. Chances are this will be `/dev/mmcblk0` or similar. Keep this device name in mind.
    > If you are unable to find your internal storage, run `mount | sed -n 's|^/dev/\(.*\) on / .*|\1|p'` within the ChromeOS Terminal. The ChromeOS Terminal is accessed by typing in CTRL + ALT + T and entering in `shell`~~
-~~2. Open a terminal and run `install-to-internal-storage` on your Chromebook with the Breath USB booted.~~
+2. ~~Open a terminal and run `install-to-internal-storage` on your Chromebook with the Breath USB booted.~~
 
 *Insert better instructions here*
