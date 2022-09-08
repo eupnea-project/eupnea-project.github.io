@@ -2,6 +2,7 @@
   
   - [‼️SETUP‼️](/)
   - [Supported devices](/devices)
+  - [Crostini](/crostini)
 
 📖 **Docs**
 
