@@ -6,7 +6,7 @@ Due to Crostini being a bit weird, the container needs to be started with specia
 
 (How to run commands: Copy the ``command`` into the terminal and press <kbd>Enter</kbd>)
 
-3. ``vmc stop termina`` and press <kbd>Enter</kbd>
+3. ``vmc stop termina``
 4. ``vmc start termina``
 5. ``vmc container termina penguin --privileged true``  
 
