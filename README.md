@@ -14,7 +14,8 @@ Due to licensing restraints, Eupnea cannot be distributed as an iso. Instead, it
 * IF not using direct write: 14GB of free space on the "builder" device
 
 ## Instructions:
-**IF YOU ARE RUNNING UNDER CHROMEOS(crostini)** Follow [these instructions](/crostini/#crostini-specific-instructions) first.
+
+**If running under crostini("Linux" on ChromeOS)**, follow [these instructions](/crostini?id=crostini-specific-instructions) first.
 
 1. Open the terminal and run: ``git clone --recurse-submodules --depth=1 https://github.com/eupnea-linux/eupnea && cd eupnea``
 
