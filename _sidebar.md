@@ -1,7 +1,6 @@
 **Instructions**
-
-  - [💻 Installation](/)
-  - [Installing to Internal Storage](/internalstorage)
+  - [Supported Devices](/devices)
+  - [SETUP EUPNEA](/)
 
 👨‍💻 **Docs**
 
