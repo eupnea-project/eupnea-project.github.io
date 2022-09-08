@@ -1,12 +1,12 @@
 **Instructions**
-  - [Supported Devices](/devices)
+  - [Supported devices](/devices)
   - [SETUP EUPNEA](/)
 
 👨‍💻 **Docs**
 
-  - [Linux Distros](/distros)
+  - [Linux distros](/distros)
   - [Depthcharge](/depthcharge)
-  - [Sleep and "Bootlock"](/bootlock)
+  - [Sleep and "bootlock"](/bootlock)
   - [Building the kernel](/kernel)
   - [About the ChromeOS kernel](/limitations)
 
@@ -17,4 +17,4 @@
   - [Linux on pre-2017 Chromebooks](https://github.com/nh2/chrubuntu-anyos)  
 
 
-**[Eupnea Github](https://github.com/eupnea-linux/eupnea)**  
+**[Source code](https://github.com/eupnea-linux/eupnea)**  
