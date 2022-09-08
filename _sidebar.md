@@ -1,8 +1,9 @@
 **Instructions**
+  
+  - [‼️SETUP‼️](/)
   - [Supported devices](/devices)
-  - [SETUP](/)
 
-👨‍💻 **Docs**
+📖 **Docs**
 
   - [Linux distros](/distros)
   - [Depthcharge](/depthcharge)
