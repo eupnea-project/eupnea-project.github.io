@@ -1,6 +1,6 @@
 **Instructions**
   
-  - [‼️SETUP‼️](/)
+  - [‼️**SETUP**‼️](/)
   - [Supported devices](/devices)
   - [Crostini](/crostini)
 
