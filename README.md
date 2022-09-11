@@ -22,7 +22,7 @@ Due to licensing restraints, Eupnea cannot be distributed as an iso. Instead, it
     ```
 2. Then start the script with:
     ```
-    chmod +x build.py && ./build.py
+    ./build.py
     ```
 3. Follow the instructions inside the Terminal.
 
