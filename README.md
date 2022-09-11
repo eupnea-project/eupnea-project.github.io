@@ -16,23 +16,19 @@ Due to licensing restraints, Eupnea cannot be distributed as an iso. Instead, it
 ## Instructions:
 
 **If running under crostini(aka "Linux" on ChromeOS)**, follow [these instructions](/crostini?id=crostini-specific-instructions) first.
-1. Open the terminal and clone the repo:
+1. Open the terminal, clone the repo and start the script with this command:
     ```
-    git clone --recurse-submodules --depth=1 https://github.com/eupnea-linux/eupnea && cd eupnea
+    git clone --recurse-submodules --depth=1 https://github.com/eupnea-linux/eupnea; cd eupnea; ./build.py
     ```
-2. Then start the script with:
-    ```
-    ./build.py
-    ```
-3. Follow the instructions inside the Terminal.
+2. Follow the instructions inside the Terminal.
 
-4. If you chose the image option, flash the image to a USB-stick/SD-card using Etcher, Rufus, DD, or any other tool.
+3. If you chose the image option, flash the image to a USB-stick/SD-card using Etcher, Rufus, DD, or any other tool.
     - If you're running this within Crostini, copy it to a folder you can access from ChromeOS's Files App and then change the `.img` file's extension to `.bin`.
     - You can then [flash](https://www.virtuallypotato.com/burn-an-iso-to-usb-with-the-chromebook-recovery-utility/) it by using the Chrome Recovery Tool.
 
-5. **[RECOMMENDED if you are not on Crostini]** Resize the partition of your USB by running `bash expand.sh`. This will expand your USB image to use the entire available space.
+4. **[RECOMMENDED if you are not on Crostini]** Resize the partition of your USB by running `bash expand.sh`. This will expand your USB image to use the entire available space.
 
-6. [Enable Devloper mode](https://www.androidauthority.com/how-to-enable-developer-mode-on-a-chromebook-906688/) now, if you havent done so yet.
+5. [Enable Devloper mode](https://www.androidauthority.com/how-to-enable-developer-mode-on-a-chromebook-906688/) now, if you havent done so yet.
 
 6. Boot into ChromeOS, open the shell by pressing <kbd>CTRL</kbd>+<kbd>ALT</kbd>+<kbd>T</kbd>, enter `shell` and press <kbd>Enter</kbd>.  
 
