@@ -11,7 +11,7 @@ Due to licensing restraints, Eupnea cannot be distributed as an iso. Instead, it
   * Android with Termux is not supported
 * Developer mode enabled on your chromebook([How to enable developer mode](https://www.androidauthority.com/how-to-enable-developer-mode-on-a-chromebook-906688/))
 * A USB-stick or SD-card with 12GB of storage
-* IF not using direct write: 14GB of free space on the "builder" device
+* IF not using direct write: 10GB of free space on the "builder" device
 
 ## Instructions:
 
@@ -25,19 +25,17 @@ Due to licensing restraints, Eupnea cannot be distributed as an iso. Instead, it
 3. If you chose the image option, flash the image to a USB-stick/SD-card using Etcher, Rufus, DD, or any other tool.
     - If you're running this within Crostini, copy it to a folder you can access from ChromeOS's Files App and then change the `.img` file's extension to `.bin`.
     - You can then [flash](https://www.virtuallypotato.com/burn-an-iso-to-usb-with-the-chromebook-recovery-utility/) it by using the Chrome Recovery Tool.
+    
+4. [Enable Devloper mode](https://www.androidauthority.com/how-to-enable-developer-mode-on-a-chromebook-906688/) now, if you havent done so yet.
 
-4. **[RECOMMENDED if you are not on Crostini]** Resize the partition of your USB by running `bash expand.sh`. This will expand your USB image to use the entire available space.
+5. Boot into ChromeOS, open the shell by pressing <kbd>CTRL</kbd>+<kbd>ALT</kbd>+<kbd>T</kbd>, enter `shell` and press <kbd>Enter</kbd>.  
 
-5. [Enable Devloper mode](https://www.androidauthority.com/how-to-enable-developer-mode-on-a-chromebook-906688/) now, if you havent done so yet.
-
-6. Boot into ChromeOS, open the shell by pressing <kbd>CTRL</kbd>+<kbd>ALT</kbd>+<kbd>T</kbd>, enter `shell` and press <kbd>Enter</kbd>.  
-
-7. Inside the chromeos shell enable USB and Custom Kernel Booting by running:
+6. Inside the chromeos shell enable USB and Custom Kernel Booting by running:
     ```
     sudo crossystem dev_boot_usb=1; sudo crossystem dev_boot_signed_only=0; sync
     ```
 
-8. Reboot with the USB plugged in and press <kbd>CTRL</kbd>+<kbd>U</kbd> or select "External". 
+7. Reboot with the USB plugged in and press <kbd>CTRL</kbd>+<kbd>U</kbd> or select "External". 
 
 After a short black screen Eupnea should boot.
 
