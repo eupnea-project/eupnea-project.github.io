@@ -18,7 +18,7 @@
 📖 **Developer docs**
 
   - [Linux distros](/dev-pages/distros.md)
-  - [Building the kernel](/pages/kernel.md)
+  - [Building the kernel](/dev-pages/kernel.md)
 
 
 **[Source code](https://github.com/eupnea-linux/eupnea)**  
