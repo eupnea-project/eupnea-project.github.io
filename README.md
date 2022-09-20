@@ -15,7 +15,7 @@ Due to licensing restraints, Eupnea cannot be distributed as an iso. Instead, it
 
 ## Instructions:
 
-**If running under crostini(aka "Linux" on ChromeOS)**, follow [these instructions](/crostini?id=crostini-specific-instructions) first.
+**If running under crostini(aka "Linux" on ChromeOS)**, follow [these instructions](/pages/crostini.md?id=crostini-specific-instructions) first.
 1. Open the terminal, clone the repo and start the script with this command:
     ```
     git clone --depth=1 https://github.com/eupnea-linux/eupnea; cd eupnea; ./build.py

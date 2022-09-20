@@ -2,14 +2,14 @@
   
   - [‼️**SETUP**‼️](/)
   - [Supported devices](/devices)
-  - [Crostini](/crostini)
+  - [Crostini](/pages/crostini.md)
 
 📖 **Docs**
 
-  - [Linux distros](/distros)
-  - [Depthcharge](/depthcharge)
-  - [Sleep and "bootlock"](/bootlock)
-  - [Building the kernel](/kernel)
+  - [Linux distros](/pages/distros.md)
+  - [Depthcharge](/pages/depthcharge.md)
+  - [Sleep and "bootlock"](/pages/bootlock.md)
+  - [Building the kernel](/pages/kernel.md)
 
 🌐 **External docs**
 
