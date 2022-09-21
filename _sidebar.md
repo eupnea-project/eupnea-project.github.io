@@ -1,7 +1,7 @@
 **Instructions**
   
   - [‼️**SETUP**‼️](/)
-  - [Supported devices](/pages/devices)
+  - [Supported devices](/pages/devices.md)
   - [Crostini](/pages/crostini.md)
 
 📖 **Docs**
