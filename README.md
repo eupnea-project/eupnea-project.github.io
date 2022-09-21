@@ -2,7 +2,7 @@
 Due to licensing restraints, Eupnea cannot be distributed as an iso. Instead, it has to be build locally on the device.
 
 ## Prerequisites: 
-* [A supported Chromebook](/devices)
+* [A supported Chromebook](/pages/devices)
 * A device to build Eupnea on, which can be one of the following:
   * A Chromebook with Crostini enabled(aka "Linux" in settings).
   * A Linux pc/laptop(all distros supported)
