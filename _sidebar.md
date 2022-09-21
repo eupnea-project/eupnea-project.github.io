@@ -17,7 +17,7 @@
 
 📖 **Developer docs**
 
-  - [1. Build script](/dev-pages/build.script.md)
+  - [1. Build script](/dev-pages/build-script.md)
   - [Linux distros](/dev-pages/distros.md)
   - [Building the kernel](/dev-pages/kernel.md)
 
