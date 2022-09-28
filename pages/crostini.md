@@ -8,7 +8,8 @@ Due to Crostini being a bit weird, the container needs to be started with specia
 
 3. ``vmc stop termina``
 4. ``vmc start termina``
-5. ``vmc container termina penguin --privileged true``  
+5. ``sleep 15``
+6. ``vmc container termina penguin --privileged true``
 
 Now in the container itself run the following commands:
 
