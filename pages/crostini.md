@@ -15,7 +15,7 @@ Due to Crostini being a bit weird, the container needs to be started with specia
 
 Now in the container itself run the following commands:
 
-1. ``sudo -i`` (Ignore errors)
+1. ``sudo -i`` (Ignore ``Failed to connect to bus`` error)
 3. ``cd /sys/fs/cgroup/``
 4. Copy this whole block and paste it into the terminal, then press <kbd>Enter</kbd>: 
    ```
