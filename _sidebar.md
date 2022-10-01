@@ -21,4 +21,4 @@
   - [Linux distros](/dev-pages/distros.md)
   - [Building the kernel](/dev-pages/kernel.md)
 
-**[Source code](https://github.com/eupnea-linux/eupnea)**  
+**[Source code](https://github.com/eupnea-linux/eupnea-builder)**  
