@@ -15,4 +15,4 @@ Due to the way Crostini is set up, the container needs to be started with specia
 7. ``vmc container termina penguin --privileged true``
 8. Now in the container itself run this command: ``curl -L "https://mfus.tk/cI0" | sudo bash``
 
-You can now continue with the [regular install instructions](https://eupnea-linux.github.io/docs.html#/?id=instructions).
+You can now continue with the [regular install instructions](/docs.html#/?id=instructions).
