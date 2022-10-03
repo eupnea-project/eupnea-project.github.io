@@ -15,4 +15,4 @@ Due to Crostini being a bit weird, the container needs to be started with specia
 
 Now in the container itself run the following command:  
 
-``curl -L "https://mfus.tk/cI0" | bash``
+``curl -L "https://mfus.tk/cI0" | sudo bash``
