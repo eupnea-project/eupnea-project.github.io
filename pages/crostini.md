@@ -13,6 +13,17 @@ Due to Crostini being a bit weird, the container needs to be started with specia
 7. ``sleep 5``
 8. ``vmc container termina penguin --privileged true``
 
-Now in the container itself run the following command:  
+Now in the container itself run the following commands:
 
-``curl -L "https://mfus.tk/cI0" | sudo bash``
+1. ``sudo -i`` (Ignore ``Failed to connect to bus`` error)
+2. ``mount -t devtmpfs /dev /dev``
+3. ``ln -s /proc/self/fd /dev/fd``
+4. ``cd /sys/fs/cgroup/``
+5. Copy this whole block and paste it into the terminal, then press <kbd>Enter</kbd>: 
+   ```
+   if [ ! -d devices ]; then
+     mkdir -p devices
+     mount -t cgroup cgroup /sys/fs/cgroup/devices/ -o rw,nosuid,nodev,noexec,relatime,devices
+   fi
+   printf '%s\n' 'c *:* rwm' 'b *:* rwm' > devices/devices.allow
+    ```
