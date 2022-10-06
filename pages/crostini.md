@@ -6,7 +6,7 @@ Due to the way Crostini is set up, the container needs to be started with specia
 ## Instructions:  
 (How to run a command: Copy the ``command`` into the terminal and press <kbd>Enter</kbd>)
 
-1. <kbd>CTRL</kbd>+<kbd>ALT</kbd>+<kbd>T</kbd>, enter `shell` and press <kbd>Enter</kbd>  
+1. <kbd>CTRL</kbd><kbd>ALT</kbd><kbd>T</kbd>, enter `shell` and press <kbd>Enter</kbd>  
 2. ``vmc stop termina``
 3. ``vmc start termina``
 4. ``exit``
