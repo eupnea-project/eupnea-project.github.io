@@ -39,7 +39,7 @@ Due to licensing restraints, Eupnea cannot be distributed as an iso. Instead, it
 
 After a short black screen Eupnea should boot.
 
-## Enable Audio
+## Enable audio
 To enable audio on Eunea, follow the instructions below:
 
 1. Boot into Eupnea
@@ -74,9 +74,9 @@ To enable "extra" memory run the following commands in the terminal:
 4. ``sudo mkswap /dev/zram0``
 5. ``sudo swapon /dev/zram0 -p 10``  
 
-#### Fan Control/ectool:
+#### Fan control/ectool:
 To install the chromeos ectool utility run: ``install-ectool``
 
-#### Installing to Internal Storage
+#### Installing to internal storage
 
-This will wipe ChromeOS(or any other currently installed OS). It is always possible to [restore ChromeOS using a recovery USB](https://support.google.com/chromebook/answer/1080595?hl=en). It's recommended to [setup audio](?id=enable-audio) and confirm all hardware is working correctly(touchpad, touchscreen, speakers) before proceeding. If you are sure you want to install to internal, run ``install-to-internal`` in the terminal.
+This will wipe ChromeOS(or any other currently installed OS). It is always possible to [restore ChromeOS using a recovery USB](https://support.google.com/chromebook/answer/1080595?hl=en). It's recommended to [setup audio](?id=enable-audio) and confirm all hardware is working correctly(touchpad, touchscreen, speakers) before proceeding. If you are sure you want to install to internal storage, run ``install-to-internal`` in the terminal.
