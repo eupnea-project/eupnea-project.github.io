@@ -46,3 +46,15 @@
 .markdown-section {
     padding-top: 3.5rem;
 }
+
+body {
+  background-color: black;
+  color: white;
+}
+
+@media screen and (prefers-color-scheme: light) {
+  body {
+    background-color: white;
+    color: black;
+  }
+}
