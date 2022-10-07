@@ -7,7 +7,7 @@
     /*--base-font-weight: 400;*/
     --heading-font-weight: 550;
     --blockquote-border-radius: 5px;
-    --blockquote-border-color: var(--mono-tint2);;
+    --blockquote-border-color: var(--mono-tint2);
     --blockquote-border-width: 1px;
     --sidebar-background: #f6f6f6;
     --sidebar-border-color: #f6f6f6;
@@ -15,13 +15,21 @@
     --heading-h2-font-weight: 650;
     --sidebar-transition-duration: 250ms;
     --sidebar-width: 19rem;
-    --sidebar-padding: 0 40px;
+    --sidebar-padding: 0 32px;
     --sidebar-nav-link-border-style: none;
     --sidebar-background: #f2f2f2;
     --base-background-color: #f2f2f2;
-    --sidebar-toggle-background: rgba(255, 255, 0, 0);
+    --sidebar-toggle-background: rgba(255, 255, 255, 0);
     --code-theme-background: #ebebeb;
     --sidebar-soft-shadow: #cecece3e;
+}
+
+.sidebar-nav > p, .sidebar-nav ul > li {
+    padding: 0 8px;
+}
+
+.sidebar-nav ul > li.active {
+    background-color: var(--code-inline-background);
 }
 
 .sidebar-nav p * {
