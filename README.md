@@ -28,14 +28,14 @@ Due to licensing restraints, Eupnea cannot be distributed as an iso. Instead, it
     
 4. [Enable Devloper mode](https://www.androidauthority.com/how-to-enable-developer-mode-on-a-chromebook-906688/) now, if you havent done so yet.
 
-5. Boot into ChromeOS, open the shell by pressing <kbd>CTRL</kbd>+<kbd>ALT</kbd>+<kbd>T</kbd>, enter `shell` and press <kbd>Enter</kbd>.  
+5. Boot into ChromeOS, open the shell by pressing <kbd>CTRL</kbd><kbd>ALT</kbd><kbd>T</kbd>, enter `shell` and press <kbd>Enter</kbd>.  
 
 6. Inside the chromeos shell enable USB and Custom Kernel Booting by running:
     ```
     sudo crossystem dev_boot_usb=1; sudo crossystem dev_boot_signed_only=0; sync
     ```
 
-7. Reboot with the USB plugged in and press <kbd>CTRL</kbd>+<kbd>U</kbd> or select "External". 
+7. Reboot with the USB plugged in and press <kbd>CTRL</kbd><kbd>U</kbd> or select "External". 
 
 After a short black screen Eupnea should boot.
 

@@ -1,0 +1,34 @@
+#laptop {
+    max-width: 75%;
+    height: auto;
+    text-align: center;
+}
+
+html, body {
+    max-width: 100% !important;
+    overflow-x: hidden !important;
+}
+
+svg {
+    fill: var(--bs-dark);
+}
+
+@media screen and (prefers-color-scheme: dark) {
+    :root {
+        --bs-light-rgb: 30,30,30;
+        --bs-dark-rgb: 200,200,200;
+        --bs-light: rgb(var(--bs-light-rgb));
+        --bs-dark: rgb(var(--bs-dark-rgb));
+        --bs-body-bg: #111;
+        --bs-body-color: var(--bs-dark);
+        --bs-border-color: #777;
+    }
+
+    .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+        color: #fff;
+    }
+
+    .text-muted {
+        color: #aaa !important;
+    }
+}
