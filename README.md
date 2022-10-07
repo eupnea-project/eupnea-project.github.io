@@ -37,6 +37,8 @@ Due to licensing restraints, Eupnea cannot be distributed as an iso. Instead, it
 
 7. Reboot with the USB plugged in and press <kbd>CTRL</kbd><kbd>U</kbd> or select "External". 
 
+If you selected Fedora, the system will need some time to relabel all files. DO NOT TURN IT OFF 
+
 After a short black screen Eupnea should boot.
 
 ## Enable audio
@@ -47,14 +49,13 @@ To enable audio on Eunea, follow the instructions below:
 2. Make sure you are connected to the internet.
 
 - Skylake, Kaby Lake, or Coffee Lake (7th/8th Gen Intel CPU):
-  1. Switch to alt kernel by running: *insert alt switch command here* in the Terminal.
+  1. Switch to alt kernel by running: ``update-kernel --alt`` in the Terminal.
   2. Reboot Eupnea
-  3. Run `setup-audio` in the Terminal.
+  3. Run ``setup-audio`` in the Terminal.
   4. Reboot again
-- Apollo Lake(codenames: `CORAL` and `REEF`):
-  1. Run: `apl-sof-setup-audio` in the Terminal.
 - Everything else: 
-  1. Run: `sof-setup-audio` in the Terminal.
+  1. Run: `setup-audio` in the Terminal.
+  2. Reboot Eupnea
 
 If audio still doesn't work, please open an issue with your device codename and generation.
 
