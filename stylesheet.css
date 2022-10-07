@@ -16,10 +16,10 @@
     --sidebar-transition-duration: 250ms;
     --sidebar-width: 19rem;
     --sidebar-padding: 0 40px;
-    --sidebar-nav-link-border-style: dotted;
+    --sidebar-nav-link-border-style: none;
     --sidebar-background: #f2f2f2;
     --base-background-color: #f2f2f2;
-    --sidebar-toggle-background: rgba(255, 255, 255, 0);
+    --sidebar-toggle-background: rgba(255, 255, 0, 0);
     --code-theme-background: #ebebeb;
     --sidebar-soft-shadow: #cecece3e;
 }
