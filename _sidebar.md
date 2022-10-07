@@ -1,13 +1,13 @@
 **Instructions**
   
-  - [‼️**SETUP**‼️](/)
-  - [Supported devices](/pages/devices.md)
-  - [Crostini](/pages/crostini.md)
+  - [‼️**SETUP**‼️](/ "Eupnea - Setup")
+  - [Supported devices](/pages/devices.md "Eupnea - Supported devices")
+  - [Crostini](/pages/crostini.md "Eupnea - Crostini instructions")
 
 📖 **Docs**
 
-  - [Sleep bootlock](/pages/bootlock.md)
-  - [Depthcharge](/pages/depthcharge.md)
+  - [Sleep bootlock](/pages/bootlock.md "Eupnea - Bootlock")
+  - [Depthcharge](/pages/depthcharge.md "Eupnea - Depthcharge")
 
 🌐 **External docs**
 
@@ -17,8 +17,8 @@
 
 📖 **Developer docs**
 
-  - [1. Build script](/dev-pages/build-script.md)
-  - [Linux distros](/dev-pages/distros.md)
-  - [Building the kernel](/dev-pages/kernel.md)
+  - [1. Build script](/dev-pages/build-script.md  "Eupnea - 1. Build script")
+  - [Linux distros](/dev-pages/distros.md  "Eupnea - Distros")
+  - [2. ChromeOS kernel](/dev-pages/kernel.md  "Eupnea - 2. Kernel")
 
 **[Source code](https://github.com/eupnea-linux/eupnea-builder)**  
