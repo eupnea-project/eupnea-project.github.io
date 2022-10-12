@@ -1,9 +1,9 @@
-# Building Eupnea
-Due to licensing restraints, Eupnea cannot be distributed as an iso. Instead, it has to be build locally on the device.
+# Building Depthboot
+Due to licensing restraints, Depthboot cannot be distributed as an iso. Instead, it has to be build locally on the device.
 
 ## Prerequisites: 
 * [A supported Chromebook](/pages/devices)
-* A device to build Eupnea on, which can be one of the following:
+* A device to build Depthboot on, which can be one of the following:
   * A Chromebook with Crostini enabled(aka "Linux" in settings).
   * A Linux pc/laptop(all distros supported)
   * Windows users will need to [install WSL](https://ubuntu.com/tutorials/install-ubuntu-on-wsl2-on-windows-10#1-overview).
@@ -18,7 +18,7 @@ Due to licensing restraints, Eupnea cannot be distributed as an iso. Instead, it
 **If running under crostini(aka "Linux" on ChromeOS)**, follow [these instructions](/pages/crostini.md?id=crostini-specific-instructions) first.
 1. Open the terminal, clone the repo and start the script with this command:
     ```
-    git clone --depth=1 https://github.com/eupnea-linux/eupnea-builder; cd eupnea-builder; ./main.py
+    git clone --depth=1 https://github.com/eupnea-linux/depthboot-builder; cd depthboot-builder; ./main.py
     ```
 2. Follow the instructions inside the Terminal.
 
@@ -39,23 +39,23 @@ Due to licensing restraints, Eupnea cannot be distributed as an iso. Instead, it
 
 If you selected Fedora, the system will need some time to relabel all files. DO NOT TURN IT OFF 
 
-After a short black screen Eupnea should boot.
+After a short black screen Depthboot should boot.
 
 ## Enable audio
 To enable audio on Eunea, follow the instructions below:
 
-1. Boot into Eupnea
+1. Boot into Depthboot
 
 2. Make sure you are connected to the internet.
 
 - Skylake, Kaby Lake, or Coffee Lake (7th/8th Gen Intel CPU):
   1. Switch to alt kernel by running: ``update-kernel --alt`` in the Terminal.
-  2. Reboot Eupnea
+  2. Reboot Depthboot
   3. Run ``setup-audio`` in the Terminal.
   4. Reboot again
 - Everything else: 
   1. Run: `setup-audio` in the Terminal.
-  2. Reboot Eupnea
+  2. Reboot Depthboot
 
 If audio still doesn't work, please open an issue with your device codename and generation.
 
