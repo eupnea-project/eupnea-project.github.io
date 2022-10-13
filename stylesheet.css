@@ -4,10 +4,15 @@
     --base-font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     --base-font-size: 18px;
     --base-font-weight: 400;
-    /*--base-font-weight: 400;*/
+    --base-color: #333;
+    --base-color-emphasize: #555;
+    --heading-color: var(--base-color);
+    --base-background-contrast: #f6f6f6;
+    --muted-color: #d0d0d0;
+    --muted-background: #f4f4f4;
     --heading-font-weight: 550;
     --blockquote-border-radius: 5px;
-    --blockquote-border-color: var(--mono-tint2);
+    --blockquote-border-color: #e3e3e3;
     --blockquote-border-width: 1px;
     --sidebar-background: #f6f6f6;
     --sidebar-border-color: #f6f6f6;
@@ -22,6 +27,42 @@
     --sidebar-toggle-background: rgba(255, 255, 255, 0);
     --code-theme-background: #ebebeb;
     --sidebar-soft-shadow: #cecece3e;
+    --button-color: #fff;
+    --button-background: #21a348;
+    --button-background-hover: #31d161;
+    --button-background-active: #1d853c;
+}
+
+button {
+    cursor: pointer;
+    color: var(--button-color);
+    padding: 12px 20px;
+    min-width: 10rem;
+    font: inherit;
+    font-weight: 500;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 8px;
+    background-color: var(--button-background);
+    box-shadow: 0 2px 4px #0002;
+    transition: 0.15s;
+}
+button:hover {
+    background-color: var(--button-background-hover);
+}
+button:active {
+    background-color: var(--button-background-active);
+}
+
+svg {
+    fill: var(--base-color);
+}
+
+a:hover {
+    color: var(--base-color-emphasize);
+}
+a:hover svg {
+    fill: var(--base-color-emphasize);
 }
 
 .sidebar-nav > p, .sidebar-nav ul > li {
@@ -56,15 +97,19 @@
     padding-top: 3.5rem;
 }
 
-@media screen and (prefers-color-scheme: dark) {
+@media screen and (prefers-color-scheme: light) {
   :root {
     --theme-color: #73a6e0;
-    --base-background-color: #111;
+    --base-background-color: #101113;
+    --base-background-contrast: var(--base-background-color);
     --base-color: #bbb;
+    --base-color-emphasize: #eee;
+    --muted-color: #555;
+    --muted-background: #1f2125;
     --heading-color: #fff;
     --link-color: #eee;
     --selection-color: #374c64;
-    --sidebar-background: #1a1a1a;
+    --sidebar-background: var(--muted-background);
     --sidebar-border-color: #333;
     --sidebar-soft-shadow: #1114;
     --sidebar-nav-link-color: var(--base-color);
@@ -76,7 +121,7 @@
     --copycode-color: #fff;
     --kbd-background: #111;
     --kbd-border: 1px solid var(--mono-tint1);
-    --blockquote-background: #1a1a1a;
+    --blockquote-background: var(--muted-background);
     --blockquote-border-color: #777;
   }
 }

@@ -6,101 +6,72 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Eupnea</title>
-    
-    <link rel="icon" type="image/png" href="/assets/icon.png"/>
-    
-    <link rel="stylesheet" href="https://unpkg.com/bootstrap@5.1.3/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://bootswatch.com/5/zephyr/bootstrap.min.css">
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <link rel="icon" type="image/png" href="/assets/icon.png" />
+
+    <link rel="stylesheet" href="stylesheet.css">
     <link rel="stylesheet" href="homepage.css">
 </head>
 
 <body>
-
-    <div class="container py-4">
-        <header class="pb-3 mb-4 border-bottom">
-            <a href="https://github.com/eupnea-linux/eupnea"
-               class="d-flex align-items-center text-dark text-decoration-none">
-                <span class="fs-4 flex-grow-1">Eupnea</span>
-                <svg width="50px" viewBox="-2 -2 20 20" version="1.1">
-                    <path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"></path>
-                </svg>
-            </a>
-        </header>
-
-        <img src="assets/laptop.gif" class="mx-auto d-block" id="laptop"></img>
-
-        <div data-aos="fade-right" class="p-5 mb-4 bg-light rounded-3">
-            <div class="container-fluid py-5">
-                <h1 class="display-5 fw-bold">
-                    A new Linux for Chromebooks
-                </h1>
-                <p class="col-md-8 fs-4">
-                    Eupnea bootstraps Linux the way Chromebooks like it.
-                    It doesn't rely on ChromeOS or custom firmware and supports all drivers on all x86_64(both AMD and Intel) Chromebooks.
-                </p>
-                <!-- <button class="btn btn-primary btn-lg" type="button">Example button</button> -->
-            </div>
-        </div>
-
-        <div class="row align-items-md-stretch">
-            <div data-aos="zoom-out-right" class="col-md-6">
-                <div class="p-5 bg-light border rounded-3">
-                    <h1>Stock Firmware</h1>
-                    <p>
-                        Depthcharge, the stock firmware of Chromebooks, is capable of booting a 2-partition USB containing the kernel and root filesystem.
-                        Depthcharge does not have the ability to use an initramfs, so all the neccessary features are built into the kernel.
-                    </p>
-                </div>
-            </div>
-            <div data-aos="zoom-out-left" class="col-md-6">
-                <div class="p-5 bg-light border rounded-3">
-                    <h1>Drivers</h1>
-                    <p>
-                        Eupnea uses the same forked Linux kernel as ChromeOS.
-                        Due to this, all devices supported in ChromeOS work in Eupnea.
-                        Eupnea supports: HDMI ports, USB-C ports, touchscreens, touchpads and more. 
-                        Eupnea also has full audio support for most newer Chromebooks.
-                    </p>
-                </div>
-            </div>
-        </div>
-
-        <img src="assets/gaming.png" class="mx-auto d-block mt-5" id="laptop"></img>
-
-        <div class="row align-items-md-stretch mt-5">
-            <div data-aos="zoom-out-right" class="col-md-6">
-                <div class="p-5 bg-light border rounded-3">
-                    <h1>Customizable and Stable</h1>
-                    <p>
-                        Eupnea currently supports Ubuntu, Debian, Arch and Fedora. More distros support is currently in development.
-                        Eupnea doesn't "monkey-patch" Linux distros to be able to be chrooted, so it is more stable than alternatives like Crouton.
-                    </p>
-                </div>
-            </div>
-            <div data-aos="zoom-out-left" class="col-md-6">
-                <div class="p-5 bg-light border rounded-3">
-                    <h1>Gaming</h1>
-                    <p>
-                        Using Intel GVT-G, it is possible to passthrough the integrated graphics into a Windows virtual machine.
-                        Amdgpu and i915 are also fully supported in Eupnea.
-                    </p>
-                </div>
-            </div>
-        </div>
-
-        <a href="docs.html" style="text-decoration: none">
-            <button class="btn btn-lg btn-success mx-auto d-block mt-5">Create a bootable USB now ➜</button>
+    <header>
+        <span>Eupnea</span>
+        <a href="https://github.com/eupnea-linux">
+            <svg width="48px" viewBox="-2 -2 20 20" version="1.1">
+                <path fill-rule="evenodd"
+                    d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z">
+                </path>
+            </svg>
         </a>
-        <footer class="pt-3 mt-4 text-muted border-top">
-            &copy; 2022 Apacelus
-        </footer>
-    </div>
+    </header>
 
-    <script src="https://unpkg.com/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script>AOS.init()</script>
+    <section class="full-height">
+        <div class="row">
+            <div class="presentation">
+                <span class="title">
+                    <img src="assets/icon.png" alt="Eupnea Logo">
+                    <h1>EupneaOS</h1>
+                </span>
+                <p>
+                    EupneaOS is a Fedora based linux distribution, optimized to run on Chromebooks. It comes with native
+                    driver support, android app support and a custom ChromeOS style desktop.
+                </p>
+                <a href="docs.html">
+                    <button>Download Now</button>
+                </a>
+            </div>
+            <div class="separator"></div>
+            <div class="presentation">
+                <span class="title">
+                    <h1>Other Distros</h1>
+                </span>
+                <p>
+                    Use your favorite distro thingy. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+                    nonumy eirmod tempor.
+                </p>
+                <a href="docs.html">
+                    <button>Build Now</button>
+                </a>
+            </div>
+        </div>
+    </section>
 
+    <section class="bg-mute">
+        <h1>EupneaOS</h1>
+        <p>
+            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
+            dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet
+            clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet,
+            consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
+            sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no
+            sea takimata sanctus est Lorem ipsum dolor sit amet.
+        </p>
+        <div class="placeholder"></div>
+    </section>
+
+    <footer>
+        &copy; 2022 Apacelus
+    </footer>
 </body>
 
 </html>
