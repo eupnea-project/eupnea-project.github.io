@@ -27,13 +27,14 @@
     --sidebar-toggle-background: rgba(255, 255, 255, 0);
     --code-theme-background: #ebebeb;
     --sidebar-soft-shadow: #cecece3e;
+    --sidebar-toggle-offset-left: 16px;
     --button-color: #fff;
-    --button-background: #21a348;
+    --button-background: #21b84e;
     --button-background-hover: #31d161;
     --button-background-active: #1d853c;
 }
 
-button {
+button.big {
     cursor: pointer;
     color: var(--button-color);
     padding: 12px 20px;
@@ -47,10 +48,10 @@ button {
     box-shadow: 0 2px 4px #0002;
     transition: 0.15s;
 }
-button:hover {
+button.big:hover {
     background-color: var(--button-background-hover);
 }
-button:active {
+button.big:active {
     background-color: var(--button-background-active);
 }
 
@@ -58,10 +59,16 @@ svg {
     fill: var(--base-color);
 }
 
-a:hover {
+a {
+    transition-duration: 0.1s;
+}
+a svg {
+    transition-duration: inherit;
+}
+a:not(:active):hover {
     color: var(--base-color-emphasize);
 }
-a:hover svg {
+a:not(:active):hover svg {
     fill: var(--base-color-emphasize);
 }
 
@@ -97,18 +104,18 @@ a:hover svg {
     padding-top: 3.5rem;
 }
 
-@media screen and (prefers-color-scheme: light) {
+@media screen and (prefers-color-scheme: dark) {
   :root {
     --theme-color: #73a6e0;
     --base-background-color: #101113;
     --base-background-contrast: var(--base-background-color);
     --base-color: #bbb;
     --base-color-emphasize: #eee;
-    --muted-color: #555;
+    --muted-color: #495161;
     --muted-background: #1f2125;
     --heading-color: #fff;
     --link-color: #eee;
-    --selection-color: #374c64;
+    --selection-color: #21548d;
     --sidebar-background: var(--muted-background);
     --sidebar-border-color: #333;
     --sidebar-soft-shadow: #1114;
