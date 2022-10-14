@@ -116,6 +116,22 @@ h1 {
     box-shadow: 0 0 4px 2px #22222206;
 }
 
+.fade-in > * {
+    opacity: 0;
+    animation: fade-from-bottom 1.2s cubic-bezier(0.23, 1, 0.320, 1) forwards;
+}
+
+.fade-in > .presentation {
+    transform: translateY(32px);
+}
+
+@keyframes fade-from-bottom {
+    100% {
+        opacity: 1;
+        transform: none;
+    }
+}
+
 .title {
     height: 64px;
 }
