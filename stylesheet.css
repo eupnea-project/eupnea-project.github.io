@@ -8,9 +8,9 @@
     --base-color-emphasize: #555;
     --heading-color: var(--base-color);
     --base-background-contrast: #f6f6f6;
-    --soft-color: #999;
-    --muted-color: #d0d0d0;
-    --muted-background: #f4f4f4;
+    --soft-color: #777;
+    --muted-color: #ddd;
+    --muted-background: #fff;
     --heading-font-weight: 550;
     --blockquote-border-radius: 5px;
     --blockquote-border-color: #e3e3e3;
@@ -33,12 +33,14 @@
     --button-background: #21b84e;
     --button-background-hover: #31d161;
     --button-background-active: #1d853c;
+    --eupnea-green: inherit;
+    --eupnea-blue: #2d8fff;
 }
 
 button.big {
     cursor: pointer;
     color: var(--button-color);
-    padding: 12px 20px;
+    padding: 12px 24px;
     min-width: 10rem;
     font: inherit;
     font-weight: 500;
@@ -131,5 +133,8 @@ a:not(:active):hover svg {
     --kbd-border: 1px solid var(--mono-tint1);
     --blockquote-background: var(--muted-background);
     --blockquote-border-color: #777;
+    --soft-color: #999;
+    --eupnea-green: #5cff8c;
+    --eupnea-blue: #3ca7ff;
   }
 }
