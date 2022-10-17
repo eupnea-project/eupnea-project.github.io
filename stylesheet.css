@@ -113,8 +113,9 @@ a:not(:active):hover svg {
     --base-background-color: #101113;
     --base-background-contrast: var(--base-background-color);
     --base-color: #bbb;
-    --base-color-emphasize: #eee;
+    --base-color-emphasize: #f4f4f4;
     --muted-color: #495161;
+    --muted-outline: var(--muted-color);
     --muted-background: #1f2125;
     --heading-color: #fff;
     --link-color: #ddd;
