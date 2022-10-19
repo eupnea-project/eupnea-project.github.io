@@ -126,7 +126,7 @@ h2 {
 .full-height {
     min-height: 100%;
     justify-content: start;
-    padding-top: 96px;
+    padding-top: calc(20vh - 80px);
     text-align: center;
 }
 
@@ -242,7 +242,7 @@ h2 {
 
 @keyframes bounce {
       0% { transform: translateY(0); }
-     50% { transform: translateY(-12px); }
+     50% { transform: translateY(-8px); }
     100% { transform: translateY(0); }
 }
 
