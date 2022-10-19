@@ -17,6 +17,10 @@ body {
     --content-width: 85rem;
 }
 
+::selection {
+    background-color: var(--selection-color);
+}
+
 a {
     color: var(--link-color, inherit);
 }
@@ -215,6 +219,21 @@ h2 {
     min-height: 10vh;
 }
 
+.chevron {
+    position: absolute;
+    bottom: 24px;
+    width: 32px;
+    fill: var(--soft-color);
+    opacity: 0;
+    animation: fade-from-bottom 1s 1s linear forwards, bounce 2.5s ease-in-out infinite;
+}
+
+@keyframes bounce {
+      0% { transform: translateY(0); }
+     50% { transform: translateY(-12px); }
+    100% { transform: translateY(0); }
+}
+
 @media screen and (max-width: 799px) {
     header {
         position: relative;
@@ -236,6 +255,10 @@ h2 {
         min-height: auto;
         justify-content: center;
         padding-top: inherit;
+    }
+
+    .chevron {
+        display: none;
     }
 
     .soft {
