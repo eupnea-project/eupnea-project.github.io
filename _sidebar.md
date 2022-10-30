@@ -1,6 +1,5 @@
 **Build instructions**
 
-- [Start](/setup-pages/start.md "Depthboot - Start")
 - [Requirements](/setup-pages/requirements.md "Depthboot - Requirements")
 - [Build instructions](/setup-pages/build-instructions.md "Eupnea - Build instructions")
 - [Audio](/setup-pages/audio.md "Depthboot - Audio")
