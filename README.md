@@ -5,7 +5,7 @@ Due to licensing restraints, Depthboot cannot be distributed as an iso. Instead,
 If you do not want to build a Depthboot image, you can download an iso of our Fedora based
 distribution, [EupneaOS](https://eupnea-linux.github.io).
 
-[Build a Depthboot image](/setup-pages/start.md)
+[Build a Depthboot image](/setup-pages/requirements.md)
 
 ## Depthboot vs Crostini vs Crouton vs RW_LEGACY vs UEFI
 
