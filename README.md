@@ -1,21 +1,10 @@
 # Building Depthboot
 Due to licensing restraints, Depthboot cannot be distributed as an iso. Instead, it has to be build locally on the device.
 
-## Prerequisites: 
-* [A supported Chromebook](/pages/devices)
-* A device to build Depthboot on, which can be one of the following:
-  * A Chromebook with Crostini enabled(aka "Linux" in settings).
-  * A Linux pc/laptop(all distros supported)
-  * Windows users will need to [install WSL](https://ubuntu.com/tutorials/install-ubuntu-on-wsl2-on-windows-10#1-overview).
-  * Apple device support is unknown.
-  * Android with Termux is not supported
-* Developer mode enabled on your chromebook([How to enable developer mode](https://www.androidauthority.com/how-to-enable-developer-mode-on-a-chromebook-906688/))
-* A USB-stick or SD-card with 12GB of storage
-* IF not using direct write: 10GB of free space on the "builder" device
-
 ## Instructions:
 
-**If running under crostini(aka "Linux" on ChromeOS)**, follow [these instructions](/pages/crostini.md?id=crostini-specific-instructions) first.
+**If running under crostini(aka "Linux" on ChromeOS)**, follow [these instructions](/extra-pages/crostini.md?id=crostini-specific-instructions) first.
+
 1. Open the terminal, clone the repo and start the script with this command:
     ```
     git clone --depth=1 https://github.com/eupnea-linux/depthboot-builder; cd depthboot-builder; ./main.py

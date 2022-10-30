@@ -15,4 +15,4 @@ vmc stop termina; vmc start termina | exit; vmc container termina penguin --priv
 
 and press <kbd>Enter</kbd>.
 
-Continue to the next page.
+You can now continue to the [build instructions](/setup-pages/build-instructions.md).
