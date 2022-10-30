@@ -1,14 +1,14 @@
 ## Requirements: 
-* [A supported Chromebook](/pages/devices)
-* A device to build Depthboot on, which can be one of the following:
+* A supported device, see [below](#supported-devices).
+* A device to build the image. One of the following:
   * A Chromebook with Crostini enabled(aka "Linux" in settings).
   * A Linux pc/laptop(all distros supported)
-  * Windows users will need to [install WSL](https://ubuntu.com/tutorials/install-ubuntu-on-wsl2-on-windows-10#1-overview).
-  * Apple device support is unknown.
+  * Windows: [Install WSL](https://ubuntu.com/tutorials/install-ubuntu-on-wsl2-on-windows-10#1-overview).
+  * Apple devices support is unknown.
   * Android with Termux is not supported
 * Developer mode enabled on your chromebook([How to enable developer mode](https://www.androidauthority.com/how-to-enable-developer-mode-on-a-chromebook-906688/))
-* A USB-stick or SD-card with 12GB of storage
-* IF not using direct write: 10GB of free space on the "builder" device
+* A USB drive or SD-card with at least 8GB of storage. 
+* IF not using direct write: 10GB of free space on the builder device
 
 ## Supported devices
 All 64-bit(x86_64) Intel/AMD Chromebooks are able to at least boot Depthboot. Audio support varies from non-existent to full support.
