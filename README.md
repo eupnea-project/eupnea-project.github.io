@@ -7,6 +7,6 @@ distribution, [EupneaOS](https://eupnea-linux.github.io).
 
 [Build a Depthboot image](/setup-pages/start.md)
 
-# Depthboot vs Crostini vs Crouton vs RW_LEGACY vs UEFI
+## Depthboot vs Crostini vs Crouton vs RW_LEGACY vs UEFI
 
 *Insert description and explanation of depthboot here*
