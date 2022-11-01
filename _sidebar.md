@@ -7,8 +7,8 @@
 
 🔨 **Compile instructions**
 
-- [Compile kernels](/build-pages/build-kernel.md)
-- [Compile EupneaOS](/build-pages/build-eupneaos.md)
+- [Compile the Eupnea kernel](/build-pages/build-kernel.md "Eupnea - Compile kernel")
+- [Compile EupneaOS](/build-pages/build-eupneaos.md "EupneaOS - Compile EupneaOS")
 
 📖 **Docs**
 
