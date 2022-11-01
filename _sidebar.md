@@ -1,9 +1,14 @@
-**Build instructions**
+📜 **Depthboot instructions**
 
 - [Requirements](/setup-pages/requirements.md "Depthboot - Requirements")
 - [Build instructions](/setup-pages/build-instructions.md "Eupnea - Build instructions")
 - [Audio](/setup-pages/audio.md "Depthboot - Audio")
 - [Optional features](/setup-pages/optional.md "Depthboot - Optional features")
+
+🔨 **Compile instructions**
+
+- [Compile kernels](/build-pages/build-kernel.md)
+- [Compile EupneaOS](/build-pages/build-eupneaos.md)
 
 📖 **Docs**
 
