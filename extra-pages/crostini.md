@@ -7,14 +7,12 @@ instructions are mandatory for Crostini.**
 
 ## Instructions:
 
-Press <kbd>CTRL</kbd><kbd>ALT</kbd><kbd>T</kbd> to open the ChromeOS terminal. Paste the following commands one by one
-and press <kbd>ENTER</kbd> after each one:
+Press <kbd>CTRL</kbd><kbd>ALT</kbd><kbd>T</kbd> to open the ChromeOS terminal, then enter:
 
-1. ``vmc stop termina``
-2. ``vmc start termina``
-3. ``exit``
-4. ``vmc container termina penguin --privileged true`` (Command will fail, dont worry)
-5. ``sleep 5``
-6. ``vmc container termina penguin --privileged true``
+```
+vmc stop termina; vmc start termina | exit; vmc container termina penguin --privileged true; sleep 5; vmc container termina penguin --privileged true
+```
+
+and press <kbd>Enter</kbd>.
 
 You can now return to the [requirements](/setup-pages/requirements.md)
