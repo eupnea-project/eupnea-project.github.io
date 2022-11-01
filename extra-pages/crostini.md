@@ -14,6 +14,6 @@ Press <kbd>CTRL</kbd><kbd>ALT</kbd><kbd>T</kbd> to open the ChromeOS terminal, t
 vmc stop termina; vmc start termina | exit; vmc container termina penguin --privileged true; sleep 7; vmc container termina penguin --privileged true
 ```
 
-and press <kbd>Enter</kbd>.
+and press <kbd>Enter</kbd>. Wait for the command to finish.
 
 You can now return to the [requirements](/setup-pages/requirements.md)
