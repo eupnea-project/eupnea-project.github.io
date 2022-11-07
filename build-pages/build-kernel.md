@@ -16,21 +16,26 @@
     * xz utils
     * OpenSSL development libraries
     * GNU bc
-    * Flex
+    * flex
     * libelf1 development libraries
     * bison
     * binutils
     * deb-pkg
     * netpbm
-    * imagemagick
+    * imagemagick (provides mogrify command)
+
+   On debian based systems the dependencies can be installed with:
+
+        sudo apt update && sudo apt install netpbm imagemagick git build-essential ncurses-dev xz-utils libssl-dev bc flex libelf-dev bison binutils
 
 2. Clone the kernel repo: ``git clone https://github.com/eupnea-linux/kernel.git && cd kernel``
-3. Optional: Modify the kernel config, in either ``kernel.conf`` or ``kernel-alt.conf``if you are building the alt kernel
+3. Optional: Modify the kernel config, in either ``kernel.conf`` or ``kernel-alt.conf``if you are building the alt
+   kernel
 4. Start the build script: ``./kernel_build.py``
 5. The compiled/compressed files can be found in the root of the cloned repo:
-   * bzImage-*version*
-   * modules-*version*.tar.xz
-   * headers-*version*.tar.xz
+    * bzImage-*version*
+    * modules-*version*.tar.xz
+    * headers-*version*.tar.xz
 
 ## Building the Eupnea mainline kernel
 
@@ -56,6 +61,6 @@
 3. Optional: Modify the kernel config in ``.config``
 4. Start the build script: ``./build.sh``
 5. The compiled/compressed files can be found in the root of the cloned repo:
-   * bzImage-*version*
-   * modules-*version*.tar.xz
-   * headers-*version*.tar.xz
+    * bzImage-*version*
+    * modules-*version*.tar.xz
+    * headers-*version*.tar.xz
