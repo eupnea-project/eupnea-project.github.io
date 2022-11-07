@@ -1,8 +1,17 @@
-## Building the ChromeOS Kernel
+## Eupnea kernels
 
-The [image build script](https://github.com/eupnea-linux/eupnea/blob/main/build.py) of Eupnea downloads two precompiled binaries:
+Both EupneaOS and Depthboot use the same precompiled kernel binaries, which are build using GitHub Actions and require a
+lot of processing power and at least an hour of compilation. The GPL permits distributing binaries, as long as the
+source code is provided. The following components are precompiled and distributed:
 
-* The Linux Kernel Executable (vmlinuz/bzImage)
-* A Tar Archive of the kernel modules
+* A Linux kernel executable (bzImage)
+* A tar archive of the kernel modules
+* A tar archive of the kernel headers
 
-These binaries are compiled using Github Actions and require a powerful computer and at least an hour of compilation. The GPL permits distributing binaries, as long as you give the source code of them. The source of the kernel and modules is [here](https://chromium.googlesource.com/chromiumos/third_party/kernel).
+The source of the kernel, modules and headers of the kernel executable:
+
+* [ChromeOS kernel](https://chromium.googlesource.com/chromiumos/third_party/kernel)
+  -> [ChromeOS Eupnea kernel](https://github.com/eupnea-linux/kernel)
+* [Mainline Linux kernel](https://github.com/torvalds/linux)
+  -> [Mainline Eupnea kernel](https://github.com/eupnea-linux/mainline-kernel)
+
