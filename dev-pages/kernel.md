@@ -14,4 +14,3 @@ The source of the kernel, modules and headers of the kernel executable:
   -> [ChromeOS Eupnea kernel](https://github.com/eupnea-linux/kernel)
 * [Mainline Linux kernel](https://github.com/torvalds/linux)
   -> [Mainline Eupnea kernel](https://github.com/eupnea-linux/mainline-kernel)
-

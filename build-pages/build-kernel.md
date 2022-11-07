@@ -26,7 +26,7 @@
 
    On debian based systems the dependencies can be installed with:
 
-        sudo apt update && sudo apt install netpbm imagemagick git build-essential ncurses-dev xz-utils libssl-dev bc flex libelf-dev bison binutils
+        sudo apt update && sudo apt install build-essential ncurses-dev xz-utils libssl-dev bc flex libelf-dev bison binutils
 
 2. Clone the kernel repo: ``git clone https://github.com/eupnea-linux/kernel.git && cd kernel``
 3. Optional: Modify the kernel config, in either ``kernel.conf`` or ``kernel-alt.conf``if you are building the alt
