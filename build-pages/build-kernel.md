@@ -28,10 +28,13 @@
 
         sudo apt update && sudo apt install build-essential ncurses-dev xz-utils libssl-dev bc flex libelf-dev bison binutils
 
-2. Clone the kernel repo: ``git clone https://github.com/eupnea-linux/kernel.git && cd kernel``
+2. Clone the kernel repo:
+
+        git clone https://github.com/eupnea-linux/kernel.git && cd kernel
+
 3. Optional: Modify the kernel config, in either ``kernel.conf`` or ``kernel-alt.conf``if you are building the alt
    kernel
-4. Start the build script: ``./kernel_build.py``
+4. Start the build script: ``python3 ./kernel_build.py``
 5. The compiled/compressed files can be found in the root of the cloned repo:
     * bzImage-*version*
     * modules-*version*.tar.xz
@@ -54,12 +57,13 @@
     * bison
     * binutils
     * deb-pkg
-    * netpbm
-    * imagemagick
 
-2. Clone the kernel repo: ``git clone https://github.com/eupnea-linux/kernel.git && cd kernel``
+2. Clone the kernel repo:
+
+        git clone https://github.com/eupnea-linux/mainline-kernel.git && cd mainline-kernel
+
 3. Optional: Modify the kernel config in ``.config``
-4. Start the build script: ``./build.sh``
+4. Start the build script: ``bash ./build.sh``
 5. The compiled/compressed files can be found in the root of the cloned repo:
     * bzImage-*version*
     * modules-*version*.tar.xz
