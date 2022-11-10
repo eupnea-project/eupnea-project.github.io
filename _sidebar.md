@@ -26,4 +26,6 @@
 - [🡕 Depthcharge](https://libreboot.org/docs/depthcharge/)
 - [🡕 Linux on pre-coreboot Chromebooks](https://github.com/nh2/chrubuntu-anyos)
 
-**[Source code](https://github.com/eupnea-linux/eupnea-builder)**  
+**[🟢 Distro + DE status](https://docs.google.com/spreadsheets/d/1-zIX8lWEXVcO71xCuzvZpHvCUizrU7csKfJusqB2CYM)**
+
+**[GitHub(source code)](https://github.com/eupnea-linux/eupnea-builder)**  
