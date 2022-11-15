@@ -22,15 +22,14 @@ full support.
 
 ### Intel
 
-* Amber Lake, Whiskey Lake (-UE CPUs), and Skylake
-    * All peripherals supported, audio may need extra modules
+* Skylake and Kabylake
+    * All peripherals supported except audio
 * Apollo Lake, Gemini Lake, Comet Lake, Jasper Lake, Tiger Lake, Alder Lake
     * All peripherals supported
 
 ### AMD
 
 * Stoneyridge
-    * All peripherals supported except audio
-    * (These Chromebooks are unable to handle Windows on custom UEFI firmware)
+    * All peripherals supported except audio and gpu framebuffer
 * Picasso/Dali
-    * All peripherals supported except audio(WIP)
+    * All peripherals supported

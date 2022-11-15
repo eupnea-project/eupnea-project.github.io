@@ -62,8 +62,8 @@
 
         git clone https://github.com/eupnea-linux/mainline-kernel.git && cd mainline-kernel
 
-3. Optional: Modify the kernel config in ``.config``
-4. Start the build script: ``bash ./build.sh``
+3. Optional: Modify the kernel config in ``config-stable`` or ``config-testing``
+4. Start the build script: ``./build.sh stable`` or ``./build.sh testing`` **TESTING WILL TAKE SIGNIFICANTLY LONGER TO BUILD**
 5. The compiled/compressed files can be found in the root of the cloned repo:
     * bzImage-*version*
     * modules-*version*.tar.xz
