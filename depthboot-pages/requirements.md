@@ -30,4 +30,4 @@ Can boot Depthboot: <b id="deviceDepthboot"></b><br>
 Audio support: <b id="deviceAudio"></b><br>
 Other issues: <span id="deviceComment"></span>
 
-<script src="device-support.js"></script>
+<script src="/device-support/model-select.js"></script>

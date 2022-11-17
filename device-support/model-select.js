@@ -1,5 +1,5 @@
-const jsonSrcSpecific = "/.github/device-specific.json";
-const jsonSrcAuto = "/.github/devices-autogen.json";
+const jsonSrcSpecific = "/device-support/device-specific.json";
+const jsonSrcAuto = "/device-support/devices-autogen.json";
 
 /** @type {HTMLSelectElement}*/
 const selectManufacturer = document.getElementById("manufacturer");
