@@ -18,7 +18,7 @@ function displaySupport(autogen, specifics) {
     const modelname = getSelected(selectModel);
     const model = autogen[manufacturer][modelname];
 
-    const codename = model.codename;
+    const codename = model.code_name;
     const boardname = model.family_name;
     const platform = model.cpu_gen;
 
@@ -51,7 +51,8 @@ function updateSelectOptionsWithKeys(select, obj) {
     }
 
     // Insert new option elements from `obj`
-    for (const key in obj) {
+    const keys = Object.keys(obj).sort();
+    for (const key of keys) {
         const elem = document.createElement("option");
         elem.value = key;
         elem.text = key;
