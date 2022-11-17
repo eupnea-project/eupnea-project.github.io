@@ -1,0 +1,18 @@
+{
+  "Asus": {
+    "Flip CM3 (CM3200)": {
+      "arch": "aarch64",
+      "family_name": "jacuzzi",
+      "cpu_gen:": "MT8183",
+      "comment": ""
+    }
+  },
+  "Lenovo": {
+    "IdeaPad Flex 5i Chromebook (13\", 5) ": {
+      "arch": "x86_64",
+      "family_name": "volteer",
+      "cpu_gen:": "TigerLake-UP3",
+      "comment": ""
+    }
+  }
+}
