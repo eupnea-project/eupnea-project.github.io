@@ -4,15 +4,15 @@
       "arch": "aarch64",
       "family_name": "jacuzzi",
       "cpu_gen:": "MT8183",
-      "comment": ""
+      "codename": "Damu"
     }
   },
   "Lenovo": {
-    "IdeaPad Flex 5i Chromebook (13\", 5) ": {
+    "IdeaPad Flex 5i Chromebook": {
       "arch": "x86_64",
       "family_name": "volteer",
       "cpu_gen:": "TigerLake-UP3",
-      "comment": ""
+      "codename": "lillipup"
     }
   }
 }
