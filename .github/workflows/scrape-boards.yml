@@ -1,0 +1,31 @@
+name: Scraping Chrome OS boards
+on:
+  schedule:
+    - cron: "0 0 * * *" # run at the start of every day
+  workflow_dispatch:
+
+jobs:
+  update-functions:
+    runs-on: ubuntu-22.04
+    steps:
+      - name: Checking out repository code
+        uses: actions/checkout@v3
+
+      - name: Installing pip + dependencies
+        run: sudo apt-get install python3-pip && pip3 install requests beautifulsoup4
+
+      - name: Running scraper script
+        run: python3 ./.github/scripts/scrape-boards.py
+
+      - uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          # Optional. Commit message for the created commit.
+          # Defaults to "Apply automatic changes"
+          commit_message: Updating devices-autogen.json
+
+          # Optional glob pattern of files which should be added to the commit
+          # Defaults to all (.)
+          # See the `pathspec`-documentation for git
+          # - https://git-scm.com/docs/git-add#Documentation/git-add.txt-ltpathspecgt82308203
+          # - https://git-scm.com/docs/gitglossary#Documentation/gitglossary.txt-aiddefpathspecapathspec
+          file_pattern: 'devices-autogen.json'
