@@ -15,21 +15,19 @@
 
 ## Supported devices
 
-All 64-bit(x86_64) Intel/AMD Chromebooks are able to at least boot Depthboot. Audio support varies from non-existent to
-full support.
+<label>
+  Manufacturer
+  <select id="manufacturer"></select>
+</label>
+<label>
+  Model
+  <select id="model"></select>
+</label>
 
-[Full list of Chromebooks and their CPU Generations](https://www.chromium.org/chromium-os/developer-information-for-chrome-os-devices/)
+<i id="deviceInfo"></i>
 
-### Intel
+Can boot Depthboot: <b id="deviceDepthboot"></b><br>
+Audio support: <b id="deviceAudio"></b><br>
+Other issues: <span id="deviceComment"></span>
 
-* Skylake and Kabylake
-    * All peripherals supported except audio
-* Apollo Lake, Gemini Lake, Comet Lake, Jasper Lake, Tiger Lake, Alder Lake
-    * All peripherals supported
-
-### AMD
-
-* Stoneyridge(pre Ryzen)
-    * All peripherals supported except audio and gpu framebuffer
-* Picasso/Dali(Ryzen)
-    * All peripherals supported
+<script src="device-support.js"></script>

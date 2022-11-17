@@ -3,15 +3,21 @@
     "Flip CM3 (CM3200)": {
       "arch": "aarch64",
       "family_name": "jacuzzi",
-      "cpu_gen:": "MT8183",
+      "cpu_gen": "MT8183",
       "codename": "Damu"
+    },
+    "Chromebook 15": {
+      "arch": "x86_64",
+      "family_name": "auron_yuna",
+      "cpu_gen": "Broadwell",
+      "codename": "Yuna"
     }
   },
   "Lenovo": {
     "IdeaPad Flex 5i Chromebook": {
       "arch": "x86_64",
       "family_name": "volteer",
-      "cpu_gen:": "TigerLake-UP3",
+      "cpu_gen": "TigerLake-UP3",
       "codename": "lillipup"
     }
   }
