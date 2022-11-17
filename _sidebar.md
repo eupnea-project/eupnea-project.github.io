@@ -1,21 +1,24 @@
+# [The Eupnea Project](/)
+
 📜 **Depthboot instructions**
 
-- [Requirements](/setup-pages/requirements.md "Depthboot - Requirements")
-- [Build instructions](/setup-pages/build-instructions.md "Eupnea - Build instructions")
-- [Audio](/setup-pages/audio.md "Depthboot - Audio")
-- [Optional features](/setup-pages/optional.md "Depthboot - Optional features")
+- [Requirements](/depthboot-pages/requirements.md "Depthboot - Requirements")
+- [Build instructions](/depthboot-pages/build-instructions.md "Depthboot - Build instructions")
+- [Audio](/depthboot-pages/audio.md "Eupnea - Audio")
+- [Optional features](/depthboot-pages/optional.md "Eupnea - Optional features")
 
 🔨 **Compile instructions**
 
-- [Compile the Eupnea kernel](/build-pages/build-kernel.md "Eupnea - Compile kernel")
-- [Compile EupneaOS](/build-pages/build-eupneaos.md "EupneaOS - Compile EupneaOS")
+- [Compile the Eupnea kernel](/compile-pages/compile-kernel.md "Eupnea - Compile kernel")
+- [Compile EupneaOS](/compile-pages/compile-eupneaos.md "EupneaOS - Compile EupneaOS")
+- [Compile EupneaOS](/compile-pages/compile-eupneaos.md "Depthboot - Compile Depthboot")
 
-📖 **Docs**
+📖 **Chromebook quirks**
 
 - [Sleep bootlock](/pages/bootlock.md "Eupnea - Bootlock")
 - [Depthcharge](/pages/depthcharge.md "Eupnea - Depthcharge")
 
-📖 **Developer docs**
+📖 **Developer**
 
 - [1. Build script](/dev-pages/build-script.md  "Eupnea - 1. Build script")
 - [2. ChromeOS kernel](/dev-pages/kernel.md  "Eupnea - 2. Kernel")
@@ -25,6 +28,7 @@
 - [🡕 UEFI/rw_legacy](https://mrchromebox.tech/#bootmodes)
 - [🡕 Depthcharge](https://libreboot.org/docs/depthcharge/)
 - [🡕 Linux on pre-coreboot Chromebooks](https://github.com/nh2/chrubuntu-anyos)
+- [🡕 Linux on arm Chromebooks](https://github.com/Maccraft123/Cadmium)
 
 **[🟢 Distro + DE status](https://docs.google.com/spreadsheets/d/1-zIX8lWEXVcO71xCuzvZpHvCUizrU7csKfJusqB2CYM)**
 

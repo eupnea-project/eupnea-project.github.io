@@ -1,12 +1,22 @@
-# Depthboot
+# The Eupnea Project
 
-Welcome to the Depthboot wiki.  
-Due to licensing restraints, Depthboot cannot be distributed as an iso. Instead, it has to be build locally.  
-If you do not want to build a Depthboot image, you can download an iso of our Fedora based
-distribution, [EupneaOS](https://eupnea-linux.github.io).
+Welcome to the Eupnea Project wiki.
+*Insert Eupnea Project description here*
 
-[Build a Depthboot image](/setup-pages/requirements.md)
+## Depthboot
 
-## Depthboot vs Crostini vs Crouton vs RW_LEGACY vs UEFI
+Due to licensing restraints, Depthboot cannot be distributed as an iso. Instead, it has to be build locally.
+
+[Build a Depthboot image](/depthboot-pages/requirements.md)
+
+## EupneaOS
+
+The Eupnea Project develops a custom Linux distribution based on [Fedora](https://getfedora.org/) called EupneaOS. It's
+designed to imitate the look of ChromeOS and is the recommended way of upgrading your Chromebook. It is designed to
+replicate most features of ChromeOS, but without any limitations.
+
+[Download precompiled EupneaOS image](https://eupnea-linux.github.io)
+
+## Depthboot vs EupneaOS vs Crostini vs Crouton vs RW_LEGACY vs UEFI
 
 *Insert description and explanation of depthboot here*

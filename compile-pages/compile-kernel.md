@@ -1,4 +1,4 @@
-# Building a custom kernel
+# 1. Building a custom kernel
 
 * Download the latest pre-compiled Eupnea ChromeOS kernel [here](https://github.com/eupnea-linux/kernel/releases/latest)
 * Download the latest pre-compiled Eupnea mainline
@@ -69,7 +69,7 @@
     * modules-*version*.tar.xz
     * headers-*version*.tar.xz
 
-# Installing the kernel
+# 2. Installing the kernel
 
 The kernel needs to be signed with a proper rootfs mount PARTUUID passed to it. Copy a kernel.flags file from either
 the depthboot repo or the EupneaOS repo and replace the PARTUUID with the one of your rootfs partition. Then sign the
@@ -79,7 +79,7 @@ kernel with:
 
 Flash the kernel to the first partition on your usb/SD card with ``dd`` (or similar).
 
-# Disable auto updates
+# 3. Disabling auto updates
 
 After booting (or via chroot before booting), edit the systemd auto update service unit
 file (``/etc/systemd/system/eupnea-update.service``) and comment out the line
