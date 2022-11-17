@@ -18,7 +18,7 @@
 All 64-bit(x86_64) Intel/AMD Chromebooks are able to at least boot Depthboot. Audio support varies from non-existent to
 full support.
 
-[Full list of Chromebooks and their CPU Generations](https://mrchromebox.tech/#devices)
+[Full list of Chromebooks and their CPU Generations](https://www.chromium.org/chromium-os/developer-information-for-chrome-os-devices/)
 
 ### Intel
 
@@ -29,7 +29,7 @@ full support.
 
 ### AMD
 
-* Stoneyridge
+* Stoneyridge(pre Ryzen)
     * All peripherals supported except audio and gpu framebuffer
-* Picasso/Dali
+* Picasso/Dali(Ryzen)
     * All peripherals supported
