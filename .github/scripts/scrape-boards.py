@@ -25,9 +25,9 @@ for table in devices_table.find_all("tr")[1:]:
     device_key = device_key.replace(" Chromebook", "").strip()
     device_key = device_key.replace("Chromebook ", "").strip()
     try:
-        devices_dict[row[0].upper().strip()][device_key] = temp_dict
+        devices_dict[row[0].capitalize().strip()][device_key] = temp_dict
     except KeyError:
-        devices_dict[row[0].upper().strip()] = {device_key: temp_dict}
+        devices_dict[row[0].capitalize().strip()] = {device_key: temp_dict}
 print(devices_dict)
 devices_dict.pop("")  # remove broken entry
 with open("./device-support/devices-autogen.json", "w") as f:
