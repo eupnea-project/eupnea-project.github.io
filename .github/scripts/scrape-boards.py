@@ -22,8 +22,6 @@ for table in devices_table.find_all("tr")[1:]:
     temp_dict["cpu_gen"] = row[8]
     device_key = row[1].replace(row[0].lower().capitalize(), "").strip()
     device_key = device_key.replace(row[0].upper(), "").strip()
-    device_key = device_key.replace(" Chromebook", "").strip()
-    device_key = device_key.replace("Chromebook ", "").strip()
     try:
         devices_dict[row[0].capitalize().strip()][device_key] = temp_dict
     except KeyError:
