@@ -20,8 +20,10 @@ for table in devices_table.find_all("tr")[1:]:
     temp_dict["family_name"] = row[3]
     temp_dict["arch"] = row[7]
     temp_dict["cpu_gen"] = row[8]
-    device_key = row[1].replace(row[0].lower().capitalize(), "").strip()
-    device_key = device_key.replace(row[0].upper(), "").strip()
+    device_key = row[1].replace(row[0].lower().capitalize(), "").strip()  # remove brand name from device name
+    device_key = device_key.replace(row[0].upper(), "").strip()  # remove brand name from device name
+    if device_key.startswith("-"):
+        device_key = device_key[1:]
     try:
         devices_dict[row[0].capitalize().strip()][device_key] = temp_dict
     except KeyError:
