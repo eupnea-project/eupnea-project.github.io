@@ -25,7 +25,7 @@
   <select id="model"></select>
 </label>
 
-<i id="deviceInfo"></i>
+<b id="deviceInfo"></b>
 
 Can boot Depthboot: <b id="deviceDepthboot"></b><br>
 Audio support: <b id="deviceAudio"></b><br>

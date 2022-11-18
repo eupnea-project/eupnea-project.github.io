@@ -22,7 +22,7 @@ function displaySupport(autogen, specifics) {
     const boardname = model.family_name;
     const platform = model.cpu_gen;
 
-    const info = CPU Generation: <b>${platform}</b> <br> Codename: <b>${codename} (${boardname})</b>;
+    const info = `CPU Generation: <b>${platform}</b> <br> Codename: <b>${codename} (${boardname})</b>`;
 
     const spec = specifics[codename];
 
