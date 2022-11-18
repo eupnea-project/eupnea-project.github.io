@@ -11,7 +11,7 @@
 
 - [Compile the Eupnea kernel](/compile-pages/compile-kernel.md "Eupnea - Compile kernel")
 - [Compile EupneaOS](/compile-pages/compile-eupneaos.md "EupneaOS - Compile EupneaOS")
-- [Compile EupneaOS](/compile-pages/compile-eupneaos.md "Depthboot - Compile Depthboot")
+- [Compile Depthboot](/depthboot-pages/requirements.md "Depthboot - Requirements")
 
 📖 **Chromebook quirks**
 
