@@ -22,13 +22,13 @@ function displaySupport(autogen, specifics) {
     const boardname = model.family_name;
     const platform = model.cpu_gen;
 
-    const info = `Platform <b>${platform}</b>, Codename <b>${codename} (${boardname})</b>`;
+    const info = `CPU Generation: <b>${platform}</b> <br> Codename: <b>${codename} (${boardname})</b>`;
 
     const spec = specifics[codename];
 
     const depthbootAvailable = model.arch === "x86_64";
     const audioSupport = spec?.audio_status ?? "Unknown";
-    const comment = spec?.comment ?? "None";
+    const comment = spec?.comment ?? "N/A";
 
     document.getElementById("deviceInfo").innerHTML = info;
     document.getElementById("deviceDepthboot").innerText = depthbootAvailable ? "Yes" : "No";

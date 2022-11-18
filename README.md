@@ -1,7 +1,6 @@
 # The Eupnea Project
 
-Welcome to the Eupnea Project wiki.
-*Insert Eupnea Project description here*
+Welcome to the Eupnea Project wiki. We are a small dev team creating projects to run Linux on Chromebooks.
 
 ## Depthboot
 
