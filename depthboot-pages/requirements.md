@@ -16,11 +16,12 @@
 ## Supported devices
 
 <label>
-  Manufacturer
+  Manufacturer:
   <select id="manufacturer"></select>
 </label>
+<br>
 <label>
-  Model
+  Model:
   <select id="model"></select>
 </label>
 
