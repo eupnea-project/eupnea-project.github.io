@@ -28,7 +28,7 @@ function displaySupport(autogen, specifics) {
 
     const depthbootAvailable = model.arch === "x86_64";
     const audioSupport = spec?.audio_status ?? "Unknown";
-    const comment = spec?.comment ?? "";
+    const comment = spec?.comment ?? "N/A";
 
     document.getElementById("deviceInfo").innerHTML = info;
     document.getElementById("deviceDepthboot").innerText = depthbootAvailable ? "Yes" : "No";
