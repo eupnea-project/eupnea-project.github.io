@@ -1,5 +1,6 @@
-const jsonSrcSpecific = "/device-support/device-specific.json";
 const jsonSrcAuto = "/device-support/devices-autogen.json";
+const jsonSrcDevice = "/device-support/device-specific.json";
+const jsonSrcFamily = "/device-support/family-specific.json";
 
 /** @type {HTMLSelectElement}*/
 const selectManufacturer = document.getElementById("manufacturer");
@@ -13,7 +14,7 @@ async function loadJson(src) {
     return content;
 }
 
-function displaySupport(autogen, specifics) {
+function displaySupport({ autogen, specDevices, specFamilies }) {
     const manufacturer = getSelected(selectManufacturer);
     const modelname = getSelected(selectModel);
     const model = autogen[manufacturer][modelname];
@@ -24,10 +25,10 @@ function displaySupport(autogen, specifics) {
 
     const info = `CPU Generation: <b>${platform}</b> <br> Codename: <b>${codename} (${boardname})</b>`;
 
-    const spec = specifics[codename];
+    const spec = specDevices[codename];
 
     const depthbootAvailable = model.arch === "x86_64";
-    const audioSupport = spec?.audio_status ?? "Unknown";
+    const audioSupport = spec?.audio_status ?? specFamilies[platform] ?? "Unknown";
     const comment = spec?.comment ?? "N/A";
 
     document.getElementById("deviceInfo").innerHTML = info;
@@ -66,18 +67,21 @@ function getSelected(selectElem) {
 }
 
 async function initDeviceSupport() {
-    const auto = await loadJson(jsonSrcAuto);
-    const specific = await loadJson(jsonSrcSpecific);
-    updateSelectOptionsWithKeys(selectManufacturer, auto);
+    const data = {
+        autogen: await loadJson(jsonSrcAuto),
+        specDevices: await loadJson(jsonSrcDevice),
+        specFamilies: await loadJson(jsonSrcFamily)
+    };
+    updateSelectOptionsWithKeys(selectManufacturer, data.autogen);
 
     selectManufacturer.oninput = () => {
-        updateModels(auto);
-        displaySupport(auto, specific);
+        updateModels(data.autogen);
+        displaySupport(data);
     };
-    selectModel.oninput = () => displaySupport(auto, specific);
+    selectModel.oninput = () => displaySupport(data);
 
-    updateModels(auto);
-    displaySupport(auto, specific);
+    updateModels(data.autogen);
+    displaySupport(data);
 }
 
 initDeviceSupport();
