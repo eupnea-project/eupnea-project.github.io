@@ -10,7 +10,7 @@
     * Android with Termux is not supported. (Might be possible with root)
 * Developer mode enabled on the
   Chromebook([How to enable developer mode](https://www.androidauthority.com/how-to-enable-developer-mode-on-a-chromebook-906688/))
-* A USB drive or SD-card with at least 8GB of storage
+* A USB drive or SD-card with at least 8GB of storage. A cli image might require even less storage.
 * IF not using direct write: 10GB of free storage on the builder device
 
 ## Supported devices

@@ -12,18 +12,18 @@
       App, then [flash](https://www.virtuallypotato.com/burn-an-iso-to-usb-with-the-chromebook-recovery-utility/) it
       using the Chromebook Recovery Utility extension.
 
-4. [Enabled developer mode](https://www.androidauthority.com/how-to-enable-developer-mode-on-a-chromebook-906688/), if
-   it's not enabled already.
-
-5. Open the ChromeOS shell by pressing <kbd>CTRL</kbd><kbd>ALT</kbd><kbd>T</kbd>, enter `shell` and press <kbd>
+4. Open the ChromeOS shell by pressing <kbd>CTRL</kbd><kbd>ALT</kbd><kbd>T</kbd>, enter `shell` and press <kbd>
    Enter</kbd>.
+    - If you get an error about `shell` not being a command:
+      [Enable developer mode](https://www.androidauthority.com/how-to-enable-developer-mode-on-a-chromebook-906688/) and
+      try again.
 
-6. Inside the ChromeOS shell enable USB and Custom Kernel Booting by running:
+5. Inside the ChromeOS shell enable USB and Custom Kernel Booting by running:
     ```
     sudo crossystem dev_boot_usb=1; sudo crossystem dev_boot_signed_only=0
     ```
 
-7. Reboot with the USB drive/SD card plugged in and press <kbd>CTRL</kbd><kbd>U</kbd> or select "Boot from external
+6. Reboot with the USB drive/SD card plugged in and press <kbd>CTRL</kbd><kbd>U</kbd> or select "Boot from external
    disk".
 
 After a black screen Depthboot will boot.
