@@ -15,13 +15,16 @@
 
 📖 **Chromebook quirks**
 
-- [Sleep bootlock](/pages/bootlock.md "Eupnea - Bootlock")
-- [Depthcharge](/pages/depthcharge.md "Eupnea - Depthcharge")
+- [Sleep bootlock](/eupnea-pages/bootlock.md "Eupnea - Bootlock")
+- [Depthcharge](/eupnea-pages/depthcharge.md "Eupnea - Depthcharge")
 
-📖 **Developer**
+[//]: # (📖 **Developer**)
 
-- [1. Build script](/dev-pages/build-script.md  "Eupnea - 1. Build script")
-- [2. ChromeOS kernel](/dev-pages/kernel.md  "Eupnea - 2. Kernel")
+[//]: # ()
+
+[//]: # (- [1. Build script]&#40;/dev-pages/build-script.md  "Eupnea - 1. Build script"&#41;)
+
+[//]: # (- [2. ChromeOS kernel]&#40;/dev-pages/kernel.md  "Eupnea - 2. Kernel"&#41;)
 
 🌐 **External docs**
 
