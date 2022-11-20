@@ -4,8 +4,8 @@
 
 - [Requirements](/depthboot-pages/requirements.md "Depthboot - Requirements")
 - [Build instructions](/depthboot-pages/build-instructions.md "Depthboot - Build instructions")
-- [Audio](/depthboot-pages/audio.md "Eupnea - Audio")
-- [Optional features](/depthboot-pages/optional.md "Eupnea - Optional features")
+- [Audio](/depthboot-pages/audio.md "Depthboot - Audio")
+- [Optional features](/depthboot-pages/optional.md "Depthboot - Optional features")
 
 🔨 **Compile instructions**
 
@@ -18,13 +18,9 @@
 - [Sleep bootlock](/eupnea-pages/bootlock.md "Eupnea - Bootlock")
 - [Depthcharge](/eupnea-pages/depthcharge.md "Eupnea - Depthcharge")
 
-[//]: # (📖 **Developer**)
+📖 **Project documentation**
 
-[//]: # ()
-
-[//]: # (- [1. Build script]&#40;/dev-pages/build-script.md  "Eupnea - 1. Build script"&#41;)
-
-[//]: # (- [2. ChromeOS kernel]&#40;/dev-pages/kernel.md  "Eupnea - 2. Kernel"&#41;)
+- [ChromeOS kernel](/dev-pages/kernel.md  "Eupnea - Kernel")
 
 🌐 **External docs**
 
