@@ -28,7 +28,7 @@
   "RK3399": "Unsupported",
   "SandyBridge": "Unknown",
   "Skylake": "Partial",
-  "Stoney Ridge": "Partial",
+  "Stoney Ridge": "Unsupported",
   "Tegra K1 T124": "Unsupported",
   "TigerLake-UP3": "Full",
   "TigerLake-UP4": "Full",
