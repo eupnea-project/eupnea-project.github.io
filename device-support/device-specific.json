@@ -1,6 +1,47 @@
 {
-  "Damu": {
-    "audio_status": "Full",
-    "comment": "None"
+  "celes": {
+    "comment": "Buggy."
+  },
+  "asuka": {
+    "comment": "Headphones don't work with avs on skl."
+  },
+  "caroline": {
+    "comment": "Headphones don't work with avs on skl."
+  },
+  "cave": {
+    "comment": "Headphones don't work with avs on skl."
+  },
+  "chell": {
+    "comment": "Headphones don't work with avs on skl."
+  },
+  "lars": {
+    "comment": "Headphones don't work with avs on skl."
+  },
+  "sentry": {
+    "comment": "Headphones don't work with avs on skl."
+  },
+  "aleena": {
+    "comment": "Stoneyridge has broken gpu framebuffer."
+  },
+  "barla": {
+    "comment": "Stoneyridge has broken gpu framebuffer."
+  },
+  "careena": {
+    "comment": "Stoneyridge has broken gpu framebuffer."
+  },
+  "kasumi": {
+    "comment": "Stoneyridge has broken gpu framebuffer."
+  },
+  "kasumi360": {
+    "comment": "Stoneyridge has broken gpu framebuffer."
+  },
+  "liara": {
+    "comment": "Stoneyridge has broken gpu framebuffer."
+  },
+  "treeya": {
+    "comment": "Stoneyridge has broken gpu framebuffer."
+  },
+  "treeya360": {
+    "comment": "Stoneyridge has broken gpu framebuffer."
   }
 }
