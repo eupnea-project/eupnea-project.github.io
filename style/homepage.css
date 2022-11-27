@@ -248,39 +248,6 @@ h2 {
     100% { transform: translateY(0); }
 }
 
-@media screen and (max-width: 799px) {
-    header {
-        position: relative;
-    }
-
-    h1 {
-        font-size: 3rem;
-    }
-
-    .row {
-        flex-direction: column;
-    }
-
-    .row > .separator {
-        display: none;
-    }
-
-    .full-height {
-        min-height: auto;
-        justify-content: center;
-        padding-top: inherit;
-    }
-
-    .chevron {
-        display: none;
-    }
-
-    .soft {
-        max-width: 100%;
-    }
-}
-
-
 .info-row {
     flex-direction: row;
     align-items: flex-start;
@@ -308,6 +275,7 @@ h2 {
 .preview .icon {
     position: absolute;
     width: 128px;
+    max-width: 20vw;
     filter: drop-shadow(0.2em 0.2em 0.05em #0004);
     animation: float 3s ease-in-out infinite alternate;
 }
@@ -315,4 +283,60 @@ h2 {
 @keyframes float {
       0% { transform: translateY(0); }
     100% { transform: translateY(-0.4em); }
+}
+
+.rev-row {
+    flex-direction: row-reverse;
+}
+
+
+@media screen and (max-width: 799px) {
+    header {
+        position: relative;
+    }
+
+    h1 {
+        font-size: 3rem;
+    }
+
+    .row {
+        flex-direction: column;
+    }
+
+    .row > .separator {
+        display: none;
+    }
+
+    .full-height {
+        min-height: auto;
+        justify-content: center;
+    }
+
+    .initial-view {
+        padding-top: inherit;
+    }
+
+    .chevron {
+        display: none;
+    }
+
+    .soft {
+        max-width: 100%;
+    }
+
+    .info-row {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .blog {
+        display: flex;
+        flex-direction: column;
+    }
+    .preview {
+        width: auto;
+    }
+
+    .blog a {
+        align-self: center;
+    }
 }
