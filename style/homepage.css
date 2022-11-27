@@ -125,9 +125,28 @@ h2 {
 
 .full-height {
     min-height: 100%;
-    justify-content: start;
-    padding-top: calc(20vh - 80px);
+}
+.initial-view {
     text-align: center;
+    padding-top: calc(20vh - 80px);
+    justify-content: start;
+}
+.info-row {
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 20vh 10vw;
+    gap: 10vw;
+}
+.preview {
+    /* border-radius: 0.4em; */
+    display: flex;
+    min-width: 30vw;
+    width: 40vw;
+    box-shadow: 0.2em 0.2em #0007;
+}
+
+.preview img {
+    max-width: 100%;
 }
 
 .presentation > .extend {
