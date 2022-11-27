@@ -29,10 +29,15 @@
     --code-theme-background: #ebebeb;
     --sidebar-soft-shadow: #cecece3e;
     --sidebar-toggle-offset-left: 16px;
+
     --button-color: #fff;
-    --button-background: #21b84e;
-    --button-background-hover: #31d161;
-    --button-background-active: #1d853c;
+    --button-color-hover: var(--base-color);
+    --button-background: #00c483;
+    --button-background-hover: #fff;
+    --button-background-active: #d1ffe7;
+    --button-ink: #40ff89b0;
+    --button-underline: underline;
+    
     --eupnea-green: inherit;
     --eupnea-blue: #2d8fff;
     --selection-color: #9bcaff;
@@ -41,22 +46,39 @@
 button.big {
     cursor: pointer;
     color: var(--button-color);
-    padding: 12px 24px;
+    padding: 0.8rem 1.4rem;
     min-width: 10rem;
     font: inherit;
     font-weight: 500;
     font-size: 1.2rem;
     border: none;
-    border-radius: 8px;
+    border-radius: 0.8rem;
     background-color: var(--button-background);
-    box-shadow: 0 2px 4px #0002;
-    transition: 0.15s;
+    box-shadow: 0 0 var(--button-background), 0 0.1rem 0 #0008;
+    transition: color 0.1s, background-color 0.4s,
+                padding 0.2s, margin 0.2s, min-width 0.2s,
+                box-shadow 2s cubic-bezier(0.19, 1, 0.22, 1);
 }
 button.big:hover {
+    text-decoration: var(--button-underline);
+    color: var(--button-color-hover);
+    margin: 0 -0.6rem;
+    padding: 0.8rem 2rem;
+    min-width: 11rem;
     background-color: var(--button-background-hover);
+    box-shadow: 0 0 0 0.8rem var(--button-ink), 0 0.2rem 0 #0008;
+    transition: color 0s, background-color 0.1s,
+                padding 0.2s, margin 0.2s, min-width 0.2s,
+                box-shadow 1.5s cubic-bezier(0.19, 1, 0.22, 1);
 }
 button.big:active {
+    margin: 0 -0.4rem;
+    padding: 0.8rem 1.8rem;
+    min-width: 10.5rem;
     background-color: var(--button-background-active);
+    box-shadow: 0 0 0 0.2rem var(--button-ink), 0 0.2rem 0 #0008;
+    transition: padding 0.1s, margin 0.1s, min-width 0.1s,
+                box-shadow 0.3s cubic-bezier(0.19, 1, 0.22, 1);
 }
 
 svg {
@@ -136,6 +158,15 @@ a:not(:active):hover svg {
     --blockquote-background: var(--muted-background);
     --blockquote-border-color: #777;
     --soft-color: #999;
+    
+    --button-color: #fff;
+    --button-color-hover: #fff;
+    --button-background: #00bd7e;
+    --button-background-hover: var(--button-background);
+    --button-background-active: #009c68;
+    --button-ink: #2f3a35da;
+    --button-underline: none;
+    
     --eupnea-green: #5cff8c;
     --eupnea-blue: #3ca7ff;
   }
