@@ -27,7 +27,7 @@
     --base-background-color: #f2f2f2;
     --sidebar-toggle-background: rgba(255, 255, 255, 0);
     --code-theme-background: #ebebeb;
-    --sidebar-soft-shadow: #cecece3e;
+    --sidebar-soft-shadow: #aaaaaa33;
     --sidebar-toggle-offset-left: 16px;
 
     --button-color: #fff;
@@ -116,8 +116,7 @@ a:not(:active):hover svg {
 }
 
 .sidebar {
-    box-shadow: 20px 20px 60px var(--sidebar-soft-shadow),
-                -20px -20px 60px var(--base-background-color);
+    box-shadow: 0 20px 60px var(--sidebar-soft-shadow);
     -ms-overflow-style: none;  /* Internet Explorer 10+ */
     scrollbar-width: none;  /* Firefox */
 }
@@ -145,7 +144,7 @@ a:not(:active):hover svg {
     --selection-color: #21548d;
     --sidebar-background: var(--muted-background);
     --sidebar-border-color: #333;
-    --sidebar-soft-shadow: #1114;
+    --sidebar-soft-shadow: #0000;
     --sidebar-nav-link-color: var(--base-color);
     --code-theme-background: #2b2e36;
     --code-theme-text: #fff;
