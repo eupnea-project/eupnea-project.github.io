@@ -3,45 +3,45 @@
     "comment": "Buggy."
   },
   "asuka": {
-    "comment": "Headphones don't work with avs on skl."
+    "comment": "Only max98357a works."
   },
   "caroline": {
-    "comment": "Headphones don't work with avs on skl."
+    "comment": "Only max98357a works."
   },
   "cave": {
-    "comment": "Headphones don't work with avs on skl."
+    "comment": "Only max98357a works."
   },
   "chell": {
-    "comment": "Headphones don't work with avs on skl."
+    "comment": "Only max98357a works."
   },
   "lars": {
-    "comment": "Headphones don't work with avs on skl."
+    "comment": "Only max98357a works."
   },
   "sentry": {
-    "comment": "Headphones don't work with avs on skl."
+    "comment": "Only max98357a works."
   },
   "aleena": {
-    "comment": "Stoneyridge has broken gpu framebuffer."
+    "comment": "Stoneyridge has broken gpu framebuffer and audio."
   },
   "barla": {
-    "comment": "Stoneyridge has broken gpu framebuffer."
+    "comment": "Stoneyridge has broken gpu framebuffer and audio."
   },
   "careena": {
-    "comment": "Stoneyridge has broken gpu framebuffer."
+    "comment": "Stoneyridge has broken gpu framebuffer and audio."
   },
   "kasumi": {
-    "comment": "Stoneyridge has broken gpu framebuffer."
+    "comment": "Stoneyridge has broken gpu framebuffer and audio."
   },
   "kasumi360": {
-    "comment": "Stoneyridge has broken gpu framebuffer."
+    "comment": "Stoneyridge has broken gpu framebuffer and audio."
   },
   "liara": {
-    "comment": "Stoneyridge has broken gpu framebuffer."
+    "comment": "Stoneyridge has broken gpu framebuffer and audio."
   },
   "treeya": {
-    "comment": "Stoneyridge has broken gpu framebuffer."
+    "comment": "Stoneyridge has broken gpu framebuffer and audio."
   },
   "treeya360": {
-    "comment": "Stoneyridge has broken gpu framebuffer."
+    "comment": "Stoneyridge has broken gpu framebuffer and audio."
   }
 }
