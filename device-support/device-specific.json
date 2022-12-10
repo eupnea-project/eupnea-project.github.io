@@ -3,22 +3,22 @@
     "comment": "Buggy."
   },
   "asuka": {
-    "comment": "Only max98357a works."
+    "comment": "Only max98357a and nau8825 works."
   },
   "caroline": {
-    "comment": "Only max98357a works."
+    "comment": "Only max98357a and nau8825 works."
   },
   "cave": {
-    "comment": "Only max98357a works."
+    "comment": "Only max98357a and nau8825 works."
   },
   "chell": {
-    "comment": "Only max98357a works."
+    "comment": "Only max98357a and nau8825 works."
   },
   "lars": {
-    "comment": "Only max98357a works."
+    "comment": "Only max98357a and nau8825 works."
   },
   "sentry": {
-    "comment": "Only max98357a works."
+    "comment": "Only max98357a and nau8825 works."
   },
   "aleena": {
     "comment": "Stoneyridge has broken gpu framebuffer and audio."
