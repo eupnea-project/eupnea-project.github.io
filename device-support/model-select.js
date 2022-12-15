@@ -32,7 +32,15 @@ function scoped() {
 
         const info = `CPU Generation: <b>${platform}</b> <br> Codename: <b>${codename} (${boardname})</b>`;
 
-        const spec = specDevices[codename];
+        // Find case insensitive key in device-specific.json
+        const expcetedKey = codename.toLowerCase();
+        let spec = null;
+        for (let key in specDevices) {
+            if (key.toLowerCase() === expcetedKey) {
+                spec = specDevices[key];
+                break;
+            }
+        }
 
         const depthbootAvailable = model.arch === "x86_64";
         const audioSupport = spec?.audio_status ?? specFamilies[platform] ?? "Unknown";
