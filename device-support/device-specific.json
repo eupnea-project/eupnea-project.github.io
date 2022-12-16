@@ -1,5 +1,5 @@
 {
-  "Celes": {
+  "celes": {
     "comment": "Audio is unuseable. Reason: stuttering crashes apps"
   },
   "asuka": {
@@ -43,5 +43,23 @@
   },
   "treeya360": {
     "comment": "Stoneyridge has broken gpu framebuffer and audio."
+  },
+  "lillipup": {
+    "comment": "Booting from SD-card does not work. Use a USB drive or an SD-card adapter instead."
+  },
+  "delbin": {
+    "comment": "Booting from SD-card does not work. Use a USB drive or an SD-card adapter instead."
+  },
+  "Elemi": {
+    "comment": "Booting from SD-card does not work. Use a USB drive or an SD-card adapter instead."
+  },
+  "Volta": {
+    "comment": "Booting from SD-card does not work. Use a USB drive or an SD-card adapter instead."
+  },
+  "Voxel": {
+    "comment": "Booting from SD-card does not work. Use a USB drive or an SD-card adapter instead."
+  },
+  "Volet": {
+    "comment": "Booting from SD-card does not work. Use a USB drive or an SD-card adapter instead."
   }
 }
