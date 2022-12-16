@@ -6,7 +6,7 @@
     ```
 2. Follow the instructions inside the terminal.
 
-3. If the script didn't ask to choose a USB drive/SD-card in the script, flash the created image file to a USB
+3. If the script didn't ask to choose a USB drive/SD-card, flash the created image file to a USB
    drive/SD-card using Etcher, ``dd`` or any other tool. [Do not use Rufus](/extra-pages/rufus.md).
     - If the script was run within Crostini, copy depthboot.bin to a folder that is accessible from ChromeOS's Files
       App, then [flash](https://www.virtuallypotato.com/burn-an-iso-to-usb-with-the-chromebook-recovery-utility/) it
