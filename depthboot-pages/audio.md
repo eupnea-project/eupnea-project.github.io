@@ -6,7 +6,7 @@ To enable audio on Depthboot, follow the instructions below:
 
 1. Boot into Depthboot
 
-2. Make the Chromebook is connected to the internet.
+2. Make sure the Chromebook is connected to the internet.
 
 3. Run: `setup-audio` in the Terminal.
 
