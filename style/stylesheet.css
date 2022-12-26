@@ -98,6 +98,12 @@ a:not(:active):hover svg {
     fill: var(--base-color-emphasize);
 }
 
+select {
+    border-radius: 0.2rem;
+    padding: 0.2rem 0.4rem;
+    margin: 0.2rem 0;
+}
+
 .sidebar-nav > p, .sidebar-nav ul > li {
     padding: 0 8px;
 }
