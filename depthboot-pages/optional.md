@@ -33,3 +33,10 @@ The commands below will create 6GB of memory compressed to 2GB:
 WIP  
 (Copy the ectool from a ChromeOS iso for now)
 
+## Issue with extra scripts `/bin/sh: line 1: git: command not found`
+While making own depthboot by default `git` is not installed, before continuing you need to install git
+```
+sudo dnf install git # Fedora
+sudo apt install git # Debian/Ubuntu/PopOS
+sudo pacman -S git # Arch
+```
