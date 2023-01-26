@@ -1,10 +1,10 @@
 # Eupnea kernels
 
-Both EupneaOS and Depthboot use the same precompiled kernel binaries, which are build using GitHub Actions and require a
-lot of processing power and at least an hour of compilation. The GPL permits distributing binaries, as long as the
-source code is provided. The following components are precompiled and distributed:
+Both EupneaOS and Depthboot use the same precompiled kernel binaries, which are build using GitHub Actions.
+The GPL permits distributing binaries, as long as the source code is provided. The following components are precompiled
+and distributed:
 
-* A Linux kernel executable (bzImage)
+* A Linux kernel executable (bzImage/vmlinuz)
 * A tar archive of the kernel modules
 * A tar archive of the kernel headers
 
@@ -15,25 +15,18 @@ The source of the kernel, modules and headers of the kernel executable:
 * [Mainline Linux kernel](https://github.com/torvalds/linux)
   -> [Mainline Eupnea kernel](https://github.com/eupnea-linux/mainline-kernel)
 
-## Kernel types
+## ChromeOS-Eupnea kernel
 
-There are 5 different kernel types that can be used in Depthboot and EupneaOS:
+The ChromeOS-Eupnea kernel is a modified version of the ChromeOS 5.10 kernel, which itself is a modified version of the
+upstream 5.10 Linux kernel with some backported patches from newer kernel versions. The ChromeOS kernel is the newest
+kernel used in Chromebooks, despite not being the newest Linux kernel and not even the newest ChromeOS kernel version (
+the ChromeOS kernel repo contains 5.15 and even 6.1 branches).
 
-* ChromeOS
-    * Stable(chromeos-5.10):
-        * Newest kernel used in Chromebooks, although it is pretty old by mainline kernel standards. Provides the best
-          compatibility for Chromebooks, although it might not have the newest features(although Google does backport
-          some).
-    * Experimental(chromeos-5.15):
-        * A more recent kernel, but not actively used on any Chromebooks. It is unclear why Google is developing this
-          kernel if its not used by any device and moreover will be soon superseded by the 6.0 kernel.
-    * Alternative(chromeos-5.10):
-        * An older chromeos 5.10 kernel branch, which provides more compatibility for older devices, as the newer
-          branches of the same kernel broke audio support for some devices.
-* Mainline
-    * Mainline:
-        * Latest stable linux kernel with some Chromebook patches applied. Provides the newest features, but might not
-          work on all devices.
-    * Mainline-testing:
-        * Latest mainline linux kernel with some Chromebook patches applied. Provides the newest features, but might not
-          work on all devices. Might be unstable.
+Some devices require the ChromeOS kernel due to better AVS (Intel audio driver used by some Skylake and Kaby Lake
+devices) support, although the Mainline kernel should soon receive more AVS support too.
+
+## Mainline-Eupnea kernel
+
+The Mainline kernel is the default Eupnea kernel.
+The Mainline-Eupnea kernel is the upstream stable kernel with a custom config. The Mainline kernel has the most
+features, although some Chromebooks might experience hardware issues with it and should use the ChromeOS kernel instead.
