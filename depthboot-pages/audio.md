@@ -6,8 +6,7 @@ To enable audio on Depthboot, follow the instructions below:
 
 1. Boot into Depthboot
 
-2. Make sure the Chromebook is connected to the internet.
+2. Open a Terminal and run: `setup-audio`
 
-3. Run: `setup-audio` in the Terminal.
-
-If audio still doesn't work, please open an issue with the device codename and distribution choice in [audio-scripts](https://github.com/eupnea-linux/audio-scripts/issues) repository.
+If audio still doesn't work, please open an issue with the device codename and distribution choice
+in the [audio-scripts](https://github.com/eupnea-linux/audio-scripts/issues) repository.
