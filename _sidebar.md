@@ -17,6 +17,7 @@
 
 - [Sleep bootlock](/eupnea-pages/bootlock.md "Eupnea - Bootlock")
 - [Depthcharge](/eupnea-pages/depthcharge.md "Eupnea - Depthcharge")
+- [SWAP(ZRAM)](/eupnea-pages/ram-extensions.md "Eupnea - SWAP(ZRAM)")
 
 📖 **Project documentation**
 
