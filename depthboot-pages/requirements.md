@@ -7,7 +7,8 @@
     * A Linux pc/laptop(all distros supported)
     * Windows: [Install WSL](https://ubuntu.com/tutorials/install-ubuntu-on-wsl2-on-windows-10#1-overview)
     * MacOS devices are unsupported
-    * Android with Termux is not supported. (Might be possible with root)
+    * Non x86_64 devices are incapable of running the builder script without translation layers -> ARM Chromebooks,
+      Raspberry Pis and Android devices are unsupported without translation layers.
 * Developer mode enabled on the
   Chromebook([How to enable developer mode](https://www.androidauthority.com/how-to-enable-developer-mode-on-a-chromebook-906688/))
 * A USB drive or SD-card with at least 8GB of storage. A cli image might require even less storage.
