@@ -1,0 +1,17 @@
+{
+  "name": "eupnea-homepage",
+  "version": "1.0.0",
+  "description": "Homepage of The Eupnea Project.",
+  "main": "main.js",
+  "repository": "https://github.com/eupnea-linux/eupnea-linux.github.io.git",
+  "license": "MIT",
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
+  },
+  "devDependencies": {
+    "vitepress": "^1.0.0-alpha.45",
+    "vue": "^3.2.47"
+  }
+}

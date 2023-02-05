@@ -1,3 +1,9 @@
+export default {
+    mounted() {
+        console.log("bruh");
+    }
+}
+
 /**
  * Because docsify uses a #-history router, global JavaScript identifiers
  * don't get cleared when the same page is visited twice.
@@ -103,4 +109,4 @@ function scoped() {
 
 }
 
-scoped();
+// scoped();

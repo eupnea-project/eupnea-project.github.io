@@ -3,7 +3,7 @@
 * A supported device, see [below](#supported-devices)
 * A device to run the script on. **One** of the following:
     * A Chromebook with Crostini enabled(aka "Linux" in settings). **FOLLOW THE INSTRUCTIONS IN
-      THE [CROSTINI SECTION](/extra-pages/crostini.md)**
+      THE [CROSTINI SECTION](../extra/crostini)**
     * A Linux pc/laptop(all distros supported)
     * Windows: [Install WSL](https://ubuntu.com/tutorials/install-ubuntu-on-wsl2-on-windows-10#1-overview)
     * MacOS devices are unsupported
@@ -32,4 +32,4 @@ Other issues: <span id="deviceComment"></span>
 
 <span id="deviceInfo"></span>
 
-<script src="/device-support/model-select.js"></script>
+<!-- <script src="/device-support/model-select.js"></script> -->
