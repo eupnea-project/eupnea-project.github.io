@@ -2,6 +2,9 @@ export default {
   title: "The Eupnea Project",
   description: "Boot a full Linux system and gain complete control over your device WITHOUT modifying the firmware.",
   themeConfig: {
+    socialLinks: [
+      { icon: "github", link: "https://github.com/eupnea-linux" },
+    ],
     sidebar: [
       {
         text: "📜 Depthboot instructions",
