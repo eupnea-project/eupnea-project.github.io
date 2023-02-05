@@ -21,7 +21,7 @@
 
 📖 **Project documentation**
 
-- [ChromeOS kernel](/dev-pages/kernel.md  "Eupnea - Kernel")
+- [Eupnea Kernels](/dev-pages/kernels.md  "Eupnea - Kernels")
 
 🌐 **External docs**
 
