@@ -38,7 +38,7 @@
     * modules.tar.xz
     * headers.tar.xz
 
-Proceed to [installing the kernel](#2-installing-the-kernel).
+7. Proceed to [installing the kernel](#_2-installing-the-kernel).
 
 ## Building the Eupnea mainline kernel
 
