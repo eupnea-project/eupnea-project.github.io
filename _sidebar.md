@@ -11,7 +11,7 @@
 
 - [Eupnea Kernels](/project-pages/kernels.md  "Eupnea - Kernels")
 - [Supported devices](/extra-pages/supported-devices.md "Eupnea - Supported devices")
-- [Supported distros + DEs (Depthboot)](https://docs.google.com/spreadsheets/d/1-zIX8lWEXVcO71xCuzvZpHvCUizrU7csKfJusqB2CYM)
+- [🡕 Supported distros + DEs (Depthboot)](https://docs.google.com/spreadsheets/d/1-zIX8lWEXVcO71xCuzvZpHvCUizrU7csKfJusqB2CYM)
 
 📖 **Chromebook quirks**
 
