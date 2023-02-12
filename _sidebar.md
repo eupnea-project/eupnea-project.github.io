@@ -15,13 +15,13 @@
 
 📖 **Chromebook quirks**
 
-- [Sleep bootlock](/eupnea-pages/bootlock.md "Eupnea - Bootlock")
-- [Depthcharge](/eupnea-pages/depthcharge.md "Eupnea - Depthcharge")
-- [SWAP(ZRAM)](/eupnea-pages/ram-extensions.md "Eupnea - SWAP(ZRAM)")
+- [Sleep bootlock](/chromebook-pages/bootlock.md "Eupnea - Bootlock")
+- [Depthcharge](/chromebook-pages/depthcharge.md "Eupnea - Depthcharge")
+- [SWAP(ZRAM)](/chromebook-pages/ram-extensions.md "Eupnea - SWAP(ZRAM)")
 
 📖 **Project documentation**
 
-- [Eupnea Kernels](/dev-pages/kernels.md  "Eupnea - Kernels")
+- [Eupnea Kernels](/project-pages/kernels.md  "Eupnea - Kernels")
 
 🌐 **External docs**
 
