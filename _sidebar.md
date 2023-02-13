@@ -28,7 +28,6 @@
 🌐 **External docs**
 
 - [🡕 UEFI/rw_legacy](https://mrchromebox.tech/#bootmodes)
-- [🡕 Depthcharge](https://libreboot.org/docs/depthcharge/)
 - [🡕 Linux on pre-coreboot Chromebooks](https://github.com/nh2/chrubuntu-anyos)
 - [🡕 Linux on arm Chromebooks](https://github.com/Maccraft123/Cadmium)
 
