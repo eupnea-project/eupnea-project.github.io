@@ -4,6 +4,14 @@ Depthcharge is a [U-boot](https://www.denx.de/wiki/U-Boot) based bootloader for 
 nor is it ever meant to be accessed by the end user. As a result, Depthcharge is basically an embedded-systems
 bootloader.
 
+## Issues with depthcharge
+
+* No initramfs support -> Much simpler Linux boot flow but also no initramfs features like full disk encryption
+* No bootloader -> no dual booting or other bootloader features
+* Unusual GPT partitioning scheme -> [issues with Rufus](/extra-pages/rufus.md)
+
+> The information below was written by Paul Kocialkowski contact@paulk.fr and taken from [libreboot.org](https://notabug.org/libreboot/lbwww/src/f1d5035a00a8918509cb74a0df77b592b80c0d8c/site/docs/depthcharge/index.md)
+
 ## CrOS security model
 
 CrOS (Chromium OS/Chrome OS) devices such as Chromebooks implement a strict security model to ensure that these devices do not become compromised, that is implemented as the verified boot (vboot) reference, most of which is executed within depthcharge. A detailed overview of the CrOS security model is available on the dedicated page.
@@ -117,9 +125,3 @@ crossystem dev_default_boot=disk # internal storage
 crossystem dev_default_boot=usb # external media
 crossystem dev_default_boot=legacy # legacy payload
 ```
-
-## Issues with depthcharge
-
-* No initramfs support -> Much simpler Linux boot flow but also no initramfs features like full disk encryption
-* No bootloader -> no dual booting or other bootloader features
-* Unusual GPT partitioning scheme -> [issues with Rufus](/extra-pages/rufus.md)
