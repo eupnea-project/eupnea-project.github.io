@@ -5,7 +5,7 @@
     * A Chromebook with Crostini enabled(aka "Linux" in settings). **FOLLOW THE INSTRUCTIONS IN
       THE [CROSTINI SECTION](/extra-pages/crostini.md "Eupnea - Crostini instructions")**
     * A Linux pc/laptop(all distros supported)
-    * Windows: [Install WSL](https://ubuntu.com/tutorials/install-ubuntu-on-wsl2-on-windows-10#1-overview)
+    * Windows: [Install WSL](https://ubuntu.com/tutorials/install-ubuntu-on-wsl2-on-windows-11-with-gui-support#1-overview)
     * MacOS devices are unsupported
     * Non x86_64 devices are incapable of running the builder script without translation layers -> ARM Chromebooks,
       Raspberry Pis and Android devices are not able to build images without translation layers.
