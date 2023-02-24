@@ -20,7 +20,7 @@
 
 5. Inside the ChromeOS shell enable USB and Custom Kernel Booting by running:
     ```
-    sudo crossystem dev_boot_usb=1; sudo crossystem dev_boot_signed_only=0
+    sudo crossystem dev_boot_usb=1 dev_boot_signed_only=0
     ```
 
 6. Reboot with the USB drive/SD card plugged in and press <kbd>CTRL</kbd><kbd>U</kbd> or select "Boot from external
