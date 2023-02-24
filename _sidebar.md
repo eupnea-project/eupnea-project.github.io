@@ -22,7 +22,7 @@
 
 🔨 **Compile instructions**
 
-- [Compile the Eupnea kernel](/compile-pages/compile-kernel.md "Eupnea - Compile kernel")
+- [Compile a Eupnea kernel](/compile-pages/compile-kernel.md "Eupnea - Compile kernel")
 - [Compile EupneaOS](/compile-pages/compile-eupneaos.md "EupneaOS - Compile EupneaOS")
 - [Compile Depthboot](/depthboot-pages/requirements.md "Depthboot - Requirements")
 
