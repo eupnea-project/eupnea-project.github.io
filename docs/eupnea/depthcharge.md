@@ -8,4 +8,4 @@ bootloader.
 
 * No initramfs support -> Much simpler Linux boot flow but also no initramfs features like full disk encryption
 * No bootloader -> no dual booting or other bootloader features
-* Unusual GPT partitioning scheme -> [issues with Rufus](/extra-pages/rufus)
+* Unusual GPT partitioning scheme -> [issues with Rufus](/extra/rufus)

@@ -22,13 +22,15 @@
     * bison
     * binutils
 
-   On debian based systems the dependencies can be installed with:
-
-        sudo apt-get update && sudo apt-get install build-essential ncurses-dev xz-utils libssl-dev bc flex libelf-dev bison binutils
+On debian based systems the dependencies can be installed with:
+```shell
+sudo apt-get update && sudo apt-get install build-essential ncurses-dev xz-utils libssl-dev bc flex libelf-dev bison binutils
+```
 
 2. Clone the kernel repo:
-
-        git clone https://github.com/eupnea-linux/chromeos-kernel.git && cd chromeos-kernel
+```shell
+git clone https://github.com/eupnea-linux/chromeos-kernel.git && cd chromeos-kernel
+```
 
 3. Optional: Modify the kernel config in ``kernel.conf``.
 4. Optional: Modify the kernel branch in line 12 in ``kernel_build.py``.
@@ -57,13 +59,15 @@ Proceed to [installing the kernel](#2-installing-the-kernel).
     * bison
     * binutils
 
-   On debian based systems the dependencies can be installed with:
-
-        sudo apt-get update && sudo apt-get install build-essential ncurses-dev xz-utils libssl-dev bc flex libelf-dev bison binutils
+On debian based systems the dependencies can be installed with:
+```shell
+sudo apt-get update && sudo apt-get install build-essential ncurses-dev xz-utils libssl-dev bc flex libelf-dev bison binutils
+```
 
 2. Clone the kernel repo:
-
-        git clone https://github.com/eupnea-linux/mainline-kernel.git && cd mainline-kernel
+```shell
+git clone https://github.com/eupnea-linux/mainline-kernel.git && cd mainline-kernel
+```
 
 3. Optional: Modify the kernel config in ``kernel.conf``
 4. Optional: Modify the kernel version in line 6 in ``build.sh``
@@ -79,7 +83,8 @@ The kernel needs to be signed with a proper rootfs mount PARTUUID passed to it. 
 the depthboot repo (repo_root/configs/cmdline) or the EupneaOS repo and replace the PARTUUID with the one of your rootfs
 partition. You can find the PARTUUID of your rootfs partition with ``blkid -o value -s PARTUUID /dev/your_root_mount``.
 Then sign the kernel with:
-
-      futility vbutil_kernel --arch x86_64 --version 1 --keyblock /usr/share/vboot/devkeys/kernel.keyblock --signprivate /usr/share/vboot/devkeys/kernel_data_key.vbprivk --bootloader /path/to/kernel.flags --config /path/to/kernel.flags --vmlinuz /path/to/bzImage --pack ./bzImage.signed
+```shell
+futility vbutil_kernel --arch x86_64 --version 1 --keyblock /usr/share/vboot/devkeys/kernel.keyblock --signprivate /usr/share/vboot/devkeys/kernel_data_key.vbprivk --bootloader /path/to/kernel.flags --config /path/to/kernel.flags --vmlinuz /path/to/bzImage --pack ./bzImage.signed
+```
 
 Flash the kernel to the first partition on your usb/SD card with ``dd`` (or similar).
