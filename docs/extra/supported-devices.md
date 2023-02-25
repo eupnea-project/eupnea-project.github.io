@@ -16,11 +16,12 @@ Other issues: <span id="deviceComment"></span>
 
 <span id="deviceInfo"></span>
 
-<script setup>
-import * as model from '/device-support/model-select.js'
-
-
+<script>
+export default {
+  mounted() {
+    import('/device-support/model-select.js').then((module) => {
+      module.initDeviceSupport();
+    });
+  }
+}
 </script>
-
-<!-- <script src="@/device-support/model-select.js"></script> -->
-
