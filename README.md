@@ -5,7 +5,7 @@ Welcome to the Eupnea Project wiki. We are a small dev team that focuses on runn
 ## Depthboot
 
 Depthboot is a builder script that creates a bootable USB drive/SD-card that can be booted on any 64-bit Chromebook. It
-supports common Linux distributions(Pop!_OS, Ubuntu, Debian, Arch and Fedora) and a variety of the most popular desktop
+supports common Linux distributions(Pop!_OS, Ubuntu, Arch and Fedora) and a variety of the most popular desktop
 environments.  
 Due to licensing restraints, Depthboot cannot be distributed as an iso. Instead, it has to be build locally.
 
@@ -27,7 +27,7 @@ you decide which method is best for you.
 * Depthboot
     * Pros:
         * Can be used on any 64-bit Chromebook
-        * Offers Pop!_OS, Ubuntu, Debian, Arch and Fedora as a base
+        * Offers Pop!_OS, Ubuntu, Arch and Fedora as a base
         * Offers Gnome, KDE, XFCE, LXDE, Deepin, Budgie and a desktopless version as desktop environments
     * Cons:
         * Can only be used on 64-bit Chromebooks with depthcharge

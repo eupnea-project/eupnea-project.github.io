@@ -6,13 +6,13 @@
     ```
 2. Follow the instructions inside the terminal.
 
-3. If the script didn't ask to choose a USB drive/SD-card, flash the created image file to a USB
-   drive/SD-card using Etcher, ``dd`` or any other tool. If you are using Rufus, read [this](/extra/rufus) first.
+3. Flash the created image file to a USB drive/SD-card using Etcher, ``dd`` or any other tool. If you are using Rufus,
+   read [this](../extra/rufus) first.
     - If the script was run within Crostini, copy depthboot.bin to a folder that is accessible from ChromeOS's Files
       App, then [flash](https://www.virtuallypotato.com/burn-an-iso-to-usb-with-the-chromebook-recovery-utility/) it
       using the Chromebook Recovery Utility extension.
 
-4. Open the ChromeOS shell by pressing <kbd>CTRL</kbd><kbd>ALT</kbd><kbd>T</kbd>, enter `shell` and press <kbd>
+4. Open the ChromeOS shell by pressing <kbd>CTRL</kbd><kbd>ALT</kbd><kbd>T</kbd>, type `shell` and press <kbd>
    Enter</kbd>.
     - If you get an error about `shell` not being a command:
       [Enable developer mode](https://www.androidauthority.com/how-to-enable-developer-mode-on-a-chromebook-906688/) and
@@ -20,7 +20,7 @@
 
 5. Inside the ChromeOS shell enable USB and Custom Kernel Booting by running:
     ```
-    sudo crossystem dev_boot_usb=1; sudo crossystem dev_boot_signed_only=0
+    sudo crossystem dev_boot_usb=1 dev_boot_signed_only=0
     ```
 
 6. Reboot with the USB drive/SD card plugged in and press <kbd>CTRL</kbd><kbd>U</kbd> or select "Boot from external

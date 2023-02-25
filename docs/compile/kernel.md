@@ -40,7 +40,7 @@ git clone https://github.com/eupnea-linux/chromeos-kernel.git && cd chromeos-ker
     * modules.tar.xz
     * headers.tar.xz
 
-Proceed to [installing the kernel](#2-installing-the-kernel).
+7. Proceed to [installing the kernel](#_2-installing-the-kernel).
 
 ## Building the Eupnea mainline kernel
 
@@ -79,12 +79,15 @@ git clone https://github.com/eupnea-linux/mainline-kernel.git && cd mainline-ker
 
 # 2. Installing the kernel
 
-The kernel needs to be signed with a proper rootfs mount PARTUUID passed to it. Copy a kernel.flags file from either
-the depthboot repo (repo_root/configs/cmdline) or the EupneaOS repo and replace the PARTUUID with the one of your rootfs
-partition. You can find the PARTUUID of your rootfs partition with ``blkid -o value -s PARTUUID /dev/your_root_mount``.
-Then sign the kernel with:
-```shell
-futility vbutil_kernel --arch x86_64 --version 1 --keyblock /usr/share/vboot/devkeys/kernel.keyblock --signprivate /usr/share/vboot/devkeys/kernel_data_key.vbprivk --bootloader /path/to/kernel.flags --config /path/to/kernel.flags --vmlinuz /path/to/bzImage --pack ./bzImage.signed
-```
+1. Sign the kernel and add a cmdline to it.
+   > This process can be done automatically with
+   the `install-kernel`[script](https://github.com/eupnea-linux/postinstall-scripts/blob/main/system-scripts/install-kernel)  
+   Run `/usr/lib/eupnea/install-kernel --help` to see all available script options.
 
-Flash the kernel to the first partition on your usb/SD card with ``dd`` (or similar).
+2. Extract the modules into `/usr/lib/modules/<insert_version>` and the headers into
+   `/usr/src/linux-headers-<insert_version>`. Replace insert_version with your kernel version
+   > The kernel version can can be read from the bzImage file
+   with `file -bL bzImage | grep -o 'version [^ ]*' | cut -d ' ' -f 2`.
+3. Eupnea-systems only: Uninstall all other eupnea-kernel packages with your distros package manager and this
+   wildcard: `eupnea-*-kernel`.  
+   Warning: The kernel packages might be reinstalled by an update, which would also overwrite your custom kernel.

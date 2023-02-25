@@ -32,9 +32,11 @@
 
     --button-color: #fff;
     --button-color-hover: var(--base-color);
+    --button-color-disabled: var(--button-color);
     --button-background: #00c483;
     --button-background-hover: #fff;
     --button-background-active: #d1ffe7;
+    --button-background-disabled: #aaa;
     --button-ink: #40ff89b0;
     --button-underline: underline;
     
@@ -59,7 +61,7 @@ button.big {
                 padding 0.2s, margin 0.2s, min-width 0.2s,
                 box-shadow 2s cubic-bezier(0.19, 1, 0.22, 1);
 }
-button.big:hover {
+button.big:enabled:hover {
     text-decoration: var(--button-underline);
     color: var(--button-color-hover);
     margin: 0 -0.6rem;
@@ -71,7 +73,7 @@ button.big:hover {
                 padding 0.2s, margin 0.2s, min-width 0.2s,
                 box-shadow 1.5s cubic-bezier(0.19, 1, 0.22, 1);
 }
-button.big:active {
+button.big:enabled:active {
     margin: 0 -0.4rem;
     padding: 0.8rem 1.8rem;
     min-width: 10.5rem;
@@ -79,6 +81,13 @@ button.big:active {
     box-shadow: 0 0 0 0.2rem var(--button-ink), 0 0.2rem 0 #0008;
     transition: padding 0.1s, margin 0.1s, min-width 0.1s,
                 box-shadow 0.3s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+button.big:disabled {
+    cursor: inherit;
+    color: var(--button-color-disabled);
+    background-color: var(--button-background-disabled);
+    box-shadow: 0 0 var(--button-background-disabled), 0 0.1rem 0 #0008;
 }
 
 svg {
@@ -166,9 +175,11 @@ select {
     
     --button-color: #fff;
     --button-color-hover: #fff;
+    --button-color-disabled: var(--base-color);
     --button-background: #00bd7e;
     --button-background-hover: var(--button-background);
     --button-background-active: #009c68;
+    --button-background-disabled: var(--muted-color);
     --button-ink: #2f3a35da;
     --button-underline: none;
     
