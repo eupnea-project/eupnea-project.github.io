@@ -16,4 +16,11 @@ Other issues: <span id="deviceComment"></span>
 
 <span id="deviceInfo"></span>
 
-<script src="/device-support/model-select.js"></script>
+<script setup>
+import * as model from '/device-support/model-select.js'
+
+
+</script>
+
+<!-- <script src="@/device-support/model-select.js"></script> -->
+

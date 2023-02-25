@@ -16,43 +16,45 @@ export default {
         ]
       },
       {
-        text: "🔨 Compile instructions",
+        text: "📖 Project documentation",
         items: [
-          { text: "Compile the Eupnea kernel", link: "/compile/kernel" },
-          { text: "Compile EupneaOS", link: "/compile/eupneaos" },
-          // { text: "Compile Depthboot", link: "/depthboot/requirements" },
+          { text: "FAQ", link: "/project/faq" },
+          { text: "Eupnea Kernels", link: "/project/kernels" },
+          { text: "Supported devices", link: "/extra/supported-devices.html" },
+          { text: "Supported distros + DEs (Depthboot)", link: "https://docs.google.com/spreadsheets/d/1-zIX8lWEXVcO71xCuzvZpHvCUizrU7csKfJusqB2CYM" },
         ]
       },
       {
         text: "📖 Chromebook quirks",
         items: [
-          { text: "Sleep bootlock", link: "/eupnea/bootlock" },
-          { text: "Depthcharge", link: "/eupnea/depthcharge" },
-          { text: "SWAP(ZRAM)", link: "/eupnea/ram-extensions" },
+          { text: "Sleep bootlock", link: "/chromebook/bootlock" },
+          { text: "Depthcharge", link: "/chromebook/depthcharge" },
+          { text: "SWAP(ZRAM)", link: "/chromebook/ram-extensions" },
         ]
       },
       {
-        text: "📖 Project documentation",
+        text: "🔨 Compile instructions",
         items: [
-          { text: "Eupnea Kernels", link: "/development/kernels" },
+          { text: "Compile a Eupnea kernel", link: "/compile/kernel" },
+          { text: "Compile EupneaOS", link: "/compile/eupneaos" },
+          { text: "Compile Depthboot", link: "/depthboot/requirements" },
         ]
       },
       {
         text: "🌐 External docs",
         items: [
           { text: "UEFI/rw_legacy", link: "https://mrchromebox.tech/#bootmodes" },
-          { text: "Depthcharge", link: "https://libreboot.org/docs/depthcharge/" },
           { text: "Linux on pre-coreboot Chromebooks", link: "https://github.com/nh2/chrubuntu-anyos" },
           { text: "Linux on arm Chromebooks", link: "https://github.com/Maccraft123/Cadmium" },
         ]
       },
       {
-        text: "🟢 Distro + DE status",
-        link: "https://docs.google.com/spreadsheets/d/1-zIX8lWEXVcO71xCuzvZpHvCUizrU7csKfJusqB2CYM"
-      },
-      {
-        text: "GitHub (source code)",
-        link: "https://github.com/eupnea-linux/eupnea-builder"
+        text: "👥 Community",
+        items: [
+          { text: "GitHub (source code)", link: "https://github.com/eupnea-linux" },
+          { text: "Revolt server", link: "https://rvlt.gg/6YxHB2Cz" },
+          { text: "Discord server", link: "https://discord.gg/jxXb2PwzYz" },
+        ]
       }
     ]
   },
