@@ -4,6 +4,16 @@ import json
 import requests
 from bs4 import BeautifulSoup
 
+
+# recursive function to merge two dictionaries with nested dictionaries
+def merge_dicts(dict1, dict2):
+    for key, value in dict2.items():
+        if key in dict1 and isinstance(dict1[key], dict) and isinstance(dict2[key], dict):
+            merge_dicts(dict1[key], dict2[key])
+        else:
+            dict1[key] = value
+
+
 # Create soup object
 soup = BeautifulSoup(
     requests.get("https://www.chromium.org/chromium-os/developer-information-for-chrome-os-devices/").text,
@@ -41,6 +51,6 @@ with open("./device-support/devices-autogen.json", "r") as f:
     autogen = json.load(f)
 with open("./device-support/devices-extra.json", "r") as f:
     extra = json.load(f)
-merged = {**autogen, **extra}
+merge_dicts(autogen, extra)
 with open("./device-support/devices-list.json", "w") as f:
-    json.dump(merged, f)
+    json.dump(autogen, f)
