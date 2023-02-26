@@ -5,7 +5,7 @@
  * As a workaround, the entire script has to be scoped.
  */
 function scoped() {
-    const jsonSrcAuto = "/device-support/devices-autogen.json";
+    const jsonSrcAuto = "/device-support/devices-list.json";
     const jsonSrcDevice = "/device-support/device-specific.json";
     const jsonSrcFamily = "/device-support/family-specific.json";
 
