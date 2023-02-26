@@ -29,4 +29,4 @@ To allow modified images to be shared, all trademarked content would have to be 
 
 EupneaOS does not have the same restrictions as the Depthboot base distros, as all trademarked content has been removed.
 The Eupnea Project disallows sharing of EupneaOS images, to prevent unofficial modded versions from being distributed.
-If you want to create a fork of EupneaOS, remove all trademarked content, i.e. the name and logos. 
+If you want to create a fork of EupneaOS, remove all EupneaOS branding, i.e. the name and logos. 
