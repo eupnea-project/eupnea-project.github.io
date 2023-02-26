@@ -41,6 +41,6 @@ with open("./device-support/devices-autogen.json", "r") as f:
     autogen = json.load(f)
 with open("./device-support/devices-extra.json", "r") as f:
     extra = json.load(f)
-autogen.update(extra)
+merged = {**autogen, **extra}
 with open("./device-support/devices-list.json", "w") as f:
-    json.dump(autogen, f)
+    json.dump(merged, f)
