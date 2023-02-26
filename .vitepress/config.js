@@ -59,4 +59,30 @@ export default {
       }
     ]
   },
+  head: [
+    [
+      "link",
+      { rel: "icon", type: "image/png", href: "/assets/project_icon.png" }
+    ],
+    [
+      "link",
+      { rel: "shortcut icon", href: "/favicon.ico" }
+    ],
+    [
+      "meta",
+      { property: "og:url", content: "https://eupnea-linux.github.io/" }
+    ],
+    [
+      "meta",
+      { property: "og:image", content: "https://eupnea-linux.github.io/assets/project_icon.png" }
+    ],
+    [
+      "meta",
+      { property: "og:type", content: "website" }
+    ],
+    [
+      "meta",
+      { property: "og:site_name", content: "The Eupnea Project" }
+    ]
+  ],
 }
