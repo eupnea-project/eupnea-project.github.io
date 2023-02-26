@@ -1,3 +1,7 @@
+---
+prev: false
+---
+
 # Requirements
 
 * A [supported device](/docs/extra/supported-devices "Eupnea - Supported devices")

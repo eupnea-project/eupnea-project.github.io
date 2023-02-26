@@ -2,11 +2,21 @@ export default {
   title: "The Eupnea Project",
   description: "Boot a full Linux system and gain complete control over your device WITHOUT modifying the firmware.",
   cleanUrls: true,
+  rewrites: {
+    "README.md": "introduction.md",
+    "docs/project/faq.md": "faq.md"
+  },
   themeConfig: {
     socialLinks: [
       { icon: "github", link: "https://github.com/eupnea-linux" },
     ],
     sidebar: [
+      {
+        items: [
+          { text: "Introduction", link: "/introduction" },
+          { text: "FAQ", link: "/faq" },
+        ]
+      },
       {
         text: "📜 Depthboot instructions",
         items: [
@@ -19,7 +29,6 @@ export default {
       {
         text: "📖 Project documentation",
         items: [
-          { text: "FAQ", link: "/docs/project/faq" },
           { text: "Eupnea Kernels", link: "/docs/project/kernels" },
           { text: "Supported devices", link: "/docs/extra/supported-devices" },
           { text: "Supported distros + DEs (Depthboot)", link: "https://docs.google.com/spreadsheets/d/1-zIX8lWEXVcO71xCuzvZpHvCUizrU7csKfJusqB2CYM" },

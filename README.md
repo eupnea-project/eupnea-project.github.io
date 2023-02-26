@@ -1,3 +1,7 @@
+---
+title: Introduction
+---
+
 # The Eupnea Project
 
 Welcome to the Eupnea Project wiki. We are a small dev team that focuses on running Linux on Chromebooks.

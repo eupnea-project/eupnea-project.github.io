@@ -1,5 +1,7 @@
 ---
 layout: false
+
+titleTemplate: false
 ---
 
 <script setup>

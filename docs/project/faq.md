@@ -1,6 +1,8 @@
 ---
 prev: false
 next: false
+
+title: Frequently Asked Questions
 ---
 
 # FAQ
