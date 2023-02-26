@@ -1,5 +1,14 @@
 # FAQ
 
+### I have UEFI/Custom BIOS installed on my Chromebook
+If you have completely replaced your Chromebooks firmware with a custom BIOS/UEFI, you will not be able to boot
+Depthboot. You can however still boot EupneaOS.
+To be able to boot Depthboot, you will need to revert your firmware to stock.
+
+### I have RW_Legacy installed on my Chromebook
+Installation of rw_legacy/alt_fw that can be accessed with ctrl+L/"Select alternate bootloader" does not affect 
+your Chromebooks ability to boot Depthboot. Just follow the instructions as usual.
+
 ### Will Depthboot/EupneaOS remove my ChromeOS installation?
 
 Only if you choose to do so. Neither Depthboot nor EupneaOS will remove your ChromeOS installation, unless you
