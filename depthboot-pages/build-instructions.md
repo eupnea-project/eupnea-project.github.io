@@ -18,7 +18,8 @@
       [Enable developer mode](https://www.androidauthority.com/how-to-enable-developer-mode-on-a-chromebook-906688/) and
       try again.
 
-5. Inside the ChromeOS shell enable USB and Custom Kernel Booting by running:
+5. Inside the ChromeOS shell enable USB and Custom Kernel Booting by pasting the command below and pressing <kbd>
+   Enter</kbd>.
     ```
     sudo crossystem dev_boot_usb=1 dev_boot_signed_only=0
     ```
