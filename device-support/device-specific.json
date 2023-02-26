@@ -61,5 +61,13 @@
   },
   "Volet": {
     "comment": "Booting from SD-card does not work. Use a USB drive or an SD-card adapter instead."
+  },
+  "Yuna": {
+    "arch": "Unsupported",
+    "comment": "Even though this device is x86_64, it refuses to boot Depthboot. If you do manage to get it to work, please let us know."
+  },
+  "Paine": {
+    "arch": "Unsupported",
+    "comment": "Even though this device is x86_64, it refuses to boot Depthboot. If you do manage to get it to work, please let us know."
   }
 }
