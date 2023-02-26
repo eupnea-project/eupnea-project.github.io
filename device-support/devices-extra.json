@@ -1,0 +1,24 @@
+{
+  "Samsung": {
+    "Galaxy Chromebook 2 360": {
+      "code_name": "bugzzy",
+      "family_name": "dedede",
+      "arch": "x86_64",
+      "cpu_gen": "Jasper Lake"
+    }
+  },
+  "Hp": {
+    "HP Chromebook x360 14c (volteer)": {
+      "code_name": "eldrid",
+      "family_name": "volteer",
+      "arch": "x86_64",
+      "cpu_gen": "TigerLake-UP3"
+    },
+    "HP Chromebook x360 14c (hatch)": {
+      "code_name": "dragonair",
+      "family_name": "hatch",
+      "arch": "x86_64",
+      "cpu_gen": "Cometlake-U"
+    }
+  }
+}
