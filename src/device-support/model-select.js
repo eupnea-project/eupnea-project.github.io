@@ -1,6 +1,12 @@
-const jsonSrcAuto = "/device-support/devices-autogen.json";
-const jsonSrcDevice = "/device-support/device-specific.json";
-const jsonSrcFamily = "/device-support/family-specific.json";
+import jsonAuto from "./devices-autogen.json";
+import jsonDevice from "./device-specific.json";
+import jsonFamily from "./family-specific.json";
+
+export default {
+    mounted() {
+        console.log("mount");
+    }
+}
 
 /** @type {HTMLSelectElement}*/
 let selectManufacturer;
@@ -11,12 +17,6 @@ let selectModel;
 function resetSelects() {
     selectManufacturer = document.getElementById("manufacturer");
     selectModel = document.getElementById("model");
-}
-
-async function loadJson(src) {
-    const response = await fetch(src);
-    const content = await response.json();
-    return content;
 }
 
 function displaySupport({ autogen, specDevices, specFamilies }) {
@@ -83,9 +83,9 @@ export async function initDeviceSupport() {
     resetSelects();
 
     const data = {
-        autogen: await loadJson(jsonSrcAuto),
-        specDevices: await loadJson(jsonSrcDevice),
-        specFamilies: await loadJson(jsonSrcFamily)
+        autogen: jsonAuto,
+        specDevices: jsonDevice,
+        specFamilies: jsonFamily
     };
     updateSelectOptionsWithKeys(selectManufacturer, data.autogen);
 

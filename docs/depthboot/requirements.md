@@ -1,9 +1,9 @@
 # Requirements
 
-* A [supported device](/extra/supported-devices "Eupnea - Supported devices")
+* A [supported device](/docs/extra/supported-devices "Eupnea - Supported devices")
 * A device to run the script on. **One** of the following:
     * A Chromebook with Crostini enabled(aka "Linux" in settings). **FOLLOW THE INSTRUCTIONS IN
-      THE [CROSTINI SECTION](/extra/crostini "Eupnea - Crostini instructions")**
+      THE [CROSTINI SECTION](/docs/extra/crostini "Eupnea - Crostini instructions")**
     * A Linux pc/laptop(all distros supported)
     * Windows: [Install WSL](https://ubuntu.com/tutorials/install-ubuntu-on-wsl2-on-windows-11-with-gui-support#1-overview)
     * MacOS devices are unsupported

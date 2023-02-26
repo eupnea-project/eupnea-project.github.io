@@ -9,7 +9,7 @@ supports common Linux distributions(Pop!_OS, Ubuntu, Arch and Fedora) and a vari
 environments.  
 Due to licensing restraints, Depthboot cannot be distributed as an iso. Instead, it has to be build locally.
 
-[Build a Depthboot image](/depthboot-pages/requirements.md)
+[Build a Depthboot image](docs/depthboot/requirements.md)
 
 ## EupneaOS
 

@@ -12,7 +12,7 @@ We don't know. We are working on it, but we have no ETA.
 ### Why is sharing Depthboot images illegal?
 
 The Depthboot base distros all allow image/iso/rootfs sharing, but only in an unmodified form. The Depthboot script
-customizes some internal distro behavior (for example it [disables deep sleep](../chromebook/bootlock)) and
+customizes some internal distro behavior (for example it [disables deep sleep](/docs/chromebook/bootlock)) and
 thereby creates modified images.
 To allow modified images to be shared, all trademarked content would have to be removed, i.e. all Distro logos.
 

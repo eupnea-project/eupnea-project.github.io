@@ -23,4 +23,4 @@ vmc stop termina; vmc start termina | exit; vmc container termina penguin --priv
 
 and press <kbd>Enter</kbd>. Wait for the command to finish.
 
-You can now return to the [requirements](/depthboot-pages/requirements.md)
+You can now return to the [requirements](/docs/depthboot/requirements)

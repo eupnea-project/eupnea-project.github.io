@@ -7,7 +7,7 @@
 2. Follow the instructions inside the terminal.
 
 3. Flash the created image file to a USB drive/SD-card using Etcher, ``dd`` or any other tool. If you are using Rufus,
-   read [this](/extra/rufus) first.
+   read [this](/docs/extra/rufus) first.
     - If the script was run within Crostini, copy depthboot.bin to a folder that is accessible from ChromeOS's Files
       App, then [flash](https://www.virtuallypotato.com/burn-an-iso-to-usb-with-the-chromebook-recovery-utility/) it
       using the Chromebook Recovery Utility extension.

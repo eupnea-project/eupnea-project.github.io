@@ -1,6 +1,10 @@
 export default {
   title: "The Eupnea Project",
   description: "Boot a full Linux system and gain complete control over your device WITHOUT modifying the firmware.",
+  cleanUrls: true,
+  rewrites: {
+    "index.md": "index.html"
+  },
   themeConfig: {
     socialLinks: [
       { icon: "github", link: "https://github.com/eupnea-linux" },
@@ -9,35 +13,35 @@ export default {
       {
         text: "📜 Depthboot instructions",
         items: [
-          { text: "Requirements", link: "/depthboot/requirements" },
-          { text: "Build instructions", link: "/depthboot/build-instructions" },
-          { text: "Audio", link: "/depthboot/audio" },
-          { text: "Optional features", link: "/depthboot/optional" },
+          { text: "Requirements", link: "/docs/depthboot/requirements" },
+          { text: "Build instructions", link: "/docs/depthboot/build-instructions" },
+          { text: "Audio", link: "/docs/depthboot/audio" },
+          { text: "Optional features", link: "/docs/depthboot/optional" },
         ]
       },
       {
         text: "📖 Project documentation",
         items: [
-          { text: "FAQ", link: "/project/faq" },
-          { text: "Eupnea Kernels", link: "/project/kernels" },
-          { text: "Supported devices", link: "/extra/supported-devices.html" },
+          { text: "FAQ", link: "/docs/project/faq" },
+          { text: "Eupnea Kernels", link: "/docs/project/kernels" },
+          { text: "Supported devices", link: "/docs/extra/supported-devices" },
           { text: "Supported distros + DEs (Depthboot)", link: "https://docs.google.com/spreadsheets/d/1-zIX8lWEXVcO71xCuzvZpHvCUizrU7csKfJusqB2CYM" },
         ]
       },
       {
         text: "📖 Chromebook quirks",
         items: [
-          { text: "Sleep bootlock", link: "/chromebook/bootlock" },
-          { text: "Depthcharge", link: "/chromebook/depthcharge" },
-          { text: "SWAP(ZRAM)", link: "/chromebook/ram-extensions" },
+          { text: "Sleep bootlock", link: "/docs/chromebook/bootlock" },
+          { text: "Depthcharge", link: "/docs/chromebook/depthcharge" },
+          { text: "SWAP(ZRAM)", link: "/docs/chromebook/ram-extensions" },
         ]
       },
       {
         text: "🔨 Compile instructions",
         items: [
-          { text: "Compile a Eupnea kernel", link: "/compile/kernel" },
-          { text: "Compile EupneaOS", link: "/compile/eupneaos" },
-          { text: "Compile Depthboot", link: "/depthboot/requirements" },
+          { text: "Compile a Eupnea kernel", link: "/docs/compile/kernel" },
+          { text: "Compile EupneaOS", link: "/docs/compile/eupneaos" },
+          { text: "Compile Depthboot", link: "/docs/depthboot/requirements" },
         ]
       },
       {
