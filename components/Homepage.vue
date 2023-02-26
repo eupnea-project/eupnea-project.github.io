@@ -1,5 +1,5 @@
 <script setup>
-import "./style/homepage.css";
+import Chevron from "./Chevron.vue";
 </script>
 
 <template>
@@ -15,7 +15,7 @@ import "./style/homepage.css";
         <div class="presentation" style="animation-delay: 0.2s;">
             <div class="extend">
                     <span class="title">
-                        <img src="assets/eupneaos_icon.png" alt="EupneaOS Logo">
+                        <img src="/assets/eupneaos_icon.png" alt="EupneaOS Logo">
                         <h2>EupneaOS</h2>
                     </span>
                 <p>
@@ -34,31 +34,27 @@ import "./style/homepage.css";
         <div class="presentation" style="animation-delay: 0.4s;">
             <div class="extend">
                     <span class="title">
-                        <img src="assets/depthboot_icon.png" alt="Depthboot Logo">
+                        <img src="/assets/depthboot_icon.png" alt="Depthboot Logo">
                         <h2>Depthboot</h2>
                     </span>
                 <p>
                     <b>Choose</b> between a variety of <b>common Linux distributions</b> and <b>desktop environments</b>
-                    to create a bootable image for <a
-                        href="docs/extra/supported-devices">supported 64-bit
-                    Chromebooks.</a>
+                    to create a bootable image for
+                    <a href="docs/extra/supported-devices">supported 64-bit Chromebooks.</a>
                 </p>
                 <a href="docs/depthboot/requirements" tabindex="-1">
                     <button class="big">Build now</button>
                 </a>
             </div>
             <p class="soft logo-grid">
-                <span><img src="assets/distro-ubuntu.svg" draggable="false">Ubuntu</span>
-                <span><img src="assets/distro-fedora.png" draggable="false">Fedora</span>
-                <span><img src="assets/distro-popos.svg" draggable="false">Pop!_OS</span>
-                <span><img src="assets/distro-arch.svg" draggable="false">Arch Linux</span>
+                <span><img src="/assets/distro-ubuntu.svg" draggable="false">Ubuntu</span>
+                <span><img src="/assets/distro-fedora.png" draggable="false">Fedora</span>
+                <span><img src="/assets/distro-popos.svg" draggable="false">Pop!_OS</span>
+                <span><img src="/assets/distro-arch.svg" draggable="false">Arch Linux</span>
             </p>
         </div>
     </div>
-    <svg class="chevron" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-        <path
-                d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z"/>
-    </svg>
+    <Chevron />
 </section>
 
 <section class="bg-mute full-height info-row">
@@ -79,7 +75,7 @@ import "./style/homepage.css";
     </div>
     <div class="preview">
         <img class="big" src="https://via.placeholder.com/1280x720" alt="Placeholder Image">
-        <img class="icon" style="left: -3vw; bottom: -2vh" src="assets/eupneaos_icon.png">
+        <img class="icon" style="left: -3vw; bottom: -2vh" src="/assets/eupneaos_icon.png">
     </div>
 </section>
 <section class="full-height info-row rev-row">
@@ -103,13 +99,15 @@ import "./style/homepage.css";
     </div>
     <div class="preview">
         <img class="big" src="https://via.placeholder.com/1280x900" alt="Placeholder Image">
-        <img class="icon" style="right: -2vw; top: -3vh; animation-delay: 2s;" src="assets/depthboot_icon.png">
+        <img class="icon" style="right: -2vw; top: -3vh; animation-delay: 2s;" src="/assets/depthboot_icon.png">
     </div>
 </section>
 
 <footer>
     &copy; 2023 The Eupnea Project
 </footer>
-
-<!-- <script src="index.js"></script> -->
 </template>
+
+<style scoped>
+@import url(style/homepage.css);
+</style>

@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400&family=Inter:wght@400;500;600&family=Manrope:wght@800&display=swap');
+
+html, body {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#app, #app > div, #app > div > div {
+    width: 100%;
+    height: 100%;
+}
+
+:root {
+    --base-font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    --base-color: #333;
+    --base-color-emphasize: #555;
+    --heading-color: var(--base-color);
+    --base-background-contrast: #f6f6f6;
+    --soft-color: #999;
+    --muted-color: #ddd;
+    --muted-background: #fff;
+    --base-background-color: #f2f2f2;
+
+    --button-color: #fff;
+    --button-color-hover: var(--base-color);
+    --button-color-disabled: var(--button-color);
+    --button-background: #00c483;
+    --button-background-hover: #fff;
+    --button-background-active: #d1ffe7;
+    --button-background-disabled: #aaa;
+    --button-ink: #40ff89b0;
+    --button-underline: underline;
+    
+    --eupnea-green: inherit;
+    --eupnea-blue: #2d8fff;
+    --selection-color: #9bcaff;
+}
+
+:root {
+    --d-theme-color: #73a6e0;
+    --d-base-background-color: #101113;
+    --d-base-background-contrast: var(--base-background-color);
+    --d-base-color: #bbb;
+    --d-base-color-emphasize: #f4f4f4;
+    --d-muted-color: #495161;
+    --d-muted-outline: var(--muted-color);
+    --d-muted-background: #1f2125;
+    --d-heading-color: #fff;
+    --d-link-color: #ddd;
+    --d-selection-color: #21548d;
+    --d-soft-color: #999;
+    
+    --d-button-color: #fff;
+    --d-button-color-hover: #fff;
+    --d-button-color-disabled: var(--base-color);
+    --d-button-background: #00bd7e;
+    --d-button-background-hover: var(--button-background);
+    --d-button-background-active: #009c68;
+    --d-button-background-disabled: var(--muted-color);
+    --d-button-ink: #2f3a35da;
+    --d-button-underline: none;
+    
+    --d-eupnea-green: #5cff8c;
+    --d-eupnea-blue: #3ca7ff;
+}
+
+button.big {
+    cursor: pointer;
+    color: var(--button-color);
+    padding: 0.8rem 1.4rem;
+    min-width: 10rem;
+    font: inherit;
+    font-weight: 500;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 0.8rem;
+    background-color: var(--button-background);
+    box-shadow: 0 0 var(--button-background), 0 0.1rem 0 #0008;
+    transition: color 0.1s, background-color 0.4s,
+                padding 0.2s, margin 0.2s, min-width 0.2s,
+                box-shadow 2s cubic-bezier(0.19, 1, 0.22, 1);
+}
+button.big:enabled:hover {
+    text-decoration: var(--button-underline);
+    color: var(--button-color-hover);
+    margin: 0 -0.6rem;
+    padding: 0.8rem 2rem;
+    min-width: 11rem;
+    background-color: var(--button-background-hover);
+    box-shadow: 0 0 0 0.8rem var(--button-ink), 0 0.2rem 0 #0008;
+    transition: color 0s, background-color 0.1s,
+                padding 0.2s, margin 0.2s, min-width 0.2s,
+                box-shadow 1.5s cubic-bezier(0.19, 1, 0.22, 1);
+}
+button.big:enabled:active {
+    margin: 0 -0.4rem;
+    padding: 0.8rem 1.8rem;
+    min-width: 10.5rem;
+    background-color: var(--button-background-active);
+    box-shadow: 0 0 0 0.2rem var(--button-ink), 0 0.2rem 0 #0008;
+    transition: padding 0.1s, margin 0.1s, min-width 0.1s,
+                box-shadow 0.3s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+button.big:disabled {
+    cursor: inherit;
+    color: var(--button-color-disabled);
+    background-color: var(--button-background-disabled);
+    box-shadow: 0 0 var(--button-background-disabled), 0 0.1rem 0 #0008;
+}
+
+svg {
+    fill: var(--base-color);
+}
+
+a {
+    transition-duration: 0.1s;
+}
+a svg {
+    transition-duration: inherit;
+}
+a:not(:active):hover {
+    color: var(--base-color-emphasize);
+}
+a:not(:active):hover svg {
+    fill: var(--base-color-emphasize);
+}
+
+select {
+    border-radius: 0.2rem;
+    padding: 0.2rem 0.4rem;
+    margin: 0.2rem 0;
+}
+
+.markdown-section {
+    padding-top: 3.5rem;
+}
+
+html.dark {
+    --theme-color: var(--d-theme-color);
+    --base-background-color: var(--d-base-background-color);
+    --base-background-contrast: var(--d-base-background-contrast);
+    --base-color: var(--d-base-color);
+    --base-color-emphasize: var(--d-base-color-emphasize);
+    --muted-color: var(--d-muted-color);
+    --muted-outline: var(--d-muted-outline);
+    --muted-background: var(--d-muted-background);
+    --heading-color: var(--d-heading-color);
+    --link-color: var(--d-link-color);
+    --selection-color: var(--d-selection-color);
+    --soft-color: var(--d-soft-color);
+    
+    --button-color: var(--d-button-color);
+    --button-color-hover: var(--d-button-color-hover);
+    --button-color-disabled: var(--d-button-color-disabled);
+    --button-background: var(--d-button-background);
+    --button-background-hover: var(--d-button-background-hover);
+    --button-background-active: var(--d-button-background-active);
+    --button-background-disabled: var(--d-button-background-disabled);
+    --button-ink: var(--d-button-ink);
+    --button-underline: var(--d-button-underline);
+    
+    --eupnea-green: var(--d-eupnea-green);
+    --eupnea-blue: var(--d-eupnea-blue);
+}
+
+@media screen and (prefers-color-scheme: dark) {
+  :root {
+    --theme-color: var(--d-theme-color);
+    --base-background-color: var(--d-base-background-color);
+    --base-background-contrast: var(--d-base-background-contrast);
+    --base-color: var(--d-base-color);
+    --base-color-emphasize: var(--d-base-color-emphasize);
+    --muted-color: var(--d-muted-color);
+    --muted-outline: var(--d-muted-outline);
+    --muted-background: var(--d-muted-background);
+    --heading-color: var(--d-heading-color);
+    --link-color: var(--d-link-color);
+    --selection-color: var(--d-selection-color);
+    --soft-color: var(--d-soft-color);
+    
+    --button-color: var(--d-button-color);
+    --button-color-hover: var(--d-button-color-hover);
+    --button-color-disabled: var(--d-button-color-disabled);
+    --button-background: var(--d-button-background);
+    --button-background-hover: var(--d-button-background-hover);
+    --button-background-active: var(--d-button-background-active);
+    --button-background-disabled: var(--d-button-background-disabled);
+    --button-ink: var(--d-button-ink);
+    --button-underline: var(--d-button-underline);
+    
+    --eupnea-green: var(--d-eupnea-green);
+    --eupnea-blue: var(--d-eupnea-blue);
+  }
+}
