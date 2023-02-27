@@ -1,9 +1,5 @@
 @import url(revert-vite.css);
 
-::selection {
-    background-color: var(--selection-color);
-}
-
 a {
     color: var(--link-color, inherit);
     text-decoration: underline;

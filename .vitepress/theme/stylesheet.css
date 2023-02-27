@@ -31,6 +31,8 @@ html, body {
     --button-background-disabled: #aaa;
     --button-ink: #40ff89b0;
     --button-underline: underline;
+
+    --select-background: var(--base-background-color);
     
     --eupnea-green: inherit;
     --eupnea-blue: #2d8fff;
@@ -60,9 +62,15 @@ html, body {
     --d-button-background-disabled: var(--muted-color);
     --d-button-ink: #2f3a35da;
     --d-button-underline: none;
+
+    --d-select-background: #383838;
     
     --d-eupnea-green: #5cff8c;
     --d-eupnea-blue: #3ca7ff;
+}
+
+::selection {
+    background-color: var(--selection-color);
 }
 
 button.big {
@@ -128,13 +136,15 @@ a:not(:active):hover svg {
 }
 
 select {
+    appearance: revert;
+    font: inherit;
     border-radius: 0.2rem;
-    padding: 0.2rem 0.4rem;
+    padding: 0.3rem;
     margin: 0.2rem 0;
-}
+    cursor: pointer;
 
-.markdown-section {
-    padding-top: 3.5rem;
+    background-color: var(--select-background);
+    border: 1px solid var(--muted-color);
 }
 
 html.dark {
@@ -160,37 +170,9 @@ html.dark {
     --button-background-disabled: var(--d-button-background-disabled);
     --button-ink: var(--d-button-ink);
     --button-underline: var(--d-button-underline);
-    
-    --eupnea-green: var(--d-eupnea-green);
-    --eupnea-blue: var(--d-eupnea-blue);
-}
 
-@media screen and (prefers-color-scheme: dark) {
-  :root {
-    --theme-color: var(--d-theme-color);
-    --base-background-color: var(--d-base-background-color);
-    --base-background-contrast: var(--d-base-background-contrast);
-    --base-color: var(--d-base-color);
-    --base-color-emphasize: var(--d-base-color-emphasize);
-    --muted-color: var(--d-muted-color);
-    --muted-outline: var(--d-muted-outline);
-    --muted-background: var(--d-muted-background);
-    --heading-color: var(--d-heading-color);
-    --link-color: var(--d-link-color);
-    --selection-color: var(--d-selection-color);
-    --soft-color: var(--d-soft-color);
-    
-    --button-color: var(--d-button-color);
-    --button-color-hover: var(--d-button-color-hover);
-    --button-color-disabled: var(--d-button-color-disabled);
-    --button-background: var(--d-button-background);
-    --button-background-hover: var(--d-button-background-hover);
-    --button-background-active: var(--d-button-background-active);
-    --button-background-disabled: var(--d-button-background-disabled);
-    --button-ink: var(--d-button-ink);
-    --button-underline: var(--d-button-underline);
+    --select-background: var(--d-select-background);
     
     --eupnea-green: var(--d-eupnea-green);
     --eupnea-blue: var(--d-eupnea-blue);
-  }
 }
