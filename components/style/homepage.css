@@ -104,7 +104,7 @@ h2 {
 }
 
 .full-height {
-    min-height: 100%;
+    min-height: 100vh;
 }
 .initial-view {
     text-align: center;

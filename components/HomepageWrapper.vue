@@ -10,8 +10,6 @@ import Homepage from "./Homepage.vue";
 
 <style scoped>
 #home {
-    width: 100%;
-    height: 100%;
     padding: 0;
     box-sizing: border-box;
     background-color: var(--base-background-contrast);
