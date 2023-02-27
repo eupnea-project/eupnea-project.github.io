@@ -2,6 +2,7 @@ export default {
   title: "The Eupnea Project",
   description: "Boot a full Linux system and gain complete control over your device WITHOUT modifying the firmware.",
   cleanUrls: true,
+  base: "/eupnea-linux.github.io/",
   rewrites: {
     "README.md": "introduction.md",
     "docs/project/faq.md": "faq.md"
