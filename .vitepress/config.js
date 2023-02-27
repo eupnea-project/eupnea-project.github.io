@@ -31,14 +31,14 @@ export default {
         text: "📖 Project documentation",
         items: [
           { text: "Eupnea Kernels", link: "/docs/project/kernels" },
-          { text: "Firmware comparison", link: "/docs/project/firmware-comparison" },
           { text: "Supported devices", link: "/docs/project/supported-devices" },
           { text: "Supported distros + DEs (Depthboot)", link: "https://docs.google.com/spreadsheets/d/1-zIX8lWEXVcO71xCuzvZpHvCUizrU7csKfJusqB2CYM" },
         ]
       },
       {
-        text: "📖 Chromebook quirks",
+        text: "💻 Chromebook documentation",
         items: [
+          { text: "Firmware comparison", link: "/docs/project/firmware-comparison" },
           { text: "Sleep bootlock", link: "/docs/chromebook/bootlock" },
           { text: "Depthcharge", link: "/docs/chromebook/depthcharge" },
           { text: "SWAP(ZRAM)", link: "/docs/chromebook/ram-extensions" },
