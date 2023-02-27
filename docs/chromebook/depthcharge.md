@@ -8,7 +8,7 @@ bootloader.
 
 * No initramfs support -> Much simpler Linux boot flow but also no initramfs features like full disk encryption
 * No bootloader -> no dual booting or other bootloader features
-* Unusual GPT partitioning scheme -> [issues with Rufus](/extra-pages/rufus.md)
+* Unusual GPT partitioning scheme -> [issues with Rufus](/docs/extra/rufus)
 
 > The information below was written by Paul Kocialkowski contact@paulk.fr and taken from [libreboot.org](https://notabug.org/libreboot/lbwww/src/f1d5035a00a8918509cb74a0df77b592b80c0d8c/site/docs/depthcharge/index.md)
 

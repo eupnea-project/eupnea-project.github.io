@@ -1,0 +1,10 @@
+*, ::before, ::after {
+    box-sizing: revert;
+}
+
+h1, h2, h3, h4, h5, h6, li, p {
+    margin: revert;
+    line-height: revert;
+    font-size: revert;
+    font-weight: revert;
+}

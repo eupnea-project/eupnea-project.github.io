@@ -1,34 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
+<script setup>
+import Chevron from "./Chevron.vue";
+</script>
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="color-scheme" content="dark light">
-
-    <title>The Eupnea Project</title>
-    <meta property="og:title" content="Your Chromebook, your way">
-    <meta property="og:site_name" content="The Eupnea Project">
-
-    <meta name="description"
-          content="Boot a full Linux system and gain complete control over your device WITHOUT modifying the firmware.">
-    <meta property="og:description"
-          content="Boot a full Linux system and gain complete control over your device WITHOUT modifying the firmware.">
-
-    <meta property="og:url" content="https://eupnea-linux.github.io/">
-    <meta property="og:image" content="https://eupnea-linux.github.io/assets/project_icon.png">
-    <meta property="og:type" content="website">
-
-    <link rel="icon" type="image/png" href="/assets/project_icon.png"/>
-
-    <link rel="stylesheet" href="style/stylesheet.css">
-    <link rel="stylesheet" href="style/homepage.css">
-</head>
-
-<body>
-
-<section class="full-height initial-view">
+<template>
+    <section class="full-height initial-view">
     <h1>
         <b style="color: var(--eupnea-green);">Your </b>
         <b style="color: var(--eupnea-blue);">Chromebook</b><b style="color: var(--eupnea-green);">, your way</b>
@@ -40,12 +15,12 @@
         <div class="presentation" style="animation-delay: 0.2s;">
             <div class="extend">
                     <span class="title">
-                        <img src="assets/eupneaos_icon.png" alt="EupneaOS Logo">
+                        <img src="/assets/eupneaos_icon.png" alt="EupneaOS Logo">
                         <h2>EupneaOS</h2>
                     </span>
                 <p>
                     EupneaOS is a <a href="https://getfedora.org">Fedora</a> based operating system optimized to run on
-                    <a href="https://eupnea-linux.github.io/main.html#/extra-pages/supported-devices">supported 64-bit
+                    <a href="docs/extra/supported-devices">supported 64-bit
                         Chromebooks</a>. It features a custom (<a href="https://kde.org/">KDE</a> based)
                     <b>ChromeOS style desktop</b> and native <b>Android app support</b>.
                 </p>
@@ -59,31 +34,27 @@
         <div class="presentation" style="animation-delay: 0.4s;">
             <div class="extend">
                     <span class="title">
-                        <img src="assets/depthboot_icon.png" alt="Depthboot Logo">
+                        <img src="/assets/depthboot_icon.png" alt="Depthboot Logo">
                         <h2>Depthboot</h2>
                     </span>
                 <p>
                     <b>Choose</b> between a variety of <b>common Linux distributions</b> and <b>desktop environments</b>
-                    to create a bootable image for <a
-                        href="https://eupnea-linux.github.io/main.html#/extra-pages/supported-devices">supported 64-bit
-                    Chromebooks.</a>
+                    to create a bootable image for
+                    <a href="docs/extra/supported-devices">supported 64-bit Chromebooks.</a>
                 </p>
-                <a href="main.html#/depthboot-pages/requirements.md" tabindex="-1">
+                <a href="docs/depthboot/requirements" tabindex="-1">
                     <button class="big">Build now</button>
                 </a>
             </div>
             <p class="soft logo-grid">
-                <span><img src="assets/distro-ubuntu.svg" draggable="false">Ubuntu</span>
-                <span><img src="assets/distro-fedora.png" draggable="false">Fedora</span>
-                <span><img src="assets/distro-popos.svg" draggable="false">Pop!_OS</span>
-                <span><img src="assets/distro-arch.svg" draggable="false">Arch Linux</span>
+                <span><img src="/assets/distro-ubuntu.svg" draggable="false">Ubuntu</span>
+                <span><img src="/assets/distro-fedora.png" draggable="false">Fedora</span>
+                <span><img src="/assets/distro-popos.svg" draggable="false">Pop!_OS</span>
+                <span><img src="/assets/distro-arch.svg" draggable="false">Arch Linux</span>
             </p>
         </div>
     </div>
-    <svg class="chevron" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-        <path
-                d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z"/>
-    </svg>
+    <Chevron />
 </section>
 
 <section class="bg-mute full-height info-row">
@@ -104,7 +75,7 @@
     </div>
     <div class="preview">
         <img class="big" src="https://via.placeholder.com/1280x720" alt="Placeholder Image">
-        <img class="icon" style="left: -3vw; bottom: -2vh" src="assets/eupneaos_icon.png">
+        <img class="icon" style="left: -3vw; bottom: -2vh" src="/assets/eupneaos_icon.png">
     </div>
 </section>
 <section class="full-height info-row rev-row">
@@ -122,21 +93,21 @@
         <p>
             Follow the instructions described in the documentation to build a Depthboot image.
         </p>
-        <a href="main.html" tabindex="-1">
+        <a href="docs/depthboot/requirements" tabindex="-1">
             <button class="big">Build instructions</button>
         </a>
     </div>
     <div class="preview">
         <img class="big" src="https://via.placeholder.com/1280x900" alt="Placeholder Image">
-        <img class="icon" style="right: -2vw; top: -3vh; animation-delay: 2s;" src="assets/depthboot_icon.png">
+        <img class="icon" style="right: -2vw; top: -3vh; animation-delay: 2s;" src="/assets/depthboot_icon.png">
     </div>
 </section>
 
 <footer>
     &copy; 2023 The Eupnea Project
 </footer>
+</template>
 
-<script src="index.js"></script>
-</body>
-
-</html>
+<style scoped>
+@import url(style/homepage.css);
+</style>

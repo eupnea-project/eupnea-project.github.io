@@ -1,9 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400&family=Inter:wght@400;500;600&family=Manrope:wght@800&display=swap');
 
+html, body {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#app, #app > div, #app > div > div {
+    width: 100%;
+    height: 100%;
+}
+
 :root {
     --base-font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-    --base-font-size: 18px;
-    --base-font-weight: 400;
     --base-color: #333;
     --base-color-emphasize: #555;
     --heading-color: var(--base-color);
@@ -11,24 +20,7 @@
     --soft-color: #999;
     --muted-color: #ddd;
     --muted-background: #fff;
-    --heading-font-weight: 550;
-    --blockquote-border-radius: 5px;
-    --blockquote-border-color: #e3e3e3;
-    --blockquote-border-width: 1px;
-    --sidebar-background: #f6f6f6;
-    --sidebar-border-color: #f6f6f6;
-    --sidebar-name-font-weight: 700;
-    --heading-h2-font-weight: 650;
-    --sidebar-transition-duration: 250ms;
-    --sidebar-width: 19rem;
-    --sidebar-padding: 0 32px;
-    --sidebar-nav-link-border-style: none;
-    --sidebar-background: #f2f2f2;
     --base-background-color: #f2f2f2;
-    --sidebar-toggle-background: rgba(255, 255, 255, 0);
-    --code-theme-background: #ebebeb;
-    --sidebar-soft-shadow: #aaaaaa33;
-    --sidebar-toggle-offset-left: 16px;
 
     --button-color: #fff;
     --button-color-hover: var(--base-color);
@@ -39,10 +31,46 @@
     --button-background-disabled: #aaa;
     --button-ink: #40ff89b0;
     --button-underline: underline;
+
+    --select-background: var(--base-background-color);
     
     --eupnea-green: inherit;
     --eupnea-blue: #2d8fff;
     --selection-color: #9bcaff;
+}
+
+:root {
+    --d-theme-color: #73a6e0;
+    --d-base-background-color: #101113;
+    --d-base-background-contrast: var(--base-background-color);
+    --d-base-color: #bbb;
+    --d-base-color-emphasize: #f4f4f4;
+    --d-muted-color: #495161;
+    --d-muted-outline: var(--muted-color);
+    --d-muted-background: #1f2125;
+    --d-heading-color: #fff;
+    --d-link-color: #ddd;
+    --d-selection-color: #21548d;
+    --d-soft-color: #999;
+    
+    --d-button-color: #fff;
+    --d-button-color-hover: #fff;
+    --d-button-color-disabled: var(--base-color);
+    --d-button-background: #00bd7e;
+    --d-button-background-hover: var(--button-background);
+    --d-button-background-active: #009c68;
+    --d-button-background-disabled: var(--muted-color);
+    --d-button-ink: #2f3a35da;
+    --d-button-underline: none;
+
+    --d-select-background: #383838;
+    
+    --d-eupnea-green: #5cff8c;
+    --d-eupnea-blue: #3ca7ff;
+}
+
+::selection {
+    background-color: var(--selection-color);
 }
 
 button.big {
@@ -108,82 +136,43 @@ a:not(:active):hover svg {
 }
 
 select {
+    appearance: revert;
+    font: inherit;
     border-radius: 0.2rem;
-    padding: 0.2rem 0.4rem;
+    padding: 0.3rem;
     margin: 0.2rem 0;
+    cursor: pointer;
+
+    background-color: var(--select-background);
+    border: 1px solid var(--muted-color);
 }
 
-.sidebar-nav > p, .sidebar-nav ul > li {
-    padding: 0 8px;
-}
-
-.sidebar-nav ul > li.active {
-    background-color: var(--code-inline-background);
-}
-
-.sidebar-nav p * {
-    font-family: 'Inter', sans-serif;
-}
-
-.sidebar-nav strong {
-    font-family: 'Manrope', -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-    font-weight: 800;
-}
-
-.sidebar {
-    box-shadow: 0 20px 60px var(--sidebar-soft-shadow);
-    -ms-overflow-style: none;  /* Internet Explorer 10+ */
-    scrollbar-width: none;  /* Firefox */
-}
-
-.sidebar::-webkit-scrollbar { 
-    display: none;  /* Safari and Chrome */
-}
-
-.markdown-section {
-    padding-top: 3.5rem;
-}
-
-@media screen and (prefers-color-scheme: dark) {
-  :root {
-    --theme-color: #73a6e0;
-    --base-background-color: #101113;
-    --base-background-contrast: var(--base-background-color);
-    --base-color: #bbb;
-    --base-color-emphasize: #f4f4f4;
-    --muted-color: #495161;
-    --muted-outline: var(--muted-color);
-    --muted-background: #1f2125;
-    --heading-color: #fff;
-    --link-color: #ddd;
-    --selection-color: #21548d;
-    --sidebar-background: var(--muted-background);
-    --sidebar-border-color: #333;
-    --sidebar-soft-shadow: #0000;
-    --sidebar-nav-link-color: var(--base-color);
-    --code-theme-background: #2b2e36;
-    --code-theme-text: #fff;
-    --code-inline-background: var(--code-theme-background);
-    --code-inline-color: #ddd;
-    --copycode-background: rgb(34, 34, 34);
-    --copycode-color: #fff;
-    --kbd-background: #111;
-    --kbd-border: 1px solid var(--mono-tint1);
-    --blockquote-background: var(--muted-background);
-    --blockquote-border-color: #777;
-    --soft-color: #999;
+html.dark {
+    --theme-color: var(--d-theme-color);
+    --base-background-color: var(--d-base-background-color);
+    --base-background-contrast: var(--d-base-background-contrast);
+    --base-color: var(--d-base-color);
+    --base-color-emphasize: var(--d-base-color-emphasize);
+    --muted-color: var(--d-muted-color);
+    --muted-outline: var(--d-muted-outline);
+    --muted-background: var(--d-muted-background);
+    --heading-color: var(--d-heading-color);
+    --link-color: var(--d-link-color);
+    --selection-color: var(--d-selection-color);
+    --soft-color: var(--d-soft-color);
     
-    --button-color: #fff;
-    --button-color-hover: #fff;
-    --button-color-disabled: var(--base-color);
-    --button-background: #00bd7e;
-    --button-background-hover: var(--button-background);
-    --button-background-active: #009c68;
-    --button-background-disabled: var(--muted-color);
-    --button-ink: #2f3a35da;
-    --button-underline: none;
+    --button-color: var(--d-button-color);
+    --button-color-hover: var(--d-button-color-hover);
+    --button-color-disabled: var(--d-button-color-disabled);
+    --button-background: var(--d-button-background);
+    --button-background-hover: var(--d-button-background-hover);
+    --button-background-active: var(--d-button-background-active);
+    --button-background-disabled: var(--d-button-background-disabled);
+    --button-ink: var(--d-button-ink);
+    --button-underline: var(--d-button-underline);
+
+    --select-background: var(--d-select-background);
     
-    --eupnea-green: #5cff8c;
-    --eupnea-blue: #3ca7ff;
-  }
+    --eupnea-green: var(--d-eupnea-green);
+    --eupnea-blue: var(--d-eupnea-blue);
 }

@@ -22,13 +22,15 @@
     * bison
     * binutils
 
-   On debian based systems the dependencies can be installed with:
-
-        sudo apt-get update && sudo apt-get install build-essential ncurses-dev xz-utils libssl-dev bc flex libelf-dev bison binutils
+On debian based systems the dependencies can be installed with:
+```shell
+sudo apt-get update && sudo apt-get install build-essential ncurses-dev xz-utils libssl-dev bc flex libelf-dev bison binutils
+```
 
 2. Clone the kernel repo:
-
-        git clone https://github.com/eupnea-linux/chromeos-kernel.git && cd chromeos-kernel
+```shell
+git clone https://github.com/eupnea-linux/chromeos-kernel.git && cd chromeos-kernel
+```
 
 3. Optional: Modify the kernel config in ``kernel.conf``.
 4. Optional: Modify the kernel branch in line 12 in ``kernel_build.py``.
@@ -57,13 +59,15 @@
     * bison
     * binutils
 
-   On debian based systems the dependencies can be installed with:
-
-        sudo apt-get update && sudo apt-get install build-essential ncurses-dev xz-utils libssl-dev bc flex libelf-dev bison binutils
+On debian based systems the dependencies can be installed with:
+```shell
+sudo apt-get update && sudo apt-get install build-essential ncurses-dev xz-utils libssl-dev bc flex libelf-dev bison binutils
+```
 
 2. Clone the kernel repo:
-
-        git clone https://github.com/eupnea-linux/mainline-kernel.git && cd mainline-kernel
+```shell
+git clone https://github.com/eupnea-linux/mainline-kernel.git && cd mainline-kernel
+```
 
 3. Optional: Modify the kernel config in ``kernel.conf``
 4. Optional: Modify the kernel version in line 6 in ``build.sh``

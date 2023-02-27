@@ -19,4 +19,12 @@ Other issues: <span id="deviceComment"></span>
 
 <span id="deviceInfo"></span>
 
-<script src="/device-support/model-select.js"></script>
+<script>
+export default {
+  mounted() {
+    import('/device-support/model-select.js').then((module) => {
+      module.initDeviceSupport();
+    });
+  }
+}
+</script>
