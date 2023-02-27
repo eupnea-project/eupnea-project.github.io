@@ -1,7 +1,7 @@
 # Build instructions
 
 1. Open a terminal, clone the repo and start the script with this command:
-    ```
+    ```shell
     git clone --depth=1 https://github.com/eupnea-linux/depthboot-builder && cd depthboot-builder && ./main.py
     ```
 2. Follow the instructions inside the terminal.
@@ -20,7 +20,7 @@
 
 5. Inside the ChromeOS shell enable USB and Custom Kernel Booting by pasting the command below and pressing <kbd>
    Enter</kbd>.
-    ```
+    ```shell
     sudo crossystem dev_boot_usb=1 dev_boot_signed_only=0
     ```
 

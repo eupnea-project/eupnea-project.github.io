@@ -9,9 +9,3 @@ It's recommended to [set up audio](/docs/depthboot/audio) and confirm all hardwa
 touchscreen, speakers) before proceeding.
 
 To install to internal storage, run: ``install-to-internal`` in a terminal.
-
-## Fan control(ectool):
-
-WIP  
-(Copy the ectool from a ChromeOS iso for now)
-
