@@ -1,4 +1,4 @@
-import jsonAuto from "./devices-autogen.json";
+import jsonAuto from "./devices-list.json";
 import jsonDevice from "./device-specific.json";
 import jsonFamily from "./family-specific.json";
 
