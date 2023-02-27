@@ -36,13 +36,13 @@ html, body {
 
 :root {
     --d-theme-color: #73a6e0;
-    --d-base-background-color: #101113;
+    --d-base-background-color: #17181a;
     --d-base-background-contrast: var(--base-background-color);
     --d-base-color: #bbb;
     --d-base-color-emphasize: #f4f4f4;
-    --d-muted-color: #495161;
+    --d-muted-color: #4f5055;
     --d-muted-outline: var(--muted-color);
-    --d-muted-background: #1f2125;
+    --d-muted-background: #2a2c31;
     --d-heading-color: #fff;
     --d-link-color: #ddd;
     --d-selection-color: #21548d;
@@ -71,15 +71,15 @@ html, body {
 button.big {
     cursor: pointer;
     color: var(--button-color);
-    padding: 0.8rem 1.4rem;
-    min-width: 10rem;
+    padding: 0.7em 1.2em;
+    min-width: 8em;
     font: inherit;
     font-weight: 500;
-    font-size: 1.2rem;
+    font-size: 1.2em;
     border: none;
-    border-radius: 0.8rem;
+    border-radius: 0.8em;
     background-color: var(--button-background);
-    box-shadow: 0 0 var(--button-background), 0 0.1rem 0 #0008;
+    box-shadow: 0 0 var(--button-background), 0 0.1em 0 #0008;
     transition: color 0.1s, background-color 0.4s,
                 padding 0.2s, margin 0.2s, min-width 0.2s,
                 box-shadow 2s cubic-bezier(0.19, 1, 0.22, 1);
@@ -87,21 +87,21 @@ button.big {
 button.big:enabled:hover {
     text-decoration: var(--button-underline);
     color: var(--button-color-hover);
-    margin: 0 -0.6rem;
-    padding: 0.8rem 2rem;
-    min-width: 11rem;
+    margin: 0 -0.2em;
+    padding: 0.7em 1.4em;
+    min-width: 9em;
     background-color: var(--button-background-hover);
-    box-shadow: 0 0 0 0.8rem var(--button-ink), 0 0.2rem 0 #0008;
+    box-shadow: 0 0 0 0.6em var(--button-ink), 0 0.2em 0 #0008;
     transition: color 0s, background-color 0.1s,
                 padding 0.2s, margin 0.2s, min-width 0.2s,
                 box-shadow 1.5s cubic-bezier(0.19, 1, 0.22, 1);
 }
 button.big:enabled:active {
-    margin: 0 -0.4rem;
-    padding: 0.8rem 1.8rem;
-    min-width: 10.5rem;
+    margin: 0 -0.1em;
+    padding: 0.7em 1.3em;
+    min-width: 8.5em;
     background-color: var(--button-background-active);
-    box-shadow: 0 0 0 0.2rem var(--button-ink), 0 0.2rem 0 #0008;
+    box-shadow: 0 0 0 0.2em var(--button-ink), 0 0.2em 0 #0008;
     transition: padding 0.1s, margin 0.1s, min-width 0.1s,
                 box-shadow 0.3s cubic-bezier(0.19, 1, 0.22, 1);
 }
@@ -110,7 +110,7 @@ button.big:disabled {
     cursor: inherit;
     color: var(--button-color-disabled);
     background-color: var(--button-background-disabled);
-    box-shadow: 0 0 var(--button-background-disabled), 0 0.1rem 0 #0008;
+    box-shadow: 0 0 var(--button-background-disabled), 0 0.1em 0 #0008;
 }
 
 svg {
@@ -133,13 +133,13 @@ a:not(:active):hover svg {
 select {
     appearance: revert;
     font: inherit;
-    border-radius: 0.2rem;
-    padding: 0.3rem;
-    margin: 0.2rem 0;
+    border-radius: 0.2em;
+    padding: 0.3em;
+    margin: 0.2em 0;
     cursor: pointer;
 
     background-color: var(--select-background);
-    border: 1px solid var(--muted-color);
+    border: 0.1em solid var(--muted-color);
 }
 
 html.dark {

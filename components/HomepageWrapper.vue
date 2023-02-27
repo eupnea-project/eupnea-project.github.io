@@ -22,4 +22,16 @@ import Homepage from "./Homepage.vue";
     line-height: normal;
     --content-width: 85rem;
 }
+
+@media screen and (max-width: 799px) {
+    #home {
+        font-size: 0.8rem;
+    }
+}
+
+@media screen and (min-width: 2000px) {
+    #home {
+        font-size: 1.1rem;
+    }
+}
 </style>

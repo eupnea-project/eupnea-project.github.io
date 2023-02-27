@@ -10,39 +10,18 @@ p {
     max-width: var(--content-width);
 }
 
-li {
-    font-size: 1.2em;
-}
-
-header, footer {
-    margin: 0 40px;
-    width: calc(100% - 80px);
+footer {
+    width: 100%;
     max-width: var(--content-width);
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-header {
-    position: absolute;
-    box-sizing: border-box;
-    padding: 20px 0 16px 0;
-    border-bottom: 1px solid var(--muted-color);
-}
-
-header a {
-    text-decoration: none;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
 footer {
-    padding: 16px 0 24px 0;
+    padding: 1em 0 2em 0;
     border-top: 1px solid var(--muted-color);
-    margin-top: 16px;
-    font-size: 1em;
+    margin-top: 1em;
 }
 
 section {
@@ -51,33 +30,33 @@ section {
     width: 100%;
     align-items: center;
     justify-content: center;
-    padding: 72px 32px;
+    padding: 5em 2em;
     box-sizing: border-box;
 }
 
-span {
-    display: flex;
-    gap: 12px;
+.icon-text {
+    display: inline-flex;
+    gap: 0.75em;
     align-items: center;
 }
 
-h1, h2 {
+h1, h2, #heading {
     color: var(--heading-color);
 }
 h1 {
     font-size: 3.2em;
     opacity: 0;
-    transform: translateY(-12px);
-    animation: fade-from-bottom 3s 0.3s cubic-bezier(0.19, 1, 0.22, 1) forwards;
+    transform: translateY(-0.5em);
+    animation: fade-transform 3s 0.3s cubic-bezier(0.19, 1, 0.22, 1) forwards;
     margin: 0;
 }
 h2 {
-    margin: 8px 0;
+    margin: 0.25em 0;
     font-size: 2.5em;
 }
 
-#homepageHeading {
-    margin: 2.5em 0;
+#heading {
+    margin: 2em 0 4em 0;
 }
 
 .bg-mute {
@@ -100,12 +79,12 @@ h2 {
 .row {
     display: flex;
     justify-content: center;
-    gap: 40px;
+    gap: 3em;
 }
 
 .row > .separator {
     width: 1px;
-    margin: 64px 0;
+    margin: 4em 0;
 }
 
 .full-height {
@@ -114,7 +93,7 @@ h2 {
 .initial-view {
     position: relative;
     text-align: center;
-    padding-top: calc(20vh - 80px);
+    padding-top: calc(20vh - 4em);
     justify-content: start;
 }
 
@@ -129,30 +108,37 @@ h2 {
 }
 
 .presentation {
-    padding: 24px;
+    padding: 2em;
     background-color: var(--muted-background);
-    border: 1px solid var(--muted-outline);
-    border-radius: 12px;
+    border: 0.1em solid var(--muted-outline);
+    border-radius: 0.75em;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    gap: 24px;
-    max-width: 33rem;
+    gap: 1.5em;
+    max-width: 33em;
     text-align: center;
-    box-shadow: 0 2px 4px 2px #22222208;
+    box-shadow: 0 0.2em 0.4em 0.2em #22222208;
+}
+
+.fade-in-light {
+    color: var(--heading-color);
+    transform: translateY(0.2em);
+    opacity: 0;
+    animation: fade-transform 2s 0.6s cubic-bezier(0.23, 1, 0.320, 1) forwards;
 }
 
 .fade-in > * {
     opacity: 0;
-    animation: fade-from-bottom 1.2s cubic-bezier(0.23, 1, 0.320, 1) forwards;
+    animation: fade-transform 1.2s cubic-bezier(0.23, 1, 0.320, 1) forwards;
 }
 
 .fade-in > .presentation {
-    transform: translateY(32px);
+    transform: translateY(2em);
 }
 
-@keyframes fade-from-bottom {
+@keyframes fade-transform {
     0% { opacity: 0; }
     100% {
         opacity: 1;
@@ -171,36 +157,28 @@ h2 {
 .logo-grid {
     justify-content: center;
     flex-wrap: wrap;
-    gap: 4px 20px;
+    gap: 0.6em 1em;
 }
 .logo-grid > * {
     cursor: default;
     user-select: none;
-    gap: 4px;
+    gap: 0.3em;
 }
 .logo-grid img {
     opacity: 0.6;
     transition: 0.15s;
 }
-.logo-grid span:hover img {
+.logo-grid .icon-text:hover img {
     opacity: 1;
 }
 
 .presentation img {
-    height: 20px;
+    height: 1.5em;
 }
 
 .title > img {
-    height: 64px;
-    filter: drop-shadow(0 1px 2px #0003);
-}
-
-.blog {
-    align-items: flex-start;
-}
-.blog > .separator {
-    height: 1px;
-    margin: 64px 0;
+    height: 4.5em;
+    filter: drop-shadow(0.1em 0.1em 0.2em #0003);
 }
 
 .placeholder {
@@ -213,11 +191,11 @@ h2 {
     left: 0;
     bottom: 0;
     width: 100%;
-    height: 32px;
-    padding: 32px 0;
+    height: 2.5em;
+    padding: 2.5em 0;
     cursor: pointer;
     fill: var(--soft-color);
-    animation: fade-from-bottom 1s 1.5s linear backwards, bounce 2.5s ease-in-out infinite;
+    animation: fade-transform 1s 1.5s linear backwards, bounce 2.5s ease-in-out infinite;
     transition: 0.4s;
 }
 .chevron:hover {
@@ -230,7 +208,7 @@ h2 {
 
 @keyframes bounce {
       0% { transform: translateY(0); }
-     50% { transform: translateY(-8px); }
+     50% { transform: translateY(-1em); }
     100% { transform: translateY(0); }
 }
 
@@ -260,7 +238,7 @@ h2 {
 }
 .preview .icon {
     position: absolute;
-    width: 128px;
+    width: 7em;
     max-width: 20vw;
     filter: drop-shadow(0.2em 0.2em 0.05em #0004);
     animation: float 3s ease-in-out infinite alternate;
@@ -274,7 +252,6 @@ h2 {
 .rev-row {
     flex-direction: row-reverse;
 }
-
 
 @media screen and (max-width: 799px) {
     header {
@@ -313,10 +290,12 @@ h2 {
     .info-row {
         flex-direction: row;
         flex-wrap: wrap;
+        padding: 4em 2em;
     }
     .blog {
         display: flex;
         flex-direction: column;
+        align-items: flex-start;
     }
     .preview {
         width: auto;
