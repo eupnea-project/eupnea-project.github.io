@@ -1,3 +1,7 @@
+---
+next: false
+---
+
 # Supported devices
 
 Check if your device is supported by selecting the manufacturer and model below. If your device is not listed, please

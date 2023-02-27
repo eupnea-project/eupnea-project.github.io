@@ -1,3 +1,7 @@
+---
+next: false
+---
+
 # Ram extensions: swap and zram
 
 It is not recommended to use swap on most Chromebooks, as the high amount of writes will quickly wear out the eMMC

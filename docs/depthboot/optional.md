@@ -1,3 +1,7 @@
+---
+next: false
+---
+
 # Optional features
 
 ## Install to internal storage

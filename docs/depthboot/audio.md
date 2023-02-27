@@ -1,7 +1,5 @@
 # Audio
 
-Apollolake, Skylake, and Kabylake users: switch to mainline kernel with `manage-kernels -u --mainline`.
-
 To enable audio on Depthboot, follow the instructions below:
 
 1. Boot into Depthboot
