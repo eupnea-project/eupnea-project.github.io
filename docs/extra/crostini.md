@@ -1,3 +1,7 @@
+---
+next: false
+---
+
 # Crostini
 
 ## Crostini specific instructions
