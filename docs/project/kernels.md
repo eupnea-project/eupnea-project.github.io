@@ -1,3 +1,7 @@
+---
+prev: false
+---
+
 # Eupnea kernels
 
 Both EupneaOS and Depthboot use the same precompiled kernel binaries, which are build using GitHub Actions.
