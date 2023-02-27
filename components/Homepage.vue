@@ -3,14 +3,16 @@ import Chevron from "./Chevron.vue";
 </script>
 
 <template>
-    <section class="full-height initial-view">
-    <h1>
-        <b style="color: var(--eupnea-green);">Your </b>
-        <b style="color: var(--eupnea-blue);">Chromebook</b><b style="color: var(--eupnea-green);">, your way</b>
+<section class="full-height initial-view">
+    <div id="homepageHeading">
+        <h1>
+            <b style="color: var(--eupnea-green);">Your </b>
+            <b style="color: var(--eupnea-blue);">Chromebook</b><b style="color: var(--eupnea-green);">, your way</b>
+        </h1>
         <p>
             Boot a full Linux system and gain complete control over your device <b>WITHOUT</b> modifying the firmware.
         </p>
-    </h1>
+    </div>
     <div class="row fade-in">
         <div class="presentation" style="animation-delay: 0.2s;">
             <div class="extend">

@@ -15,7 +15,7 @@ import Homepage from "./Homepage.vue";
     background-color: var(--base-background-contrast);
     color: var(--base-color);
     font-family: var(--base-font-family);
-    font-size: 1.5rem;
+    font-size: 1rem;
     display: flex;
     flex-direction: column;
     align-items: center;

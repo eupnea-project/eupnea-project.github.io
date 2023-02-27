@@ -6,12 +6,12 @@ a {
 }
 
 p {
-    font-size: 1.2rem;
+    font-size: 1.2em;
     max-width: var(--content-width);
 }
 
 li {
-    font-size: 1.2rem;
+    font-size: 1.2em;
 }
 
 header, footer {
@@ -42,7 +42,7 @@ footer {
     padding: 16px 0 24px 0;
     border-top: 1px solid var(--muted-color);
     margin-top: 16px;
-    font-size: 1rem;
+    font-size: 1em;
 }
 
 section {
@@ -65,14 +65,19 @@ h1, h2 {
     color: var(--heading-color);
 }
 h1 {
-    font-size: 3.2rem;
+    font-size: 3.2em;
     opacity: 0;
     transform: translateY(-12px);
-    animation: fade-from-bottom 3s 0.3s cubic-bezier(0.19, 1, 0.22, 1) forwards;;
+    animation: fade-from-bottom 3s 0.3s cubic-bezier(0.19, 1, 0.22, 1) forwards;
+    margin: 0;
 }
 h2 {
     margin: 8px 0;
-    font-size: 2.5rem;
+    font-size: 2.5em;
+}
+
+#homepageHeading {
+    margin: 2.5em 0;
 }
 
 .bg-mute {
@@ -82,7 +87,7 @@ h2 {
 }
 
 .soft {
-    font-size: 0.9rem;
+    font-size: 0.9em;
     color: var(--soft-color);
     max-width: 65%;
     margin: 0;
@@ -107,6 +112,7 @@ h2 {
     min-height: 100vh;
 }
 .initial-view {
+    position: relative;
     text-align: center;
     padding-top: calc(20vh - 80px);
     justify-content: start;
@@ -119,7 +125,7 @@ h2 {
 .presentation > .soft {
     display: flex;
     align-items: center;
-    min-height: 3rem;
+    min-height: 3em;
 }
 
 .presentation {
@@ -236,7 +242,7 @@ h2 {
 }
 .preview {
     position: relative;
-    background: repeating-linear-gradient(-45deg, #0008 0rem, #0008 0.4rem, #0000 0rem, #0000 1.4rem);
+    background: repeating-linear-gradient(-45deg, #0008 0em, #0008 0.4em, #0000 0em, #0000 1.4em);
     display: flex;
     min-width: 30vw;
     width: 40vw;
@@ -276,7 +282,7 @@ h2 {
     }
 
     h1 {
-        font-size: 3rem;
+        font-size: 3em;
     }
 
     .row {

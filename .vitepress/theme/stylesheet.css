@@ -6,11 +6,6 @@ html, body {
     height: 100%;
 }
 
-#app, #app > div, #app > div > div {
-    width: 100%;
-    height: 100%;
-}
-
 :root {
     --base-font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     --base-color: #333;
