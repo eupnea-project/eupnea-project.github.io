@@ -22,7 +22,7 @@ import Chevron from "./Chevron.vue";
                     </span>
                     <p>
                         EupneaOS is a <a href="https://getfedora.org">Fedora</a> based operating system optimized to run on
-                        <a href="docs/extra/supported-devices">supported 64-bit
+                        <a href="docs/project/supported-devices">supported 64-bit
                             Chromebooks</a>. It features a custom (<a href="https://kde.org/">KDE</a> based)
                         <b>ChromeOS style desktop</b> and native <b>Android app support</b>.
                     </p>
@@ -42,7 +42,7 @@ import Chevron from "./Chevron.vue";
                     <p>
                         <b>Choose</b> between a variety of <b>common Linux distributions</b> and <b>desktop environments</b>
                         to create a bootable image for
-                        <a href="docs/extra/supported-devices">supported 64-bit Chromebooks.</a>
+                        <a href="docs/project/supported-devices">supported 64-bit Chromebooks.</a>
                     </p>
                     <a href="docs/depthboot/requirements" tabindex="-1">
                         <button class="big">Build now</button>

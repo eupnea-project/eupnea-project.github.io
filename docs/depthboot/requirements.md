@@ -4,7 +4,7 @@ prev: false
 
 # Requirements
 
-* A [supported device](/docs/extra/supported-devices "Eupnea - Supported devices")
+* A [supported device](/docs/project/supported-devices "Eupnea - Supported devices")
 * A device to run the script on. **One** of the following:
     * A Chromebook with Crostini enabled(aka "Linux" in settings). **FOLLOW THE INSTRUCTIONS IN
       THE [CROSTINI SECTION](/docs/extra/crostini "Eupnea - Crostini instructions")**

@@ -4,7 +4,7 @@ export default {
   cleanUrls: true,
   rewrites: {
     "README.md": "introduction.md",
-    "docs/project/faq.md": "faq.md"
+    "docs/extra/faq.md": "faq.md"
   },
   themeConfig: {
     socialLinks: [
@@ -21,6 +21,7 @@ export default {
         text: "📜 Depthboot instructions",
         items: [
           { text: "Requirements", link: "/docs/depthboot/requirements" },
+          { text: "Supported devices", link: "/docs/depthboot/supported-devices-standalone" },
           { text: "Build instructions", link: "/docs/depthboot/build-instructions" },
           { text: "Audio", link: "/docs/depthboot/audio" },
           { text: "Optional features", link: "/docs/depthboot/optional" },
@@ -30,7 +31,7 @@ export default {
         text: "📖 Project documentation",
         items: [
           { text: "Eupnea Kernels", link: "/docs/project/kernels" },
-          { text: "Supported devices", link: "/docs/extra/supported-devices" },
+          { text: "Supported devices", link: "/docs/project/supported-devices" },
           { text: "Supported distros + DEs (Depthboot)", link: "https://docs.google.com/spreadsheets/d/1-zIX8lWEXVcO71xCuzvZpHvCUizrU7csKfJusqB2CYM" },
         ]
       },
