@@ -3,7 +3,7 @@ export default {
   description: "Boot a full Linux system and gain complete control over your device WITHOUT modifying the firmware.",
   cleanUrls: true,
   rewrites: {
-    "README.md": "introduction.md",
+    "docs/extra/overview.md": "overview.md",
     "docs/extra/faq.md": "faq.md"
   },
   themeConfig: {
