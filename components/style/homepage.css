@@ -259,7 +259,8 @@ h2 {
     }
 
     h1 {
-        font-size: 3em;
+        font-size: 3.5em;
+        margin-bottom: 1em;
     }
 
     .row {
@@ -276,7 +277,7 @@ h2 {
     }
 
     .initial-view {
-        padding-top: inherit;
+        padding-top: 3em;
     }
 
     .chevron {
