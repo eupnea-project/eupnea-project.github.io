@@ -8,7 +8,7 @@ next: false
 ## Crostini specific instructions
 
 The Crostini container needs to be started with special privileges to allow for loop devices to be mounted. **These
-instructions are mandatory for Crostini.**
+instructions are mandatory each time for Crostini.**
 
 ## Instructions:
 
