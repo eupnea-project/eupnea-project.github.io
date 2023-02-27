@@ -1,3 +1,7 @@
+---
+prev: false
+---
+
 # Sleep bootlock
 
 When the lid is closed or the system is idle for a long time, Linux distributions tend to sleep to S3(Suspend-to-RAM).
