@@ -17,7 +17,7 @@ import Chevron from "./Chevron.vue";
             <div class="presentation" style="animation-delay: 0.2s;">
                 <div class="extend">
                     <span class="title icon-text">
-                        <img src="assets/eupneaos_icon.png" alt="EupneaOS Logo">
+                        <img src="/assets/eupneaos_icon.png" alt="EupneaOS Logo">
                         <h2>EupneaOS</h2>
                     </span>
                     <p>
@@ -36,7 +36,7 @@ import Chevron from "./Chevron.vue";
             <div class="presentation" style="animation-delay: 0.4s;">
                 <div class="extend">
                     <span class="title icon-text">
-                        <img src="assets/depthboot_icon.png" alt="Depthboot Logo">
+                        <img src="/assets/depthboot_icon.png" alt="Depthboot Logo">
                         <h2>Depthboot</h2>
                     </span>
                     <p>
@@ -49,10 +49,10 @@ import Chevron from "./Chevron.vue";
                     </a>
                 </div>
                 <ul class="soft logo-grid">
-                    <li class="icon-text"><img src="assets/distro-ubuntu.svg" draggable="false">Ubuntu</li>
-                    <li class="icon-text"><img src="assets/distro-fedora.png" draggable="false">Fedora</li>
-                    <li class="icon-text"><img src="assets/distro-popos.svg" draggable="false">Pop!_OS</li>
-                    <li class="icon-text"><img src="assets/distro-arch.svg" draggable="false">Arch Linux</li>
+                    <li class="icon-text"><img src="/assets/distro-ubuntu.svg" draggable="false">Ubuntu</li>
+                    <li class="icon-text"><img src="/assets/distro-fedora.png" draggable="false">Fedora</li>
+                    <li class="icon-text"><img src="/assets/distro-popos.svg" draggable="false">Pop!_OS</li>
+                    <li class="icon-text"><img src="/assets/distro-arch.svg" draggable="false">Arch Linux</li>
                 </ul>
             </div>
         </div>
@@ -77,7 +77,7 @@ import Chevron from "./Chevron.vue";
         </div>
         <div class="preview">
             <img class="big" src="https://via.placeholder.com/1280x720" alt="Placeholder Image">
-            <img class="icon" style="left: -3vw; bottom: -2vh" src="assets/eupneaos_icon.png">
+            <img class="icon" style="left: -3vw; bottom: -2vh" src="/assets/eupneaos_icon.png">
         </div>
     </section>
     <section class="full-height info-row rev-row">
@@ -101,7 +101,7 @@ import Chevron from "./Chevron.vue";
         </div>
         <div class="preview">
             <img class="big" src="https://via.placeholder.com/1280x900" alt="Placeholder Image">
-            <img class="icon" style="right: -2vw; top: -3vh; animation-delay: 2s;" src="assets/depthboot_icon.png">
+            <img class="icon" style="right: -2vw; top: -3vh; animation-delay: 2s;" src="/assets/depthboot_icon.png">
         </div>
     </section>
 
