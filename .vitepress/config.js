@@ -13,7 +13,7 @@ export default {
     sidebar: [
       {
         items: [
-          { text: "Introduction", link: "/introduction" },
+          { text: "Overview", link: "/overview" },
           { text: "FAQ", link: "/faq" },
         ]
       },
