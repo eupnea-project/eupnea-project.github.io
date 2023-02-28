@@ -9,6 +9,10 @@ title: Frequently Asked Questions
 
 Frequently asked questions (and answers) regarding the Eupnea Project.
 
+## What is the difference between the Mainline kernel and the ChromeOS kernel?
+
+Here is a full page comparing the two kernels: [Eupnea Kernels](/docs/project/kernels)
+
 ## I have UEFI/Custom BIOS installed on my Chromebook
 
 If you have completely replaced your Chromebooks firmware with a custom BIOS/UEFI, you will not be able to boot
