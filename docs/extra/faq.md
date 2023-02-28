@@ -9,6 +9,15 @@ title: Frequently Asked Questions
 
 Frequently asked questions (and answers) regarding the Eupnea Project.
 
+## Will Depthboot/EupneaOS remove my ChromeOS installation?
+
+Only if you choose to do so. Neither Depthboot nor EupneaOS will remove your ChromeOS installation, unless you
+explicitly choose to do so.
+
+## When will EupneaOS be ready?
+
+We don't know. We are working on it, but we have no ETA.
+
 ## What is the difference between the Mainline kernel and the ChromeOS kernel?
 
 Here is a full page comparing the two kernels: [Eupnea Kernels](/docs/project/kernels)
@@ -27,15 +36,6 @@ your Chromebooks ability to boot Depthboot. Just follow the instructions as usua
 ## UEFI vs RW_LEGACY vs Depthboot vs EupneaOS?
 
 Read all pros and ons of each method of booting Linux on a Chromebook [here](/docs/chromebook/firmware-comparison).
-
-## Will Depthboot/EupneaOS remove my ChromeOS installation?
-
-Only if you choose to do so. Neither Depthboot nor EupneaOS will remove your ChromeOS installation, unless you
-explicitly choose to do so.
-
-## When will EupneaOS be ready?
-
-We don't know. We are working on it, but we have no ETA.
 
 ## Why is sharing Depthboot images illegal?
 
