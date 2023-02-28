@@ -21,10 +21,10 @@ The source of the kernel, modules and headers of the kernel executable:
 
 ## ChromeOS-Eupnea kernel
 
-The ChromeOS-Eupnea kernel is a modified version of the ChromeOS 5.10 kernel, which itself is a modified version of the
-upstream 5.10 Linux kernel with some backported patches from newer kernel versions. The ChromeOS kernel is the newest
-kernel used in Chromebooks, despite not being the newest Linux kernel and not even the newest ChromeOS kernel version (
-the ChromeOS kernel repo contains 5.15 and even 6.1 branches).
+The ChromeOS-Eupnea kernel is a slightly modified version of the ChromeOS 5.10 kernel, which itself is a modified
+version of the upstream 5.10 Linux kernel with some backported patches from newer kernel versions. The ChromeOS kernel
+is the newest kernel used in Chromebooks, despite not being the newest Linux kernel and not even the newest ChromeOS
+kernel version (the ChromeOS kernel repo contains 5.15 and even 6.1 branches).
 
 Some devices require the ChromeOS kernel due to better AVS (Intel audio driver used by some Skylake and Kaby Lake
 devices) support, although the Mainline kernel should soon receive more AVS support too.
