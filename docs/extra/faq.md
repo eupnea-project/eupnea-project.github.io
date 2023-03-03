@@ -37,6 +37,15 @@ your Chromebooks ability to boot Depthboot. Just follow the instructions as usua
 
 Read all pros and ons of each method of booting Linux on a Chromebook [here](/docs/chromebook/firmware-comparison).
 
+## Are the Depthboot distros modified?
+
+Yes, but only the minimal amount required to make them bootable and work properly on Chromebooks (Kernel + minor
+configs).  
+In addition to installing some packages from the distro's repo, our own repo is added to the distro, which contains the
+eupnea-utils and eupnea-system packages (and some others). You can read more about the packages in the respective
+repos.  
+Nothing else is modified, i.e. all distro "quirks" are kept intact (Snap, no Tap-to-click by default on GNOME, etc.).
+
 ## Why is sharing Depthboot images illegal?
 
 The Depthboot base distros all allow image/iso/rootfs sharing, but only in an unmodified form. The Depthboot script
@@ -48,4 +57,10 @@ To allow modified images to be shared, all trademarked content would have to be 
 
 EupneaOS does not have the same restrictions as the Depthboot base distros, as all trademarked content has been removed.
 The Eupnea Project disallows sharing of EupneaOS images, to prevent unofficial modded versions from being distributed.
-If you want to create a fork of EupneaOS, remove all EupneaOS branding, i.e. the name and logos. 
+If you want to create a fork of EupneaOS, remove all EupneaOS branding, i.e. the name and logos.
+
+## Does the Eupnea Project collect any telemetry?
+
+No, setting up telemetry services is too much work.  
+Keep in mind that the distros themselves might collect telemetry and send it to their respective
+developers.
