@@ -90,7 +90,7 @@ git clone https://github.com/eupnea-linux/mainline-kernel.git && cd mainline-ker
 
 1. Sign the kernel and add a cmdline to it.
    > This process can be done automatically with
-   the `install-kernel`[script](https://github.com/eupnea-linux/postinstall-scripts/blob/main/system-scripts/install-kernel)  
+   the `install-kernel`[script](https://github.com/eupnea-linux/eupnea-utils/blob/main/system-scripts/install-kernel)  
    Run `/usr/lib/eupnea/install-kernel --help` to see all available script options.
 
 2. Extract the modules into `/usr/lib/modules/<insert_version>` and the headers into
