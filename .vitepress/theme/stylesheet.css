@@ -28,6 +28,7 @@ html, body {
     --button-underline: underline;
 
     --select-background: var(--base-background-color);
+    --kbd-shadow-color: #3333;
     
     --eupnea-green: inherit;
     --eupnea-blue: #2d8fff;
@@ -59,6 +60,7 @@ html, body {
     --d-button-underline: none;
 
     --d-select-background: #383838;
+    --d-kbd-shadow-color: #aaa3;
     
     --d-eupnea-green: #5cff8c;
     --d-eupnea-blue: #3ca7ff;
@@ -142,6 +144,17 @@ select {
     border: 0.1em solid var(--muted-color);
 }
 
+kbd {
+    padding: 0.3em 0.4em;
+    margin: 0.1em;
+    background-color: var(--vp-c-mute);
+    border-radius: 0.2em;
+    border: 0.1em solid var(--muted-color);
+    box-shadow: 0 0.1em 0.1em var(--kbd-shadow-color);
+    font-family: inherit;
+    font-size: 0.9em;
+}
+
 html.dark {
     --theme-color: var(--d-theme-color);
     --base-background-color: var(--d-base-background-color);
@@ -167,6 +180,7 @@ html.dark {
     --button-underline: var(--d-button-underline);
 
     --select-background: var(--d-select-background);
+    --kbd-shadow-color: var(--d-kbd-shadow-color);
     
     --eupnea-green: var(--d-eupnea-green);
     --eupnea-blue: var(--d-eupnea-blue);
