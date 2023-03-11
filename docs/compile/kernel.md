@@ -100,18 +100,4 @@ git clone https://github.com/eupnea-linux/mainline-kernel.git && cd mainline-ker
 3. Eupnea-systems only: Uninstall all other eupnea-kernel packages with your distros package manager and this
    wildcard: `eupnea-*-kernel`.  
    Warning: The kernel packages might be reinstalled by an update, which would also overwrite your custom kernel.
-## Using Backup Kernel
-
-If you need to use the backup kernel in case of an emergancy, do the following.
-
-Open the Terminal and run this command.
-
-```shell
-lsblk
-```
-
-Find the first partition name on the drive you want to use the backup kernel on, replace the 'placeholder' in the following command with the partition name, and run it.
-
-```shell
-dd if=/dev/zero of=/dev/placeholder
-```
+## [Using Backup Kernel](https://eupnea-linux.github.io/troubleshoot#using-backup-kernel)
