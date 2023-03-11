@@ -22,20 +22,6 @@ We don't know. We are working on it, but we have no ETA.
 
 Here is a full page comparing the two kernels: [Eupnea Kernels](/docs/project/kernels)
 
-## How do I use the backup kernel?
-
-To use the backup kernel, Open the Terminal and run this command.
-
-```shell
-lsblk
-```
-
-Find the first partition name on the drive you want to use the backup kernel on, replace the 'placeholder' in the following command with the partition name, and run it.
-
-```shell
-dd if=/dev/zero of=/dev/placeholder
-```
-
 ## I have UEFI/Custom BIOS installed on my Chromebook
 
 If you have completely replaced your Chromebooks firmware with a custom BIOS/UEFI, you will not be able to boot
