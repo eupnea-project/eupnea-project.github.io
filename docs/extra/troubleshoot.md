@@ -4,57 +4,30 @@ next: false
 
 title: Troubleshooting
 ---
-## Depthboot won't Boot From External Media
-- Make sure your device is [supported](https://eupnea-linux.github.io/docs/depthboot/supported-devices) (ARM Chromebooks are not supported).
 
-- If your Chromebook beeps, make sure that the [flags](https://eupnea-linux.github.io/docs/depthboot/build-instructions) were set correctly.
+**DISCLAIMER: IF YOU GET AN ERROR/DO NOT GET A SUCCESS MESSAGE WHILE RUNNING ANYTHING FORM THE EUPNEA PROJECT, PLEASE
+REPORT IT ON GITHUB/DISCORD/REVOLT.**
 
-- Recreate your Depthboot Image and reflash with the same program you used.
+## Depthboot won't boot for the first time
 
-- Use a different External Media (USB, SD Card, etc).
+1. Make sure your device is [supported](/docs/depthboot/supported-devices).
 
-- UEFI and RW_Legacy are not supported by Depthboot.
+2. Make sure [developer mode](https://www.androidauthority.com/how-to-enable-developer-mode-on-a-chromebook-906688/) is
+   enabled.
 
+3. Make sure you are **NOT** trying to boot via UEFI/RW_LEGACY.
 
+4. If the Chromebook beeps when pressing ctrl+U, make sure that
+   the [crossflags in STEP 5](/docs/depthboot/build-instructions) were set correctly.
 
-## Depthboot won't Boot From Internal
+5. Rebuild the Depthboot image and reflash it to another external media(USB, SD Card, etc).
 
-- If it won't boot after installing to internal, try reinstalling again.
-Try Using a Different Depthboot Image.
+## Depthboot won't boot after an update
 
-- If it won't boot after a eupnea update, try to attempt to use the [backup kernel](https://eupnea-linux.github.io/faq#using-the-backup-kernel).
+1. Immediately report the issue on GitHub/Discord/Revolt.
+2. [Use the reserve kernel](/docs/project/kernels#reserve-kernel) to boot into Depthboot.
 
-- If it won't boot due to an unrelated update, backup all files and reinstall Depthboot.
+## Chromebook shows recovery screen
 
-## Using The Backup Kernel
-
-To use the backup kernel, Boot from an External Media containing Depthboot and Open the Terminal.
-
-Run the Following Command:
-```shell
-lsblk
-```
-It should list all storage devices connected, and find your internal drive (it doesn't have a mount point and isn't zram).
-
-Find the first partition of your drive, replace the 'placeholder' in the following command with the partition name, and run it.
-
-```shell
-dd if=/dev/zero of=/dev/placeholder
-```
-Wait until the command finishes, then restart and boot from internal.
-
-
-
-## Chromebook Shows Recovery Screen
-- If it shows the recovery screen, that means that your Chromebook may have exited developer mode.
-- You have to reinstall Chrome OS to reinstall Depthboot again.
-- If possible, backup all files on your drive on another device.
-
-## Audio Doesnt Work
-
-- Make sure you followed the steps [here](https://eupnea-linux.github.io/docs/depthboot/audio).
-
-## None of these work for me / I need additional support
-
-- Contact the Eupnea OS Team by making a Github Issue or use the official [discord](https://discord.gg/jxXb2PwzYz) or [revolt](https://rvlt.gg/6YxHB2Cz) servers.
-
+If you see the recovery screen, that means that your Chromebook may have exited developer mode. Reinstall Chrome OS and
+re-enable developer mode before reinstalling Depthboot.

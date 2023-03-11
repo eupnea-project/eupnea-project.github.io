@@ -35,18 +35,16 @@ The Mainline kernel is the default Eupnea kernel.
 The Mainline-Eupnea kernel is the upstream stable kernel with a custom config. The Mainline kernel has the most
 features, although some Chromebooks might experience hardware issues with it and should use the ChromeOS kernel instead.
 
-## Using Backup Kernel
+## Reserve kernel
 
-If you need to use the backup kernel in case of an emergancy, do the following.
+All Depthboot systems have a reserve kernel which can be used to boot into Depthboot if the main kernel fails to boot.
 
-Open the Terminal and run this command.
-
-```shell
-lsblk
-```
-
-Find the first partition name on the drive you want to use the backup kernel on, replace the 'placeholder' in the following command with the partition name, and run it.
-
-```shell
-dd if=/dev/zero of=/dev/placeholder
-```
+1. Boot into ChromeOS or use an external media with Depthboot(a cli image is enough).
+    1. If on ChromeOS: press <kbd>CTRL</kbd><kbd>ALT</kbd><kbd>T</kbd>, type `shell` and press <kbd>Enter</kbd>.
+2. Run `lsblk` to list all connected storage devices
+3. Find the internal/external drive. It will be listed as `/dev/sdX` or `/dev/mmcblkX` or `/dev/nvmeXnY`.
+    1. Run `sudo dd if=/dev/zero of=/dev/sdX1` if you have a USB and found a drive with the name `/dev/sdX`
+    2. OR
+    3. Run `sudo dd if=/dev/zero of=/dev/mmcblkXp1`/`sudo dd if=/dev/zero of=/dev/nvmeXnYp1`(NOTICE THE "P") if you have
+       an SD-Card or an internal drive and found a drive with the name `/dev/mmcblkX` or `/dev/nvmeXnY`
+4. Wait until the command finishes, then restart and boot from the internal/external drive you just modified.
