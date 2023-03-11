@@ -34,3 +34,19 @@ devices) support, although the Mainline kernel should soon receive more AVS supp
 The Mainline kernel is the default Eupnea kernel.
 The Mainline-Eupnea kernel is the upstream stable kernel with a custom config. The Mainline kernel has the most
 features, although some Chromebooks might experience hardware issues with it and should use the ChromeOS kernel instead.
+
+## Using Backup Kernel
+
+If you need to use the backup kernel in case of an emergancy, do the following.
+
+Open the Terminal and run this command.
+
+```shell
+lsblk
+```
+
+Find the first partition name on the drive you want to use the backup kernel on, replace the 'placeholder' in the following command with the partition name, and run it.
+
+```shell
+dd if=/dev/zero of=/dev/placeholder
+```
