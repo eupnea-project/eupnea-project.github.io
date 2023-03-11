@@ -21,7 +21,7 @@ UEFI and RW_Legacy are not supported by depthboot.
 If it wont boot after installing to internel, try reinstalling again.
 If it doesnt work, try a different Depthboot Image.
 
-# Depthboot Wont Boot In General
+## Depthboot Wont Boot In General
 
 If it wont boot after an eupnea update, try to attempt to use the backup kernel.
 
@@ -43,7 +43,7 @@ Wait until the command finishes, then restart and boot from internel.
 
 If it broke due to an unrealated update, backup all files and reinstall depthboot.
 
-# Chromebook Shows Recovery Screen
+## Chromebook Shows Recovery Screen
 If it shows the recovery screen, that means that your Chromebook may have exited developer mode.
 You have to reinstall chrome os to reinstall depthboot again.
 If possible, backup all files of your drive on an another device.
