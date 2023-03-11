@@ -4,7 +4,7 @@ export default {
   cleanUrls: true,
   rewrites: {
     "docs/extra/overview.md": "overview.md",
-    "docs/extra/faq.md": "faq.md"
+    "docs/extra/faq.md": "faq.md",
     "docs/extra/troubleshoot.md": "troubleshoot.md"
   },
   themeConfig: {
