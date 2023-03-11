@@ -5,6 +5,7 @@ export default {
   rewrites: {
     "docs/extra/overview.md": "overview.md",
     "docs/extra/faq.md": "faq.md"
+    "docs/extra/troubleshoot.md": "troubleshoot.md"
   },
   themeConfig: {
     socialLinks: [
@@ -15,6 +16,7 @@ export default {
         items: [
           { text: "Overview", link: "/overview" },
           { text: "FAQ", link: "/faq" },
+          { text: "Troubleshooting", link: "/troubleshoot" },
         ]
       },
       {
