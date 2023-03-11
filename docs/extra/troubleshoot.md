@@ -15,12 +15,18 @@ Use a different Externel Media (USB, SD Card, etc).
 
 UEFI and RW_Legacy are not supported by depthboot.
 
+
+
 ## Depthboot Wont Boot From Internel
 
 If it wont boot after installing to internel, try reinstalling again.
 Try Using a Different Depthboot Image.
 
 If it wont boot after an eupnea update, try to attempt to use the backup kernel.
+
+
+## Using Backup Kernel
+
 
 To use the backup kernel, Boot from an Externel Media containing Depthboot and Open the Terminal.
 Dont mount your Internel Drive,
@@ -40,10 +46,14 @@ Wait until the command finishes, then restart and boot from internel.
 
 If it broke due to an unrealated update, backup all files and reinstall depthboot.
 
+
+
 ## Chromebook Shows Recovery Screen
 If it shows the recovery screen, that means that your Chromebook may have exited developer mode.
 You have to reinstall chrome os to reinstall depthboot again.
 If possible, backup all files of your drive on an another device.
+
+
 
 ## None of these work for me
 
