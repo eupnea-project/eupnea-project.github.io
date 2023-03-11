@@ -26,7 +26,7 @@ Try Using a Different Depthboot Image.
 
 - If it won't boot due to an unrelated update, backup all files and reinstall Depthboot.
 
-## Using the Backup Kernel
+## Using The Backup Kernel
 
 To use the backup kernel, Boot from an External Media containing Depthboot and Open the Terminal.
 
