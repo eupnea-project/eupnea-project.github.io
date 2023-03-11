@@ -17,7 +17,7 @@ UEFI and RW_Legacy are not supported by depthboot.
 
 ## Depthboot Wont Boot From Internel
 
-# Depthboot Wont Boot Right After Installing to Internel
+## Depthboot Wont Boot Right After Installing to Internel
 If it wont boot after installing to internel, try reinstalling again.
 If it doesnt work, try a different Depthboot Image.
 
