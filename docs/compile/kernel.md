@@ -100,4 +100,4 @@ git clone https://github.com/eupnea-linux/mainline-kernel.git && cd mainline-ker
 3. Eupnea-systems only: Uninstall all other eupnea-kernel packages with your distros package manager and this
    wildcard: `eupnea-*-kernel`.  
    Warning: The kernel packages might be reinstalled by an update, which would also overwrite your custom kernel.
-## [Using Backup Kernel](https://eupnea-linux.github.io/troubleshoot#using-backup-kernel)
+## [Using The Backup Kernel](https://eupnea-linux.github.io/troubleshoot#using-the-backup-kernel)
