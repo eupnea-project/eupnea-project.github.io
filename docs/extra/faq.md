@@ -39,12 +39,36 @@ Read all pros and ons of each method of booting Linux on a Chromebook [here](/do
 
 ## Are the Depthboot distros modified?
 
-Yes, but only the minimal amount required to make them bootable and work properly on Chromebooks (Kernel + minor
-configs).  
+Yes, but only the minimal amount of changes required to make them bootable and work properly on Chromebooks (Kernel +
+minor configs).  
 In addition to installing some packages from the distro's repo, our own repo is added to the distro, which contains the
 eupnea-utils and eupnea-system packages (and some others). You can read more about the packages in the respective
-repos.  
+eupnea package repos.  
 Nothing else is modified, i.e. all distro "quirks" are kept intact (Snap, no Tap-to-click by default on GNOME, etc.).
+
+## Which Depthboot distro is the best?
+
+First off, there are no feasible differences between the distros. They all boot the same 2
+kernels ([see above](#what-is-the-difference-between-the-mainline-kernel-and-the-chromeos-kernel)), which are
+responsible for most of the possible performance differences.
+You will have the same "Depthboot experience" on all of them (i.e. the Depthboot scripts/apps will work the same on
+every distro).
+
+The differences among the distros are mostly in terms of development philosophy. Here is a brief list of pros and cons:
+
+* Pop!_OS: LTS release (currently)
+    * Pros: Based on Ubuntu, but without the Canonical *Quirks* (Snap replaced by flatpak, core packages get updates).
+      Developed by System76. Has a customised GNOME desktop.
+    * Cons: Based on 22.04 -> not all packages are the latest versions. Has a customised GNOME desktop.
+* Ubuntu: LTS release + 6 months release
+    * Pros: Most popular distro -> more packages, more support. Developed by Canonical.
+    * Cons: Not rolling release -> not all packages are the latest versions. Has some Canonical *Quirks* (i.e. Snap).
+* Fedora: 6 month releases
+    * Pros: Recent-ish packages (somewhere in the middle between rolling and LTS). Backed by Red Hat.
+    * Cons: Has some *Quirks* (i.e. no hardware decoders out-of-the-box, no proper flatpak). DNF is slow out-of-the-box.
+* Arch: Rolling release
+    * Pros: latest package versions, AUR. Has no corporate backing.
+    * Cons: Requires more maintenance, might break more often. Has no corporate backing.
 
 ## Why is sharing Depthboot images illegal?
 
