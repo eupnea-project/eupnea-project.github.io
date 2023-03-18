@@ -15,12 +15,24 @@ const { question, link } = defineProps({
 const href = link ?? slugify(question);
 
 const isOpen = ref(false);
+const isNavigating = ref(false);
 
 function checkIsActive() {
     const hash = window.location.hash;
     const isActive = hash.substring(1) === href;
 
-    isOpen.value = isActive;
+    if (isActive) {
+        isNavigating.value = true;
+        isOpen.value = true;
+    }
+}
+
+function onClick() {
+    if (!isNavigating.value) {
+        isOpen.value = !isOpen.value;
+    }
+
+    isNavigating.value = false;
 }
 
 window.addEventListener("hashchange", () => {
@@ -33,7 +45,7 @@ checkIsActive();
 <template>
     <details class="faq-entry" :open="isOpen" :id="href">
         <summary>
-            <a class="faq-question" :href="'#' + href">
+            <a class="faq-question" :href="'#' + href" v-on:click="onClick">
                 {{ question }}
             </a>
         </summary>
