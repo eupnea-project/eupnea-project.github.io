@@ -1,17 +1,41 @@
 <script setup>
-defineProps({
+import slugify from "@sindresorhus/slugify";
+import { ref } from "vue";
+
+const { question, link } = defineProps({
     question: {
         type: String,
         required: true
+    },
+    link: {
+        type: String
     }
 });
+
+const href = link ?? slugify(question);
+
+const isOpen = ref(false);
+
+function checkIsActive() {
+    const hash = window.location.hash;
+    const isActive = hash.substring(1) === href;
+
+    isOpen.value = isActive;
+}
+
+window.addEventListener("hashchange", () => {
+    checkIsActive();
+});
+
+checkIsActive();
 </script>
 
 <template>
-    <details class="faq-entry">
+    <details class="faq-entry" :open="isOpen" :id="href">
         <summary>
-            {{ question }}
-            <!-- <h3>{{ question }}</h3> -->
+            <a class="faq-question" :href="'#' + href">
+                {{ question }}
+            </a>
         </summary>
 
         <div class="faq-answer">
@@ -21,6 +45,13 @@ defineProps({
 </template>
 
 <style>
+a.faq-question {
+    color: inherit;
+}
+a.faq-question:hover {
+    text-decoration: none;
+}
+
 .faq-entry {
     margin: 16px 0;
     color: var(--vp-custom-block-details-text);
@@ -29,16 +60,23 @@ defineProps({
 
     border: 1px solid var(--vp-custom-block-details-border);
     border-radius: 8px;
+    scroll-margin-top: -100px;
 }
 
 .faq-entry summary {
+    display: inline;
+    margin: 0;
+}
+
+.faq-question {
+    display: list-item;
     font-size: 20px;
     cursor: pointer;
-    margin: 0;
     transition: 0.1s;
     padding: 16px 20px;
 }
-.faq-entry summary:hover {
+
+.faq-question:hover {
     color: var(--vp-c-text-1);
 }
 
@@ -51,10 +89,6 @@ defineProps({
 }
 
 .faq-entry[open] {
-    color: var(--vp-c-text-1);
-    border-color: var(--vp-custom-block-tip-border);
-}
-.faq-entry[open] summary {
     color: var(--vp-c-text-1);
     border-color: var(--vp-custom-block-tip-border);
 }

@@ -24,7 +24,7 @@ explicitly choose to do so.
 We don't know. We are working on it, but we have no ETA.
 </FAQEntry>
 
-<FAQEntry question="What is the difference between the Mainline kernel and the ChromeOS kernel?">
+<FAQEntry question="What is the difference between the Mainline kernel and the ChromeOS kernel?" link="difference-between-kernels">
 
 Here is a full page comparing the two kernels: [Eupnea Kernels](/docs/project/kernels)
 </FAQEntry>
@@ -60,7 +60,7 @@ Nothing else is modified, i.e. all distro "quirks" are kept intact (Snap, no Tap
 <FAQEntry question="Which Depthboot distro is the best?">
 
 First off, there are no feasible differences between the distros. They all boot the same 2
-kernels ([see above](#what-is-the-difference-between-the-mainline-kernel-and-the-chromeos-kernel)), which are
+kernels ([see above](#difference-between-kernels)), which are
 responsible for most of the possible performance differences.
 You will have the same "Depthboot experience" on all of them (i.e. the Depthboot scripts/apps will work the same on
 every distro).
