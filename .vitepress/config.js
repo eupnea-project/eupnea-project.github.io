@@ -26,7 +26,7 @@ export default {
           { text: "Supported devices", link: "/docs/depthboot/supported-devices" },
           { text: "Build instructions", link: "/docs/depthboot/build-instructions" },
           { text: "Audio", link: "/docs/depthboot/audio" },
-          { text: "Optional features", link: "/docs/depthboot/optional" },
+          { text: "Install to internal", link: "/docs/depthboot/install-to-internal" },
         ]
       },
       {
