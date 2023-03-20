@@ -1,5 +1,12 @@
 .idea
 .vscode
-.yarn
 node_modules
 cache
+
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
