@@ -97,11 +97,11 @@ Here is a breif list of the pros and cons of every desktop enviroment avalible:
    
     * Cons: The UI may be confusing to newcomers, Uses less system resources than Gnome.
 * Xfce
-    * Pros: Simple and more lightweight than Gnome and KDE (Usefull on weaker hardware.), Has a Mac OS Styled layout.
+    * Pros: Simple and more lightweight than Gnome and KDE (Usefull on weaker hardware.) Has a Mac OS Styled layout.
    
     * Cons: Less effects and polish, may be less convient/powerful than Gnome and KDE.
 * LXQt
-    * Pros: Simple and lightweight than (Usefull on weaker hardware.), Has Windows Styled Layout.
+    * Pros: Simple and lightweight than (Usefull on weaker hardware.) Has Windows Styled Layout.
    
     * Cons: Less effects and polish, may be less convient/powerful than Gnome and KDE.
 * Deepin
