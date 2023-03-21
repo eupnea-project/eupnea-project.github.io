@@ -91,12 +91,15 @@ Here is a breif list of the pros and cons of every desktop enviroment avalible:
 * Gnome
     * Pros: Simple and Clean. Has a Mac OS Styled layout.
    
-    * Cons: Not that customizable and has fewer features without extensions/external software.
+    * Cons: Not that customizable, fewer features without extensions/external software.
 * KDE
     * Pros: Simple, but heavily powerful. Has Windows Styled Layout.
    
-    * Cons: The UI may be confusing to newcomers, some things require external software.
- 
+    * Cons: The UI may be confusing to newcomers, some things require external software. Uses less system resources than Gnome.
+* Xfce
+    * Pros: Simple and more lightweight than the above (Usefull on weaker hardware.)
+   
+    * Cons: Todo
 </FAQEntry>
 
 <FAQEntry question="Why is sharing Depthboot images illegal?">
