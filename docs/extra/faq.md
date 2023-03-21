@@ -82,6 +82,23 @@ The differences among the distros are mostly in terms of development philosophy.
     * Cons: Requires more maintenance, might break more often. Has no corporate backing.
 </FAQEntry>
 
+<FAQEntry question="Which Desktop Enviroment (DE) is the best?">
+   
+There is no "Best Desktop" enviroment on linux, it all comes down to user preference.
+
+Here is a breif list of the pros and cons of every desktop enviroment avalible:
+   
+* Gnome
+    * Pros: Simple and Clean. Has a Mac OS Styled layout.
+   
+    * Cons: Not that customizable and has fewer features without extensions/external software.
+* KDE
+    * Pros: Simple, but heavily powerful. Has Windows Styled Layout.
+   
+    * Cons: The UI may be confusing to newcomers, some things require external software.
+ 
+</FAQEntry>
+
 <FAQEntry question="Why is sharing Depthboot images illegal?">
 
 The Depthboot base distros all allow image/iso/rootfs sharing, but only in an unmodified form. The Depthboot script
