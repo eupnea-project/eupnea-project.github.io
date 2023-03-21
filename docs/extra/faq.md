@@ -95,21 +95,21 @@ Here is a breif list of the pros and cons of every desktop enviroment avalible:
 * KDE
     * Pros: Simple, but heavily powerful. Has Windows Styled Layout.
    
-    * Cons: The UI may be confusing to newcomers, Uses less system resources than Gnome.
-* Xfce
-    * Pros: Simple and more lightweight than Gnome and KDE (Usefull on weaker hardware.) Has a Mac OS Styled layout.
+    * Cons: The UI may be confusing to newcomers, Uses less ram than gnome.
+* Xfce 
+    * Pros: Simple and lightweight (Usefull on weaker hardware.) Has a Gnome Styled layout.
    
     * Cons: Less effects and polish, may be less convient/powerful than Gnome and KDE.
 * LXQt
-    * Pros: Simple and lightweight than (Usefull on weaker hardware.) Has Windows Styled Layout.
+    * Pros: Simple and lightweight (Usefull on weaker hardware.) Has Windows Styled Layout.
    
     * Cons: Less effects and polish, may be less convient/powerful than Gnome and KDE.
 * Deepin
-    * Pros: Simple and Clean, Has Windows Styled and Mac OS Styled Layouts.
+    * Pros: Simple, Beatifull UI, Has a Windows Styled Layout.
    
     * Cons: Made in China, Can be more resource intensive, Language translation can be inconsistant.
 * Budgie
-    * Pros: Simple and Clean, Has Mac OS Styled Layout.
+    * Pros: Simple, UI Simular to Gnome and has a Windows Styled Layout.
    
     * Cons: May have fewer features and customization without extensions/external software.
 </FAQEntry>
