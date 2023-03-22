@@ -1,6 +1,6 @@
 <script setup>
 import slugify from "@sindresorhus/slugify";
-import { ref } from "vue";
+import { ref, onMounted } from "vue";
 
 const { question, link } = defineProps({
     question: {
@@ -36,13 +36,9 @@ function onClick(ev) {
     }
 }
 
-// window.addEventListener("hashchange", (ev) => {
-//     console.log("hash change")
-//     // checkIsActive();
-//     // ev.preventDefault();
-// });
-
-checkIsActive();
+onMounted(() => {
+    checkIsActive();
+});
 </script>
 
 <template>
