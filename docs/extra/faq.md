@@ -80,39 +80,42 @@ The differences among the distros are mostly in terms of development philosophy.
 * Arch: Rolling release
     * Pros: latest package versions, AUR. Has no corporate backing.
     * Cons: Requires more maintenance, might break more often. Has no corporate backing.
-</FAQEntry>
+      </FAQEntry>
 
 <FAQEntry question="Which Desktop Enviroment (DE) is the best?">
-   
-There is no "Best Desktop" enviroment on linux, it all comes down to user preference.
+
+There is no best desktop enviroment (short: DE) on Linux, all have their pros and cons.
+Generally, there is 2 kinds of DEs; the ones that aim to look good and/or have a lot of features and the ones that try
+to be as light as possible.
 
 Here is a breif list of the pros and cons of every desktop enviroment avalible:
-   
-* Gnome
-    * Pros: Simple and Clean. Has a Mac OS Styled layout.
-   
-    * Cons: Fewer features and customization without extensions/external software.
-* KDE
-    * Pros: Simple, but heavily powerful. Has Windows Styled Layout.
-   
-    * Cons: The UI may be confusing to newcomers, Uses less ram than gnome.
-* Xfce 
-    * Pros: Simple and lightweight (Usefull on weaker hardware.) Has a Gnome Styled layout.
-   
-    * Cons: Less effects and polish, may be less convient/powerful than Gnome and KDE.
-* LXQt
-    * Pros: Simple and lightweight (Usefull on weaker hardware.) Has Windows Styled Layout.
-   
-    * Cons: Less effects and polish, may be less convient/powerful than Gnome and KDE.
-* Deepin
-    * Pros: Simple, Beatifull UI, Has a Windows Styled Layout.
-   
-    * Cons: Made in China, Can be more resource intensive, Language translation can be inconsistant.
-* Budgie
-    * Pros: Simple, UI Simular to Gnome and has a Windows Styled Layout.
-   
-    * Cons: May have fewer features and customization without extensions/external software.
-</FAQEntry>
+
+* Gnome (gtk based)
+    * Pros: Most popular DE on Linux. Best touch + pen support. Minimalistic UI. Aims to be intuitive to use. The
+      developers have a strong vision in mind.
+    * Cons: Not as much customization (requires additional software). Workspaces oriented workflow -> not a Windows
+      replacement. Developers prioritize their vision over user feedback.
+* KDE (qt based)
+    * Pros: Second most popular DE on Linux. Windows-like workflow. Lots of customization/behavior options.
+    * Cons: Can be overwhelming due to the amount of options. Not as good touch + pen support as on GNOME (but still
+      very much usable).
+* Xfce (gtk based)
+    * Pros: Very light (compared to GNOME/KDE), i.e. less RAM & CPU usage.
+    * Cons: Looks very dated. Native apps are not as polished/user-friendly as on GNOME/KDE. No wayland support ->
+      touch & pen unsupported/very limited.
+* LXQt (successor to LXDE) (qt based)
+    * Pros: Very light (compared to GNOME/KDE), i.e. less RAM & CPU usage. Windows-like layout.
+    * Cons: Less effects and polish. Native apps are not as polished/user-friendly as on GNOME/KDE. No wayland
+      support -> touch & pen unsupported/very limited.
+* Deepin (KDE; qt based)
+    * Pros: Very beautiful UI, multiple layouts (MacOS, Windows). Has native apps with matching themes.
+    * Cons: Main developers are Chinese -> language translation can be inconsistent. No wayland support **YET** ->
+      touch & pen unsupported/very limited.
+* Budgie (GNOME; gtk based)
+    * Pros: Utilizes the GNOME stack, but has a more Windows-like workflow.
+    * Cons: May have fewer features and customization without extensions/external software. Same layout can be achieved
+      by using Extensions in "stock" GNOME. No wayland support **YET** -> touch & pen unsupported/very limited.
+      </FAQEntry>
 
 <FAQEntry question="Why is sharing Depthboot images illegal?">
 
