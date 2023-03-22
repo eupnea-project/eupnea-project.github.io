@@ -12,40 +12,43 @@ const { question, link } = defineProps({
     }
 });
 
-const href = link ?? slugify(question);
+const myHash = link ?? slugify(question);
 
 const isOpen = ref(false);
-const isNavigating = ref(false);
 
 function checkIsActive() {
     const hash = window.location.hash;
-    const isActive = hash.substring(1) === href;
+    const isActive = hash.substring(1) === myHash;
 
     if (isActive) {
-        isNavigating.value = true;
         isOpen.value = true;
     }
 }
 
-function onClick() {
-    if (!isNavigating.value) {
-        isOpen.value = !isOpen.value;
-    }
+function onClick(ev) {
+    ev.preventDefault();
+    isOpen.value = !isOpen.value;
 
-    isNavigating.value = false;
+    if (isOpen.value) {
+        const href = new URL(window.location.href);
+        href.hash = myHash;
+        window.history.replaceState({}, "", href);
+    }
 }
 
-window.addEventListener("hashchange", () => {
-    checkIsActive();
-});
+// window.addEventListener("hashchange", (ev) => {
+//     console.log("hash change")
+//     // checkIsActive();
+//     // ev.preventDefault();
+// });
 
 checkIsActive();
 </script>
 
 <template>
-    <details class="faq-entry" :open="isOpen" :id="href">
+    <details class="faq-entry" :open="isOpen" :id="myHash">
         <summary>
-            <a class="faq-question" :href="'#' + href" v-on:click="onClick">
+            <a class="faq-question" v-on:click="onClick">
                 {{ question }}
             </a>
         </summary>
@@ -60,6 +63,7 @@ checkIsActive();
 a.faq-question {
     color: inherit;
 }
+
 a.faq-question:hover {
     text-decoration: none;
 }
@@ -96,7 +100,7 @@ a.faq-question:hover {
     padding: 0 20px;
 }
 
-.faq-answer > :first-child {
+.faq-answer> :first-child {
     margin-top: 0;
 }
 
