@@ -80,7 +80,7 @@ The differences among the distros are mostly in terms of development philosophy.
 * Arch: Rolling release
     * Pros: latest package versions, AUR. Has no corporate backing.
     * Cons: Requires more maintenance, might break more often. Has no corporate backing.
-      </FAQEntry>
+</FAQEntry>
 
 <FAQEntry question="Which Desktop Enviroment (DE) is the best?">
 
@@ -115,7 +115,7 @@ Here is a breif list of the pros and cons of every desktop enviroment avalible:
     * Pros: Utilizes the GNOME stack, but has a more Windows-like workflow.
     * Cons: May have fewer features and customization without extensions/external software. Same layout can be achieved
       by using Extensions in "stock" GNOME. No wayland support **YET** -> touch & pen unsupported/very limited.
-      </FAQEntry>
+</FAQEntry>
 
 <FAQEntry question="Why is sharing Depthboot images illegal?">
 
