@@ -1,0 +1,187 @@
+{
+  "Alder Lake": {
+    "arch": "x86_64",
+    "families": [
+      "fam1",
+      "fam2"
+    ]
+  },
+  "Amberlake-Y": {
+    "arch": "x86_64",
+    "families": [
+      "fam1",
+      "fam2"
+    ]
+  },
+  "ApolloLake": {
+    "arch": "x86_64",
+    "families": [
+      "fam1",
+      "fam2"
+    ]
+  },
+  "BayTrail": {
+    "arch": "x86_64",
+    "families": [
+      "fam1",
+      "fam2"
+    ]
+  },
+  "Braswell": {
+    "arch": "x86_64",
+    "families": [
+      "fam1",
+      "fam2"
+    ]
+  },
+  "Broadwell": {
+    "arch": "x86_64",
+    "families": [
+      "fam1",
+      "fam2"
+    ]
+  },
+  "Cometlake-U": {
+    "arch": "x86_64",
+    "families": [
+      "fam1",
+      "fam2"
+    ]
+  },
+  "Gemini Lake": {
+    "arch": "x86_64",
+    "families": [
+      "fam1",
+      "fam2"
+    ]
+  },
+  "Haswell": {
+    "arch": "x86_64",
+    "families": [
+      "fam1",
+      "fam2"
+    ]
+  },
+  "IvyBridge": {
+    "arch": "x86_64",
+    "families": [
+      "fam1",
+      "fam2"
+    ]
+  },
+  "Jasper Lake": {
+    "arch": "x86_64",
+    "families": [
+      "fam1",
+      "fam2"
+    ]
+  },
+  "Kabylake-U/R": {
+    "arch": "x86_64",
+    "families": [
+      "fam1",
+      "fam2"
+    ]
+  },
+  "Kabylake-Y": {
+    "arch": "x86_64",
+    "families": [
+      "fam1",
+      "fam2"
+    ]
+  },
+  "MT8173": {
+    "arch": "x86_64",
+    "families": [
+      "fam1",
+      "fam2"
+    ]
+  },
+  "MT8183": {
+    "arch": "x86_64",
+    "families": [
+      "fam1",
+      "fam2"
+    ]
+  },
+  "MT8186": {
+    "arch": "x86_64",
+    "families": [
+      "fam1",
+      "fam2"
+    ]
+  },
+  "MT8192": {
+    "arch": "x86_64",
+    "families": [
+      "fam1",
+      "fam2"
+    ]
+  },
+  "Picasso/Dali": {
+    "arch": "x86_64",
+    "families": [
+      "zork"
+    ]
+  },
+  "PineTrail": {
+    "arch": "x86_64",
+    "families": [
+      "fam1",
+      "fam2"
+    ]
+  },
+  "Pollock": {
+    "arch": "x86_64",
+    "families": [
+      "fam1",
+      "fam2"
+    ]
+  },
+  "QC-7C": {
+    "arch": "x86_64",
+    "families": [
+      "fam1",
+      "fam2"
+    ]
+  },
+  "RK3288": {
+    "arch": "x86_64",
+    "families": [
+      "fam1",
+      "fam2"
+    ]
+  },
+  "RK3399": {
+    "arch": "x86_64",
+    "families": [
+      "fam1",
+      "fam2"
+    ]
+  },
+  "Skylake": {
+    "arch": "x86_64",
+    "families": [
+      "fam1",
+      "fam2"
+    ]
+  },
+  "Stoney Ridge": {
+    "arch": "x86_64",
+    "families": [
+      "fam1",
+      "fam2"
+    ]
+  },
+  "TigerLake-UP3": {
+    "arch": "x86_64",
+    "families": [
+      "fam1",
+      "fam2"
+    ]
+  },
+  "Unknown": {
+    "families": [],
+    "arch": "Unknown"
+  }
+}
