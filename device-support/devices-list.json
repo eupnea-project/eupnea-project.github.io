@@ -922,6 +922,14 @@
       "family_name": "coral",
       "supported": true
     },
+    "Chromebook CX1400fka": {
+      "audio_status": "Full",
+      "code_name": "galtic360",
+      "comment": "N/A",
+      "cpu_gen": "Jasper Lake",
+      "family_name": "dedede",
+      "supported": true
+    },
     "Chromebook CX1500CKA": {
       "audio_status": "Full",
       "code_name": "galith",
@@ -936,6 +944,14 @@
       "comment": "N/A",
       "cpu_gen": "ApolloLake",
       "family_name": "coral",
+      "supported": true
+    },
+    "Chromebook CX1500fka": {
+      "audio_status": "Full",
+      "code_name": "galith360",
+      "comment": "N/A",
+      "cpu_gen": "Jasper Lake",
+      "family_name": "dedede",
       "supported": true
     },
     "Chromebook CX1700CKA": {
@@ -960,6 +976,14 @@
       "comment": "N/A",
       "cpu_gen": "TigerLake-UP3",
       "family_name": "volteer",
+      "supported": true
+    },
+    "Chromebook Cx1101cma": {
+      "audio_status": "Full",
+      "code_name": "apele",
+      "comment": "N/A",
+      "cpu_gen": "Gemini Lake",
+      "family_name": "octopus",
       "supported": true
     },
     "Chromebook Detachable CM3": {
@@ -1457,36 +1481,6 @@
       "supported": true
     }
   },
-  "Cx1101cma": {
-    "CX1101CMA": {
-      "audio_status": "Full",
-      "code_name": "apele",
-      "comment": "N/A",
-      "cpu_gen": "Gemini Lake",
-      "family_name": "octopus",
-      "supported": true
-    }
-  },
-  "Cx1400fka": {
-    "CX1400FKA": {
-      "audio_status": "Full",
-      "code_name": "galtic360",
-      "comment": "N/A",
-      "cpu_gen": "Jasper Lake",
-      "family_name": "dedede",
-      "supported": true
-    }
-  },
-  "Cx1500fka": {
-    "CX1500FKA": {
-      "audio_status": "Full",
-      "code_name": "galith360",
-      "comment": "N/A",
-      "cpu_gen": "Jasper Lake",
-      "family_name": "dedede",
-      "supported": true
-    }
-  },
   "Dell": {
     "Chromebook 11": {
       "audio_status": "Full",
@@ -1659,16 +1653,6 @@
       "supported": false
     }
   },
-  "Education": {
-    "Chromebook": {
-      "audio_status": "Full",
-      "code_name": "enguarde",
-      "comment": "N/A",
-      "cpu_gen": "BayTrail",
-      "family_name": "enguarde",
-      "supported": true
-    }
-  },
   "Edugear": {
     "CMT Chromebook": {
       "audio_status": "Full",
@@ -1806,24 +1790,6 @@
       "comment": "N/A",
       "cpu_gen": "Alder Lake",
       "family_name": "brya",
-      "supported": true
-    }
-  },
-  "Galaxy": {
-    "Chromebook 2 360": {
-      "audio_status": "Full",
-      "code_name": "bugzzy",
-      "comment": "N/A",
-      "cpu_gen": "Jasper Lake",
-      "family_name": "dedede",
-      "supported": true
-    },
-    "Chromebook Go": {
-      "audio_status": "Full",
-      "code_name": "sasuke",
-      "comment": "N/A",
-      "cpu_gen": "Jasper Lake",
-      "family_name": "dedede",
       "supported": true
     }
   },
@@ -3482,6 +3448,22 @@
       "comment": "N/A",
       "cpu_gen": "Cometlake-U",
       "family_name": "hatch",
+      "supported": true
+    },
+    "Galaxy Chromebook 2 360": {
+      "audio_status": "Full",
+      "code_name": "bugzzy",
+      "comment": "N/A",
+      "cpu_gen": "Jasper Lake",
+      "family_name": "dedede",
+      "supported": true
+    },
+    "Galaxy Chromebook Go": {
+      "audio_status": "Full",
+      "code_name": "sasuke",
+      "comment": "N/A",
+      "cpu_gen": "Jasper Lake",
+      "family_name": "dedede",
       "supported": true
     }
   },
