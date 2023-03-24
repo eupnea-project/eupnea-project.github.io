@@ -1,6 +1,11 @@
 name: Deploy
 on:
-  workflow_dispatch: {}
+  workflow_run:
+    workflows: [ "Scraping Chrome OS boards" ] # run after boards have been updated
+    branches: [ main ]
+    types:
+      - completed
+  workflow_dispatch:
   push:
     branches:
       - main
