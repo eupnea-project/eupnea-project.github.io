@@ -10,7 +10,7 @@ you decide which method is best for you.
         * Offers Gnome, KDE, XFCE, LXDE, Deepin, Budgie and a cli version as desktop environments
     * Cons:
         * Can only be used on x86_64 Chromebooks with depthcharge
-        * Has to be built locally
+        * Has to be built locally ([why?](/docs/extra/faq#why-is-sharing-depthboot-images-illegal))
         * May take a long time to build on weaker Chromebooks
 * EupneaOS
     * Pros:
