@@ -132,6 +132,13 @@ if __name__ == "__main__":
         }
     }
 
+    # move all IdeaPads to Lenovo
+    for device in parsed_json_list["Ideapad"]:
+        fixed_devices["Lenovo"][f"IdeaPad {device}"] = parsed_json_list["Ideapad"][device]
+    # move all ThinkPads to Lenovo
+    for device in parsed_json_list["Thinkpad"]:
+        fixed_devices["Lenovo"][f"ThinkPad {device}"] = parsed_json_list["Thinkpad"][device]
+
     # merge the fixed devices with the main dictionary
     merge_dicts(parsed_json_list, fixed_devices)
 
