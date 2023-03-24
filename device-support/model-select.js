@@ -22,7 +22,7 @@ function displaySupport({ autogen }) {
 
     const info = `CPU Generation: <b>${platform}</b> <br> Codename: <b>${codename} (${boardname})</b>`;
 
-    const depthbootAvailable = model.status;
+    const depthbootAvailable = model.supported;
     const audioSupport = model.audio_status;
     const comment = model.comment ?? "N/A";
 
