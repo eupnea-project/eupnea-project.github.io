@@ -344,7 +344,7 @@
   },
   "Unknown": {
     "arch": "Unknown",
-    "families": []
+    "families": [],
     "audio_status": "Unknown",
     "comment": ""
   },
