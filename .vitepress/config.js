@@ -75,7 +75,7 @@ export default {
   head: [
     [
       "link",
-      { rel: "icon", type: "image/png", href: "/assets/project_icon.png" }
+      { rel: "icon", type: "image/svg+xml", href: "/assets/project-icon.svg" }
     ],
     [
       "link",
@@ -87,7 +87,7 @@ export default {
     ],
     [
       "meta",
-      { property: "og:image", content: "https://eupnea-linux.github.io/assets/project_icon.png" }
+      { property: "og:image", content: "https://eupnea-linux.github.io/assets/project-icon.svg" }
     ],
     [
       "meta",
