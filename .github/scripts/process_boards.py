@@ -84,6 +84,26 @@ if __name__ == "__main__":
 
     print(json.dumps(parsed_json_list))
 
+    # remove some broken keys + fix some devices
+    parsed_json_list.pop("N/A")  # relm has no proper brandName
+    parsed_json_list.pop("w/o")  # anahera has a really broken name
+
+    # anahera has a really broken name:
+    anahera_fixed = {
+        "HP": {
+            "Elite c640 14 inch G3 Chromebook (Enterprise)": {
+                "code_name": "anahera",
+                "family_name": "brya",
+                "cpu_gen": "Alder Lake",
+                "supported": True,
+                "audio_status": "Unknown",
+                "comment": ""
+            }
+        }
+    }
+    # merge the fixed anahera device with the main dictionary
+    merge_dicts(parsed_json_list, anahera_fixed)
+
     # save fully parsed json
     with open("./device-support/devices-list.json", "w") as f:
         json.dump(parsed_json_list, f)
