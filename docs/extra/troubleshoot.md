@@ -5,7 +5,7 @@ next: false
 title: Troubleshooting
 ---
 
-**DISCLAIMER: IF YOU GET AN ERROR/DO NOT GET A SUCCESS MESSAGE WHILE RUNNING ANYTHING FROM THE EUPNEA PROJECT, PLEASE
+**DISCLAIMER: IF YOU GET AN ERROR/DO NOT GET A SUCCESS MESSAGE WHILE RUNNING ANY SCRIPT FROM THE EUPNEA PROJECT, PLEASE
 REPORT IT ON GITHUB/DISCORD/REVOLT.**
 
 ## Depthboot won't boot for the first time
@@ -15,7 +15,10 @@ REPORT IT ON GITHUB/DISCORD/REVOLT.**
 2. Make sure [developer mode](https://www.androidauthority.com/how-to-enable-developer-mode-on-a-chromebook-906688/) is
    enabled.
 
-3. Make sure you are **NOT** trying to boot via UEFI/RW_LEGACY.
+3. Make sure you are **<font size="3">NOT</font>** trying to boot
+   via [UEFI](/docs/extra/faq#i-have-uefi-custom-bios-installed-on-my-chromebook)
+   or [RW_LEGACY](/docs/extra/faq#i-have-rw-legacy-installed-on-my-chromebook). You need to use Ctrl+U or select "Boot
+   from external media" in the boot menu.
 
 4. If the Chromebook beeps when pressing ctrl+U, make sure that
    the [crossflags in STEP 5](/docs/depthboot/build-instructions) were set correctly.
