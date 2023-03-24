@@ -47,7 +47,7 @@ def parse_device(device: dict, device_name: str, family_name: str) -> None:
                                                                     board_families[cpu_gen]["arch"] == "x86_64"),
                     "audio_status": overrides.get(device_name, {}).get("audio_status",
                                                                        board_families[cpu_gen]["audio_status"]),
-                    "comment": overrides.get(device_name, {}).get("comment", board_families[cpu_gen]["comment"]),
+                    "comment": overrides.get(device_name, {}).get("comment", "N/A"),
                 }
             }
         }
