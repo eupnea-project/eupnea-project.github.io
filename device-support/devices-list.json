@@ -2244,7 +2244,15 @@
       "family_name": "octopus",
       "supported": true
     },
-    "Chromebook x360 14c": {
+    "Chromebook x360 14c (10th gen)": {
+      "audio_status": "Full",
+      "code_name": "dragonair",
+      "comment": "N/A",
+      "cpu_gen": "Cometlake-U",
+      "family_name": "hatch",
+      "supported": true
+    },
+    "Chromebook x360 14c (11th gen)": {
       "audio_status": "Full",
       "code_name": "eldrid",
       "comment": "N/A",
