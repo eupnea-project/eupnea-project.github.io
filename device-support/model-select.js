@@ -1,11 +1,5 @@
 import jsonAuto from "./devices-list.json";
 
-export default {
-    mounted() {
-        console.log("mount");
-    }
-}
-
 /** @type {HTMLSelectElement}*/
 let selectManufacturer;
 
