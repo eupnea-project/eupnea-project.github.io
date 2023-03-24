@@ -27,7 +27,7 @@ def parse_device(device: dict, device_name: str, family_name: str) -> None:
 
     # Iterate through names and find the CPU generation based on family_name
     cpu_gen = next(
-        (_generation for _generation in cpu_gen_json if family_name in cpu_gen_json[_generation]["families"]),
+        (_generation for _generation in board_families if family_name in board_families[_generation]["families"]),
         "Unknown")
 
     # If CPU generation not found, print a warning
@@ -42,7 +42,9 @@ def parse_device(device: dict, device_name: str, family_name: str) -> None:
                     "code_name": device_name.strip(),
                     "family_name": family_name.strip(),
                     "cpu_gen": cpu_gen,
-                    "supported": cpu_gen_json[cpu_gen]["arch"] == "x86_64",
+                    "supported": board_families[cpu_gen]["arch"] == "x86_64",
+                    "audio-status": board_families[cpu_gen]["audio-status"],
+                    "comment": board_families[cpu_gen]["comment"],
                 }
             }
         }
@@ -60,9 +62,9 @@ if __name__ == "__main__":
     with open("./devices.json", "r") as f:
         devices_json = json.load(f)
 
-    # load cpu-generations json
+    # load families json
     with open("./device-support/board-families.json", "r") as f:
-        cpu_gen_json = json.load(f)
+        board_families = json.load(f)
 
     # parse json
     for family in devices_json["builds"]:
