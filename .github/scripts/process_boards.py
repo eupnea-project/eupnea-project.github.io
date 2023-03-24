@@ -37,7 +37,7 @@ def parse_device(device: dict, device_name: str, family_name: str) -> None:
     # Create temporary device dictionary with relevant information
     for name in names_list:
         temp_device = {
-            name.split(" ")[0].strip(): {
+            name.split(" ")[0].strip().lower().capitalize(): {  # capitalize only the first letter of brand name
                 name[name.find(" ") + 1:].strip(): {
                     # if override value exists, use it, else use scraped value
                     "code_name": device_name,
