@@ -1265,42 +1265,6 @@
       "supported": true
     }
   },
-  "Chromebook": {
-    "11 G8 EE": {
-      "audio_status": "Full",
-      "code_name": "vorticon",
-      "comment": "N/A",
-      "cpu_gen": "Gemini Lake",
-      "family_name": "octopus",
-      "supported": true
-    },
-    "14 G6": {
-      "audio_status": "Full",
-      "code_name": "dorp",
-      "comment": "N/A",
-      "cpu_gen": "Gemini Lake",
-      "family_name": "octopus",
-      "supported": true
-    },
-    "x360 11 G3 EE": {
-      "audio_status": "Full",
-      "code_name": "vortininja",
-      "comment": "N/A",
-      "cpu_gen": "Gemini Lake",
-      "family_name": "octopus",
-      "supported": true
-    }
-  },
-  "Consumer": {
-    "Chromebook": {
-      "audio_status": "Full",
-      "code_name": "expresso",
-      "comment": "N/A",
-      "cpu_gen": "BayTrail",
-      "family_name": "expresso",
-      "supported": true
-    }
-  },
   "Cr1102c": {
     "CR1102C": {
       "audio_status": "Unknown",
@@ -2058,6 +2022,14 @@
       "family_name": "octopus",
       "supported": true
     },
+    "Chromebook 11 G8 EE": {
+      "audio_status": "Full",
+      "code_name": "vorticon",
+      "comment": "N/A",
+      "cpu_gen": "Gemini Lake",
+      "family_name": "octopus",
+      "supported": true
+    },
     "Chromebook 11 G9 EE": {
       "audio_status": "Full",
       "code_name": "drawlat",
@@ -2138,6 +2110,14 @@
       "family_name": "snappy",
       "supported": true
     },
+    "Chromebook 14 G6": {
+      "audio_status": "Full",
+      "code_name": "dorp",
+      "comment": "N/A",
+      "cpu_gen": "Gemini Lake",
+      "family_name": "octopus",
+      "supported": true
+    },
     "Chromebook 14 G7": {
       "audio_status": "Full",
       "code_name": "drawman",
@@ -2213,6 +2193,14 @@
     "Chromebook x360 11 G2 EE": {
       "audio_status": "Full",
       "code_name": "meep",
+      "comment": "N/A",
+      "cpu_gen": "Gemini Lake",
+      "family_name": "octopus",
+      "supported": true
+    },
+    "Chromebook x360 11 G3 EE": {
+      "audio_status": "Full",
+      "code_name": "vortininja",
       "comment": "N/A",
       "cpu_gen": "Gemini Lake",
       "family_name": "octopus",
@@ -2424,72 +2412,6 @@
       "comment": "N/A",
       "cpu_gen": "Picasso/Dali",
       "family_name": "zork",
-      "supported": true
-    }
-  },
-  "Ideapad": {
-    "3 CB 14IGL05": {
-      "audio_status": "Full",
-      "code_name": "laser14",
-      "comment": "N/A",
-      "cpu_gen": "Gemini Lake",
-      "family_name": "octopus",
-      "supported": true
-    },
-    "3 Chromebook": {
-      "audio_status": "Full",
-      "code_name": "lick",
-      "comment": "N/A",
-      "cpu_gen": "Gemini Lake",
-      "family_name": "octopus",
-      "supported": true
-    },
-    "3 Chromebook (11\" 5)": {
-      "audio_status": "Unsupported",
-      "code_name": "treeya",
-      "comment": "N/A",
-      "cpu_gen": "Stoney Ridge",
-      "family_name": "grunt",
-      "supported": true
-    },
-    "Flex 3 CB 11IGL05": {
-      "audio_status": "Full",
-      "code_name": "phaser360",
-      "comment": "N/A",
-      "cpu_gen": "Gemini Lake",
-      "family_name": "octopus",
-      "supported": true
-    },
-    "Flex 3 Chromebook": {
-      "audio_status": "Unsupported",
-      "code_name": "fennel",
-      "comment": "N/A",
-      "cpu_gen": "MT8183",
-      "family_name": "jacuzzi",
-      "supported": false
-    },
-    "Flex 5i Chromebook (13\" 5)": {
-      "audio_status": "Full",
-      "code_name": "akemi",
-      "comment": "N/A",
-      "cpu_gen": "Cometlake-U",
-      "family_name": "hatch",
-      "supported": true
-    },
-    "Flex 5i Chromebook (13\" 6)": {
-      "audio_status": "Full",
-      "code_name": "lillipup",
-      "comment": "Booting from SD-card does not work. Use a USB drive or an SD-card adapter instead.",
-      "cpu_gen": "TigerLake-UP3",
-      "family_name": "volteer",
-      "supported": true
-    },
-    "Gaming Chromebook 16": {
-      "audio_status": "Unknown",
-      "code_name": "taniks",
-      "comment": "N/A",
-      "cpu_gen": "Alder Lake",
-      "family_name": "brya",
       "supported": true
     }
   },
@@ -3624,16 +3546,6 @@
       "comment": "N/A",
       "cpu_gen": "Jasper Lake",
       "family_name": "dedede",
-      "supported": true
-    }
-  },
-  "Thinkpad": {
-    "C14 Gen 1 Chromebook": {
-      "audio_status": "Unknown",
-      "code_name": "primus",
-      "comment": "N/A",
-      "cpu_gen": "Alder Lake",
-      "family_name": "brya",
       "supported": true
     }
   },
