@@ -15,7 +15,7 @@ jobs:
         run: sudo apt-get install python3-pip && pip3 install requests beautifulsoup4
 
       - name: Running scraper script
-        run: python3 ./.github/scripts/scrape-boards.py
+        run: python3 ./.github/scripts/process_boards.py
 
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
@@ -26,7 +26,7 @@ jobs:
 
           # Optional. Commit message for the created commit.
           # Defaults to "Apply automatic changes"
-          commit_message: Updating devices-autogen.json
+          commit_message: Updating json files
 
           # Optional glob pattern of files which should be added to the commit
           # Defaults to all (.)
