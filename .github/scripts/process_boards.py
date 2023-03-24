@@ -160,7 +160,8 @@ if __name__ == "__main__":
                 "family_name": "dedede",
                 "supported": True
             }
-        }
+        },
+        "Samsung": {}  # add Samsung here, so we can add devices to it later
     }
 
     # move all IdeaPads to Lenovo
