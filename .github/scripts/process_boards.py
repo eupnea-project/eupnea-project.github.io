@@ -85,7 +85,6 @@ if __name__ == "__main__":
     print(json.dumps(parsed_json_list))
 
     # remove some broken keys + fix some devices
-    parsed_json_list.pop("N/A")  # relm has no proper brandName
     parsed_json_list.pop("w/o")  # anahera has a really broken name
     parsed_json_list.pop("100e")  # missing the lenovo brand at the beginning -> wrong sorting
     parsed_json_list.pop("300e")  # missing the lenovo brand at the beginning -> wrong sorting
