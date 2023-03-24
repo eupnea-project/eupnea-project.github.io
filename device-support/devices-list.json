@@ -1,518 +1,4 @@
 {
-  "ACER": {
-    "Chromebook Spin 513 (CP513-2H)": {
-      "audio_status": "Unsupported",
-      "code_name": "tomato",
-      "comment": "N/A",
-      "cpu_gen": "MT8195/MT8195T",
-      "family_name": "cherry",
-      "supported": false
-    }
-  },
-  "ADVAN": {
-    "Chromebook 116": {
-      "audio_status": "Full",
-      "code_name": "garg360",
-      "comment": "N/A",
-      "cpu_gen": "Gemini Lake",
-      "family_name": "octopus",
-      "supported": true
-    }
-  },
-  "AOpen": {
-    "Chromebase Commercial": {
-      "audio_status": "Full",
-      "code_name": "sumo",
-      "comment": "N/A",
-      "cpu_gen": "BayTrail",
-      "family_name": "sumo",
-      "supported": true
-    },
-    "Chromebase Mini": {
-      "audio_status": "Unsupported",
-      "code_name": "veyron-tiger",
-      "comment": "N/A",
-      "cpu_gen": "RK3288",
-      "family_name": "veyron-tiger",
-      "supported": false
-    },
-    "Chromebook Commercial Tab": {
-      "audio_status": "Unsupported",
-      "code_name": "druwl",
-      "comment": "N/A",
-      "cpu_gen": "RK3399",
-      "family_name": "scarlet",
-      "supported": false
-    },
-    "Chromebox Commercial": {
-      "audio_status": "Full",
-      "code_name": "ninja",
-      "comment": "N/A",
-      "cpu_gen": "BayTrail",
-      "family_name": "ninja",
-      "supported": true
-    },
-    "Chromebox Commercial 2": {
-      "audio_status": "Full",
-      "code_name": "jax",
-      "comment": "N/A",
-      "cpu_gen": "Kabylake-U/R",
-      "family_name": "fizz",
-      "supported": true
-    },
-    "Chromebox Mini": {
-      "audio_status": "Unsupported",
-      "code_name": "veyron-fievel",
-      "comment": "N/A",
-      "cpu_gen": "RK3288",
-      "family_name": "veyron-fievel",
-      "supported": false
-    }
-  },
-  "ASI": {
-    "Chromebook": {
-      "audio_status": "Full",
-      "code_name": "enguarde",
-      "comment": "N/A",
-      "cpu_gen": "BayTrail",
-      "family_name": "enguarde",
-      "supported": true
-    }
-  },
-  "ASUS": {
-    "Chromebit CS10": {
-      "audio_status": "Unsupported",
-      "code_name": "veyron-mickey",
-      "comment": "N/A",
-      "cpu_gen": "RK3288",
-      "family_name": "veyron-mickey",
-      "supported": false
-    },
-    "Chromebook C200": {
-      "audio_status": "Full",
-      "code_name": "squawks",
-      "comment": "N/A",
-      "cpu_gen": "BayTrail",
-      "family_name": "squawks",
-      "supported": true
-    },
-    "Chromebook C201PA": {
-      "audio_status": "Unsupported",
-      "code_name": "veyron-speedy",
-      "comment": "N/A",
-      "cpu_gen": "RK3288",
-      "family_name": "veyron-speedy",
-      "supported": false
-    },
-    "Chromebook C202SA": {
-      "audio_status": "Full",
-      "code_name": "terra",
-      "comment": "N/A",
-      "cpu_gen": "Braswell",
-      "family_name": "terra",
-      "supported": true
-    },
-    "Chromebook C202XA": {
-      "audio_status": "Unsupported",
-      "code_name": "telesu",
-      "comment": "N/A",
-      "cpu_gen": "MT8173",
-      "family_name": "hana",
-      "supported": false
-    },
-    "Chromebook C204": {
-      "audio_status": "Full",
-      "code_name": "apel",
-      "comment": "N/A",
-      "cpu_gen": "Gemini Lake",
-      "family_name": "octopus",
-      "supported": true
-    },
-    "Chromebook C223": {
-      "audio_status": "Full",
-      "code_name": "babymega",
-      "comment": "N/A",
-      "cpu_gen": "ApolloLake",
-      "family_name": "coral",
-      "supported": true
-    },
-    "Chromebook C300": {
-      "audio_status": "Full",
-      "code_name": "quawks",
-      "comment": "N/A",
-      "cpu_gen": "BayTrail",
-      "family_name": "quawks",
-      "supported": true
-    },
-    "Chromebook C300SA / C301SA": {
-      "audio_status": "Full",
-      "code_name": "terra",
-      "comment": "N/A",
-      "cpu_gen": "Braswell",
-      "family_name": "terra",
-      "supported": true
-    },
-    "Chromebook C403": {
-      "audio_status": "Full",
-      "code_name": "rabbid",
-      "comment": "N/A",
-      "cpu_gen": "ApolloLake",
-      "family_name": "coral",
-      "supported": true
-    },
-    "Chromebook C423": {
-      "audio_status": "Full",
-      "code_name": "rabbid",
-      "comment": "N/A",
-      "cpu_gen": "ApolloLake",
-      "family_name": "coral",
-      "supported": true
-    },
-    "Chromebook C424": {
-      "audio_status": "Full",
-      "code_name": "nospike",
-      "comment": "N/A",
-      "cpu_gen": "Gemini Lake",
-      "family_name": "octopus",
-      "supported": true
-    },
-    "Chromebook C425": {
-      "audio_status": "Partial",
-      "code_name": "leona",
-      "comment": "N/A",
-      "cpu_gen": "Amberlake-Y",
-      "family_name": "rammus",
-      "supported": true
-    },
-    "Chromebook C523": {
-      "audio_status": "Full",
-      "code_name": "babytiger",
-      "comment": "N/A",
-      "cpu_gen": "ApolloLake",
-      "family_name": "coral",
-      "supported": true
-    },
-    "Chromebook CR1100CKA": {
-      "audio_status": "Full",
-      "code_name": "storo",
-      "comment": "N/A",
-      "cpu_gen": "Jasper Lake",
-      "family_name": "dedede",
-      "supported": true
-    },
-    "Chromebook CX1": {
-      "audio_status": "Full",
-      "code_name": "galtic",
-      "comment": "N/A",
-      "cpu_gen": "Jasper Lake",
-      "family_name": "dedede",
-      "supported": true
-    },
-    "Chromebook CX1 CX1102": {
-      "audio_status": "Full",
-      "code_name": "galnat",
-      "comment": "N/A",
-      "cpu_gen": "Jasper Lake",
-      "family_name": "dedede",
-      "supported": true
-    },
-    "Chromebook CX1100CNA": {
-      "audio_status": "Full",
-      "code_name": "babymega",
-      "comment": "N/A",
-      "cpu_gen": "ApolloLake",
-      "family_name": "coral",
-      "supported": true
-    },
-    "Chromebook CX1400CNA": {
-      "audio_status": "Full",
-      "code_name": "rabbid",
-      "comment": "N/A",
-      "cpu_gen": "ApolloLake",
-      "family_name": "coral",
-      "supported": true
-    },
-    "Chromebook CX1500CKA": {
-      "audio_status": "Full",
-      "code_name": "galith",
-      "comment": "N/A",
-      "cpu_gen": "Jasper Lake",
-      "family_name": "dedede",
-      "supported": true
-    },
-    "Chromebook CX1500CNA": {
-      "audio_status": "Full",
-      "code_name": "babytiger",
-      "comment": "N/A",
-      "cpu_gen": "ApolloLake",
-      "family_name": "coral",
-      "supported": true
-    },
-    "Chromebook CX1700CKA": {
-      "audio_status": "Full",
-      "code_name": "gallop",
-      "comment": "N/A",
-      "cpu_gen": "Jasper Lake",
-      "family_name": "dedede",
-      "supported": true
-    },
-    "Chromebook CX34 Flip": {
-      "audio_status": "Unknown",
-      "code_name": "mithrax",
-      "comment": "N/A",
-      "cpu_gen": "Alder Lake",
-      "family_name": "brya",
-      "supported": true
-    },
-    "Chromebook CX9 (CX9400)": {
-      "audio_status": "Full",
-      "code_name": "drobit",
-      "comment": "N/A",
-      "cpu_gen": "TigerLake-UP3",
-      "family_name": "volteer",
-      "supported": true
-    },
-    "Chromebook Detachable CM3": {
-      "audio_status": "Unsupported",
-      "code_name": "kakadu",
-      "comment": "N/A",
-      "cpu_gen": "MT8183",
-      "family_name": "kukui",
-      "supported": false
-    },
-    "Chromebook Detachable CZ1": {
-      "audio_status": "Unsupported",
-      "code_name": "katsu",
-      "comment": "N/A",
-      "cpu_gen": "MT8183",
-      "family_name": "kukui",
-      "supported": false
-    },
-    "Chromebook Enterprise Flip CX5(CX5601)": {
-      "audio_status": "Unknown",
-      "code_name": "felwinter",
-      "comment": "N/A",
-      "cpu_gen": "Alder Lake",
-      "family_name": "brya",
-      "supported": true
-    },
-    "Chromebook Flip C100PA": {
-      "audio_status": "Unsupported",
-      "code_name": "veyron-minnie",
-      "comment": "N/A",
-      "cpu_gen": "RK3288",
-      "family_name": "veyron-minnie",
-      "supported": false
-    },
-    "Chromebook Flip C101PA": {
-      "audio_status": "Unsupported",
-      "code_name": "bob",
-      "comment": "N/A",
-      "cpu_gen": "RK3399",
-      "family_name": "bob",
-      "supported": false
-    },
-    "Chromebook Flip C213": {
-      "audio_status": "Full",
-      "code_name": "basking",
-      "comment": "N/A",
-      "cpu_gen": "ApolloLake",
-      "family_name": "reef",
-      "supported": true
-    },
-    "Chromebook Flip C214 (EDU)": {
-      "audio_status": "Full",
-      "code_name": "ampton",
-      "comment": "N/A",
-      "cpu_gen": "Gemini Lake",
-      "family_name": "octopus",
-      "supported": true
-    },
-    "Chromebook Flip C234 (CANADA CONSUMER)": {
-      "audio_status": "Full",
-      "code_name": "ampton",
-      "comment": "N/A",
-      "cpu_gen": "Gemini Lake",
-      "family_name": "octopus",
-      "supported": true
-    },
-    "Chromebook Flip C302": {
-      "audio_status": "Partial",
-      "code_name": "cave",
-      "comment": "N/A",
-      "cpu_gen": "Skylake",
-      "family_name": "cave",
-      "supported": true
-    },
-    "Chromebook Flip C433": {
-      "audio_status": "Partial",
-      "code_name": "shyvana",
-      "comment": "N/A",
-      "cpu_gen": "Amberlake-Y",
-      "family_name": "rammus",
-      "supported": true
-    },
-    "Chromebook Flip C434": {
-      "audio_status": "Partial",
-      "code_name": "shyvana",
-      "comment": "N/A",
-      "cpu_gen": "Amberlake-Y",
-      "family_name": "rammus",
-      "supported": true
-    },
-    "Chromebook Flip C436FA": {
-      "audio_status": "Full",
-      "code_name": "helios",
-      "comment": "N/A",
-      "cpu_gen": "Cometlake-U",
-      "family_name": "hatch",
-      "supported": true
-    },
-    "Chromebook Flip C536": {
-      "audio_status": "Full",
-      "code_name": "delbin",
-      "comment": "N/A",
-      "cpu_gen": "TigerLake-UP3",
-      "family_name": "volteer",
-      "supported": true
-    },
-    "Chromebook Flip CM1 (CM1400)": {
-      "audio_status": "Full",
-      "code_name": "jelboz360",
-      "comment": "N/A",
-      "cpu_gen": "Picasso/Dali",
-      "family_name": "zork",
-      "supported": true
-    },
-    "Chromebook Flip CM3200FM1A": {
-      "audio_status": "Unsupported",
-      "code_name": "hayato",
-      "comment": "N/A",
-      "cpu_gen": "MT8192",
-      "family_name": "asurada",
-      "supported": false
-    },
-    "Chromebook Flip CM3200FVA": {
-      "audio_status": "Unsupported",
-      "code_name": "damu",
-      "comment": "N/A",
-      "cpu_gen": "MT8183",
-      "family_name": "jacuzzi",
-      "supported": false
-    },
-    "Chromebook Flip CM5": {
-      "audio_status": "Full",
-      "code_name": "woomax",
-      "comment": "N/A",
-      "cpu_gen": "Picasso/Dali",
-      "family_name": "zork",
-      "supported": true
-    },
-    "Chromebook Flip CR1100FKA": {
-      "audio_status": "Full",
-      "code_name": "storo360",
-      "comment": "N/A",
-      "cpu_gen": "Jasper Lake",
-      "family_name": "dedede",
-      "supported": true
-    },
-    "Chromebook Flip CX1 CX1102": {
-      "audio_status": "Full",
-      "code_name": "galnat360",
-      "comment": "N/A",
-      "cpu_gen": "Jasper Lake",
-      "family_name": "dedede",
-      "supported": true
-    },
-    "Chromebook Flip CX3": {
-      "audio_status": "Full",
-      "code_name": "collis",
-      "comment": "N/A",
-      "cpu_gen": "TigerLake-UP3",
-      "family_name": "volteer",
-      "supported": true
-    },
-    "Chromebook Flip CX5 (CX5400)": {
-      "audio_status": "Full",
-      "code_name": "copano",
-      "comment": "N/A",
-      "cpu_gen": "TigerLake-UP3",
-      "family_name": "volteer",
-      "supported": true
-    },
-    "Chromebook Flip CX5 (CX5500)": {
-      "audio_status": "Full",
-      "code_name": "delbin",
-      "comment": "N/A",
-      "cpu_gen": "TigerLake-UP3",
-      "family_name": "volteer",
-      "supported": true
-    },
-    "Chromebook Flip CX5(CX5601)": {
-      "audio_status": "Unknown",
-      "code_name": "felwinter",
-      "comment": "N/A",
-      "cpu_gen": "Alder Lake",
-      "family_name": "brya",
-      "supported": true
-    },
-    "Chromebook Tablet CT100": {
-      "audio_status": "Unsupported",
-      "code_name": "dumo",
-      "comment": "N/A",
-      "cpu_gen": "RK3399",
-      "family_name": "scarlet",
-      "supported": false
-    },
-    "Chromebook Vibe CX55 Flip": {
-      "audio_status": "Full",
-      "code_name": "delbin",
-      "comment": "N/A",
-      "cpu_gen": "TigerLake-UP3",
-      "family_name": "volteer",
-      "supported": true
-    },
-    "Chromebox (CN60)": {
-      "audio_status": "Full",
-      "code_name": "panther",
-      "comment": "N/A",
-      "cpu_gen": "Haswell",
-      "family_name": "panther",
-      "supported": true
-    },
-    "Chromebox 2 (CN62)": {
-      "audio_status": "Full",
-      "code_name": "guado",
-      "comment": "N/A",
-      "cpu_gen": "Broadwell",
-      "family_name": "guado",
-      "supported": true
-    },
-    "Chromebox 3 (CN65)": {
-      "audio_status": "Full",
-      "code_name": "teemo",
-      "comment": "N/A",
-      "cpu_gen": "Kabylake-U/R",
-      "family_name": "fizz",
-      "supported": true
-    },
-    "Chromebox 4": {
-      "audio_status": "Full",
-      "code_name": "duffy",
-      "comment": "N/A",
-      "cpu_gen": "Cometlake-U",
-      "family_name": "puff",
-      "supported": true
-    },
-    "Fanless Chromebox": {
-      "audio_status": "Full",
-      "code_name": "faffy",
-      "comment": "N/A",
-      "cpu_gen": "Cometlake-U",
-      "family_name": "puff",
-      "supported": true
-    }
-  },
   "Acer": {
     "AC700": {
       "audio_status": "Unsupported",
@@ -1050,6 +536,14 @@
       "family_name": "nissa",
       "supported": true
     },
+    "Chromebook Spin 513 (CP513-2H)": {
+      "audio_status": "Unsupported",
+      "code_name": "tomato",
+      "comment": "N/A",
+      "cpu_gen": "MT8195/MT8195T",
+      "family_name": "cherry",
+      "supported": false
+    },
     "Chromebook Spin 513 CP513-1H/1HL R841T/LT": {
       "audio_status": "Unsupported",
       "code_name": "lazor",
@@ -1195,6 +689,66 @@
       "supported": true
     }
   },
+  "Advan": {
+    "Chromebook 116": {
+      "audio_status": "Full",
+      "code_name": "garg360",
+      "comment": "N/A",
+      "cpu_gen": "Gemini Lake",
+      "family_name": "octopus",
+      "supported": true
+    }
+  },
+  "Aopen": {
+    "Chromebase Commercial": {
+      "audio_status": "Full",
+      "code_name": "sumo",
+      "comment": "N/A",
+      "cpu_gen": "BayTrail",
+      "family_name": "sumo",
+      "supported": true
+    },
+    "Chromebase Mini": {
+      "audio_status": "Unsupported",
+      "code_name": "veyron-tiger",
+      "comment": "N/A",
+      "cpu_gen": "RK3288",
+      "family_name": "veyron-tiger",
+      "supported": false
+    },
+    "Chromebook Commercial Tab": {
+      "audio_status": "Unsupported",
+      "code_name": "druwl",
+      "comment": "N/A",
+      "cpu_gen": "RK3399",
+      "family_name": "scarlet",
+      "supported": false
+    },
+    "Chromebox Commercial": {
+      "audio_status": "Full",
+      "code_name": "ninja",
+      "comment": "N/A",
+      "cpu_gen": "BayTrail",
+      "family_name": "ninja",
+      "supported": true
+    },
+    "Chromebox Commercial 2": {
+      "audio_status": "Full",
+      "code_name": "jax",
+      "comment": "N/A",
+      "cpu_gen": "Kabylake-U/R",
+      "family_name": "fizz",
+      "supported": true
+    },
+    "Chromebox Mini": {
+      "audio_status": "Unsupported",
+      "code_name": "veyron-fievel",
+      "comment": "N/A",
+      "cpu_gen": "RK3288",
+      "family_name": "veyron-fievel",
+      "supported": false
+    }
+  },
   "Ascon": {
     "Chromebook 11A": {
       "audio_status": "Full",
@@ -1205,13 +759,455 @@
       "supported": true
     }
   },
+  "Asi": {
+    "Chromebook": {
+      "audio_status": "Full",
+      "code_name": "enguarde",
+      "comment": "N/A",
+      "cpu_gen": "BayTrail",
+      "family_name": "enguarde",
+      "supported": true
+    }
+  },
   "Asus": {
+    "Chromebit CS10": {
+      "audio_status": "Unsupported",
+      "code_name": "veyron-mickey",
+      "comment": "N/A",
+      "cpu_gen": "RK3288",
+      "family_name": "veyron-mickey",
+      "supported": false
+    },
+    "Chromebook C200": {
+      "audio_status": "Full",
+      "code_name": "squawks",
+      "comment": "N/A",
+      "cpu_gen": "BayTrail",
+      "family_name": "squawks",
+      "supported": true
+    },
+    "Chromebook C201PA": {
+      "audio_status": "Unsupported",
+      "code_name": "veyron-speedy",
+      "comment": "N/A",
+      "cpu_gen": "RK3288",
+      "family_name": "veyron-speedy",
+      "supported": false
+    },
+    "Chromebook C202SA": {
+      "audio_status": "Full",
+      "code_name": "terra",
+      "comment": "N/A",
+      "cpu_gen": "Braswell",
+      "family_name": "terra",
+      "supported": true
+    },
+    "Chromebook C202XA": {
+      "audio_status": "Unsupported",
+      "code_name": "telesu",
+      "comment": "N/A",
+      "cpu_gen": "MT8173",
+      "family_name": "hana",
+      "supported": false
+    },
+    "Chromebook C204": {
+      "audio_status": "Full",
+      "code_name": "apel",
+      "comment": "N/A",
+      "cpu_gen": "Gemini Lake",
+      "family_name": "octopus",
+      "supported": true
+    },
+    "Chromebook C223": {
+      "audio_status": "Full",
+      "code_name": "babymega",
+      "comment": "N/A",
+      "cpu_gen": "ApolloLake",
+      "family_name": "coral",
+      "supported": true
+    },
+    "Chromebook C300": {
+      "audio_status": "Full",
+      "code_name": "quawks",
+      "comment": "N/A",
+      "cpu_gen": "BayTrail",
+      "family_name": "quawks",
+      "supported": true
+    },
+    "Chromebook C300SA / C301SA": {
+      "audio_status": "Full",
+      "code_name": "terra",
+      "comment": "N/A",
+      "cpu_gen": "Braswell",
+      "family_name": "terra",
+      "supported": true
+    },
+    "Chromebook C403": {
+      "audio_status": "Full",
+      "code_name": "rabbid",
+      "comment": "N/A",
+      "cpu_gen": "ApolloLake",
+      "family_name": "coral",
+      "supported": true
+    },
+    "Chromebook C423": {
+      "audio_status": "Full",
+      "code_name": "rabbid",
+      "comment": "N/A",
+      "cpu_gen": "ApolloLake",
+      "family_name": "coral",
+      "supported": true
+    },
+    "Chromebook C424": {
+      "audio_status": "Full",
+      "code_name": "nospike",
+      "comment": "N/A",
+      "cpu_gen": "Gemini Lake",
+      "family_name": "octopus",
+      "supported": true
+    },
+    "Chromebook C425": {
+      "audio_status": "Partial",
+      "code_name": "leona",
+      "comment": "N/A",
+      "cpu_gen": "Amberlake-Y",
+      "family_name": "rammus",
+      "supported": true
+    },
+    "Chromebook C523": {
+      "audio_status": "Full",
+      "code_name": "babytiger",
+      "comment": "N/A",
+      "cpu_gen": "ApolloLake",
+      "family_name": "coral",
+      "supported": true
+    },
+    "Chromebook CR1100CKA": {
+      "audio_status": "Full",
+      "code_name": "storo",
+      "comment": "N/A",
+      "cpu_gen": "Jasper Lake",
+      "family_name": "dedede",
+      "supported": true
+    },
+    "Chromebook CX1": {
+      "audio_status": "Full",
+      "code_name": "galtic",
+      "comment": "N/A",
+      "cpu_gen": "Jasper Lake",
+      "family_name": "dedede",
+      "supported": true
+    },
+    "Chromebook CX1 CX1102": {
+      "audio_status": "Full",
+      "code_name": "galnat",
+      "comment": "N/A",
+      "cpu_gen": "Jasper Lake",
+      "family_name": "dedede",
+      "supported": true
+    },
+    "Chromebook CX1100CNA": {
+      "audio_status": "Full",
+      "code_name": "babymega",
+      "comment": "N/A",
+      "cpu_gen": "ApolloLake",
+      "family_name": "coral",
+      "supported": true
+    },
+    "Chromebook CX1400CNA": {
+      "audio_status": "Full",
+      "code_name": "rabbid",
+      "comment": "N/A",
+      "cpu_gen": "ApolloLake",
+      "family_name": "coral",
+      "supported": true
+    },
+    "Chromebook CX1500CKA": {
+      "audio_status": "Full",
+      "code_name": "galith",
+      "comment": "N/A",
+      "cpu_gen": "Jasper Lake",
+      "family_name": "dedede",
+      "supported": true
+    },
+    "Chromebook CX1500CNA": {
+      "audio_status": "Full",
+      "code_name": "babytiger",
+      "comment": "N/A",
+      "cpu_gen": "ApolloLake",
+      "family_name": "coral",
+      "supported": true
+    },
+    "Chromebook CX1700CKA": {
+      "audio_status": "Full",
+      "code_name": "gallop",
+      "comment": "N/A",
+      "cpu_gen": "Jasper Lake",
+      "family_name": "dedede",
+      "supported": true
+    },
+    "Chromebook CX34 Flip": {
+      "audio_status": "Unknown",
+      "code_name": "mithrax",
+      "comment": "N/A",
+      "cpu_gen": "Alder Lake",
+      "family_name": "brya",
+      "supported": true
+    },
+    "Chromebook CX9 (CX9400)": {
+      "audio_status": "Full",
+      "code_name": "drobit",
+      "comment": "N/A",
+      "cpu_gen": "TigerLake-UP3",
+      "family_name": "volteer",
+      "supported": true
+    },
+    "Chromebook Detachable CM3": {
+      "audio_status": "Unsupported",
+      "code_name": "kakadu",
+      "comment": "N/A",
+      "cpu_gen": "MT8183",
+      "family_name": "kukui",
+      "supported": false
+    },
+    "Chromebook Detachable CZ1": {
+      "audio_status": "Unsupported",
+      "code_name": "katsu",
+      "comment": "N/A",
+      "cpu_gen": "MT8183",
+      "family_name": "kukui",
+      "supported": false
+    },
+    "Chromebook Enterprise Flip CX5(CX5601)": {
+      "audio_status": "Unknown",
+      "code_name": "felwinter",
+      "comment": "N/A",
+      "cpu_gen": "Alder Lake",
+      "family_name": "brya",
+      "supported": true
+    },
+    "Chromebook Flip C100PA": {
+      "audio_status": "Unsupported",
+      "code_name": "veyron-minnie",
+      "comment": "N/A",
+      "cpu_gen": "RK3288",
+      "family_name": "veyron-minnie",
+      "supported": false
+    },
+    "Chromebook Flip C101PA": {
+      "audio_status": "Unsupported",
+      "code_name": "bob",
+      "comment": "N/A",
+      "cpu_gen": "RK3399",
+      "family_name": "bob",
+      "supported": false
+    },
+    "Chromebook Flip C213": {
+      "audio_status": "Full",
+      "code_name": "basking",
+      "comment": "N/A",
+      "cpu_gen": "ApolloLake",
+      "family_name": "reef",
+      "supported": true
+    },
+    "Chromebook Flip C214 (EDU)": {
+      "audio_status": "Full",
+      "code_name": "ampton",
+      "comment": "N/A",
+      "cpu_gen": "Gemini Lake",
+      "family_name": "octopus",
+      "supported": true
+    },
+    "Chromebook Flip C234 (CANADA CONSUMER)": {
+      "audio_status": "Full",
+      "code_name": "ampton",
+      "comment": "N/A",
+      "cpu_gen": "Gemini Lake",
+      "family_name": "octopus",
+      "supported": true
+    },
+    "Chromebook Flip C302": {
+      "audio_status": "Partial",
+      "code_name": "cave",
+      "comment": "N/A",
+      "cpu_gen": "Skylake",
+      "family_name": "cave",
+      "supported": true
+    },
+    "Chromebook Flip C433": {
+      "audio_status": "Partial",
+      "code_name": "shyvana",
+      "comment": "N/A",
+      "cpu_gen": "Amberlake-Y",
+      "family_name": "rammus",
+      "supported": true
+    },
+    "Chromebook Flip C434": {
+      "audio_status": "Partial",
+      "code_name": "shyvana",
+      "comment": "N/A",
+      "cpu_gen": "Amberlake-Y",
+      "family_name": "rammus",
+      "supported": true
+    },
+    "Chromebook Flip C436FA": {
+      "audio_status": "Full",
+      "code_name": "helios",
+      "comment": "N/A",
+      "cpu_gen": "Cometlake-U",
+      "family_name": "hatch",
+      "supported": true
+    },
+    "Chromebook Flip C536": {
+      "audio_status": "Full",
+      "code_name": "delbin",
+      "comment": "N/A",
+      "cpu_gen": "TigerLake-UP3",
+      "family_name": "volteer",
+      "supported": true
+    },
+    "Chromebook Flip CM1 (CM1400)": {
+      "audio_status": "Full",
+      "code_name": "jelboz360",
+      "comment": "N/A",
+      "cpu_gen": "Picasso/Dali",
+      "family_name": "zork",
+      "supported": true
+    },
+    "Chromebook Flip CM3200FM1A": {
+      "audio_status": "Unsupported",
+      "code_name": "hayato",
+      "comment": "N/A",
+      "cpu_gen": "MT8192",
+      "family_name": "asurada",
+      "supported": false
+    },
+    "Chromebook Flip CM3200FVA": {
+      "audio_status": "Unsupported",
+      "code_name": "damu",
+      "comment": "N/A",
+      "cpu_gen": "MT8183",
+      "family_name": "jacuzzi",
+      "supported": false
+    },
+    "Chromebook Flip CM5": {
+      "audio_status": "Full",
+      "code_name": "woomax",
+      "comment": "N/A",
+      "cpu_gen": "Picasso/Dali",
+      "family_name": "zork",
+      "supported": true
+    },
+    "Chromebook Flip CR1100FKA": {
+      "audio_status": "Full",
+      "code_name": "storo360",
+      "comment": "N/A",
+      "cpu_gen": "Jasper Lake",
+      "family_name": "dedede",
+      "supported": true
+    },
+    "Chromebook Flip CX1 CX1102": {
+      "audio_status": "Full",
+      "code_name": "galnat360",
+      "comment": "N/A",
+      "cpu_gen": "Jasper Lake",
+      "family_name": "dedede",
+      "supported": true
+    },
+    "Chromebook Flip CX3": {
+      "audio_status": "Full",
+      "code_name": "collis",
+      "comment": "N/A",
+      "cpu_gen": "TigerLake-UP3",
+      "family_name": "volteer",
+      "supported": true
+    },
+    "Chromebook Flip CX5 (CX5400)": {
+      "audio_status": "Full",
+      "code_name": "copano",
+      "comment": "N/A",
+      "cpu_gen": "TigerLake-UP3",
+      "family_name": "volteer",
+      "supported": true
+    },
+    "Chromebook Flip CX5 (CX5500)": {
+      "audio_status": "Full",
+      "code_name": "delbin",
+      "comment": "N/A",
+      "cpu_gen": "TigerLake-UP3",
+      "family_name": "volteer",
+      "supported": true
+    },
+    "Chromebook Flip CX5(CX5601)": {
+      "audio_status": "Unknown",
+      "code_name": "felwinter",
+      "comment": "N/A",
+      "cpu_gen": "Alder Lake",
+      "family_name": "brya",
+      "supported": true
+    },
+    "Chromebook Tablet CT100": {
+      "audio_status": "Unsupported",
+      "code_name": "dumo",
+      "comment": "N/A",
+      "cpu_gen": "RK3399",
+      "family_name": "scarlet",
+      "supported": false
+    },
     "Chromebook Vibe CX34 Flip": {
       "audio_status": "Unknown",
       "code_name": "mithrax",
       "comment": "N/A",
       "cpu_gen": "Alder Lake",
       "family_name": "brya",
+      "supported": true
+    },
+    "Chromebook Vibe CX55 Flip": {
+      "audio_status": "Full",
+      "code_name": "delbin",
+      "comment": "N/A",
+      "cpu_gen": "TigerLake-UP3",
+      "family_name": "volteer",
+      "supported": true
+    },
+    "Chromebox (CN60)": {
+      "audio_status": "Full",
+      "code_name": "panther",
+      "comment": "N/A",
+      "cpu_gen": "Haswell",
+      "family_name": "panther",
+      "supported": true
+    },
+    "Chromebox 2 (CN62)": {
+      "audio_status": "Full",
+      "code_name": "guado",
+      "comment": "N/A",
+      "cpu_gen": "Broadwell",
+      "family_name": "guado",
+      "supported": true
+    },
+    "Chromebox 3 (CN65)": {
+      "audio_status": "Full",
+      "code_name": "teemo",
+      "comment": "N/A",
+      "cpu_gen": "Kabylake-U/R",
+      "family_name": "fizz",
+      "supported": true
+    },
+    "Chromebox 4": {
+      "audio_status": "Full",
+      "code_name": "duffy",
+      "comment": "N/A",
+      "cpu_gen": "Cometlake-U",
+      "family_name": "puff",
+      "supported": true
+    },
+    "Fanless Chromebox": {
+      "audio_status": "Full",
+      "code_name": "faffy",
+      "comment": "N/A",
+      "cpu_gen": "Cometlake-U",
+      "family_name": "puff",
       "supported": true
     }
   },
@@ -1269,7 +1265,43 @@
       "supported": true
     }
   },
-  "CR1102C": {
+  "Chromebook": {
+    "11 G8 EE": {
+      "audio_status": "Full",
+      "code_name": "vorticon",
+      "comment": "N/A",
+      "cpu_gen": "Gemini Lake",
+      "family_name": "octopus",
+      "supported": true
+    },
+    "14 G6": {
+      "audio_status": "Full",
+      "code_name": "dorp",
+      "comment": "N/A",
+      "cpu_gen": "Gemini Lake",
+      "family_name": "octopus",
+      "supported": true
+    },
+    "x360 11 G3 EE": {
+      "audio_status": "Full",
+      "code_name": "vortininja",
+      "comment": "N/A",
+      "cpu_gen": "Gemini Lake",
+      "family_name": "octopus",
+      "supported": true
+    }
+  },
+  "Consumer": {
+    "Chromebook": {
+      "audio_status": "Full",
+      "code_name": "expresso",
+      "comment": "N/A",
+      "cpu_gen": "BayTrail",
+      "family_name": "expresso",
+      "supported": true
+    }
+  },
+  "Cr1102c": {
     "CR1102C": {
       "audio_status": "Unknown",
       "code_name": "xivu",
@@ -1279,7 +1311,7 @@
       "supported": true
     }
   },
-  "CR1102F": {
+  "Cr1102f": {
     "CR1102F": {
       "audio_status": "Unknown",
       "code_name": "xivu360",
@@ -1289,7 +1321,17 @@
       "supported": true
     }
   },
-  "CTL": {
+  "Crambo": {
+    "Chromebook": {
+      "audio_status": "Full",
+      "code_name": "enguarde",
+      "comment": "N/A",
+      "cpu_gen": "BayTrail",
+      "family_name": "enguarde",
+      "supported": true
+    }
+  },
+  "Ctl": {
     "Chromebook Enterprise/PX14E/PX14EX/PX14EXT": {
       "audio_status": "Full",
       "code_name": "pirika",
@@ -1451,7 +1493,7 @@
       "supported": true
     }
   },
-  "CX1101CMA": {
+  "Cx1101cma": {
     "CX1101CMA": {
       "audio_status": "Full",
       "code_name": "apele",
@@ -1461,7 +1503,7 @@
       "supported": true
     }
   },
-  "CX1400FKA": {
+  "Cx1400fka": {
     "CX1400FKA": {
       "audio_status": "Full",
       "code_name": "galtic360",
@@ -1471,59 +1513,13 @@
       "supported": true
     }
   },
-  "CX1500FKA": {
+  "Cx1500fka": {
     "CX1500FKA": {
       "audio_status": "Full",
       "code_name": "galith360",
       "comment": "N/A",
       "cpu_gen": "Jasper Lake",
       "family_name": "dedede",
-      "supported": true
-    }
-  },
-  "Chromebook": {
-    "11 G8 EE": {
-      "audio_status": "Full",
-      "code_name": "vorticon",
-      "comment": "N/A",
-      "cpu_gen": "Gemini Lake",
-      "family_name": "octopus",
-      "supported": true
-    },
-    "14 G6": {
-      "audio_status": "Full",
-      "code_name": "dorp",
-      "comment": "N/A",
-      "cpu_gen": "Gemini Lake",
-      "family_name": "octopus",
-      "supported": true
-    },
-    "x360 11 G3 EE": {
-      "audio_status": "Full",
-      "code_name": "vortininja",
-      "comment": "N/A",
-      "cpu_gen": "Gemini Lake",
-      "family_name": "octopus",
-      "supported": true
-    }
-  },
-  "Consumer": {
-    "Chromebook": {
-      "audio_status": "Full",
-      "code_name": "expresso",
-      "comment": "N/A",
-      "cpu_gen": "BayTrail",
-      "family_name": "expresso",
-      "supported": true
-    }
-  },
-  "Crambo": {
-    "Chromebook": {
-      "audio_status": "Full",
-      "code_name": "enguarde",
-      "comment": "N/A",
-      "cpu_gen": "BayTrail",
-      "family_name": "enguarde",
       "supported": true
     }
   },
@@ -1699,25 +1695,25 @@
       "supported": false
     }
   },
-  "EVERCOSS": {
-    "Chromebook CB1/CB1A": {
+  "Education": {
+    "Chromebook": {
       "audio_status": "Full",
-      "code_name": "garg",
+      "code_name": "enguarde",
       "comment": "N/A",
-      "cpu_gen": "Gemini Lake",
-      "family_name": "octopus",
-      "supported": true
-    },
-    "Chromebook CB1A": {
-      "audio_status": "Full",
-      "code_name": "garg360",
-      "comment": "N/A",
-      "cpu_gen": "Gemini Lake",
-      "family_name": "octopus",
+      "cpu_gen": "BayTrail",
+      "family_name": "enguarde",
       "supported": true
     }
   },
-  "EduGear": {
+  "Edugear": {
+    "CMT Chromebook": {
+      "audio_status": "Full",
+      "code_name": "wizpig",
+      "comment": "N/A",
+      "cpu_gen": "Braswell",
+      "family_name": "wizpig",
+      "supported": true
+    },
     "Chromebook K": {
       "audio_status": "Unsupported",
       "code_name": "veyron-jerry",
@@ -1740,26 +1736,6 @@
       "comment": "N/A",
       "cpu_gen": "Braswell",
       "family_name": "relm",
-      "supported": true
-    }
-  },
-  "Education": {
-    "Chromebook": {
-      "audio_status": "Full",
-      "code_name": "enguarde",
-      "comment": "N/A",
-      "cpu_gen": "BayTrail",
-      "family_name": "enguarde",
-      "supported": true
-    }
-  },
-  "Edugear": {
-    "CMT Chromebook": {
-      "audio_status": "Full",
-      "code_name": "wizpig",
-      "comment": "N/A",
-      "cpu_gen": "Braswell",
-      "family_name": "wizpig",
       "supported": true
     }
   },
@@ -1831,7 +1807,25 @@
       "supported": false
     }
   },
-  "FMV": {
+  "Evercoss": {
+    "Chromebook CB1/CB1A": {
+      "audio_status": "Full",
+      "code_name": "garg",
+      "comment": "N/A",
+      "cpu_gen": "Gemini Lake",
+      "family_name": "octopus",
+      "supported": true
+    },
+    "Chromebook CB1A": {
+      "audio_status": "Full",
+      "code_name": "garg360",
+      "comment": "N/A",
+      "cpu_gen": "Gemini Lake",
+      "family_name": "octopus",
+      "supported": true
+    }
+  },
+  "Fmv": {
     "Chromebook 14F FMV Chromebook WM1/F3": {
       "audio_status": "Full",
       "code_name": "chronicler",
@@ -1937,7 +1931,41 @@
       "supported": true
     }
   },
-  "HEXA": {
+  "Haier": {
+    "Chromebook 11": {
+      "audio_status": "Unsupported",
+      "code_name": "veyron-jaq",
+      "comment": "N/A",
+      "cpu_gen": "RK3288",
+      "family_name": "veyron-jaq",
+      "supported": false
+    },
+    "Chromebook 11 C": {
+      "audio_status": "Full",
+      "code_name": "wizpig",
+      "comment": "N/A",
+      "cpu_gen": "Braswell",
+      "family_name": "wizpig",
+      "supported": true
+    },
+    "Chromebook 11 G2": {
+      "audio_status": "Full",
+      "code_name": "heli",
+      "comment": "N/A",
+      "cpu_gen": "BayTrail",
+      "family_name": "heli",
+      "supported": true
+    },
+    "Chromebook 11e": {
+      "audio_status": "Unsupported",
+      "code_name": "veyron-mighty",
+      "comment": "N/A",
+      "cpu_gen": "RK3288",
+      "family_name": "veyron-mighty",
+      "supported": false
+    }
+  },
+  "Hexa": {
     "Chromebook Pi": {
       "audio_status": "Full",
       "code_name": "expresso",
@@ -1947,7 +1975,17 @@
       "supported": true
     }
   },
-  "HP": {
+  "Hisense": {
+    "Chromebook 11": {
+      "audio_status": "Unsupported",
+      "code_name": "veyron-jerry",
+      "comment": "N/A",
+      "cpu_gen": "RK3288",
+      "family_name": "veyron-jerry",
+      "supported": false
+    }
+  },
+  "Hp": {
     "Chromebase 21.5 inch All-in-One Desktop": {
       "audio_status": "Full",
       "code_name": "dooly",
@@ -2389,51 +2427,7 @@
       "supported": true
     }
   },
-  "Haier": {
-    "Chromebook 11": {
-      "audio_status": "Unsupported",
-      "code_name": "veyron-jaq",
-      "comment": "N/A",
-      "cpu_gen": "RK3288",
-      "family_name": "veyron-jaq",
-      "supported": false
-    },
-    "Chromebook 11 C": {
-      "audio_status": "Full",
-      "code_name": "wizpig",
-      "comment": "N/A",
-      "cpu_gen": "Braswell",
-      "family_name": "wizpig",
-      "supported": true
-    },
-    "Chromebook 11 G2": {
-      "audio_status": "Full",
-      "code_name": "heli",
-      "comment": "N/A",
-      "cpu_gen": "BayTrail",
-      "family_name": "heli",
-      "supported": true
-    },
-    "Chromebook 11e": {
-      "audio_status": "Unsupported",
-      "code_name": "veyron-mighty",
-      "comment": "N/A",
-      "cpu_gen": "RK3288",
-      "family_name": "veyron-mighty",
-      "supported": false
-    }
-  },
-  "HiSense": {
-    "Chromebook 11": {
-      "audio_status": "Unsupported",
-      "code_name": "veyron-jerry",
-      "comment": "N/A",
-      "cpu_gen": "RK3288",
-      "family_name": "veyron-jerry",
-      "supported": false
-    }
-  },
-  "IdeaPad": {
+  "Ideapad": {
     "3 CB 14IGL05": {
       "audio_status": "Full",
       "code_name": "laser14",
@@ -2443,12 +2437,12 @@
       "supported": true
     },
     "3 Chromebook": {
-      "audio_status": "Unsupported",
-      "code_name": "fennel14",
+      "audio_status": "Full",
+      "code_name": "lick",
       "comment": "N/A",
-      "cpu_gen": "MT8183",
-      "family_name": "jacuzzi",
-      "supported": false
+      "cpu_gen": "Gemini Lake",
+      "family_name": "octopus",
+      "supported": true
     },
     "3 Chromebook (11\" 5)": {
       "audio_status": "Unsupported",
@@ -2499,17 +2493,7 @@
       "supported": true
     }
   },
-  "Ideapad": {
-    "3 Chromebook": {
-      "audio_status": "Full",
-      "code_name": "lick",
-      "comment": "N/A",
-      "cpu_gen": "Gemini Lake",
-      "family_name": "octopus",
-      "supported": true
-    }
-  },
-  "JOI": {
+  "Joi": {
     "Chromebook C100": {
       "audio_status": "Full",
       "code_name": "garg360",
@@ -2519,39 +2503,13 @@
       "supported": true
     }
   },
-  "JP": {
+  "Jp": {
     "Sa Couto Chromebook": {
       "audio_status": "Full",
       "code_name": "enguarde",
       "comment": "N/A",
       "cpu_gen": "BayTrail",
       "family_name": "enguarde",
-      "supported": true
-    }
-  },
-  "LG": {
-    "Chromebase (22CB25S)": {
-      "audio_status": "Full",
-      "code_name": "monroe",
-      "comment": "N/A",
-      "cpu_gen": "Haswell",
-      "family_name": "monroe",
-      "supported": true
-    },
-    "Chromebase (22CV241)": {
-      "audio_status": "Full",
-      "code_name": "monroe",
-      "comment": "N/A",
-      "cpu_gen": "Haswell",
-      "family_name": "monroe",
-      "supported": true
-    },
-    "Chromebook 11TC50Q/11TQ50Q": {
-      "audio_status": "Full",
-      "code_name": "kracko360",
-      "comment": "N/A",
-      "cpu_gen": "Jasper Lake",
-      "family_name": "dedede",
       "supported": true
     }
   },
@@ -2961,7 +2919,33 @@
       "supported": true
     }
   },
-  "Libera-Merdeka": {
+  "Lg": {
+    "Chromebase (22CB25S)": {
+      "audio_status": "Full",
+      "code_name": "monroe",
+      "comment": "N/A",
+      "cpu_gen": "Haswell",
+      "family_name": "monroe",
+      "supported": true
+    },
+    "Chromebase (22CV241)": {
+      "audio_status": "Full",
+      "code_name": "monroe",
+      "comment": "N/A",
+      "cpu_gen": "Haswell",
+      "family_name": "monroe",
+      "supported": true
+    },
+    "Chromebook 11TC50Q/11TQ50Q": {
+      "audio_status": "Full",
+      "code_name": "kracko360",
+      "comment": "N/A",
+      "cpu_gen": "Jasper Lake",
+      "family_name": "dedede",
+      "supported": true
+    }
+  },
+  "Libera-merdeka": {
     "Chromebook C100/C110/C120/C150": {
       "audio_status": "Unsupported",
       "code_name": "pazquel",
@@ -2981,7 +2965,7 @@
       "supported": false
     }
   },
-  "M&A": {
+  "M&a": {
     "Chromebook": {
       "audio_status": "Full",
       "code_name": "enguarde",
@@ -2989,16 +2973,6 @@
       "cpu_gen": "BayTrail",
       "family_name": "enguarde",
       "supported": true
-    }
-  },
-  "MEDION": {
-    "Chromebook S2015": {
-      "audio_status": "Unsupported",
-      "code_name": "veyron-mighty",
-      "comment": "N/A",
-      "cpu_gen": "RK3288",
-      "family_name": "veyron-mighty",
-      "supported": false
     }
   },
   "Mecer": {
@@ -3026,6 +3000,14 @@
       "comment": "N/A",
       "cpu_gen": "RK3288",
       "family_name": "veyron-jaq",
+      "supported": false
+    },
+    "Chromebook S2015": {
+      "audio_status": "Unsupported",
+      "code_name": "veyron-mighty",
+      "comment": "N/A",
+      "cpu_gen": "RK3288",
+      "family_name": "veyron-mighty",
       "supported": false
     }
   },
@@ -3071,7 +3053,7 @@
       "supported": true
     }
   },
-  "NComputing": {
+  "Ncomputing": {
     "Chromebook CX100": {
       "audio_status": "Unsupported",
       "code_name": "veyron-jerry",
@@ -3081,7 +3063,7 @@
       "supported": false
     }
   },
-  "NEC": {
+  "Nec": {
     "Chromebook Y1": {
       "audio_status": "Full",
       "code_name": "phaser360",
@@ -3151,16 +3133,6 @@
       "supported": false
     }
   },
-  "OWG": {
-    "OWG": {
-      "audio_status": "Full",
-      "code_name": "wukong",
-      "comment": "N/A",
-      "cpu_gen": "Kabylake-U/R",
-      "family_name": "fizz",
-      "supported": true
-    }
-  },
   "Orbic": {
     "Chromebook": {
       "audio_status": "Unsupported",
@@ -3171,31 +3143,13 @@
       "supported": false
     }
   },
-  "PCMerge": {
-    "Chromebook PCM-116E/PCM-116EB": {
-      "audio_status": "Unsupported",
-      "code_name": "veyron-mighty",
-      "comment": "N/A",
-      "cpu_gen": "RK3288",
-      "family_name": "veyron-mighty",
-      "supported": false
-    },
-    "Chromebook PCM-116T-432B": {
+  "Owg": {
+    "OWG": {
       "audio_status": "Full",
-      "code_name": "wizpig",
+      "code_name": "wukong",
       "comment": "N/A",
-      "cpu_gen": "Braswell",
-      "family_name": "wizpig",
-      "supported": true
-    }
-  },
-  "PCmerge": {
-    "Chromebook AL116": {
-      "audio_status": "Full",
-      "code_name": "whitetip",
-      "comment": "N/A",
-      "cpu_gen": "ApolloLake",
-      "family_name": "coral",
+      "cpu_gen": "Kabylake-U/R",
+      "family_name": "fizz",
       "supported": true
     }
   },
@@ -3214,6 +3168,32 @@
       "comment": "N/A",
       "cpu_gen": "Jasper Lake",
       "family_name": "dedede",
+      "supported": true
+    }
+  },
+  "Pcmerge": {
+    "Chromebook AL116": {
+      "audio_status": "Full",
+      "code_name": "whitetip",
+      "comment": "N/A",
+      "cpu_gen": "ApolloLake",
+      "family_name": "coral",
+      "supported": true
+    },
+    "Chromebook PCM-116E/PCM-116EB": {
+      "audio_status": "Unsupported",
+      "code_name": "veyron-mighty",
+      "comment": "N/A",
+      "cpu_gen": "RK3288",
+      "family_name": "veyron-mighty",
+      "supported": false
+    },
+    "Chromebook PCM-116T-432B": {
+      "audio_status": "Full",
+      "code_name": "wizpig",
+      "comment": "N/A",
+      "cpu_gen": "Braswell",
+      "family_name": "wizpig",
       "supported": true
     }
   },
@@ -3371,41 +3351,13 @@
       "supported": true
     }
   },
-  "RGS": {
+  "Rgs": {
     "Education Chromebook": {
       "audio_status": "Full",
       "code_name": "enguarde",
       "comment": "N/A",
       "cpu_gen": "BayTrail",
       "family_name": "enguarde",
-      "supported": true
-    }
-  },
-  "SMART": {
-    "Chromebox G3": {
-      "audio_status": "Full",
-      "code_name": "wukong",
-      "comment": "N/A",
-      "cpu_gen": "Kabylake-U/R",
-      "family_name": "fizz",
-      "supported": true
-    }
-  },
-  "SPC": {
-    "Chromebook X1 Mini": {
-      "audio_status": "Full",
-      "code_name": "garg360",
-      "comment": "N/A",
-      "cpu_gen": "Gemini Lake",
-      "family_name": "octopus",
-      "supported": true
-    },
-    "Chromebook Z1 Mini": {
-      "audio_status": "Full",
-      "code_name": "pirette",
-      "comment": "N/A",
-      "cpu_gen": "Jasper Lake",
-      "family_name": "dedede",
       "supported": true
     }
   },
@@ -3575,7 +3527,35 @@
       "supported": true
     }
   },
-  "ThinkPad": {
+  "Smart": {
+    "Chromebox G3": {
+      "audio_status": "Full",
+      "code_name": "wukong",
+      "comment": "N/A",
+      "cpu_gen": "Kabylake-U/R",
+      "family_name": "fizz",
+      "supported": true
+    }
+  },
+  "Spc": {
+    "Chromebook X1 Mini": {
+      "audio_status": "Full",
+      "code_name": "garg360",
+      "comment": "N/A",
+      "cpu_gen": "Gemini Lake",
+      "family_name": "octopus",
+      "supported": true
+    },
+    "Chromebook Z1 Mini": {
+      "audio_status": "Full",
+      "code_name": "pirette",
+      "comment": "N/A",
+      "cpu_gen": "Jasper Lake",
+      "family_name": "dedede",
+      "supported": true
+    }
+  },
+  "Thinkpad": {
     "C14 Gen 1 Chromebook": {
       "audio_status": "Unknown",
       "code_name": "primus",
@@ -3629,7 +3609,15 @@
       "supported": false
     }
   },
-  "VideoNet": {
+  "Videonet": {
+    "Chromebook": {
+      "audio_status": "Full",
+      "code_name": "enguarde",
+      "comment": "N/A",
+      "cpu_gen": "BayTrail",
+      "family_name": "enguarde",
+      "supported": true
+    },
     "Chromebook BL10": {
       "audio_status": "Unsupported",
       "code_name": "veyron-jerry",
@@ -3639,17 +3627,7 @@
       "supported": false
     }
   },
-  "Videonet": {
-    "Chromebook": {
-      "audio_status": "Full",
-      "code_name": "enguarde",
-      "comment": "N/A",
-      "cpu_gen": "BayTrail",
-      "family_name": "enguarde",
-      "supported": true
-    }
-  },
-  "ViewSonic": {
+  "Viewsonic": {
     "NMP660 Chromebox": {
       "audio_status": "Full",
       "code_name": "wukong",
@@ -3701,7 +3679,7 @@
       "supported": true
     }
   },
-  "WS": {
+  "Ws": {
     "Chromebook A101": {
       "audio_status": "Full",
       "code_name": "garg360",
@@ -3721,7 +3699,7 @@
       "supported": true
     }
   },
-  "XO": {
+  "Xo": {
     "Chromebook": {
       "audio_status": "Full",
       "code_name": "garg",
@@ -3754,16 +3732,6 @@
       "comment": "N/A",
       "cpu_gen": "Jasper Lake",
       "family_name": "dedede",
-      "supported": true
-    }
-  },
-  "eduGear": {
-    "Chromebook R": {
-      "audio_status": "Full",
-      "code_name": "enguarde",
-      "comment": "N/A",
-      "cpu_gen": "BayTrail",
-      "family_name": "enguarde",
       "supported": true
     }
   }
