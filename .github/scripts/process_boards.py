@@ -106,4 +106,4 @@ if __name__ == "__main__":
 
     # save fully parsed json
     with open("./device-support/devices-list.json", "w") as f:
-        json.dump(parsed_json_list, f)
+        json.dump(parsed_json_list, f, indent=2, sort_keys=True)
