@@ -90,6 +90,9 @@ if __name__ == "__main__":
     parsed_json_list.pop("W/o")  # anahera has a really broken name
     parsed_json_list.pop("100e")  # missing the lenovo brand at the beginning -> wrong sorting
     parsed_json_list.pop("300e")  # missing the lenovo brand at the beginning -> wrong sorting
+    parsed_json_list.pop("Cx1101cma")  # missing asus brand at the beginning -> wrong sorting
+    parsed_json_list.pop("Cx1400fka")  # missing asus brand at the beginning -> wrong sorting
+    parsed_json_list.pop("Cx1500fka")  # missing asus brand at the beginning -> wrong sorting
 
     # manually fix some devices
     # anahera has a really broken name:
@@ -130,6 +133,33 @@ if __name__ == "__main__":
                 "family_name": "grunt",
                 "supported": True
             }
+        },
+        # These Asus cbs are missing the Lenovo brand at the beginning -> wrong sorting
+        "Asus": {
+            "Chromebook Cx1101cma": {
+                "audio_status": "Full",
+                "code_name": "apele",
+                "comment": "N/A",
+                "cpu_gen": "Gemini Lake",
+                "family_name": "octopus",
+                "supported": True
+            },
+            "Chromebook CX1400fka": {
+                "audio_status": "Full",
+                "code_name": "galtic360",
+                "comment": "N/A",
+                "cpu_gen": "Jasper Lake",
+                "family_name": "dedede",
+                "supported": True
+            },
+            "Chromebook CX1500fka": {
+                "audio_status": "Full",
+                "code_name": "galith360",
+                "comment": "N/A",
+                "cpu_gen": "Jasper Lake",
+                "family_name": "dedede",
+                "supported": True
+            }
         }
     }
 
@@ -147,6 +177,11 @@ if __name__ == "__main__":
     for device in parsed_json_list["Chromebook"]:
         fixed_devices["Hp"][f"Chromebook {device}"] = parsed_json_list["Chromebook"][device]
     parsed_json_list.pop("Chromebook")  # remove broken entry
+
+    # Some Galaxy cbs are missing the Samsung brand at the beginning -> wrong sorting
+    for device in parsed_json_list["Galaxy"]:
+        fixed_devices["Samsung"][f"Galaxy {device}"] = parsed_json_list["Galaxy"][device]
+    parsed_json_list.pop("Galaxy")  # remove broken entry
 
     # merge the fixed devices with the main dictionary
     merge_dicts(parsed_json_list, fixed_devices)
