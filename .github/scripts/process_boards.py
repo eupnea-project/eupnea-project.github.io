@@ -14,7 +14,7 @@ def merge_dicts(dict1, dict2):
 
 
 def parse_device(device: dict, device_name: str, family_name: str) -> None:
-    print(device["brandNames"])
+    # print(f"Parsing {device['brandNames']}")
     names_list = []
     for temp_name in device["brandNames"]:
         names_list.extend(iter(temp_name.split(",")))
@@ -46,6 +46,7 @@ if __name__ == "__main__":
     urlretrieve("https://chromiumdash.appspot.com/cros/fetch_serving_builds?deviceCategory=ChromeOS",
                 filename="./devices.json")
 
+    # load downloaded json
     with open("./devices.json", "r") as f:
         devices_json = json.load(f)
 
@@ -64,10 +65,9 @@ if __name__ == "__main__":
 
     print(json.dumps(parsed_json_list))
 
-    exit()
-
-    with open("./device-support/devices-autogen.json", "w") as f:
+    with open("./devices-autogen.json", "w") as f:
         json.dump(parsed_json_list, f)
+    exit()
 
     # combine autogen and extra into one json file
     with open("./device-support/devices-extra.json", "r") as f:

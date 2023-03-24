@@ -2,64 +2,99 @@
   "Alder Lake": {
     "arch": "x86_64",
     "families": [
-      "fam1",
-      "fam2"
+      "brya",
+      "brask"
     ]
   },
   "Amberlake-Y": {
     "arch": "x86_64",
     "families": [
-      "fam1",
-      "fam2"
+      "atlas",
+      "rammus"
     ]
   },
   "ApolloLake": {
     "arch": "x86_64",
     "families": [
-      "fam1",
-      "fam2"
+      "coral",
+      "snappy"
     ]
   },
   "BayTrail": {
     "arch": "x86_64",
     "families": [
-      "fam1",
-      "fam2"
+      "winky",
+      "enguarde",
+      "banjo",
+      "candy",
+      "expresso",
+      "clapper",
+      "kip",
+      "glimmer",
+      "gnawty",
+      "heli"
     ]
   },
   "Braswell": {
     "arch": "x86_64",
     "families": [
-      "fam1",
-      "fam2"
+      "reks",
+      "relm",
+      "wizpig",
+      "banon",
+      "celes",
+      "cyan",
+      "edgar",
+      "setzer",
+      "ultima",
+      "kefka"
     ]
   },
   "Broadwell": {
     "arch": "x86_64",
     "families": [
-      "fam1",
-      "fam2"
+      "auron-paine",
+      "auron-yuna",
+      "buddy",
+      "gandof",
+      "guado"
+    ]
+  },
+  "Cezanne/Barcelo": {
+    "arch": "x86_64",
+    "families": [
+      "guybrush"
     ]
   },
   "Cometlake-U": {
     "arch": "x86_64",
     "families": [
-      "fam1",
-      "fam2"
+      "hatch",
+      "drallion",
+      "puff"
+    ]
+  },
+  "Exynos 5250": {
+    "arch": "arm",
+    "families": [
+      "daisy",
+      "daisy-spring",
+      "daisy-skate"
     ]
   },
   "Gemini Lake": {
     "arch": "x86_64",
     "families": [
-      "fam1",
-      "fam2"
+      "octopus"
     ]
   },
   "Haswell": {
     "arch": "x86_64",
     "families": [
-      "fam1",
-      "fam2"
+      "zako",
+      "wolf",
+      "tricky",
+      "falco-li"
     ]
   },
   "IvyBridge": {
@@ -72,36 +107,34 @@
   "Jasper Lake": {
     "arch": "x86_64",
     "families": [
-      "fam1",
-      "fam2"
+      "dedede"
     ]
   },
   "Kabylake-U/R": {
     "arch": "x86_64",
     "families": [
-      "fam1",
-      "fam2"
+      "fizz",
+      "nami"
     ]
   },
   "Kabylake-Y": {
     "arch": "x86_64",
     "families": [
-      "fam1",
-      "fam2"
+      "nocturne",
+      "eve"
     ]
   },
   "MT8173": {
-    "arch": "x86_64",
+    "arch": "aarch64",
     "families": [
-      "fam1",
-      "fam2"
+      "hana",
+      "elm"
     ]
   },
   "MT8183": {
-    "arch": "x86_64",
+    "arch": "aarch64",
     "families": [
-      "fam1",
-      "fam2"
+      "jacuzzi"
     ]
   },
   "MT8186": {
@@ -112,10 +145,15 @@
     ]
   },
   "MT8192": {
-    "arch": "x86_64",
+    "arch": "aarch64",
     "families": [
-      "fam1",
-      "fam2"
+      "asurada"
+    ]
+  },
+  "MT8195/MT8195T": {
+    "arch": "arm",
+    "families": [
+      "cherry"
     ]
   },
   "Picasso/Dali": {
@@ -125,10 +163,11 @@
     ]
   },
   "PineTrail": {
-    "arch": "x86_64",
+    "arch": "x86",
     "families": [
-      "fam1",
-      "fam2"
+      "x86-zgb-he",
+      "x86-mario",
+      "x86-alex-he"
     ]
   },
   "Pollock": {
@@ -139,49 +178,65 @@
     ]
   },
   "QC-7C": {
-    "arch": "x86_64",
+    "arch": "aarch64",
     "families": [
-      "fam1",
-      "fam2"
+      "trogdor",
+      "strongbad"
     ]
   },
   "RK3288": {
-    "arch": "x86_64",
+    "arch": "arm",
     "families": [
-      "fam1",
-      "fam2"
+      "veyron-tiger",
+      "veyron-speedy",
+      "veyron-minnie",
+      "veyron-mighty",
+      "veyron-jerry",
+      "veyron-mickey",
+      "veyron-jaq",
+      "veyron-fievel"
     ]
   },
   "RK3399": {
+    "arch": "aarch64",
+    "families": [
+      "bob",
+      "scarlet"
+    ]
+  },
+  "SandyBridge": {
     "arch": "x86_64",
     "families": [
-      "fam1",
-      "fam2"
+      "butterfly"
     ]
   },
   "Skylake": {
     "arch": "x86_64",
     "families": [
-      "fam1",
-      "fam2"
+      "asuka",
+      "caroline",
+      "cave",
+      "chell"
     ]
   },
   "Stoney Ridge": {
     "arch": "x86_64",
     "families": [
-      "fam1",
-      "fam2"
+      "grunt"
     ]
   },
   "TigerLake-UP3": {
     "arch": "x86_64",
     "families": [
-      "fam1",
+      "volteer",
       "fam2"
     ]
   },
   "Unknown": {
-    "families": [],
+    "families": [
+      "nissa",
+      "kalista"
+    ],
     "arch": "Unknown"
   }
 }
