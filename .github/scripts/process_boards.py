@@ -85,7 +85,8 @@ if __name__ == "__main__":
     print(json.dumps(parsed_json_list))
 
     # remove some broken keys + fix some devices
-    parsed_json_list.pop("N/a")  # relm has no proper brandName
+    parsed_json_list.pop("N/a")  # relm is an unknown device
+    parsed_json_list.pop("Consumer")  # expresso (the device, not the family) is an unknown device
     parsed_json_list.pop("W/o")  # anahera has a really broken name
     parsed_json_list.pop("100e")  # missing the lenovo brand at the beginning -> wrong sorting
     parsed_json_list.pop("300e")  # missing the lenovo brand at the beginning -> wrong sorting
@@ -138,6 +139,14 @@ if __name__ == "__main__":
     # move all ThinkPads to Lenovo
     for device in parsed_json_list["Thinkpad"]:
         fixed_devices["Lenovo"][f"ThinkPad {device}"] = parsed_json_list["Thinkpad"][device]
+    # remove ideaPads and ThinkPads
+    parsed_json_list.pop("Ideapad")
+    parsed_json_list.pop("Thinkpad")
+
+    # some HP cbs are missing the HP brand at the beginning -> wrong sorting
+    for device in parsed_json_list["Chromebook"]:
+        fixed_devices["Hp"][f"Chromebook {device}"] = parsed_json_list["Chromebook"][device]
+    parsed_json_list.pop("Chromebook")  # remove broken entry
 
     # merge the fixed devices with the main dictionary
     merge_dicts(parsed_json_list, fixed_devices)
