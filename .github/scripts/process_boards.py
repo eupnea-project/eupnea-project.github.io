@@ -87,9 +87,12 @@ if __name__ == "__main__":
     # remove some broken keys + fix some devices
     parsed_json_list.pop("N/A")  # relm has no proper brandName
     parsed_json_list.pop("w/o")  # anahera has a really broken name
+    parsed_json_list.pop("100e")  # missing the lenovo brand at the beginning -> wrong sorting
+    parsed_json_list.pop("300e")  # missing the lenovo brand at the beginning -> wrong sorting
 
+    # manually fix some devices
     # anahera has a really broken name:
-    anahera_fixed = {
+    fixed_devices = {
         "HP": {
             "Elite c640 14 inch G3 Chromebook (Enterprise)": {
                 "code_name": "anahera",
@@ -99,10 +102,38 @@ if __name__ == "__main__":
                 "audio_status": "Unknown",
                 "comment": ""
             }
+        },
+        # These Lenovo cbs are missing the Lenovo brand at the beginning -> wrong sorting
+        "Lenovo": {
+            "100e Chromebook Gen 3": {
+                "audio_status": "Full",
+                "code_name": "bookem",
+                "comment": "N/A",
+                "cpu_gen": "Jasper Lake",
+                "family_name": "dedede",
+                "supported": True
+            },
+            "100e Chromebook Gen 2": {
+                "audio_status": "Unsupported",
+                "code_name": "treeya",
+                "comment": "N/A",
+                "cpu_gen": "Stoney Ridge",
+                "family_name": "grunt",
+                "supported": True
+            },
+            "300e Chromebook Gen 2": {
+                "audio_status": "Unsupported",
+                "code_name": "treeya360",
+                "comment": "N/A",
+                "cpu_gen": "Stoney Ridge",
+                "family_name": "grunt",
+                "supported": True
+            }
         }
     }
-    # merge the fixed anahera device with the main dictionary
-    merge_dicts(parsed_json_list, anahera_fixed)
+
+    # merge the fixed devices with the main dictionary
+    merge_dicts(parsed_json_list, fixed_devices)
 
     # save fully parsed json
     with open("./device-support/devices-list.json", "w") as f:
