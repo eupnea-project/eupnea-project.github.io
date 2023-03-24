@@ -87,6 +87,7 @@ if __name__ == "__main__":
     # remove some broken keys + fix some devices
     parsed_json_list.pop("N/a")  # relm is an unknown device
     parsed_json_list.pop("Consumer")  # expresso (the device, not the family) is an unknown device
+    parsed_json_list.pop("Education")  # enguarde (the device, not the family) is an unknown device
     parsed_json_list.pop("W/o")  # anahera has a really broken name
     parsed_json_list.pop("100e")  # missing the lenovo brand at the beginning -> wrong sorting
     parsed_json_list.pop("300e")  # missing the lenovo brand at the beginning -> wrong sorting
