@@ -1,6 +1,4 @@
 import jsonAuto from "./devices-list.json";
-import jsonDevice from "./device-specific.json";
-import jsonFamily from "./family-specific.json";
 
 export default {
     mounted() {
@@ -19,7 +17,7 @@ function resetSelects() {
     selectModel = document.getElementById("model");
 }
 
-function displaySupport({ autogen, specDevices, specFamilies }) {
+function displaySupport({ autogen }) {
     const manufacturer = getSelected(selectManufacturer);
     const modelname = getSelected(selectModel);
     const model = autogen[manufacturer][modelname];
@@ -30,19 +28,9 @@ function displaySupport({ autogen, specDevices, specFamilies }) {
 
     const info = `CPU Generation: <b>${platform}</b> <br> Codename: <b>${codename} (${boardname})</b>`;
 
-    // Find case insensitive key in device-specific.json
-    const expcetedKey = codename.toLowerCase();
-    let spec = null;
-    for (let key in specDevices) {
-        if (key.toLowerCase() === expcetedKey) {
-            spec = specDevices[key];
-            break;
-        }
-    }
-
-    const depthbootAvailable = model.arch === "x86_64";
-    const audioSupport = spec?.audio_status ?? specFamilies[platform] ?? "Unknown";
-    const comment = spec?.comment ?? "N/A";
+    const depthbootAvailable = model.status;
+    const audioSupport = model.audio_status;
+    const comment = model.comment ?? "N/A";
 
     document.getElementById("deviceInfo").innerHTML = info;
     document.getElementById("deviceDepthboot").innerText = depthbootAvailable ? "Yes" : "No";
@@ -84,8 +72,6 @@ export async function initDeviceSupport() {
 
     const data = {
         autogen: jsonAuto,
-        specDevices: jsonDevice,
-        specFamilies: jsonFamily
     };
     updateSelectOptionsWithKeys(selectManufacturer, data.autogen);
 
