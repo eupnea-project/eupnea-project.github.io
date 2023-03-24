@@ -5,27 +5,27 @@
   "lillipup": {
     "comment": "Booting from SD-card does not work. Use a USB drive or an SD-card adapter instead."
   },
-  "Elemi": {
+  "elemeni": {
     "comment": "Booting from SD-card does not work. Use a USB drive or an SD-card adapter instead."
   },
-  "Volta": {
+  "volta": {
     "comment": "Booting from SD-card does not work. Use a USB drive or an SD-card adapter instead."
   },
-  "Voxel": {
+  "voxel": {
     "comment": "Booting from SD-card does not work. Use a USB drive or an SD-card adapter instead."
   },
-  "Volet": {
+  "volet": {
     "comment": "Booting from SD-card does not work. Use a USB drive or an SD-card adapter instead."
   },
-  "Yuna": {
+  "auron-yuna": {
     "supported": false,
     "comment": "Even though this device is x86_64, it refuses to boot Depthboot. If you do manage to get it to work, please let us know."
   },
-  "Paine": {
+  "auron-paine": {
     "supported": false,
     "comment": "Even though this device is x86_64, it refuses to boot Depthboot. If you do manage to get it to work, please let us know."
   },
-  "Robo360": {
+  "robo360": {
     "comment": "Booting from SD-card does not work. Use a USB drive or an SD-card adapter instead."
   }
 }
