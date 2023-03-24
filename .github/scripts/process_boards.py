@@ -14,30 +14,40 @@ def merge_dicts(dict1, dict2):
 
 
 def parse_device(device: dict, device_name: str, family_name: str) -> None:
-    # print(f"Parsing {device['brandNames']}")
-    names_list = []
-    for temp_name in device["brandNames"]:
-        names_list.extend(iter(temp_name.split(",")))
+    # Extract individual names from device["brandNames"]
+    # Remove commas inside brackets
+    for i, _device in enumerate(device["brandNames"]):
+        start = _device.find("(") + 1
+        end = _device.find(")")
+        if _device[start:end].find(","):
+            device["brandNames"][i] = _device[:start] + _device[start:end].replace(",", "") + _device[end:]
+    # Some devices are grouped together with "&" or "," -> Split them to improve UX in the final list
+    names_list = [name.strip() for temp_name in device["brandNames"] for name in
+                  temp_name.replace(" & ", ",").split(",")]
+
+    # Iterate through names and find the CPU generation based on family_name
+    cpu_gen = next(
+        (_generation for _generation in cpu_gen_json if family_name in cpu_gen_json[_generation]["families"]),
+        "Unknown")
+
+    # If CPU generation not found, print a warning
+    if cpu_gen == "Unknown":
+        print(f"Unknown generation for device: {family_name}")
+
+    # Create temporary device dictionary with relevant information
     for name in names_list:
-        cpu_gen = ""
-        for _generation in cpu_gen_json:
-            if family_name in cpu_gen_json[_generation]["families"]:
-                cpu_gen = _generation
-                break
-        if not cpu_gen:
-            print(f"Unknown generation for device: {family_name}")
-            cpu_gen = "Unknown"
         temp_device = {
             name.split(" ")[0].strip(): {
                 name[name.find(" ") + 1:].strip(): {
                     "code_name": device_name.strip(),
                     "family_name": family_name.strip(),
-                    # all x86_64 devices are generally supported. Special cases are handled in the devices-extra file
                     "cpu_gen": cpu_gen,
                     "supported": cpu_gen_json[cpu_gen]["arch"] == "x86_64",
                 }
             }
         }
+
+        # Merge the temporary dictionary with the main dictionary
         merge_dicts(parsed_json_list, temp_device)
 
 
