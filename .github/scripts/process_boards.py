@@ -106,6 +106,23 @@ if __name__ == "__main__":
                 "supported": True,
                 "audio_status": "Unknown",
                 "comment": ""
+            },
+            # these devices names overlap -> separate them
+            "Chromebook x360 14c (10th gen)": {
+                "audio_status": "Full",
+                "code_name": "dragonair",
+                "comment": "N/A",
+                "cpu_gen": "Cometlake-U",
+                "family_name": "hatch",
+                "supported": True
+            },
+            "Chromebook x360 14c (11th gen)": {
+                "audio_status": "Full",
+                "code_name": "eldrid",
+                "comment": "N/A",
+                "cpu_gen": "TigerLake-UP3",
+                "family_name": "volteer",
+                "supported": True
             }
         },
         # These Lenovo cbs are missing the Lenovo brand at the beginning -> wrong sorting
@@ -164,6 +181,9 @@ if __name__ == "__main__":
         },
         "Samsung": {}  # add Samsung here, so we can add devices to it later
     }
+
+    # remove old Chromebook x360 14c entry
+    parsed_json_list["Hp"].pop("Chromebook x360 14c")
 
     # move all IdeaPads to Lenovo
     for device in parsed_json_list["Ideapad"]:
