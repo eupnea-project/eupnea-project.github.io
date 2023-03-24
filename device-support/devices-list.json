@@ -2774,6 +2774,70 @@
       "family_name": "brya",
       "supported": true
     },
+    "IdeaPad 3 CB 14IGL05": {
+      "audio_status": "Full",
+      "code_name": "laser14",
+      "comment": "N/A",
+      "cpu_gen": "Gemini Lake",
+      "family_name": "octopus",
+      "supported": true
+    },
+    "IdeaPad 3 Chromebook": {
+      "audio_status": "Full",
+      "code_name": "lick",
+      "comment": "N/A",
+      "cpu_gen": "Gemini Lake",
+      "family_name": "octopus",
+      "supported": true
+    },
+    "IdeaPad 3 Chromebook (11\" 5)": {
+      "audio_status": "Unsupported",
+      "code_name": "treeya",
+      "comment": "N/A",
+      "cpu_gen": "Stoney Ridge",
+      "family_name": "grunt",
+      "supported": true
+    },
+    "IdeaPad Flex 3 CB 11IGL05": {
+      "audio_status": "Full",
+      "code_name": "phaser360",
+      "comment": "N/A",
+      "cpu_gen": "Gemini Lake",
+      "family_name": "octopus",
+      "supported": true
+    },
+    "IdeaPad Flex 3 Chromebook": {
+      "audio_status": "Unsupported",
+      "code_name": "fennel",
+      "comment": "N/A",
+      "cpu_gen": "MT8183",
+      "family_name": "jacuzzi",
+      "supported": false
+    },
+    "IdeaPad Flex 5i Chromebook (13\" 5)": {
+      "audio_status": "Full",
+      "code_name": "akemi",
+      "comment": "N/A",
+      "cpu_gen": "Cometlake-U",
+      "family_name": "hatch",
+      "supported": true
+    },
+    "IdeaPad Flex 5i Chromebook (13\" 6)": {
+      "audio_status": "Full",
+      "code_name": "lillipup",
+      "comment": "Booting from SD-card does not work. Use a USB drive or an SD-card adapter instead.",
+      "cpu_gen": "TigerLake-UP3",
+      "family_name": "volteer",
+      "supported": true
+    },
+    "IdeaPad Gaming Chromebook 16": {
+      "audio_status": "Unknown",
+      "code_name": "taniks",
+      "comment": "N/A",
+      "cpu_gen": "Alder Lake",
+      "family_name": "brya",
+      "supported": true
+    },
     "Ideapad C330 Chromebook": {
       "audio_status": "Unsupported",
       "code_name": "maple",
@@ -2900,6 +2964,14 @@
       "comment": "N/A",
       "cpu_gen": "Picasso/Dali",
       "family_name": "zork",
+      "supported": true
+    },
+    "ThinkPad C14 Gen 1 Chromebook": {
+      "audio_status": "Unknown",
+      "code_name": "primus",
+      "comment": "N/A",
+      "cpu_gen": "Alder Lake",
+      "family_name": "brya",
       "supported": true
     },
     "Thinkpad X131e Chromebook": {
