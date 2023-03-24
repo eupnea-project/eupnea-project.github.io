@@ -5,14 +5,18 @@
       "brya",
       "brask",
       "nissa"
-    ]
+    ],
+    "audio_status": "Unknown",
+    "comment": ""
   },
   "Amberlake-Y": {
     "arch": "x86_64",
     "families": [
       "atlas",
       "rammus"
-    ]
+    ],
+    "audio_status": "Partial",
+    "comment": ""
   },
   "ApolloLake": {
     "arch": "x86_64",
@@ -22,7 +26,9 @@
       "sand",
       "reef",
       "pyro"
-    ]
+    ],
+    "audio_status": "Full",
+    "comment": ""
   },
   "BayTrail": {
     "arch": "x86_64",
@@ -43,7 +49,9 @@
       "quawks",
       "orco",
       "ninja"
-    ]
+    ],
+    "audio_status": "Full",
+    "comment": ""
   },
   "Braswell": {
     "arch": "x86_64",
@@ -60,7 +68,9 @@
       "kefka",
       "tidus",
       "terra"
-    ]
+    ],
+    "audio_status": "Full",
+    "comment": ""
   },
   "Broadwell": {
     "arch": "x86_64",
@@ -74,13 +84,17 @@
       "samus",
       "rikku",
       "lulu"
-    ]
+    ],
+    "audio_status": "Full",
+    "comment": ""
   },
   "Cezanne/Barcelo": {
     "arch": "x86_64",
     "families": [
       "guybrush"
-    ]
+    ],
+    "audio_status": "Unknown",
+    "comment": ""
   },
   "Cometlake-U": {
     "arch": "x86_64",
@@ -88,7 +102,9 @@
       "hatch",
       "drallion",
       "puff"
-    ]
+    ],
+    "audio_status": "Full",
+    "comment": ""
   },
   "Exynos 5250": {
     "arch": "arm",
@@ -96,20 +112,26 @@
       "daisy",
       "daisy-spring",
       "daisy-skate"
-    ]
+    ],
+    "audio_status": "Unsupported",
+    "comment": ""
   },
   "Exynos 5450": {
     "arch": "arm",
     "families": [
       "peach-pit",
       "peach-pi"
-    ]
+    ],
+    "audio_status": "Unsupported",
+    "comment": ""
   },
   "Gemini Lake": {
     "arch": "x86_64",
     "families": [
       "octopus"
-    ]
+    ],
+    "audio_status": "Full",
+    "comment": ""
   },
   "Haswell": {
     "arch": "x86_64",
@@ -123,7 +145,9 @@
       "monroe",
       "mccloud",
       "leon"
-    ]
+    ],
+    "audio_status": "Full",
+    "comment": ""
   },
   "IvyBridge": {
     "arch": "x86_64",
@@ -131,13 +155,17 @@
       "stout",
       "parrot-ivb",
       "link"
-    ]
+    ],
+    "audio_status": "Unknown",
+    "comment": ""
   },
   "Jasper Lake": {
     "arch": "x86_64",
     "families": [
       "dedede"
-    ]
+    ],
+    "audio_status": "Full",
+    "comment": ""
   },
   "Kabylake-U/R": {
     "arch": "x86_64",
@@ -145,7 +173,9 @@
       "fizz",
       "nami",
       "nautilus"
-    ]
+    ],
+    "audio_status": "Full",
+    "comment": ""
   },
   "Kabylake-Y": {
     "arch": "x86_64",
@@ -154,46 +184,60 @@
       "eve",
       "soraka",
       "kalista"
-    ]
+    ],
+    "audio_status": "Full",
+    "comment": ""
   },
   "MT8173": {
     "arch": "aarch64",
     "families": [
       "hana",
       "elm"
-    ]
+    ],
+    "audio_status": "Unsupported",
+    "comment": ""
   },
   "MT8183": {
     "arch": "aarch64",
     "families": [
       "jacuzzi",
       "kukui"
-    ]
+    ],
+    "audio_status": "Unsupported",
+    "comment": ""
   },
   "MT8186": {
     "arch": "arm",
     "families": [
       "fam1",
       "fam2"
-    ]
+    ],
+    "audio_status": "Unsupported",
+    "comment": ""
   },
   "MT8192": {
     "arch": "aarch64",
     "families": [
       "asurada"
-    ]
+    ],
+    "audio_status": "Unsupported",
+    "comment": ""
   },
   "MT8195/MT8195T": {
     "arch": "arm",
     "families": [
       "cherry"
-    ]
+    ],
+    "audio_status": "Unsupported",
+    "comment": ""
   },
   "Picasso/Dali": {
     "arch": "x86_64",
     "families": [
       "zork"
-    ]
+    ],
+    "audio_status": "Full",
+    "comment": ""
   },
   "PineTrail": {
     "arch": "x86",
@@ -201,21 +245,27 @@
       "x86-zgb-he",
       "x86-mario",
       "x86-alex-he"
-    ]
+    ],
+    "audio_status": "Unsupported",
+    "comment": ""
   },
   "Pollock": {
     "arch": "x86_64",
     "families": [
       "fam1",
       "fam2"
-    ]
+    ],
+    "audio_status": "Unknown",
+    "comment": ""
   },
   "QC-7C": {
     "arch": "aarch64",
     "families": [
       "trogdor",
       "strongbad"
-    ]
+    ],
+    "audio_status": "Unsupported",
+    "comment": ""
   },
   "RK3288": {
     "arch": "arm",
@@ -228,7 +278,9 @@
       "veyron-mickey",
       "veyron-jaq",
       "veyron-fievel"
-    ]
+    ],
+    "audio_status": "Unsupported",
+    "comment": ""
   },
   "RK3399": {
     "arch": "aarch64",
@@ -236,7 +288,9 @@
       "bob",
       "scarlet",
       "kevin"
-    ]
+    ],
+    "audio_status": "Unsupported",
+    "comment": ""
   },
   "SandyBridge": {
     "arch": "x86_64",
@@ -244,7 +298,9 @@
       "butterfly",
       "stumpy",
       "lumpy"
-    ]
+    ],
+    "audio_status": "Unknown",
+    "comment": ""
   },
   "Skylake": {
     "arch": "x86_64",
@@ -255,13 +311,17 @@
       "chell",
       "sentry",
       "lars"
-    ]
+    ],
+    "audio_status": "Partial",
+    "comment": "Only max98357a and nau8825 works."
   },
   "Stoney Ridge": {
     "arch": "x86_64",
     "families": [
       "grunt"
-    ]
+    ],
+    "audio_status": "Unsupported",
+    "comment": "Broken gpu framebuffer and audio."
   },
   "Tegra K1 T124": {
     "arch": "arm",
@@ -269,23 +329,31 @@
       "nyan-kitty",
       "nyan-blaze",
       "nyan-big"
-    ]
+    ],
+    "audio_status": "Unsupported",
+    "comment": ""
   },
   "TigerLake-UP3": {
     "arch": "x86_64",
     "families": [
       "volteer",
       "fam2"
-    ]
+    ],
+    "audio_status": "Full",
+    "comment": ""
   },
   "Unknown": {
     "arch": "Unknown",
     "families": []
+    "audio_status": "Unknown",
+    "comment": ""
   },
   "Whiskey Lake": {
     "arch": "x86_64",
     "families": [
       "sarien"
-    ]
+    ],
+    "audio_status": "Full",
+    "comment": ""
   }
 }

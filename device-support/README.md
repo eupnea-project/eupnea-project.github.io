@@ -1,11 +1,8 @@
 # File overview
 
-* device-autogen.json: Automatically generated list, scraped
-  from https://www.chromium.org/chromium-os/developer-information-for-chrome-os-devices/
-* devices-extra.json: Devices that Google does not have in their list/edit errors from the Google list. Is applied over
-  device-autogen.json and combined into devices-list.json.
+* device-autogen.json: Automatically generated list, created
+  from: https://chromiumdash.appspot.com/cros/fetch_serving_builds?deviceCategory=ChromeOS
+* device-overrides.json: Used to override values from the auto-generated list, i.e. for device specific comments.
+* board-families.json: Contains all generations, their families, audio support status and an optional family-wide comment.
 * devices-list.json: The final list of devices, generated from device-autogen.json and devices-extra.json.
-* device-specific.json: Device-specific information, such as audio problems. Also used for manually marking unsupported
-  devices.
-* family-specific.json: Same as device-specific.json, but for families of devices.
 * model-select.js: Json file that is used to generate the model select box on the website.

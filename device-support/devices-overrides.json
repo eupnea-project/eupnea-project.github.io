@@ -1,0 +1,31 @@
+{
+  "celes": {
+    "comment": "Audio is unusable. Reason: stuttering crashes apps"
+  },
+  "lillipup": {
+    "comment": "Booting from SD-card does not work. Use a USB drive or an SD-card adapter instead."
+  },
+  "Elemi": {
+    "comment": "Booting from SD-card does not work. Use a USB drive or an SD-card adapter instead."
+  },
+  "Volta": {
+    "comment": "Booting from SD-card does not work. Use a USB drive or an SD-card adapter instead."
+  },
+  "Voxel": {
+    "comment": "Booting from SD-card does not work. Use a USB drive or an SD-card adapter instead."
+  },
+  "Volet": {
+    "comment": "Booting from SD-card does not work. Use a USB drive or an SD-card adapter instead."
+  },
+  "Yuna": {
+    "supported": false,
+    "comment": "Even though this device is x86_64, it refuses to boot Depthboot. If you do manage to get it to work, please let us know."
+  },
+  "Paine": {
+    "supported": false,
+    "comment": "Even though this device is x86_64, it refuses to boot Depthboot. If you do manage to get it to work, please let us know."
+  },
+  "Robo360": {
+    "comment": "Booting from SD-card does not work. Use a USB drive or an SD-card adapter instead."
+  }
+}
