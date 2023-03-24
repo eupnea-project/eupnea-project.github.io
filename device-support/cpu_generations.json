@@ -3,7 +3,8 @@
     "arch": "x86_64",
     "families": [
       "brya",
-      "brask"
+      "brask",
+      "nissa"
     ]
   },
   "Amberlake-Y": {
@@ -17,7 +18,10 @@
     "arch": "x86_64",
     "families": [
       "coral",
-      "snappy"
+      "snappy",
+      "sand",
+      "reef",
+      "pyro"
     ]
   },
   "BayTrail": {
@@ -32,7 +36,13 @@
       "kip",
       "glimmer",
       "gnawty",
-      "heli"
+      "heli",
+      "swanky",
+      "sumo",
+      "squawks",
+      "quawks",
+      "orco",
+      "ninja"
     ]
   },
   "Braswell": {
@@ -47,7 +57,9 @@
       "edgar",
       "setzer",
       "ultima",
-      "kefka"
+      "kefka",
+      "tidus",
+      "terra"
     ]
   },
   "Broadwell": {
@@ -57,7 +69,11 @@
       "auron-yuna",
       "buddy",
       "gandof",
-      "guado"
+      "guado",
+      "tidus",
+      "samus",
+      "rikku",
+      "lulu"
     ]
   },
   "Cezanne/Barcelo": {
@@ -82,6 +98,13 @@
       "daisy-skate"
     ]
   },
+  "Exynos 5450": {
+    "arch": "arm",
+    "families": [
+      "peach-pit",
+      "peach-pi"
+    ]
+  },
   "Gemini Lake": {
     "arch": "x86_64",
     "families": [
@@ -94,14 +117,20 @@
       "zako",
       "wolf",
       "tricky",
-      "falco-li"
+      "falco-li",
+      "peppy",
+      "panther",
+      "monroe",
+      "mccloud",
+      "leon"
     ]
   },
   "IvyBridge": {
     "arch": "x86_64",
     "families": [
-      "fam1",
-      "fam2"
+      "stout",
+      "parrot-ivb",
+      "link"
     ]
   },
   "Jasper Lake": {
@@ -114,14 +143,17 @@
     "arch": "x86_64",
     "families": [
       "fizz",
-      "nami"
+      "nami",
+      "nautilus"
     ]
   },
   "Kabylake-Y": {
     "arch": "x86_64",
     "families": [
       "nocturne",
-      "eve"
+      "eve",
+      "soraka",
+      "kalista"
     ]
   },
   "MT8173": {
@@ -134,7 +166,8 @@
   "MT8183": {
     "arch": "aarch64",
     "families": [
-      "jacuzzi"
+      "jacuzzi",
+      "kukui"
     ]
   },
   "MT8186": {
@@ -201,13 +234,16 @@
     "arch": "aarch64",
     "families": [
       "bob",
-      "scarlet"
+      "scarlet",
+      "kevin"
     ]
   },
   "SandyBridge": {
     "arch": "x86_64",
     "families": [
-      "butterfly"
+      "butterfly",
+      "stumpy",
+      "lumpy"
     ]
   },
   "Skylake": {
@@ -216,13 +252,23 @@
       "asuka",
       "caroline",
       "cave",
-      "chell"
+      "chell",
+      "sentry",
+      "lars"
     ]
   },
   "Stoney Ridge": {
     "arch": "x86_64",
     "families": [
       "grunt"
+    ]
+  },
+  "Tegra K1 T124": {
+    "arch": "arm",
+    "families": [
+      "nyan-kitty",
+      "nyan-blaze",
+      "nyan-big"
     ]
   },
   "TigerLake-UP3": {
@@ -233,10 +279,13 @@
     ]
   },
   "Unknown": {
-    "families": [
-      "nissa",
-      "kalista"
-    ],
+    "families": [],
     "arch": "Unknown"
+  },
+  "Whiskey Lake": {
+    "arch": "x86_64",
+    "families": [
+      "sarien"
+    ]
   }
 }
