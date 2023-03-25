@@ -15,6 +15,20 @@ const { question, link } = defineProps({
 const myHash = link ?? slugify(question);
 
 const isOpen = ref(false);
+const entryRef = ref();
+
+function scrollToEntry(smooth = true) {
+    const element = entryRef.value;
+    const yPosition = element.offsetTop;
+
+    // Wait until FAQ is expanded
+    window.requestAnimationFrame(() => {
+        window.scrollTo({
+            top: yPosition,
+            behavior: smooth ? "smooth" : "auto"
+        });
+    });
+}
 
 function checkIsActive() {
     const hash = window.location.hash;
@@ -22,6 +36,7 @@ function checkIsActive() {
 
     if (isActive) {
         isOpen.value = true;
+        scrollToEntry(false); // Scroll without smooth transition
     }
 }
 
@@ -30,9 +45,12 @@ function onClick(ev) {
     isOpen.value = !isOpen.value;
 
     if (isOpen.value) {
+        // Update anchor hash
         const href = new URL(window.location.href);
         href.hash = myHash;
         window.history.replaceState({}, "", href);
+
+        scrollToEntry();
     }
 }
 
@@ -42,7 +60,7 @@ onMounted(() => {
 </script>
 
 <template>
-    <details class="faq-entry" :open="isOpen" :id="myHash">
+    <details class="faq-entry" :open="isOpen" :id="myHash" ref="entryRef">
         <summary>
             <a class="faq-question" v-on:click="onClick">
                 {{ question }}
