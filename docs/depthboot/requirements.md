@@ -4,7 +4,7 @@ prev: false
 
 # Requirements
 
-* A device to run the script on. **One** of the following:
+* A device to run the script on. <font size=2>**EITHER**</font> of the following:
     * Chromebook with Crostini enabled (aka "Linux" in settings). **FOLLOW THE INSTRUCTIONS IN
       THE [CROSTINI SECTION](/docs/extra/crostini "Eupnea - Crostini instructions")**
     * x86_64 Linux pc/laptop: (all distros supported)
