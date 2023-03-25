@@ -155,6 +155,10 @@ kbd {
     font-size: 0.9em;
 }
 
+.inline-warning {
+    color: var(--vp-c-red);
+}
+
 html.dark {
     --theme-color: var(--d-theme-color);
     --base-background-color: var(--d-base-background-color);

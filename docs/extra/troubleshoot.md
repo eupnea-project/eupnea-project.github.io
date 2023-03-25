@@ -15,7 +15,7 @@ REPORT IT ON GITHUB/DISCORD/REVOLT.**
 2. Make sure [developer mode](https://www.androidauthority.com/how-to-enable-developer-mode-on-a-chromebook-906688/) is
    enabled.
 
-3. Make sure you are **<font size="3">NOT</font>** trying to boot
+3. Make sure you are <span class="inline-warning">**NOT**</span> trying to boot
    via [UEFI](/docs/extra/faq#i-have-uefi-custom-bios-installed-on-my-chromebook)
    or [RW_LEGACY](/docs/extra/faq#i-have-rw-legacy-installed-on-my-chromebook). You need to use Ctrl+U or select "Boot
    from external media" in the boot menu.
