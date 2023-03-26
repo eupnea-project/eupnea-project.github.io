@@ -1,4 +1,4 @@
-# Depthboot vs EupneaOS vs Crostini vs Crouton vs RW_LEGACY vs UEFI
+# Depthboot vs EupneaOS vs Crouton vs RW_LEGACY vs UEFI
 
 This is a small pros and cons summary of the different methods of running Linux on Chromebooks. It should help
 you decide which method is best for you.
