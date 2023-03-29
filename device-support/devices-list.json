@@ -1,4 +1,22 @@
 {
+  "14e": {
+    "Chromebook Gen 3 (15w)": {
+      "audio_status": "Unknown",
+      "code_name": "pujjoteen15w",
+      "comment": "N/A",
+      "cpu_gen": "Alder Lake",
+      "family_name": "nissa",
+      "supported": true
+    },
+    "Chromebook Gen 3 Chromebook": {
+      "audio_status": "Unknown",
+      "code_name": "pujjoteen",
+      "comment": "N/A",
+      "cpu_gen": "Alder Lake",
+      "family_name": "nissa",
+      "supported": true
+    }
+  },
   "Acer": {
     "AC700": {
       "audio_status": "Unsupported",
@@ -2574,6 +2592,14 @@
       "family_name": "dedede",
       "supported": true
     },
+    "500e Yoga Chromebook Gen 4": {
+      "audio_status": "Unknown",
+      "code_name": "pujjo",
+      "comment": "N/A",
+      "cpu_gen": "Alder Lake",
+      "family_name": "nissa",
+      "supported": true
+    },
     "5i Chromebook 16\"/IdeaPad 5i Chromebook (16\" 7)": {
       "audio_status": "Unknown",
       "code_name": "taeko",
@@ -2636,6 +2662,14 @@
       "comment": "N/A",
       "cpu_gen": "Gemini Lake",
       "family_name": "octopus",
+      "supported": true
+    },
+    "Flex 3i Chromebook 12\u201d/IdeaPad Flex 3i Chromebook (12\u201d 8)": {
+      "audio_status": "Unknown",
+      "code_name": "pujjo",
+      "comment": "N/A",
+      "cpu_gen": "Alder Lake",
+      "family_name": "nissa",
       "supported": true
     },
     "Flex 3i Chromebook 15 IdeaPad Flex 3i Chromebook (15 7)": {
@@ -3122,6 +3156,14 @@
     }
   },
   "Packard": {
+    "Bell Chromebook 314": {
+      "audio_status": "Full",
+      "code_name": "magneto",
+      "comment": "N/A",
+      "cpu_gen": "Jasper Lake",
+      "family_name": "dedede",
+      "supported": true
+    },
     "Bell Chromebook 314 (PCB314)": {
       "audio_status": "Full",
       "code_name": "droid",
