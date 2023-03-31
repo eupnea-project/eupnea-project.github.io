@@ -8,7 +8,7 @@ prev: false
     * Chromebook with Crostini enabled (aka "Linux" in settings). **FOLLOW THE INSTRUCTIONS IN
       THE [CROSTINI SECTION](/docs/extra/crostini "Eupnea - Crostini instructions")**
     * x86_64 Linux pc/laptop: (all distros supported)
-    * Windows: [Install WSL](https://ubuntu.com/tutorials/install-ubuntu-on-wsl2-on-windows-11-with-gui-support#1-overview)
+    * Windows: [Install WSL2](https://ubuntu.com/tutorials/install-ubuntu-on-wsl2-on-windows-11-with-gui-support#1-overview). WSL(v1) is not supported.
     * Apple devices: unsupported
     * ARM Chromebooks/Raspberry Pis/Android/other non-x86_64: Need translation layers to build images. Do your own 
       research.
