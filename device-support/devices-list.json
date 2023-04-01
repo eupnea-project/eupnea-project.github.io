@@ -3515,6 +3515,14 @@
       "cpu_gen": "Jasper Lake",
       "family_name": "dedede",
       "supported": true
+    },
+    "Galaxy Chromebook Go 11": {
+      "audio_status": "Full",
+      "code_name": "sasukette",
+      "comment": "N/A",
+      "cpu_gen": "Jasper Lake",
+      "family_name": "dedede",
+      "supported": true
     }
   },
   "Sector": {
