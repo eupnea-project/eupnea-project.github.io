@@ -20,3 +20,4 @@ same results, which are documented below.
     * alt + backspace: delete
     * alt + brightness up/down: increase/decrease keyboard backlight (if supported by Chromebook)
     * ctrl + alt + backspace: does the same as ctrl + alt + delete on normal Laptops
+    * super + alt: Toggle caps lock
