@@ -44,6 +44,7 @@ export default {
           { text: "Sleep bootlock", link: "/docs/chromebook/bootlock" },
           { text: "Depthcharge", link: "/docs/chromebook/depthcharge" },
           { text: "SWAP(ZRAM)", link: "/docs/chromebook/ram-extensions" },
+          { text: "Keyboard layout", link: "/docs/chromebook/keyd" },
         ]
       },
       {
