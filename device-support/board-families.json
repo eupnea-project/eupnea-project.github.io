@@ -66,7 +66,6 @@
       "setzer",
       "ultima",
       "kefka",
-      "tidus",
       "terra"
     ],
     "audio_status": "Full",
@@ -208,10 +207,7 @@
   },
   "MT8186": {
     "arch": "arm",
-    "families": [
-      "fam1",
-      "fam2"
-    ],
+    "families": [],
     "audio_status": "Unsupported",
     "comment": ""
   },
@@ -251,10 +247,7 @@
   },
   "Pollock": {
     "arch": "x86_64",
-    "families": [
-      "fam1",
-      "fam2"
-    ],
+    "families": [],
     "audio_status": "Unknown",
     "comment": ""
   },
@@ -336,8 +329,7 @@
   "TigerLake-UP3": {
     "arch": "x86_64",
     "families": [
-      "volteer",
-      "fam2"
+      "volteer"
     ],
     "audio_status": "Full",
     "comment": ""
