@@ -900,6 +900,22 @@
       "family_name": "coral",
       "supported": true
     },
+    "Chromebook CM14 (CM1402C)": {
+      "audio_status": "Unknown",
+      "code_name": "tentacool",
+      "comment": "N/A",
+      "cpu_gen": "Unknown",
+      "family_name": "corsola",
+      "supported": false
+    },
+    "Chromebook CM14 Flip (CM1402F)": {
+      "audio_status": "Unknown",
+      "code_name": "tentacruel",
+      "comment": "N/A",
+      "cpu_gen": "Unknown",
+      "family_name": "corsola",
+      "supported": false
+    },
     "Chromebook CR1100CKA": {
       "audio_status": "Full",
       "code_name": "storo",
