@@ -2860,7 +2860,7 @@
       "audio_status": "Full",
       "code_name": "tidus",
       "comment": "N/A",
-      "cpu_gen": "Braswell",
+      "cpu_gen": "Broadwell",
       "family_name": "tidus",
       "supported": true
     },
