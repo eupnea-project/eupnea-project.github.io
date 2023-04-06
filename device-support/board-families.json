@@ -6,7 +6,7 @@
       "brask",
       "nissa"
     ],
-    "audio_status": "Unknown",
+    "audio_status": "Unsupported",
     "comment": ""
   },
   "Amberlake-Y": {
@@ -306,7 +306,7 @@
       "lars"
     ],
     "audio_status": "Partial",
-    "comment": "Only max98357a and nau8825 works."
+    "comment": ""
   },
   "Stoney Ridge": {
     "arch": "x86_64",
