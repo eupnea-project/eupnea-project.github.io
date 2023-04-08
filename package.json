@@ -11,7 +11,7 @@
     "preview": "vitepress preview"
   },
   "devDependencies": {
-    "vitepress": "^1.0.0-alpha.49",
+    "vitepress": "^1.0.0-alpha.65",
     "vue": "^3.2.47"
   },
   "dependencies": {
