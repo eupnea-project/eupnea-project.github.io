@@ -49,12 +49,11 @@ Read all pros and ons of each method of booting Linux on a Chromebook [here](/do
 
 <FAQEntry question="Are the Depthboot distros modified?">
 
-Yes, but only the minimal amount of changes required to make them bootable and work properly on Chromebooks (Kernel +
-minor configs).  
-In addition to installing some packages from the distro's repo, our own repo is added to the distro, which contains the
-eupnea-utils and eupnea-system packages (and some others). You can read more about the packages in the respective
-eupnea package repos.  
-Nothing else is modified, i.e. all distro "quirks" are kept intact (Snap, no Tap-to-click by default on GNOME, etc.).
+Yes, but we only make the minimal amount of changes required to make them bootable and work properly on Chromebooks,
+such as installing our custom kernels and minor configurations to systemd. Additionally, we add our own repository
+to the distribution, which includes the eupnea-utils and eupnea-system packages, along with some others. You can find
+more information about these packages in the respective eupnea package repositories. No other modifications are made,
+meaning all distribution 'quirks' are kept intact (such as Snap and no Tap-to-click by default on GNOME, etc.).
 </FAQEntry>
 
 <FAQEntry question="Which Depthboot distro is the best?">
