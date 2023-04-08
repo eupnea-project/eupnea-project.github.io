@@ -49,11 +49,12 @@ Read all pros and ons of each method of booting Linux on a Chromebook [here](/do
 
 <FAQEntry question="Are the Depthboot distros modified?">
 
-Yes, but we only make the minimal amount of changes required to make them bootable and work properly on Chromebooks,
-such as installing our custom kernels and minor configurations to systemd. Additionally, we add our own repository
-to the distribution, which includes the eupnea-utils and eupnea-system packages, along with some others. You can find
-more information about these packages in the respective eupnea package repositories. No other modifications are made,
-meaning all distribution 'quirks' are kept intact (such as Snap and no Tap-to-click by default on GNOME, etc.).
+Yes, but only the minimal amount of changes required to make them bootable and work properly on Chromebooks (Kernel +
+minor configs).  
+In addition to installing some packages from the distro's repo, our own repo is added to the distro, which contains the
+eupnea-utils and eupnea-system packages (and some others). You can read more about the packages in the respective
+eupnea package repos.  
+Nothing else is modified, i.e. all distro "quirks" are kept intact (Snap, no Tap-to-click by default on GNOME, etc.).
 </FAQEntry>
 
 <FAQEntry question="Which Depthboot distro is the best?">
@@ -79,7 +80,7 @@ The differences among the distros are mostly in terms of development philosophy.
 * Arch: Rolling release
     * Pros: latest package versions, AUR. Has no corporate backing.
     * Cons: Requires more maintenance, might break more often. Has no corporate backing.
-      </FAQEntry>
+</FAQEntry>
 
 <FAQEntry question="Which Desktop Enviroment (DE) is the best?">
 
@@ -114,7 +115,7 @@ Here is a breif list of the pros and cons of every desktop enviroment avalible:
     * Pros: Utilizes the GNOME stack, but has a more Windows-like workflow.
     * Cons: May have fewer features and customization without extensions/external software. Same layout can be achieved
       by using Extensions in "stock" GNOME. No wayland support **YET** -> touch & pen unsupported/very limited.
-      </FAQEntry>
+</FAQEntry>
 
 <FAQEntry question="Why is sharing Depthboot images illegal?">
 
