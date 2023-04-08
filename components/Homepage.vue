@@ -26,13 +26,13 @@ import Chevron from "./Chevron.vue";
                             Chromebooks</a>. It features a custom (<a href="https://kde.org/">KDE</a> based)
                         <b>ChromeOS style desktop</b> and native <b>Android app support</b>.
                     </p>
-                    <button class="big" disabled>Coming soon</button>
+                    <button class="big solid" disabled>Coming soon</button>
                 </div>
                 <p class="soft">
                     EupneaOS is still in development. Stay tuned.
                 </p>
             </div>
-            <div class="separator"></div>
+            <div class="separator no-fade"></div>
             <div class="presentation" style="animation-delay: 0.4s;">
                 <div class="extend">
                     <span class="title icon-text">
@@ -45,7 +45,7 @@ import Chevron from "./Chevron.vue";
                         <a href="docs/project/supported-devices">supported 64-bit Chromebooks.</a>
                     </p>
                     <a href="docs/depthboot/requirements" tabindex="-1">
-                        <button class="big">Build now</button>
+                        <button class="big solid">Build now</button>
                     </a>
                 </div>
                 <ul class="soft logo-grid">
@@ -55,6 +55,14 @@ import Chevron from "./Chevron.vue";
                     <li class="icon-text"><img src="/assets/distro-arch.svg" draggable="false">Arch Linux</li>
                 </ul>
             </div>
+        </div>
+        <div class="row fade-in">
+            <!-- <a href="overview" tabindex="-1" style="animation-delay: 0.6s;">
+                <button class="big outline">Documentation</button>
+            </a> -->
+            <a href="faq" tabindex="-1" style="animation-delay: 0.5s;">
+                <button class="big outline">Read the <b>FAQ</b></button>
+            </a>
         </div>
         <Chevron />
     </section>
@@ -73,7 +81,7 @@ import Chevron from "./Chevron.vue";
                 <a href="https://github.com/eupnea-linux/eupneaos/releases">GitHub Releases</a>
                 page and can be flashed directly to a USB stick or SD card.
             </p>
-            <button class="big" disabled>Coming soon</button>
+            <button class="big solid" disabled>Coming soon</button>
         </div>
         <div class="preview">
             <img class="big" src="https://via.placeholder.com/1280x720" alt="Placeholder Image">
@@ -96,7 +104,7 @@ import Chevron from "./Chevron.vue";
                 Follow the instructions described in the documentation to build a Depthboot image.
             </p>
             <a href="docs/depthboot/requirements" tabindex="-1">
-                <button class="big">Build instructions</button>
+                <button class="big solid">Build instructions</button>
             </a>
         </div>
         <div class="preview">
