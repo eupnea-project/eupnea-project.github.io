@@ -7,7 +7,7 @@ prev: false
 When the lid is closed or the system is idle for a long time, Linux distributions tend to sleep to S3(Suspend-to-RAM).
 On a Chromebook this triggers an NVRAM reset and forces the Chromebook to boot into an operating system with an
 officially signed kernel(only ChromeOS has one). It is not possible to re-enable USB and unsigned kernel booting without
-booting into ChromeOS or [modifying a recovery image](https://www.chromium.org/chromium-os/developer-information-for-chrome-os-devices/workaround-for-battery-discharge-in-dev-mode/). Neither Depthboot nor EupneaOS(except on UEFI) can be booted without those flags.
+booting into ChromeOS or [modifying a recovery image](https://www.chromium.org/chromium-os/developer-information-for-chrome-os-devices/workaround-for-battery-discharge-in-dev-mode/) so it reapplies the flags. Neither Depthboot nor EupneaOS(except on UEFI) can be booted without those flags.
 
 To fix this, the systemd config file for power and sleep is overwritten to sleep to S0. Sleeping to S0 is slightly
 less power efficient, but prevents the aforementioned NVRAM reset.
