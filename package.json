@@ -17,6 +17,7 @@
   "dependencies": {
     "@sindresorhus/slugify": "^2.2.0",
     "@yarnpkg/sdks": "^3.0.0-rc.40",
-    "typescript": "^5.0.2"
+    "typescript": "^5.0.2",
+    "vue-multiselect": "next"
   }
 }

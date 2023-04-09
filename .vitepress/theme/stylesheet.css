@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400&family=Inter:wght@400;500;600&family=Manrope:wght@800&display=swap');
 
-html, body {
+html,
+body {
     margin: 0;
     width: 100%;
     height: 100%;
@@ -31,7 +32,7 @@ html, body {
 
     --select-background: var(--base-background-color);
     --kbd-shadow-color: #3333;
-    
+
     --eupnea-green: inherit;
     --eupnea-blue: #2d8fff;
     --selection-color: #9bcaff;
@@ -50,7 +51,7 @@ html, body {
     --d-link-color: #ddd;
     --d-selection-color: #21548d;
     --d-soft-color: #999;
-    
+
     --d-button-color: #fff;
     --d-button-color-hover: #fff;
     --d-button-color-disabled: var(--base-color);
@@ -65,7 +66,7 @@ html, body {
 
     --d-select-background: #383838;
     --d-kbd-shadow-color: #aaa3;
-    
+
     --d-eupnea-green: #5cff8c;
     --d-eupnea-blue: #3ca7ff;
 }
@@ -83,8 +84,8 @@ button.big {
     font-size: 1.2em;
     border-radius: 0.8em;
     transition: color 0.1s, background-color 0.4s,
-                padding 0.2s, margin 0.2s, min-width 0.2s,
-                box-shadow 2s cubic-bezier(0.19, 1, 0.22, 1);
+        padding 0.2s, margin 0.2s, min-width 0.2s,
+        box-shadow 2s cubic-bezier(0.19, 1, 0.22, 1);
 }
 
 button.big:enabled:hover {
@@ -93,16 +94,18 @@ button.big:enabled:hover {
     padding: 0.7em 1.4em;
     min-width: 9em;
     transition: color 0s, background-color 0.1s,
-                padding 0.2s, margin 0.2s, min-width 0.2s,
-                box-shadow 1.5s cubic-bezier(0.19, 1, 0.22, 1);
+        padding 0.2s, margin 0.2s, min-width 0.2s,
+        box-shadow 1.5s cubic-bezier(0.19, 1, 0.22, 1);
 }
+
 button.big:enabled:active {
     margin: 0 -0.1em;
     padding: 0.7em 1.3em;
     min-width: 8.5em;
     transition: padding 0.1s, margin 0.1s, min-width 0.1s,
-                box-shadow 0.3s cubic-bezier(0.19, 1, 0.22, 1);
+        box-shadow 0.3s cubic-bezier(0.19, 1, 0.22, 1);
 }
+
 button.big:disabled {
     cursor: inherit;
     color: var(--button-color-disabled);
@@ -116,11 +119,13 @@ button.solid {
     background-color: var(--button-background);
     box-shadow: 0 0 var(--button-background), 0 0.1em 0 #0008;
 }
+
 button.solid:enabled:hover {
     color: var(--button-color-hover);
     background-color: var(--button-background-hover);
     box-shadow: 0 0 0 0.6em var(--button-ink), 0 0.2em 0 #0008;
 }
+
 button.solid:enabled:active {
     background-color: var(--button-background-active);
     box-shadow: 0 0 0 0.2em var(--button-ink), 0 0.2em 0 #0008;
@@ -132,11 +137,13 @@ button.outline {
     background-color: var(--button-outline-tint);
     box-shadow: 0 0 var(--button-background);
 }
+
 button.outline:enabled:hover {
     color: var(--button-color-hover);
     background-color: var(--button-outline-tint-hover);
     box-shadow: 0 0 0 0.6em var(--button-ink);
 }
+
 button.outline:enabled:active {
     box-shadow: 0 0 0 0.2em var(--button-ink);
 }
@@ -148,27 +155,108 @@ svg {
 a {
     transition-duration: 0.1s;
 }
+
 a svg {
     transition-duration: inherit;
 }
+
 a:not(:active):hover {
     color: var(--base-color-emphasize);
 }
+
 a:not(:active):hover svg {
     fill: var(--base-color-emphasize);
 }
 
-select {
-    appearance: revert;
-    font: inherit;
-    border-radius: 0.2em;
-    padding: 0.3em;
-    margin: 0.2em 0;
+.multiselect {
     cursor: pointer;
-
-    background-color: var(--select-background);
-    border: 0.1em solid var(--muted-color);
+    color: inherit;
+    width: max-content;
+    min-width: 25em;
+    --border-color: var(--muted-color);
+    margin: 0.2em 0;
 }
+
+.multiselect--active {
+    --border-color: var(--vp-c-brand);
+}
+
+.multiselect--active .multiselect__tags {
+    border-bottom-color: var(--muted-color);
+}
+
+.multiselect input {
+    color: inherit;
+}
+
+.multiselect input::placeholder {
+    color: inherit;
+    opacity: 0.5;
+}
+
+.multiselect__tags {
+    background-color: var(--select-background);
+    border: 0.1em solid var(--border-color);
+    border-radius: 0.2em;
+    padding: 10px 40px 0 8px;
+}
+
+.multiselect__input,
+.multiselect__single {
+    background: none;
+}
+
+ul.multiselect__content {
+    padding: 0;
+    margin: 0;
+}
+
+.multiselect li+li {
+    margin: 0;
+}
+
+.multiselect__content-wrapper {
+    border-color: var(--border-color);
+}
+
+.multiselect__option {
+    color: inherit !important;
+    background: var(--select-background);
+}
+
+.multiselect__option::after {
+    display: none;
+}
+
+.multiselect__option--highlight {
+    background: var(--base-background-color);
+}
+
+.multiselect__option--selected {
+    font-weight: inherit;
+}
+
+.multiselect__option--selected.multiselect__option--highlight {
+    background: var(--base-background-color);
+}
+
+/*
+.multiselect__element {
+    display: block;
+    width: 100%;
+}
+
+.multiselect__option {
+    display: flex;
+    color: var(--base-color);
+    background-color: var(--select-background);
+    padding: 0.2em 0.4em;
+}
+
+.multiselect__option--highlight {
+    color: var(--base-color-emphasize);
+    background-color: var(--base-background-color);
+} */
 
 kbd {
     padding: 0.3em 0.4em;
@@ -198,7 +286,7 @@ html.dark {
     --link-color: var(--d-link-color);
     --selection-color: var(--d-selection-color);
     --soft-color: var(--d-soft-color);
-    
+
     --button-color: var(--d-button-color);
     --button-color-hover: var(--d-button-color-hover);
     --button-color-disabled: var(--d-button-color-disabled);
@@ -213,7 +301,7 @@ html.dark {
 
     --select-background: var(--d-select-background);
     --kbd-shadow-color: var(--d-kbd-shadow-color);
-    
+
     --eupnea-green: var(--d-eupnea-green);
     --eupnea-blue: var(--d-eupnea-blue);
 }
