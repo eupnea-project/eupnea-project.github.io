@@ -169,12 +169,22 @@ a:not(:active):hover svg {
 }
 
 .multiselect {
+    display: inline-block;
     cursor: pointer;
     color: inherit;
-    width: max-content;
-    min-width: 25em;
+    width: 12em;
     --border-color: var(--muted-color);
-    margin: 0.2em 0;
+    margin: 1.8em 0.2em 0.2em 0;
+}
+
+.multiselect.wide {
+    width: 25em;
+}
+
+.multiselect label {
+    position: absolute;
+    bottom: 100%;
+    font-size: 0.8em;
 }
 
 .multiselect--active {

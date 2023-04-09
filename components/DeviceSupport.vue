@@ -24,8 +24,8 @@ const M = computed(() => jsonAuto[selectedBrand.value][selectedModel.value]);
 </script>
 
 <template>
-    <Dropdown :options="brands" v-model="selectedBrand" />
-    <Dropdown :options="models" v-model="selectedModel" />
+    <Dropdown label="Manufacturer" :options="brands" v-model="selectedBrand" />
+    <Dropdown label="Model" :options="models" v-model="selectedModel" class="wide" />
 
     <DeviceInfo :codename="M.code_name" :boardname="M.family_name" :platform="M.cpu_gen" :depthbootAvailable="M.supported"
         :audioSupport="M.audio_status" :comment="M.comment" />
