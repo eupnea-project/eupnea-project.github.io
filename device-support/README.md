@@ -5,4 +5,3 @@
   comment.
 * devices-list.json: The final list of devices, generated
   from https://chromiumdash.appspot.com/cros/fetch_serving_builds?deviceCategory=ChromeOS and devices-overrides.json.
-* model-select.js: Json file that is used to generate the model select box on the website.
