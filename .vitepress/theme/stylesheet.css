@@ -168,17 +168,22 @@ a:not(:active):hover svg {
     fill: var(--base-color-emphasize);
 }
 
+.dropdown-row {
+    display: flex;
+}
+
 .multiselect {
     display: inline-block;
     cursor: pointer;
     color: inherit;
-    width: 12em;
+    min-width: 13em;
+    width: max-content;
     --border-color: var(--muted-color);
     margin: 1.8em 0.2em 0.2em 0;
 }
 
 .multiselect.wide {
-    width: 25em;
+    width: 100%;
 }
 
 .multiselect label {

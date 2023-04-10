@@ -1,9 +1,22 @@
 <script setup>
 import VueMultiselect from "vue-multiselect";
 
-const { label, value, options } = defineProps({
+defineProps({
     label: {
         type: String
+    },
+    entryKey: {
+        type: String
+    },
+    entryLabel: {
+        type: Function
+    },
+    placeholder: {
+        type: String
+    },
+    preserveSearch: {
+        type: Boolean,
+        default: false
     },
     value: {
         type: String
@@ -18,7 +31,8 @@ defineEmits(["update:value"]);
 </script>
 
 <template>
-    <VueMultiselect :options="options" :value="value" :allow-empty="false">
+    <VueMultiselect :options="options" :value="value" :allowEmpty="false" :label="entryKey" :customLabel="entryLabel"
+        :placeholder="placeholder" :preserveSearch="preserveSearch" :clearOnSelect="!preserveSearch">
         <template v-slot:clear>
             <label>{{ label }}</label>
         </template>
