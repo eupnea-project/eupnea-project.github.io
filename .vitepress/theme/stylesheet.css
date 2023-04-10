@@ -170,16 +170,17 @@ a:not(:active):hover svg {
     fill: var(--base-color-emphasize);
 }
 
-.dropdown-row {
-    display: flex;
-}
-
 [data-color=good] {
     color: var(--vp-c-brand);
 }
 
 [data-color=bad] {
     color: var(--vp-c-yellow);
+}
+
+.dropdown-row {
+    display: flex;
+    flex-flow: wrap;
 }
 
 .multiselect {
@@ -194,6 +195,7 @@ a:not(:active):hover svg {
 
 .multiselect.wide {
     width: 100%;
+    flex: 1;
 }
 
 .multiselect label {
@@ -208,6 +210,11 @@ a:not(:active):hover svg {
 
 .multiselect--active .multiselect__tags {
     border-bottom-color: var(--muted-color);
+}
+
+.multiselect--active.multiselect--above .multiselect__tags {
+    border-top-color: var(--muted-color);
+    border-bottom-color: var(--border-color);
 }
 
 .multiselect input {
@@ -241,7 +248,7 @@ ul.multiselect__content {
 }
 
 .multiselect__content-wrapper {
-    border-color: var(--border-color);
+    border-color: var(--border-color) !important;
 }
 
 .multiselect__option {
