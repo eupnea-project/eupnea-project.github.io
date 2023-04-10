@@ -99,4 +99,9 @@ export default {
       { property: "og:site_name", content: "The Eupnea Project" }
     ]
   ],
+  vite: {
+    ssr: {
+      noExternal: ["vue-multiselect"]
+    }
+  }
 }
