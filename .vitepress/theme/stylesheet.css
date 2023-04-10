@@ -31,6 +31,7 @@ body {
     --button-outline-tint-hover: none;
 
     --select-background: var(--base-background-color);
+    --select-background-hover: var(--base-background-color-contrast);
     --kbd-shadow-color: #3333;
 
     --eupnea-green: inherit;
@@ -65,6 +66,7 @@ body {
     --d-button-outline-tint-hover: var(--button-ink);
 
     --d-select-background: #383838;
+    --d-select-background-hover: var(--base-background-color);
     --d-kbd-shadow-color: #aaa3;
 
     --d-eupnea-green: #5cff8c;
@@ -172,6 +174,14 @@ a:not(:active):hover svg {
     display: flex;
 }
 
+[data-color=good] {
+    color: var(--vp-c-brand);
+}
+
+[data-color=bad] {
+    color: var(--vp-c-yellow);
+}
+
 .multiselect {
     display: inline-block;
     cursor: pointer;
@@ -244,7 +254,7 @@ ul.multiselect__content {
 }
 
 .multiselect__option--highlight {
-    background: var(--base-background-color);
+    background: var(--select-background-hover);
 }
 
 .multiselect__option--selected {
@@ -254,24 +264,6 @@ ul.multiselect__content {
 .multiselect__option--selected.multiselect__option--highlight {
     background: var(--base-background-color);
 }
-
-/*
-.multiselect__element {
-    display: block;
-    width: 100%;
-}
-
-.multiselect__option {
-    display: flex;
-    color: var(--base-color);
-    background-color: var(--select-background);
-    padding: 0.2em 0.4em;
-}
-
-.multiselect__option--highlight {
-    color: var(--base-color-emphasize);
-    background-color: var(--base-background-color);
-} */
 
 kbd {
     padding: 0.3em 0.4em;
@@ -315,6 +307,7 @@ html.dark {
     --button-outline-tint-hover: var(--d-button-outline-tint-hover);
 
     --select-background: var(--d-select-background);
+    --select-background-hover: var(--d-select-background-hover);
     --kbd-shadow-color: var(--d-kbd-shadow-color);
 
     --eupnea-green: var(--d-eupnea-green);

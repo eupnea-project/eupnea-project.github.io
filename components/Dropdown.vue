@@ -14,10 +14,6 @@ defineProps({
     placeholder: {
         type: String
     },
-    preserveSearch: {
-        type: Boolean,
-        default: false
-    },
     value: {
         type: String
     },
@@ -32,7 +28,7 @@ defineEmits(["update:value"]);
 
 <template>
     <VueMultiselect :options="options" :value="value" :allowEmpty="false" :label="entryKey" :customLabel="entryLabel"
-        :placeholder="placeholder" :preserveSearch="preserveSearch" :clearOnSelect="!preserveSearch">
+        :placeholder="placeholder">
         <template v-slot:clear>
             <label>{{ label }}</label>
         </template>

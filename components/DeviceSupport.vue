@@ -66,7 +66,7 @@ function codenameLabel(v) {
 
 <template>
     <Dropdown label="Codename (automatic)" :options="devicesSortedCodename" v-model="device" entryKey="codename"
-        :entryLabel="codenameLabel" placeholder="Search by codename" :preserveSearch="true" class="wide" />
+        :entryLabel="codenameLabel" placeholder="Search by codename" class="wide" />
 
     <div class="dropdown-row">
         <Dropdown label="Manufacturer" :options="firstModels" v-model="device" entryKey="brand" />
