@@ -2512,6 +2512,14 @@
       "family_name": "dedede",
       "supported": true
     },
+    "100e Chromebook Gen 4": {
+      "audio_status": "Unknown",
+      "code_name": "rusty",
+      "comment": "N/A",
+      "cpu_gen": "Unknown",
+      "family_name": "corsola",
+      "supported": false
+    },
     "100e Gen 2": {
       "audio_status": "Unsupported",
       "code_name": "makomo",
@@ -2567,6 +2575,14 @@
       "cpu_gen": "Picasso/Dali",
       "family_name": "zork",
       "supported": true
+    },
+    "300e Yoga Chromebook Gen 4": {
+      "audio_status": "Unknown",
+      "code_name": "steelix",
+      "comment": "N/A",
+      "cpu_gen": "Unknown",
+      "family_name": "corsola",
+      "supported": false
     },
     "300e/500e Chromebook 2nd Gen": {
       "audio_status": "Full",
@@ -2847,6 +2863,14 @@
       "cpu_gen": "Braswell",
       "family_name": "reks",
       "supported": true
+    },
+    "Slim 3 Chromebook 14": {
+      "audio_status": "Unknown",
+      "code_name": "magneton",
+      "comment": "N/A",
+      "cpu_gen": "Unknown",
+      "family_name": "corsola",
+      "supported": false
     },
     "Slim 5 Chromebook": {
       "audio_status": "Full",
