@@ -27,7 +27,7 @@ REPORT IT ON GITHUB/DISCORD/REVOLT.**
 
 ## Depthboot won't boot after an update
 
-**Immediately** report the issue on GitHub/Discord/Revolt.
+_**Immediately**_ report the issue on GitHub/Discord/Revolt.
 
 ## Chromebook shows recovery screen
 
