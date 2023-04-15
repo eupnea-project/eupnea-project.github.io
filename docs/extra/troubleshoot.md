@@ -27,8 +27,7 @@ REPORT IT ON GITHUB/DISCORD/REVOLT.**
 
 ## Depthboot won't boot after an update
 
-1. Immediately report the issue on GitHub/Discord/Revolt.
-2. [Use the reserve kernel](/docs/project/kernels#reserve-kernel) to boot into Depthboot.
+**Immediately** report the issue on GitHub/Discord/Revolt.
 
 ## Chromebook shows recovery screen
 
