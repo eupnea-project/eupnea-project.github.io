@@ -41,7 +41,6 @@ export default {
         text: "💻 Chromebook documentation",
         items: [
           { text: "Firmware comparison", link: "/docs/chromebook/firmware-comparison" },
-          { text: "Sleep bootlock", link: "/docs/chromebook/bootlock" },
           { text: "Depthcharge", link: "/docs/chromebook/depthcharge" },
           { text: "SWAP(ZRAM)", link: "/docs/chromebook/ram-extensions" },
           { text: "Keyboard layout", link: "/docs/chromebook/keyd" },
