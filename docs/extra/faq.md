@@ -121,7 +121,7 @@ Here is a breif list of the pros and cons of every desktop enviroment avalible:
 <FAQEntry question="Why is sharing Depthboot images illegal?">
 
 The Depthboot base distros all allow image/iso/rootfs sharing, but only in an unmodified form. The Depthboot script
-customizes some internal distro behavior (for example it [disables deep sleep](/docs/chromebook/bootlock)) and
+customizes some internal distro behavior (for example it adds our eupnea packages) and
 thereby creates modified images.
 To allow modified images to be shared, all trademarked content would have to be removed, i.e. all Distro logos.
 </FAQEntry>
