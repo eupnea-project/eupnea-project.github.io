@@ -67,7 +67,7 @@ export default {
         items: [
           { text: "GitHub (source code)", link: "https://github.com/eupnea-linux" },
           { text: "Revolt server", link: "https://rvlt.gg/6YxHB2Cz" },
-          { text: "Discord server", link: "https://discord.gg/jxXb2PwzYz" },
+          { text: "Discord server", link: "https://discord.gg/XwRHSUbSmu" },
         ]
       }
     ]
