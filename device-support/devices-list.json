@@ -2423,6 +2423,16 @@
       "supported": true
     }
   },
+  "Ip": {
+    "Slim 3 Chrome 14M868": {
+      "audio_status": "Unknown",
+      "code_name": "magneton",
+      "comment": "N/A",
+      "cpu_gen": "Unknown",
+      "family_name": "corsola",
+      "supported": false
+    }
+  },
   "Joi": {
     "Chromebook C100": {
       "audio_status": "Full",
@@ -2863,14 +2873,6 @@
       "cpu_gen": "Braswell",
       "family_name": "reks",
       "supported": true
-    },
-    "Slim 3 Chromebook 14": {
-      "audio_status": "Unknown",
-      "code_name": "magneton",
-      "comment": "N/A",
-      "cpu_gen": "Unknown",
-      "family_name": "corsola",
-      "supported": false
     },
     "Slim 5 Chromebook": {
       "audio_status": "Full",
