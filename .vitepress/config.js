@@ -34,7 +34,6 @@ export default {
         items: [
           { text: "Eupnea Kernels", link: "/docs/project/kernels" },
           { text: "Supported devices", link: "/docs/project/supported-devices" },
-          { text: "Supported distros + DEs (Depthboot)", link: "https://docs.google.com/spreadsheets/d/1-zIX8lWEXVcO71xCuzvZpHvCUizrU7csKfJusqB2CYM" },
         ]
       },
       {
