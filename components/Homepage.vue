@@ -95,10 +95,7 @@ import Chevron from "./Chevron.vue";
                 <b>Depthboot</b> (a fork of <a href="https://github.com/cb-linux/breath" target="_blank"
                     rel="noopener noreferrer">Breath</a>) can create bootable images for all
                 64-bit Chromebooks. Multiple
-                Linux distributions and desktop environments are supported. <a
-                    href="https://docs.google.com/spreadsheets/d/1-zIX8lWEXVcO71xCuzvZpHvCUizrU7csKfJusqB2CYM"
-                    target="_blank" rel="noopener noreferrer">Full
-                    list of supported options</a>
+                Linux distributions and desktop environments are supported.
             </p>
             <p>
                 Follow the instructions described in the documentation to build a Depthboot image.
