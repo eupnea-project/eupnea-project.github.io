@@ -1,3 +1,7 @@
+---
+prev: false
+---
+
 # Glossary
 
 This is an overview of the different terms used in the Eupnea Project documentation and community.
