@@ -1260,6 +1260,22 @@
       "family_name": "puff",
       "supported": true
     },
+    "Chromebox 5 (C\uff2e67)": {
+      "audio_status": "Unsupported",
+      "code_name": "kuldax",
+      "comment": "N/A",
+      "cpu_gen": "Alder Lake",
+      "family_name": "brask",
+      "supported": true
+    },
+    "Chromebox Enterprise 5 (C\uff2e67)": {
+      "audio_status": "Unsupported",
+      "code_name": "kuldax",
+      "comment": "N/A",
+      "cpu_gen": "Alder Lake",
+      "family_name": "brask",
+      "supported": true
+    },
     "Fanless Chromebox": {
       "audio_status": "Full",
       "code_name": "faffy",
