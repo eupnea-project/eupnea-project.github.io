@@ -32,6 +32,7 @@ export default {
       {
         text: "📖 Project documentation",
         items: [
+          { text: "Glossary", link: "/docs/project/glossary" },
           { text: "Eupnea Kernels", link: "/docs/project/kernels" },
           { text: "Supported devices", link: "/docs/project/supported-devices" },
         ]
