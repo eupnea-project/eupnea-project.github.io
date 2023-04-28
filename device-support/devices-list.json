@@ -1652,6 +1652,14 @@
       "family_name": "nami",
       "supported": true
     },
+    "Latitude 3445 Chromebook": {
+      "audio_status": "Unknown",
+      "code_name": "whiterun",
+      "comment": "N/A",
+      "cpu_gen": "Unknown",
+      "family_name": "skyrim",
+      "supported": false
+    },
     "Latitude 5300 2-in-1 Chromebook Enterprise": {
       "audio_status": "Full",
       "code_name": "arcada",
