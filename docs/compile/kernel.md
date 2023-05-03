@@ -31,7 +31,7 @@ next: false
 On debian based systems the dependencies can be installed with:
 
 ```shell
-sudo apt-get update && sudo apt-get install build-essential ncurses-dev xz-utils libssl-dev bc flex libelf-dev bison binutils
+sudo apt-get update && sudo apt-get install build-essential ncurses-dev xz-utils libssl-dev bc flex libelf-dev bison binutils dracut
 ```
 
 2. Clone the kernel repo:
