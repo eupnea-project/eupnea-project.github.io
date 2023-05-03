@@ -26,6 +26,7 @@ next: false
     * libelf1 development libraries
     * bison
     * binutils
+    * dracut
 
 On debian based systems the dependencies can be installed with:
 
