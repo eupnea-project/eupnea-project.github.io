@@ -2594,20 +2594,20 @@
       "family_name": "hana",
       "supported": false
     },
-    "300e Chromebook Gen 2": {
-      "audio_status": "Unsupported",
-      "code_name": "treeya360",
-      "comment": "N/A",
-      "cpu_gen": "Stoney Ridge",
-      "family_name": "grunt",
-      "supported": true
-    },
     "300e Chromebook Gen 3": {
       "audio_status": "Full",
       "code_name": "vilboz360",
       "comment": "N/A",
       "cpu_gen": "Picasso/Dali",
       "family_name": "zork",
+      "supported": true
+    },
+    "300e Gen 2 AST": {
+      "audio_status": "Unsupported",
+      "code_name": "treeya360",
+      "comment": "N/A",
+      "cpu_gen": "Stoney Ridge",
+      "family_name": "grunt",
       "supported": true
     },
     "300e Yoga Chromebook Gen 4": {
