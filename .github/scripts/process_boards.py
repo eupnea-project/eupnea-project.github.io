@@ -90,7 +90,6 @@ if __name__ == "__main__":
     parsed_json_list.pop("Education")  # enguarde (the device, not the family) is an unknown device
     parsed_json_list.pop("W/o")  # anahera has a really broken name
     parsed_json_list.pop("100e")  # missing the lenovo brand at the beginning -> wrong sorting
-    parsed_json_list.pop("300e")  # missing the lenovo brand at the beginning -> wrong sorting
     parsed_json_list.pop("Cx1101cma")  # missing asus brand at the beginning -> wrong sorting
     parsed_json_list.pop("Cx1400fka")  # missing asus brand at the beginning -> wrong sorting
     parsed_json_list.pop("Cx1500fka")  # missing asus brand at the beginning -> wrong sorting
@@ -138,14 +137,6 @@ if __name__ == "__main__":
             "100e Chromebook Gen 2": {
                 "audio_status": "Unsupported",
                 "code_name": "treeya",
-                "comment": "N/A",
-                "cpu_gen": "Stoney Ridge",
-                "family_name": "grunt",
-                "supported": True
-            },
-            "300e Chromebook Gen 2": {
-                "audio_status": "Unsupported",
-                "code_name": "treeya360",
                 "comment": "N/A",
                 "cpu_gen": "Stoney Ridge",
                 "family_name": "grunt",
