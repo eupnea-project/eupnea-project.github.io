@@ -22,11 +22,16 @@ are supported.
 human-readable syntax and better ways to interact with the user). At its core the script is "just" a very fancy wrapper
 for about 150 bash calls.
 Depthboot was written with user-friendliness as the main goal (which is what Breath was lacking) and has a huge amount
-of exception catchers, user-friendly errors, automations, etc. making the process of creating a depthboot image as easy
-as possible.
+of exception catchers, user-friendlier errors, automations, etc. making the process of creating a depthboot image as
+easy and quick as possible.
 
 Note: Depthboot refers to both the [Depthboot-builder](https://github.com/eupnea-linux/depthboot-builder) script and all
 Chromebooks running the images created by it.
+
+#### Breath
+
+Breath is the original project at https://github.com/cb-linux/breath. It was founded and developed
+by [MilkyDeveloper](https://github.com/milkydeveloper) and was active from Apr 2021 until its archival in late Aug 2022.
 
 #### EupneaOS
 
