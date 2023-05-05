@@ -23,6 +23,7 @@ your Chromebook, unless you explicitly choose to do so.
 
 Yes, neither EupneaOS nor Depthboot modify the firmware in any way. Just download the correct recovery image for your
 Chromebook and boot it. [Official guide from Google](https://support.google.com/chromebook/answer/1080595?hl=en)
+
 </FAQEntry>
 
 <FaqEntry question="Can I trust the Eupnea Project?">
