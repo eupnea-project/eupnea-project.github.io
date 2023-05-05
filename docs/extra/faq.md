@@ -13,11 +13,29 @@ import FAQEntry from "/components/FAQEntry.vue";
 
 Frequently asked questions (and answers) regarding the Eupnea Project.
 
-<FAQEntry question="Will Depthboot/EupneaOS remove my ChromeOS installation?">
+<FAQEntry question="Will Depthboot/EupneaOS remove my ChromeOS(Ubuntu, etc.) installation?">
 
-Only if you choose to do so. Neither Depthboot nor EupneaOS will remove your ChromeOS installation, unless you
-explicitly choose to do so.
+Only if you choose to do so. Neither Depthboot nor EupneaOS will remove your ChromeOS(Ubuntu, etc.) installation from
+your Chromebook, unless you explicitly choose to do so.
 </FAQEntry>
+
+<FaqEntry question="Can I reinstall ChromeOS after installing Depthboot/EupneaOS?">
+
+Yes, neither EupneaOS nor Depthboot modify the firmware in any way. Just download the correct recovery image for your
+Chromebook and boot it. [Official guide from Google](https://support.google.com/chromebook/answer/1080595?hl=en)
+</FAQEntry>
+
+<FaqEntry question="Can I trust the Eupnea Project?">
+
+* All of our code is [open source](https://github.com/eupnea-linux).
+* All binaries/prebuilt packages/etc... are built with GitHub actions and uploaded to GitHub releases. You can check the
+  workflows under .github in each repo.
+* All the development is done in the open, specifically on our [Discord server](https://discord.gg/eupnea-project). The
+* dev-talk channel is open to be read by anyone, and we do not use a private channel for development related
+  discussions.
+  *Both Depthboot and EupneaOS, as well as all of our packages and binaries can be built locally from source.
+
+</FAQEntry>  
 
 <FAQEntry question="When will EupneaOS be ready?">
 
