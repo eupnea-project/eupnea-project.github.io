@@ -19,14 +19,14 @@ Only if you choose to do so. Neither Depthboot nor EupneaOS will remove your Chr
 your Chromebook, unless you explicitly choose to do so.
 </FAQEntry>
 
-<FaqEntry question="Can I reinstall ChromeOS after installing Depthboot/EupneaOS?">
+<FAQEntry question="Can I reinstall ChromeOS after installing Depthboot/EupneaOS?">
 
 Yes, neither EupneaOS nor Depthboot modify the firmware in any way. Just download the correct recovery image for your
 Chromebook and boot it. [Official guide from Google](https://support.google.com/chromebook/answer/1080595?hl=en)
 
 </FAQEntry>
 
-<FaqEntry question="Can I trust the Eupnea Project?">
+<FAQEntry question="Can I trust the Eupnea Project?">
 
 * All of our code is [open source](https://github.com/eupnea-linux).
 * All binaries/prebuilt packages/etc... are built with GitHub actions and uploaded to GitHub releases. You can check the
