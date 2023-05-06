@@ -13,7 +13,7 @@ import FAQEntry from "/components/FAQEntry.vue";
 
 Frequently asked questions (and answers) regarding the Eupnea Project.
 
-<FAQEntry question="Will Depthboot/EupneaOS remove my ChromeOS/Ubuntu/etc... installation?">
+<FAQEntry question="Will Depthboot/EupneaOS remove my ChromeOS/Ubuntu/etc. installation?">
 
 Only if you choose to do so. Neither Depthboot nor EupneaOS will remove your ChromeOS(Ubuntu, etc.) installation from
 your Chromebook, unless you explicitly choose to do so.
