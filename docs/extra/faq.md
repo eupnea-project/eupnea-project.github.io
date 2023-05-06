@@ -32,9 +32,9 @@ Chromebook and boot it. [Official guide from Google](https://support.google.com/
 * All binaries/prebuilt packages/etc... are built with GitHub actions and uploaded to GitHub releases. You can check the
   workflows under .github in each repo.
 * All the development is done in the open, specifically on our [Discord server](https://discord.gg/eupnea-project). The
-* dev-talk channel is open to be read by anyone, and we do not use a private channel for development related
+  dev-talk channel is open to be read by anyone, and we do not use a private channel for development related
   discussions.
-  *Both Depthboot and EupneaOS, as well as all of our packages and binaries can be built locally from source.
+* Both Depthboot and EupneaOS, as well as all of our packages and binaries can be built locally from source.
 
 </FAQEntry>  
 
