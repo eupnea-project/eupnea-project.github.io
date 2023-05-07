@@ -28,3 +28,6 @@
    disk".
 
 After a black screen Depthboot will boot.
+
+7. Please consider starring the [depthboot](https://github.com/eupnea-linux/depthboot-builder) repo on GitHub to help
+   us reach more people.
