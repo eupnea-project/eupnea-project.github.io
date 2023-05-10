@@ -1260,7 +1260,7 @@
       "family_name": "puff",
       "supported": true
     },
-    "Chromebox 5 (C\uff2e67)": {
+    "Chromebox 5 (CN67)": {
       "audio_status": "Partial",
       "code_name": "kuldax",
       "comment": "N/A",
@@ -1268,7 +1268,7 @@
       "family_name": "brask",
       "supported": true
     },
-    "Chromebox Enterprise 5 (C\uff2e67)": {
+    "Chromebox Enterprise 5 (CN67)": {
       "audio_status": "Partial",
       "code_name": "kuldax",
       "comment": "N/A",
