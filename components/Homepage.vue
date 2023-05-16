@@ -76,11 +76,6 @@ import Chevron from "./Chevron.vue";
                 look of ChromeOS and is the recommended way of upgrading your Chromebook. It is designed to replicate
                 most features of ChromeOS, but without any limitations.
             </p>
-            <p>
-                Precompiled iso images are available on the
-                <a href="https://github.com/eupnea-linux/eupneaos/releases">GitHub Releases</a>
-                page and can be flashed directly to a USB stick or SD card.
-            </p>
             <button class="big solid" disabled>Coming soon</button>
         </div>
         <div class="preview">
