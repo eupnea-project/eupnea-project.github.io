@@ -618,6 +618,14 @@
       "family_name": "brya",
       "supported": true
     },
+    "Chromebook Spin 714  -- CP714-2WN / Acer Chromebook Enterprise Spin 714 -- CP714-2WN": {
+      "audio_status": "Partial",
+      "code_name": "kano",
+      "comment": "N/A",
+      "cpu_gen": "Alder Lake",
+      "family_name": "brya",
+      "supported": true
+    },
     "Chromebook Tab 10": {
       "audio_status": "Unsupported",
       "code_name": "dru",
@@ -914,6 +922,14 @@
       "comment": "N/A",
       "cpu_gen": "Unknown",
       "family_name": "corsola",
+      "supported": false
+    },
+    "Chromebook CM34 Flip": {
+      "audio_status": "Unknown",
+      "code_name": "frostflow",
+      "comment": "N/A",
+      "cpu_gen": "Unknown",
+      "family_name": "skyrim",
       "supported": false
     },
     "Chromebook CR1100CKA": {
