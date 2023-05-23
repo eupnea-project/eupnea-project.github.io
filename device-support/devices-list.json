@@ -2562,6 +2562,14 @@
       "family_name": "dedede",
       "supported": true
     },
+    "100e Chromebook Gen 3 (Intel)": {
+      "audio_status": "Full",
+      "code_name": "bookem",
+      "comment": "N/A",
+      "cpu_gen": "Jasper Lake",
+      "family_name": "dedede",
+      "supported": true
+    },
     "100e Chromebook Gen 4": {
       "audio_status": "Unknown",
       "code_name": "rusty",
