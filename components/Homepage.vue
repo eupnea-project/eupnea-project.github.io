@@ -49,29 +49,6 @@ import Chevron from "./Chevron.vue";
         <Chevron />
     </section>
 
-    
-    <section class="full-height info-row rev-row">
-        <div class="blog">
-            <h2>Depthboot</h2>
-            <p>
-                <b>Depthboot</b> (a fork of <a href="https://github.com/cb-linux/breath" target="_blank"
-                    rel="noopener noreferrer">Breath</a>) can create bootable images for all
-                64-bit Chromebooks. Multiple
-                Linux distributions and desktop environments are supported.
-            </p>
-            <p>
-                Follow the instructions described in the documentation to build a Depthboot image.
-            </p>
-            <a href="docs/depthboot/requirements" tabindex="-1">
-                <button class="big solid">Build instructions</button>
-            </a>
-        </div>
-        <div class="preview">
-            <img class="big" src="https://via.placeholder.com/1280x900" alt="Placeholder Image">
-            <img class="icon" style="right: -2vw; top: -3vh; animation-delay: 2s;" src="/assets/depthboot-icon.png">
-        </div>
-    </section>
-
     <footer>
         &copy; 2023 The Eupnea Project
     </footer>
