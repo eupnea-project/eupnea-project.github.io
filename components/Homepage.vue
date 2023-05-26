@@ -49,22 +49,7 @@ import Chevron from "./Chevron.vue";
         <Chevron />
     </section>
 
-    <section class="bg-mute full-height info-row">
-        <div class="blog">
-            <h2>EupneaOS</h2>
-            <p>
-                The Eupnea Project develops a custom Linux distribution based on
-                <a href="https://getfedora.org">Fedora</a> called <b>EupneaOS</b>. It's designed to imitate the
-                look of ChromeOS and is the recommended way of upgrading your Chromebook. It is designed to replicate
-                most features of ChromeOS, but without any limitations.
-            </p>
-            <button class="big solid" disabled>Coming soon</button>
-        </div>
-        <div class="preview">
-            <img class="big" src="https://via.placeholder.com/1280x720" alt="Placeholder Image">
-            <img class="icon" style="left: -3vw; bottom: -2vh" src="/assets/eupneaos-icon.png">
-        </div>
-    </section>
+    
     <section class="full-height info-row rev-row">
         <div class="blog">
             <h2>Depthboot</h2>
