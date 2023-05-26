@@ -1,4 +1,4 @@
-# Depthboot vs EupneaOS vs Crouton vs RW_LEGACY vs UEFI
+# Depthboot vs Crouton vs RW_LEGACY vs UEFI
 
 This is a small pros and cons summary of the different methods of running Linux on Chromebooks. It should help
 you decide which method is best for you.
@@ -12,15 +12,6 @@ you decide which method is best for you.
         * Can only be used on x86_64 Chromebooks with depthcharge
         * Has to be built locally ([why?](/faq#why-is-sharing-depthboot-images-illegal))
         * May take a long time to build on weaker Chromebooks
-* EupneaOS
-    * Pros:
-        * Based on a stable, yet up2date distro, Fedora
-        * Comes with a customized KDE desktop environment, which eases the transition from ChromeOS
-        * Supports both Depthcharge and UEFI/RW_LEGACY
-    * Cons:
-        * No deskop environment choice
-        * No distro choice
-
 
 * RW_Legacy:
     * Pros:
