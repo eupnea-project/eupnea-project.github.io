@@ -14,25 +14,7 @@ import Chevron from "./Chevron.vue";
                 </b></p>
         </div>
         <div class="row fade-in">
-            <div class="presentation" style="animation-delay: 0.2s;">
-                <div class="extend">
-                    <span class="title icon-text">
-                        <img src="/assets/eupneaos-icon.png" alt="EupneaOS Logo">
-                        <h2>EupneaOS</h2>
-                    </span>
-                    <p>
-                        EupneaOS is a <a href="https://getfedora.org">Fedora</a> based operating system optimized to run on
-                        <a href="docs/project/supported-devices">supported 64-bit
-                            Chromebooks</a>. It features a custom (<a href="https://kde.org/">KDE</a> based)
-                        <b>ChromeOS style desktop</b> and native <b>Android app support</b>.
-                    </p>
-                    <button class="big solid" disabled>Coming soon</button>
-                </div>
-                <p class="soft">
-                    EupneaOS is still in development. Stay tuned.
-                </p>
-            </div>
-            <div class="separator no-fade"></div>
+            
             <div class="presentation" style="animation-delay: 0.4s;">
                 <div class="extend">
                     <span class="title icon-text">
