@@ -46,7 +46,7 @@ import Chevron from "./Chevron.vue";
                 <button class="big outline">Read the <b>FAQ</b></button>
             </a>
         </div>
-        <Chevron />
+        
     </section>
 
     <footer>
