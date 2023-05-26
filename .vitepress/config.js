@@ -50,7 +50,6 @@ export default {
         text: "🔨 Compile instructions",
         items: [
           { text: "Compile a Eupnea kernel", link: "/docs/compile/kernel" },
-          { text: "Compile EupneaOS", link: "/docs/compile/eupneaos" },
           { text: "Compile Depthboot", link: "/docs/depthboot/requirements" },
         ]
       },
@@ -66,7 +65,6 @@ export default {
         text: "👥 Community",
         items: [
           { text: "GitHub (source code)", link: "https://github.com/eupnea-linux" },
-          { text: "Revolt server", link: "https://rvlt.gg/6YxHB2Cz" },
           { text: "Discord server", link: "https://discord.gg/XwRHSUbSmu" },
         ]
       }
