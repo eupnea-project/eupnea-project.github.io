@@ -13,15 +13,15 @@ import FAQEntry from "/components/FAQEntry.vue";
 
 Frequently asked questions (and answers) regarding the Eupnea Project.
 
-<FAQEntry question="Will Depthboot/EupneaOS remove my ChromeOS(Ubuntu, etc.) installation?">
+<FAQEntry question="Will Depthboot remove my ChromeOS(Ubuntu, etc.) installation?">
 
-Only if you choose to do so. Neither Depthboot nor EupneaOS will remove your ChromeOS(Ubuntu, etc.) installation from
+Only if you choose to do so. Depthboot will not remove your ChromeOS(Ubuntu, etc.) installation from
 your Chromebook, unless you explicitly choose to do so.
 </FAQEntry>
 
-<FAQEntry question="Can I reinstall ChromeOS after installing Depthboot/EupneaOS?">
+<FAQEntry question="Can I reinstall ChromeOS after installing Depthboot?">
 
-Yes, neither EupneaOS nor Depthboot modify the firmware in any way. Just download the correct recovery image for your
+Yes, Depthboot will not modify the firmware in any way. Just download the correct recovery image for your
 Chromebook and boot it. [Official guide from Google](https://support.google.com/chromebook/answer/1080595?hl=en)
 
 </FAQEntry>
@@ -34,14 +34,9 @@ Chromebook and boot it. [Official guide from Google](https://support.google.com/
 * All the development is done in the open, specifically on our [Discord server](https://discord.gg/eupnea-project). The
   dev-talk channel is open to be read by anyone, and we do not use a private channel for development related
   discussions.
-* Both Depthboot and EupneaOS, as well as all of our packages and binaries can be built locally from source.
+* Depthboot, as well as all of our packages and binaries can be built locally from source.
 
 </FAQEntry>  
-
-<FAQEntry question="When will EupneaOS be ready?">
-
-We don't know. We are working on it, but we have no ETA.
-</FAQEntry>
 
 <FAQEntry question="What is the difference between the Mainline kernel and the ChromeOS kernel?" link="difference-between-kernels">
 
@@ -51,7 +46,7 @@ Here is a full page comparing the two kernels: [Eupnea Kernels](/docs/project/ke
 <FAQEntry question="I have UEFI/Custom BIOS installed on my Chromebook">
 
 If you have completely replaced your Chromebooks firmware with a custom BIOS/UEFI, you will not be able to boot
-Depthboot. You can however still boot EupneaOS.
+Depthboot.
 To be able to boot Depthboot, you will need to revert your firmware to stock.
 </FAQEntry>
 
@@ -61,7 +56,7 @@ Installation of rw_legacy/alt_fw that can be accessed with ctrl+L/"Select altern
 your Chromebooks ability to boot Depthboot. Just follow the instructions as usual.
 </FAQEntry>
 
-<FAQEntry question="UEFI vs RW_LEGACY vs Depthboot vs EupneaOS?">
+<FAQEntry question="UEFI vs RW_LEGACY vs Depthboot?">
 
 Read all pros and ons of each method of booting Linux on a Chromebook [here](/docs/chromebook/firmware-comparison).
 </FAQEntry>
@@ -143,13 +138,6 @@ The Depthboot base distros all allow image/iso/rootfs sharing, but only in an un
 customizes some internal distro behavior (for example it adds our eupnea packages) and
 thereby creates modified images.
 To allow modified images to be shared, all trademarked content would have to be removed, i.e. all Distro logos.
-</FAQEntry>
-
-<FAQEntry question="Why is sharing EupneaOS images illegal?">
-
-EupneaOS does not have the same restrictions as the Depthboot base distros, as all trademarked content has been removed.
-The Eupnea Project disallows sharing of EupneaOS images, to prevent unofficial modded versions from being distributed.
-If you want to create a fork of EupneaOS, remove all EupneaOS branding, i.e. the name and logos.
 </FAQEntry>
 
 <FAQEntry question="Does the Eupnea Project collect any telemetry?">
