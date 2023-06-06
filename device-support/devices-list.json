@@ -2206,6 +2206,14 @@
       "family_name": "nami",
       "supported": true
     },
+    "Chromebook 15.6\" 15w": {
+      "audio_status": "Partial",
+      "code_name": "yaviks",
+      "comment": "N/A",
+      "cpu_gen": "Alder Lake",
+      "family_name": "nissa",
+      "supported": true
+    },
     "Chromebook 15.6\u201d": {
       "audio_status": "Partial",
       "code_name": "yaviks",
