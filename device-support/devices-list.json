@@ -2206,7 +2206,7 @@
       "family_name": "nami",
       "supported": true
     },
-    "Chromebook 15.6\" 15w": {
+    "Chromebook 15.6\"": {
       "audio_status": "Partial",
       "code_name": "yaviks",
       "comment": "N/A",
@@ -2214,7 +2214,7 @@
       "family_name": "nissa",
       "supported": true
     },
-    "Chromebook 15.6\u201d": {
+    "Chromebook 15.6\" 15w": {
       "audio_status": "Partial",
       "code_name": "yaviks",
       "comment": "N/A",
