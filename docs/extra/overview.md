@@ -18,3 +18,11 @@ desktop environments.
 Instead, it has to be build locally.
 
 [Build a Depthboot image](docs/depthboot/requirements.md)
+
+## EupneaOS
+
+The Eupnea Project develops a custom Linux distribution based on [Fedora](https://getfedora.org/) called EupneaOS. It's
+designed to imitate the look of ChromeOS and is the recommended way of upgrading your Chromebook. It is designed to
+replicate most features of ChromeOS, but without any limitations.
+
+Coming soon

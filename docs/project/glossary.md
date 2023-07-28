@@ -8,7 +8,7 @@ This is an overview of the different terms used in the Eupnea Project documentat
 
 #### The Eupnea Project
 
-An umbrella term for everything related to this Project. It includes Depthboot, all communities (GitHub,
+An umbrella term for everything related to this Project. It includes EupneaOS, Depthboot, all communities (GitHub,
 Discord, Revolt, Reddit) and all developers.  
 Note: [Breath](#breath) and [cb-linux](https://github.com/cb-linux/) are not part of [the
 Eupnea Project](#the-eupnea-project).
@@ -18,7 +18,6 @@ Eupnea Project](#the-eupnea-project).
 [Depthboot-builder](https://github.com/eupnea-linux/depthboot-builder) is a fork of [Breath](#breath) that creates
 bootable images for *almost* all 64-bit Chromebooks. Multiple [distros](#distribution) and [DEs](#desktop-environment)
 are supported.
-
 [Breath](#breath) was rewritten into Python3 by Apacelus, due to developer preference (Python has a much more
 human-readable syntax and better ways to interact with the user). At its core the script is "just" a very fancy wrapper
 for about 150 bash calls.
@@ -33,6 +32,16 @@ Chromebooks running the images created by it.
 
 Breath is the original project at https://github.com/cb-linux/breath. It was founded and developed
 by [MilkyDeveloper](https://github.com/milkydeveloper) and was active from Apr 2021 until its archival in late Aug 2022.
+
+#### EupneaOS
+
+EupneaOS is a Fedora based operating system optimized to run on *almost* all 64-bit Chromebooks. It features a custom (
+KDE based) ChromeOS style desktop and native Android app support, as well as tweaks to make the system more
+user-friendly.  
+While most of the tweaks from EupneaOS are available (or can be added post-install) in a Fedora + KDE Depthboot
+system, EupneaOS has the advantage of being available as a prebuilt img, as well as featuring many extra system tweaks
+from the Eupnea Project.  
+EupneaOS can also be booted on UEFI/RW_L Chromebooks (non Chromebook devices are **NOT** supported)
 
 #### Eupnea
 
@@ -52,3 +61,4 @@ other (mostly) user abstracted aspects.
 [Which distro is the best?](/faq#which-depthboot-distro-is-the-best)
 
 [Are the Depthboot distros modified?](/faq#are-the-depthboot-distros-modified)  
+Note: [EupneaOS](#eupneaos) is a modified [Fedora](https://www.fedoraproject.org/) fork.
