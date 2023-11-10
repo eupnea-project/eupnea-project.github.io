@@ -65,8 +65,8 @@ export default {
       {
         text: "👥 Community",
         items: [
-          { text: "GitHub (source code)", link: "https://github.com/eupnea-linux" },
-          { text: "Revolt server", link: "https://rvlt.gg/6YxHB2Cz" },
+          { text: "GitHub (source code)", link: "https://github.com/eupnea-project" },
+          { text: "Subreddit", link: "https://reddit.com/r/Eupnea" },
           { text: "Discord server", link: "https://discord.gg/XwRHSUbSmu" },
         ]
       }
