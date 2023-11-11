@@ -9,7 +9,7 @@ export default {
   },
   themeConfig: {
     socialLinks: [
-      { icon: "github", link: "https://github.com/eupnea-linux" },
+      { icon: "github", link: "https://github.com/eupnea-project" },
     ],
     sidebar: [
       {

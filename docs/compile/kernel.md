@@ -6,9 +6,9 @@ next: false
 # 1. Building a custom kernel
 
 * Download the latest pre-compiled Eupnea ChromeOS
-  kernel [here](https://github.com/eupnea-linux/chromeos-kernel/releases/latest)
+  kernel [here](https://github.com/eupnea-project/chromeos-kernel/releases/latest)
 * Download the latest pre-compiled Eupnea mainline
-  kernel [here](https://github.com/eupnea-linux/mainline-kernel/releases/latest)
+  kernel [here](https://github.com/eupnea-project/mainline-kernel/releases/latest)
 
 ## Building the Eupnea ChromeOS kernel
 
@@ -37,7 +37,7 @@ sudo apt-get update && sudo apt-get install build-essential ncurses-dev xz-utils
 2. Clone the kernel repo:
 
 ```shell
-git clone https://github.com/eupnea-linux/chromeos-kernel.git && cd chromeos-kernel
+git clone https://github.com/eupnea-project/chromeos-kernel.git && cd chromeos-kernel
 ```
 
 3. Optional: Modify the kernel config in ``kernel.conf``.
@@ -76,7 +76,7 @@ sudo apt-get update && sudo apt-get install build-essential ncurses-dev xz-utils
 2. Clone the kernel repo:
 
 ```shell
-git clone https://github.com/eupnea-linux/mainline-kernel.git && cd mainline-kernel
+git clone https://github.com/eupnea-project/mainline-kernel.git && cd mainline-kernel
 ```
 
 3. Optional: Modify the kernel config in ``kernel.conf``
@@ -91,7 +91,7 @@ git clone https://github.com/eupnea-linux/mainline-kernel.git && cd mainline-ker
 
 1. Sign the kernel and add a cmdline to it.
    > This process can be done automatically with
-   the `install-kernel`[script](https://github.com/eupnea-linux/eupnea-utils/blob/main/system-scripts/install-kernel)  
+   the `install-kernel`[script](https://github.com/eupnea-project/eupnea-utils/blob/main/system-scripts/install-kernel)  
    Run `/usr/lib/eupnea/install-kernel --help` to see all available script options.
 
 2. Extract the modules into `/usr/lib/modules/<insert_version>` and the headers into

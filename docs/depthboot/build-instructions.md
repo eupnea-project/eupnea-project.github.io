@@ -2,7 +2,7 @@
 
 1. Open a terminal, clone the repo and start the script with this command:
     ```shell
-    git clone --depth=1 https://github.com/eupnea-linux/depthboot-builder && cd depthboot-builder && ./main.py
+    git clone --depth=1 https://github.com/eupnea-project/depthboot-builder && cd depthboot-builder && ./main.py
     ```
 2. Follow the instructions inside the terminal.
 
@@ -29,5 +29,5 @@
 
 After a black screen Depthboot will boot.
 
-7. Please consider starring the [depthboot](https://github.com/eupnea-linux/depthboot-builder) repo on GitHub to help
+7. Please consider starring the [depthboot](https://github.com/eupnea-project/depthboot-builder) repo on GitHub to help
    us reach more people.

@@ -1,7 +1,7 @@
 # eupnea-project.github.io
 
-This repo contains the eupnea-linux website, built by [Vitepress](https://vitepress.vuejs.org/).  
-Visit the eupnea-linux website here: https://eupnea-project.github.io/
+This repo contains the eupnea-project website, built by [Vitepress](https://vitepress.vuejs.org/).  
+Visit the eupnea-project website here: https://eupnea-project.github.io/
 
 
 ## Website Development

@@ -15,7 +15,7 @@ Eupnea Project](#the-eupnea-project).
 
 #### Depthboot
 
-[Depthboot-builder](https://github.com/eupnea-linux/depthboot-builder) is a fork of [Breath](#breath) that creates
+[Depthboot-builder](https://github.com/eupnea-project/depthboot-builder) is a fork of [Breath](#breath) that creates
 bootable images for *almost* all 64-bit Chromebooks. Multiple [distros](#distribution) and [DEs](#desktop-environment)
 are supported.
 [Breath](#breath) was rewritten into Python3 by Apacelus, due to developer preference (Python has a much more
@@ -25,7 +25,7 @@ Depthboot was written with user-friendliness as the main goal (which is what Bre
 of exception catchers, user-friendlier errors, automations, etc. making the process of creating a depthboot image as
 easy and quick as possible.
 
-Note: Depthboot refers to both the [Depthboot-builder](https://github.com/eupnea-linux/depthboot-builder) script and all
+Note: Depthboot refers to both the [Depthboot-builder](https://github.com/eupnea-project/depthboot-builder) script and all
 Chromebooks running the images created by it.
 
 #### Breath
