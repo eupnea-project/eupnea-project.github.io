@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Homepage of the Eupnea Project",
   "main": "main.js",
-  "repository": "https://github.com/eupnea-linux/eupnea-linux.github.io.git",
+  "repository": "https://github.com/eupnea-linux/eupnea-project.github.io.git",
   "license": "GPL-3.0-only",
   "scripts": {
     "dev": "vitepress dev",
