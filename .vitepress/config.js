@@ -9,7 +9,7 @@ export default {
   },
   themeConfig: {
     socialLinks: [
-      { icon: "github", link: "https://github.com/eupnea-linux" },
+      { icon: "github", link: "https://github.com/eupnea-project" },
     ],
     sidebar: [
       {
@@ -83,11 +83,11 @@ export default {
     ],
     [
       "meta",
-      { property: "og:url", content: "https://eupnea-linux.github.io/" }
+      { property: "og:url", content: "https://eupnea-project.github.io/" }
     ],
     [
       "meta",
-      { property: "og:image", content: "https://eupnea-linux.github.io/assets/project-icon.svg" }
+      { property: "og:image", content: "https://eupnea-project.github.io/assets/project-icon.svg" }
     ],
     [
       "meta",

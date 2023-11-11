@@ -28,7 +28,7 @@ Chromebook and boot it. [Official guide from Google](https://support.google.com/
 
 <FAQEntry question="Can I trust the Eupnea Project?">
 
-* All of our code is [open source](https://github.com/eupnea-linux).
+* All of our code is [open source](https://github.com/eupnea-project).
 * All binaries/prebuilt packages/etc... are built with GitHub actions and uploaded to GitHub releases. You can check the
   workflows under .github in each repo.
 * All the development is done in the open, specifically on our [Discord server](https://discord.gg/eupnea-project). The

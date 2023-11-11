@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Homepage of the Eupnea Project",
   "main": "main.js",
-  "repository": "https://github.com/eupnea-linux/eupnea-linux.github.io.git",
+  "repository": "https://github.com/eupnea-project/eupnea-project.github.io.git",
   "license": "GPL-3.0-only",
   "scripts": {
     "dev": "vitepress dev",
@@ -13,6 +13,7 @@
   "devDependencies": {
     "vitepress": "^1.0.0-alpha.65",
     "vue": "^3.2.47"
+    "yarn": "^2.0.0"
   },
   "dependencies": {
     "@sindresorhus/slugify": "^2.2.0",

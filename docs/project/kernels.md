@@ -11,9 +11,9 @@ and distributed:
 The source of the kernel, modules and headers of the kernel executable:
 
 * [ChromeOS kernel](https://chromium.googlesource.com/chromiumos/third_party/kernel)
-  -> [ChromeOS Eupnea kernel](https://github.com/eupnea-linux/chromeos-kernel)
+  -> [ChromeOS Eupnea kernel](https://github.com/eupnea-project/chromeos-kernel)
 * [Mainline Linux kernel](https://github.com/torvalds/linux)
-  -> [Mainline Eupnea kernel](https://github.com/eupnea-linux/mainline-kernel)
+  -> [Mainline Eupnea kernel](https://github.com/eupnea-project/mainline-kernel)
 
 ## ChromeOS-Eupnea kernel
 
