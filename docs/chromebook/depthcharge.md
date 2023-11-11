@@ -109,8 +109,8 @@ parameters stored in the verified boot non-volatile storage.
 These parameters can be modified with the `crossystem` tool, that requires sufficient privileges to access the verified
 boot non-volatile storage.
 
-`crossystem` relies on `mosys`, that is used to access the verified boot non-volatile storage on some
-devices. `crossystem` and `mosys` are both free software and their source code is made available by
+```crossystem``` relies on ```mosys```, that is used to access the verified boot non-volatile storage on some
+devices. ```crossystem``` and ```mosys``` are both free software and their source code is made available by
 Google: [crossystem](https://chromium.googlesource.com/chromiumos/platform/vboot_reference/).
 [mosys](https://chromium.googlesource.com/chromiumos/platform/mosys/).
 

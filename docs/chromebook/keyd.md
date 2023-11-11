@@ -5,8 +5,8 @@ repo. They keyd code itself is unmodified, but the packages include a libinput q
 from working when in tablet mode (this file was removed from the upstream project) and the various chromebook keyboard
 layouts.
 
-There are multiple keyd config files, which are located in `/usr/share/eupnea/keyboard-layouts/` and symlinked to
-`/etc/keyd/base.conf`. These can be switched with the `/usr/lib/eupnea/set-keymap` script. The layouts all produce the
+There are multiple keyd config files, which are located in ```/usr/share/eupnea/keyboard-layouts/``` and symlinked to
+```/etc/keyd/base.conf```. These can be switched with the ```/usr/lib/eupnea/set-keymap``` script. The layouts all produce the
 same results, which are documented below.
 
 * Normal mode (i.e. Without holding any keys):
