@@ -104,6 +104,7 @@ a.faq-question:hover {
     cursor: pointer;
     transition: 0.1s;
     padding: 16px 20px;
+    text-decoration: none;
 }
 
 .faq-question:hover {
