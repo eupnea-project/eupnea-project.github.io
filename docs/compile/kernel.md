@@ -30,13 +30,13 @@ next: false
 
 On debian based systems the dependencies can be installed with:
 
-```shell
+```
 sudo apt-get update && sudo apt-get install build-essential ncurses-dev xz-utils libssl-dev bc flex libelf-dev bison binutils dracut
 ```
 
 2. Clone the kernel repo:
 
-```shell
+```
 git clone https://github.com/eupnea-project/chromeos-kernel.git && cd chromeos-kernel
 ```
 
@@ -69,13 +69,13 @@ git clone https://github.com/eupnea-project/chromeos-kernel.git && cd chromeos-k
 
 On debian based systems the dependencies can be installed with:
 
-```shell
+```
 sudo apt-get update && sudo apt-get install build-essential ncurses-dev xz-utils libssl-dev bc flex libelf-dev bison binutils
 ```
 
 2. Clone the kernel repo:
 
-```shell
+```
 git clone https://github.com/eupnea-project/mainline-kernel.git && cd mainline-kernel
 ```
 
