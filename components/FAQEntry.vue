@@ -72,9 +72,6 @@ onMounted(() => {
 </template>
 
 <style>
-body {
-    scroll-behavior: smooth;
-}
 
 a.faq-question {
     color: inherit;
