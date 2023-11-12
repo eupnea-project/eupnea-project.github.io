@@ -17,16 +17,14 @@ const myHash = link ?? slugify(question);
 const isOpen = ref(false);
 const entryRef = ref();
 
-function scrollToEntry(smooth = true) {
+function scrollToEntry() {
     const element = entryRef.value;
     const yPosition = element.offsetTop;
 
-    // Wait until FAQ is expanded
-    window.requestAnimationFrame(() => {
-        window.scrollTo({
-            top: yPosition,
-            behavior: smooth ? "smooth" : "auto"
-        });
+    window.scrollTo({
+        top: yPosition,
+        behavior: "smooth",
+        duration: 1000 
     });
 }
 
