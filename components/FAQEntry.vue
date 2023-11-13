@@ -22,9 +22,8 @@ function scrollToEntry() {
     const yPosition = element.offsetTop;
 
     window.scrollTo({
-        top: yPosition,
         behavior: "smooth",
-        duration: 1000 
+        duration: 1000
     });
 }
 
