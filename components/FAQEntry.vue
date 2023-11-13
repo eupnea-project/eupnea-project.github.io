@@ -23,8 +23,9 @@ function scrollToEntry() {
 
     element.scrollIntoView({
         behavior: "smooth",
-        block: "start", 
-        inline: "nearest"
+        block: "start", // Adjust as needed ("start", "center", "end", or "nearest")
+        inline: "nearest" // Adjust as needed ("start", "center", "end", or "nearest")
+    });
 }
 
 function checkIsActive() {
