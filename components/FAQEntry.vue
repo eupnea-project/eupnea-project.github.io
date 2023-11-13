@@ -40,6 +40,8 @@ function checkIsActive() {
 
 function onClick(ev) {
     ev.preventDefault();
+    ev.stopPropagation();
+
     isOpen.value = !isOpen.value;
 
     if (isOpen.value) {
@@ -51,6 +53,7 @@ function onClick(ev) {
         scrollToEntry();
     }
 }
+
 
 onMounted(() => {
     checkIsActive();
