@@ -21,10 +21,10 @@ function scrollToEntry() {
     const element = entryRef.value;
     const yPosition = element.offsetTop;
 
-    window.scrollTo({
+    element.scrollIntoView({
         behavior: "smooth",
-        duration: 1000
-    });
+        block: "start", 
+        inline: "nearest"
 }
 
 function checkIsActive() {
