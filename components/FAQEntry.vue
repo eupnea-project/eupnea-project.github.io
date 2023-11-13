@@ -19,12 +19,12 @@ const entryRef = ref();
 
 function scrollToEntry() {
     const element = entryRef.value;
-    const yPosition = element.offsetTop;
+    const rect = element.getBoundingClientRect();
+    const yPosition = window.scrollY + rect.top;
 
-    element.scrollIntoView({
-        behavior: "smooth",
-        block: "start", // Adjust as needed ("start", "center", "end", or "nearest")
-        inline: "nearest" // Adjust as needed ("start", "center", "end", or "nearest")
+    window.scrollTo({
+        top: yPosition,
+        behavior: "smooth"
     });
 }
 
