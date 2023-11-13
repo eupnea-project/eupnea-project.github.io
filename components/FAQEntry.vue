@@ -23,6 +23,7 @@ function scrollToEntry() {
     const yPosition = window.scrollY + rect.top;
 
     window.scrollTo({
+        behavior: "smooth"
         top: yPosition,
     });
 }
@@ -33,7 +34,7 @@ function checkIsActive() {
 
     if (isActive) {
         isOpen.value = true;
-        scrollToEntry(false); // Scroll without smooth transition
+        scrollToEntry();
     }
 }
 
