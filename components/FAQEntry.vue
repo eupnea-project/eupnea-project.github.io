@@ -19,12 +19,13 @@ const entryRef = ref();
 
 function scrollToEntry() {
     const element = entryRef.value;
-    const rect = element.getBoundingClientRect();
+    const questionElement = element.querySelector(".faq-question");
+    const rect = questionElement.getBoundingClientRect();
     const yPosition = window.scrollY + rect.top;
 
     window.scrollTo({
         top: yPosition,
-        behavior: "smooth",
+        behavior: "smooth"
     });
 }
 
