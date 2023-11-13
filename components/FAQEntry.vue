@@ -21,7 +21,7 @@ function scrollToEntry() {
     const element = entryRef.value;
     const questionElement = element.querySelector(".faq-question");
     const rect = questionElement.getBoundingClientRect();
-    const yPosition = window.scrollY + rect.top;
+    const yPosition = window.scrollY + rect.top - (window.innerHeight / 2 - rect.height / 2);
 
     window.scrollTo({
         top: yPosition,
