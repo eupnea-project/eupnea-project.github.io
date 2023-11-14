@@ -19,16 +19,10 @@ const entryRef = ref();
 
 function scrollToEntry() {
     const element = entryRef.value;
-    const questionElement = element.querySelector(".faq-question");
-    const rect = questionElement.getBoundingClientRect();
-
-    const yPosition = window.scrollY + rect.top - (window.innerHeight / 2 - rect.height / 2);
-    const adjustedPosition = Math.min(Math.max(yPosition, 0), document.documentElement.scrollHeight - window.innerHeight);
-
-    window.scrollTo({
-        top: adjustedPosition,
-        duration: 1000,
-        behavior: "smooth"
+    element.scrollIntoView({
+        behavior: "smooth",
+        block: "center",
+        inline: "center"
     });
 }
 
@@ -58,7 +52,7 @@ function onClick(ev) {
 
 
 onMounted(() => {
-    if (window.location.hash) {
+    if (window.location.hash && window.history.state) {
         checkIsActive();
         scrollToEntry();
     }
