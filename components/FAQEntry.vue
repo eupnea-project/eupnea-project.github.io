@@ -1,6 +1,6 @@
 <script setup>
 import slugify from "@sindresorhus/slugify";
-import { ref, onMounted } from "vue";
+import { ref, onMounted, nextTick } from "vue";
 
 const { question, link } = defineProps({
     question: {
@@ -22,7 +22,7 @@ function scrollToEntry(animate = true) {
 
     if (animate) {
         element.scrollIntoView({
-            behavior: "smooth",
+          //behavior: "smooth",
             block: "center",
             inline: "center"
         });
@@ -31,15 +31,15 @@ function scrollToEntry(animate = true) {
     }
 }
 
-function checkIsActive() {
+async function checkIsActive() {
     const hash = window.location.hash;
     const isActive = hash.substring(1) === myHash;
 
     if (isActive) {
         scrollToEntry(true);
-        setTimeout(() => {
-            isOpen.value = true;
-        }, 300); // Adjust the delay duration as needed
+        // Wait for the next DOM update before opening the FAQ box
+        await nextTick();
+        isOpen.value = true;
     }
 }
 
