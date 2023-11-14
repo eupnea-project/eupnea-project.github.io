@@ -22,6 +22,7 @@ function scrollToEntry() {
     element.scrollIntoView({
         behavior: "smooth",
         block: "center",
+        duration: 1000,
         inline: "center"
     });
 }
