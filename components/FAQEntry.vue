@@ -17,12 +17,18 @@ const myHash = link ?? slugify(question);
 const isOpen = ref(false);
 const entryRef = ref();
 
-function scrollToEntry() {
+function scrollToEntry(animate = true) {
     const element = entryRef.value;
-    element.scrollIntoView({
-        block: "center",
-        inline: "center"
-    });
+
+    if (animate) {
+        element.scrollIntoView({
+            behavior: "smooth",
+            block: "center",
+            inline: "center"
+        });
+    } else {
+        element.scrollIntoView();
+    }
 }
 
 function checkIsActive() {
@@ -31,7 +37,7 @@ function checkIsActive() {
 
     if (isActive) {
         isOpen.value = true;
-        scrollToEntry();
+        scrollToEntry(true);
     }
 }
 
@@ -49,11 +55,10 @@ function onClick(ev) {
     }
 }
 
-
 onMounted(() => {
     if (window.location.hash && window.history.state) {
         checkIsActive();
-        scrollToEntry();
+        scrollToEntry(true);
     }
 });
 </script>
