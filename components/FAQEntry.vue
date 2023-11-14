@@ -22,7 +22,6 @@ function scrollToEntry(animate = true) {
 
     if (animate) {
         element.scrollIntoView({
-            behavior: "smooth",
             block: "center",
             inline: "center"
         });
