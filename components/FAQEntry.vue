@@ -1,6 +1,6 @@
 <script setup>
 import slugify from "@sindresorhus/slugify";
-import { ref, onMounted, nextTick } from "vue";
+import { ref, onMounted } from "vue";
 
 const { question, link } = defineProps({
     question: {
@@ -37,9 +37,9 @@ function checkIsActive() {
 
     if (isActive) {
         scrollToEntry(true);
-        nextTick(() => {
+        setTimeout(() => {
             isOpen.value = true;
-        });
+        }, 300); // Adjust the delay duration as needed
     }
 }
 
@@ -63,6 +63,20 @@ onMounted(() => {
     }
 });
 </script>
+
+<template>
+    <details class="faq-entry" :open="isOpen" :id="myHash" ref="entryRef">
+        <summary>
+            <a class="faq-question" v-on:click="onClick">
+                {{ question }}
+            </a>
+        </summary>
+
+        <div class="faq-answer">
+            <slot></slot>
+        </div>
+    </details>
+</template>
 
 <style>
 
