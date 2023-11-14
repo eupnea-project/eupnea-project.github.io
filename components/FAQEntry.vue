@@ -27,7 +27,7 @@ function scrollToEntry() {
 
     window.scrollTo({
         top: adjustedPosition,
-        duration: 1000
+        duration: 1000,
         behavior: "smooth"
     });
 }
