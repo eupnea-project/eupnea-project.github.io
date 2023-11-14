@@ -1,6 +1,6 @@
 <script setup>
 import slugify from "@sindresorhus/slugify";
-import { ref, onMounted } from "vue";
+import { ref, onMounted, nextTick } from "vue";
 
 const { question, link } = defineProps({
     question: {
@@ -22,6 +22,7 @@ function scrollToEntry(animate = true) {
 
     if (animate) {
         element.scrollIntoView({
+            behavior: "smooth",
             block: "center",
             inline: "center"
         });
@@ -35,8 +36,10 @@ function checkIsActive() {
     const isActive = hash.substring(1) === myHash;
 
     if (isActive) {
-        isOpen.value = true;
         scrollToEntry(true);
+        nextTick(() => {
+            isOpen.value = true;
+        });
     }
 }
 
@@ -57,24 +60,9 @@ function onClick(ev) {
 onMounted(() => {
     if (window.location.hash && window.history.state) {
         checkIsActive();
-        scrollToEntry(true);
     }
 });
 </script>
-
-<template>
-    <details class="faq-entry" :open="isOpen" :id="myHash" ref="entryRef">
-        <summary>
-            <a class="faq-question" v-on:click="onClick">
-                {{ question }}
-            </a>
-        </summary>
-
-        <div class="faq-answer">
-            <slot></slot>
-        </div>
-    </details>
-</template>
 
 <style>
 
