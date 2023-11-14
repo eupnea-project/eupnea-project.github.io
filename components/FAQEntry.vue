@@ -53,8 +53,6 @@ function onClick(ev) {
         const href = new URL(window.location.href);
         href.hash = myHash;
         window.history.replaceState({}, "", href);
-
-        scrollToEntry();
     }
 }
 
