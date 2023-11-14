@@ -20,9 +20,7 @@ const entryRef = ref();
 function scrollToEntry() {
     const element = entryRef.value;
     element.scrollIntoView({
-        behavior: "smooth",
         block: "center",
-        duration: 1000,
         inline: "center"
     });
 }
