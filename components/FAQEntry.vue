@@ -19,14 +19,19 @@ const entryRef = ref();
 
 function scrollToEntry() {
     const element = entryRef.value;
+    const questionElement = element.querySelector(".faq-question");
 
-    element.scrollIntoView({
-        behavior: "smooth",
-        block: "center"
-    });
+    if (questionElement) {
+        const rect = questionElement.getBoundingClientRect();
+        const yPosition = window.scrollY + rect.top - (window.innerHeight / 2 - rect.height / 2);
+        const adjustedPosition = Math.min(Math.max(yPosition, 0), document.documentElement.scrollHeight - window.innerHeight);
+
+        window.scrollTo({
+            top: adjustedPosition,
+            behavior: "smooth"
+        });
+    }
 }
-
-
 
 function checkIsActive() {
     const hash = window.location.hash;
@@ -42,11 +47,6 @@ function onClick(ev) {
     ev.preventDefault();
     ev.stopPropagation();
 
-    if (!isOpen.value) {
-        // Scroll only when opening an FAQ entry
-        scrollToEntry();
-    }
-
     isOpen.value = !isOpen.value;
 
     if (isOpen.value) {
@@ -54,9 +54,9 @@ function onClick(ev) {
         const href = new URL(window.location.href);
         href.hash = myHash;
         window.history.replaceState({}, "", href);
+        scrollToEntry();
     }
 }
-
 
 onMounted(() => {
     checkIsActive();
@@ -96,7 +96,6 @@ a.faq-question {
 
     border: 1px solid var(--vp-custom-block-details-border);
     border-radius: 8px;
-    /* scroll-margin-top: -100px; */
 }
 
 .faq-entry summary {
