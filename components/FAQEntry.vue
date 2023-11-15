@@ -1,6 +1,6 @@
 <script setup>
 import slugify from "@sindresorhus/slugify";
-import { ref, onMounted, nextTick } from "vue";
+import { ref, onMounted } from "vue";
 
 const { question, link } = defineProps({
     question: {
@@ -17,28 +17,23 @@ const myHash = link ?? slugify(question);
 const isOpen = ref(false);
 const entryRef = ref();
 
-function scrollToEntry(animate = true) {
+function scrollToEntry() {
     const element = entryRef.value;
 
-    if (animate) {
-        element.scrollIntoView({
-          //behavior: "smooth",
-            block: "center",
-            inline: "center"
-        });
-    } else {
-        element.scrollIntoView();
-    }
+    element.scrollIntoView({
+        behavior: "smooth",
+        block: "center"
+    });
 }
 
-async function checkIsActive() {
+
+
+function checkIsActive() {
     const hash = window.location.hash;
     const isActive = hash.substring(1) === myHash;
 
     if (isActive) {
-        scrollToEntry(true);
-        // Wait for the next DOM update before opening the FAQ box
-        await nextTick();
+        scrollToEntry();
         isOpen.value = true;
     }
 }
@@ -46,6 +41,11 @@ async function checkIsActive() {
 function onClick(ev) {
     ev.preventDefault();
     ev.stopPropagation();
+
+    if (!isOpen.value) {
+        // Scroll only when opening an FAQ entry
+        scrollToEntry();
+    }
 
     isOpen.value = !isOpen.value;
 
@@ -57,10 +57,9 @@ function onClick(ev) {
     }
 }
 
+
 onMounted(() => {
-    if (window.location.hash && window.history.state) {
-        checkIsActive();
-    }
+    checkIsActive();
 });
 </script>
 
@@ -80,6 +79,10 @@ onMounted(() => {
 
 <style>
 
+html {
+    scroll-behavior: smooth;
+}
+
 a.faq-question {
     color: inherit;
     text-decoration: none;
@@ -93,7 +96,7 @@ a.faq-question {
 
     border: 1px solid var(--vp-custom-block-details-border);
     border-radius: 8px;
-    scroll-margin-top: -100px;
+    /* scroll-margin-top: -100px; */
 }
 
 .faq-entry summary {
