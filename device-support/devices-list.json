@@ -2320,6 +2320,14 @@
       "family_name": "nissa",
       "supported": true
     },
+    "Chromebook Plus 15": {
+      "audio_status": "Partial",
+      "code_name": "yaviks",
+      "comment": "N/A",
+      "cpu_gen": "Alder Lake",
+      "family_name": "nissa",
+      "supported": true
+    },
     "Chromebook x2 11-da0": {
       "audio_status": "Unsupported",
       "code_name": "coachz",
