@@ -59,6 +59,7 @@ function checkIsActive() {
     if (isActive) {
         isOpen.value = true;
         scrollToEntry();
+        highlightLatestOpened();
     }
 }
 
