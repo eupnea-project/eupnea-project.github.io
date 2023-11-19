@@ -55,7 +55,17 @@ function onClick(ev) {
         href.hash = myHash;
         window.history.replaceState({}, "", href);
         scrollToEntry();
+        highlightLatestOpened();
     }
+}
+
+function highlightLatestOpened() {
+    // Remove highlight from all FAQ entries
+    const faqEntries = document.querySelectorAll(".faq-entry");
+    faqEntries.forEach((entry) => entry.classList.remove("latest-opened"));
+
+    // Add highlight to the current FAQ entry
+    entryRef.value.classList.add("latest-opened");
 }
 
 onMounted(() => {
@@ -98,6 +108,10 @@ a.faq-question {
     border-radius: 8px;
 }
 
+.faq-entry:hover {
+  box-shadow: 0 0 10px #409D86;
+}
+
 .faq-entry summary {
     display: inline;
     margin: 0;
@@ -126,5 +140,14 @@ a.faq-question {
 .faq-entry[open] {
     color: var(--vp-c-text-1);
     border-color: var(--vp-custom-block-tip-border);
+    border-color: #409D86;
+    border-width: 2px;
+    box-shadow: 0 0 10px #409D86;
+}
+
+.latest-opened {
+    border-color: #409D86;
+    border-width: 2px;
+    box-shadow: 0 0 10px #409D86;
 }
 </style>
