@@ -140,9 +140,6 @@ a.faq-question {
 .faq-entry[open] {
     color: var(--vp-c-text-1);
     border-color: var(--vp-custom-block-tip-border);
-    border-color: #409D86;
-    border-width: 2px;
-    box-shadow: 0 0 10px #409D86;
 }
 
 .latest-opened {
@@ -150,4 +147,10 @@ a.faq-question {
     border-width: 2px;
     box-shadow: 0 0 10px #409D86;
 }
+
+.latest-opened[open] {
+    border-color: #409D86;
+    border-width: 2px;
+    box-shadow: 0 0 10px #409D86;
+  }
 </style>
