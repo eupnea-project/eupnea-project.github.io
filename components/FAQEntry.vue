@@ -17,6 +17,24 @@ const myHash = link ?? slugify(question);
 const isOpen = ref(false);
 const entryRef = ref();
 
+// this handles the scrolling issue
+function scrollToTop() {
+    const element = entryRef.value;
+    const questionElement = element.querySelector(".faq-question");
+
+    if (questionElement) {
+        const rect = questionElement.getBoundingClientRect();
+        const yPosition = window.scrollY + rect.top - (window.innerHeight / 2 - rect.height / 2);
+        const adjustedPosition = Math.min(Math.max(yPosition, 0), document.documentElement.scrollHeight - window.innerHeight);
+
+        window.scrollTo({
+            top: adjustedPosition,
+            behavior: "smooth"
+        });
+    }
+}
+
+
 function scrollToEntry() {
     const element = entryRef.value;
     const questionElement = element.querySelector(".faq-question");
@@ -33,19 +51,27 @@ function scrollToEntry() {
     }
 }
 
+
 function checkIsActive() {
     const hash = window.location.hash;
     const isActive = hash.substring(1) === myHash;
 
     if (isActive) {
-        scrollToEntry();
         isOpen.value = true;
+        scrollToEntry();
     }
 }
 
 function onClick(ev) {
     ev.preventDefault();
     ev.stopPropagation();
+
+    if (isOpen.value) {
+        scrollToTop();
+    } else {
+        scrollToEntry();
+        highlightLatestOpened();
+    }
 
     isOpen.value = !isOpen.value;
 
@@ -54,17 +80,14 @@ function onClick(ev) {
         const href = new URL(window.location.href);
         href.hash = myHash;
         window.history.replaceState({}, "", href);
-        scrollToEntry();
-        highlightLatestOpened();
     }
 }
 
 function highlightLatestOpened() {
-    // Remove highlight from all FAQ entries
+    // might need to use latest-opened[open] for css
     const faqEntries = document.querySelectorAll(".faq-entry");
     faqEntries.forEach((entry) => entry.classList.remove("latest-opened"));
 
-    // Add highlight to the current FAQ entry
     entryRef.value.classList.add("latest-opened");
 }
 
