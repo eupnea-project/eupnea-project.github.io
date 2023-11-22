@@ -964,6 +964,14 @@
       "family_name": "corsola",
       "supported": false
     },
+    "Chromebook CM30": {
+      "audio_status": "Unknown",
+      "code_name": "starmie",
+      "comment": "N/A",
+      "cpu_gen": "Unknown",
+      "family_name": "staryu",
+      "supported": false
+    },
     "Chromebook CM34 Flip": {
       "audio_status": "Unknown",
       "code_name": "frostflow",
