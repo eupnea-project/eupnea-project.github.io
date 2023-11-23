@@ -7,6 +7,14 @@
       "cpu_gen": "Alder Lake",
       "family_name": "nissa",
       "supported": true
+    },
+    "Chromebook Gen 3 CB 5": {
+      "audio_status": "Partial",
+      "code_name": "pujjoteen",
+      "comment": "N/A",
+      "cpu_gen": "Alder Lake",
+      "family_name": "nissa",
+      "supported": true
     }
   },
   "Acer": {
