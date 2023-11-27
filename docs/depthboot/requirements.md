@@ -10,7 +10,7 @@ prev: false
     * x86_64 Linux pc/laptop: (all distros supported)
     * Windows: [Install WSL2](https://ubuntu.com/tutorials/install-ubuntu-on-wsl2-on-windows-11-with-gui-support#1-overview). WSL(v1) is not supported.
     * Apple devices: unsupported
-    * ARM Chromebooks/Raspberry Pis/Android/other non-x86_64: Need translation layers to build images. Do your own 
+    * ARM Chromebooks/Raspberry Pis/Android/other non-x86_64: Need translation layers to build images. Do your own
       research.
 * Developer mode enabled on the
   Chromebook ([How to enable developer mode](https://www.androidauthority.com/how-to-enable-developer-mode-on-a-chromebook-906688/))

@@ -17,7 +17,7 @@ instructions are mandatory each time for Crostini.**
 3. Type ``shell`` and press <kbd>Enter</kbd>
 4. Paste the command from below and press <kbd>Enter</kbd>
 
-```
+```shell
 vmc stop termina; vmc start termina | exit; vmc container termina penguin --privileged true 2>/dev/null 1>/dev/null; sleep 10; vmc container termina penguin --privileged true
 ```
 

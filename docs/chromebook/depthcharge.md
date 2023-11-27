@@ -123,28 +123,28 @@ The following parameters can be configured:
 
 Kernels signature verification:
 
-```
+```shell
 crossystem dev_boot_signed_only=1 # enable
 crossystem dev_boot_signed_only=0 # disable
 ```
 
 External media boot:
 
-```
+```shell
 crossystem dev_boot_usb=1 # enable
 crossystem dev_boot_usb=0 # disable
 ```
 
 Legacy payload boot:
 
-```
-crossystem dev_boot_legacy=1 # enable 
+```shell
+crossystem dev_boot_legacy=1 # enable
 crossystem dev_boot_legacy=0 # disable
 ```
 
 Default boot medium:
 
-```
+```shell
 crossystem dev_default_boot=disk # internal storage
 crossystem dev_default_boot=usb # external media
 crossystem dev_default_boot=legacy # legacy payload
