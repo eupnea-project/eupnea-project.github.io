@@ -1419,6 +1419,14 @@
       "cpu_gen": "Alder Lake",
       "family_name": "brask",
       "supported": true
+    },
+    "Micro": {
+      "audio_status": "Full",
+      "code_name": "boxy",
+      "comment": "N/A",
+      "cpu_gen": "Jasper Lake",
+      "family_name": "dedede",
+      "supported": true
     }
   },
   "Cr1102c": {
