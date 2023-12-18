@@ -34,7 +34,7 @@ function scrollToTop() {
     }
 }
 
-
+// scrolls to recently clicked entry
 function scrollToEntry() {
     const element = entryRef.value;
     const questionElement = element.querySelector(".faq-question");
@@ -51,7 +51,7 @@ function scrollToEntry() {
     }
 }
 
-
+// adds hash, handles actions
 function checkIsActive() {
     const hash = window.location.hash;
     const isActive = hash.substring(1) === myHash;
@@ -63,9 +63,11 @@ function checkIsActive() {
     }
 }
 
+// clicking actions
 function onClick(ev) {
     ev.preventDefault();
     ev.stopPropagation();
+    closeLatestOpened();
 
     if (isOpen.value) {
         scrollToTop();
@@ -78,13 +80,14 @@ function onClick(ev) {
     isOpen.value = !isOpen.value;
 
     if (isOpen.value) {
-        // Update anchor hash
+        // update anchor hash
         const href = new URL(window.location.href);
         href.hash = myHash;
         window.history.replaceState({}, "", href);
     }
 }
 
+// highlighting the most recently opened entry
 function highlightLatestOpened() {
     // might need to use latest-opened[open] for css
     const faqEntries = document.querySelectorAll(".faq-entry");
@@ -93,9 +96,18 @@ function highlightLatestOpened() {
     entryRef.value.classList.add("latest-opened");
 }
 
+// remove highlighting after entry is closed
 function removeLatestOpened() {
   const faqEntries = document.querySelectorAll(".faq-entry");
   faqEntries.forEach((entry) => entry.classList.remove("latest-opened"));
+}
+
+// closes the entry if another is clicked on
+function closeLatestOpened() {
+    const faqEntries = document.querySelectorAll(".faq-entry");
+    faqEntries.forEach((entry) => {
+        entry.removeAttribute("open");
+    });
 }
 
 onMounted(() => {
