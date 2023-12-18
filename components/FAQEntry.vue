@@ -69,6 +69,7 @@ function onClick(ev) {
 
     if (isOpen.value) {
         scrollToTop();
+        removeLatestOpened();
     } else {
         scrollToEntry();
         highlightLatestOpened();
@@ -90,6 +91,11 @@ function highlightLatestOpened() {
     faqEntries.forEach((entry) => entry.classList.remove("latest-opened"));
 
     entryRef.value.classList.add("latest-opened");
+}
+
+function removeLatestOpened() {
+  const faqEntries = document.querySelectorAll(".faq-entry");
+  faqEntries.forEach((entry) => entry.classList.remove("latest-opened"));
 }
 
 onMounted(() => {
