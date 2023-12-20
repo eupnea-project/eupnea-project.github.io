@@ -1411,6 +1411,16 @@
       "supported": true
     }
   },
+  "Ca11j2": {
+    "CA11J2": {
+      "audio_status": "Full",
+      "code_name": "peezer",
+      "comment": "N/A",
+      "cpu_gen": "Jasper Lake",
+      "family_name": "dedede",
+      "supported": true
+    }
+  },
   "Chromebox": {
     "Enterprise G4": {
       "audio_status": "Partial",
