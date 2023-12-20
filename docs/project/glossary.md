@@ -35,11 +35,10 @@ by [MilkyDeveloper](https://github.com/milkydeveloper) and was active from Apr 2
 
 #### EupneaOS
 
-EupneaOS is a Fedora based operating system optimized to run on *almost* all 64-bit Chromebooks. It features a custom (
-KDE based) ChromeOS style desktop and native Android app support, as well as tweaks to make the system more
+EupneaOS is a Fedora based operating system optimized to run on *almost* all 64-bit Chromebooks. It features a custom (KDE based) ChromeOS style desktop and native Android app support, as well as tweaks to make the system more
 user-friendly.  
 While most of the tweaks from EupneaOS are available (or can be added post-install) in a Fedora + KDE Depthboot
-system, EupneaOS has the advantage of being available as a prebuilt img, as well as featuring many extra system tweaks
+system, EupneaOS has the advantage of being available as a prebuilt image, as well as featuring many extra system tweaks
 from the Eupnea Project.  
 EupneaOS can also be booted on UEFI/RW_L Chromebooks (non Chromebook devices are **NOT** supported)
 
@@ -50,7 +49,7 @@ early development stages (pre v1.0)
 
 #### Desktop Environment
 
-Aka DE. Refers to the gui part of a system, as well as apps and frameworks used by
+Aka DE. Refers to the GUI part of a system, as well as apps and frameworks used by
 it.  
 [Which DE is the best?](/faq#which-desktop-enviroment-de-is-the-best)
 

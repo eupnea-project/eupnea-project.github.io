@@ -107,30 +107,30 @@ There is no best desktop enviroment (short: DE) on Linux, all have their pros an
 Generally, there is 2 kinds of DEs; the ones that aim to look good and/or have a lot of features and the ones that try
 to be as light as possible.
 
-Here is a breif list of the pros and cons of every desktop enviroment avalible:
+Here is a brief list of the pros and cons of every desktop environment available:
 
-* Gnome (gtk based)
+* Gnome (GTK based)
     * Pros: Most popular DE on Linux. Best touch + pen support. Minimalistic UI. Aims to be intuitive to use. The
       developers have a strong vision in mind.
     * Cons: Not as much customization (requires additional software). Workspaces oriented workflow -> not a Windows
       replacement. Developers prioritize their vision over user feedback.
-* KDE (qt based)
+* KDE (QT based)
     * Pros: Second most popular DE on Linux. Windows-like workflow. Lots of customization/behavior options.
     * Cons: Can be overwhelming due to the amount of options. Not as good touch + pen support as on GNOME (but still
       very much usable).
-* Xfce (gtk based)
+* Xfce (GTK based)
     * Pros: Very light (compared to GNOME/KDE), i.e. less RAM & CPU usage.
     * Cons: Looks very dated. Native apps are not as polished/user-friendly as on GNOME/KDE. No wayland support ->
       touch & pen unsupported/very limited.
-* LXQt (successor to LXDE) (qt based)
+* LXQt (successor to LXDE; QT based)
     * Pros: Very light (compared to GNOME/KDE), i.e. less RAM & CPU usage. Windows-like layout.
     * Cons: Less effects and polish. Native apps are not as polished/user-friendly as on GNOME/KDE. No wayland
       support -> touch & pen unsupported/very limited.
-* Deepin (KDE; qt based)
+* Deepin (KDE; QT based)
     * Pros: Very beautiful UI, multiple layouts (MacOS, Windows). Has native apps with matching themes.
     * Cons: Main developers are Chinese -> language translation can be inconsistent. No wayland support **YET** ->
       touch & pen unsupported/very limited.
-* Budgie (GNOME; gtk based)
+* Budgie (GNOME; GTK based)
     * Pros: Utilizes the GNOME stack, but has a more Windows-like workflow.
     * Cons: May have fewer features and customization without extensions/external software. Same layout can be achieved
       by using Extensions in "stock" GNOME. No wayland support **YET** -> touch & pen unsupported/very limited.
