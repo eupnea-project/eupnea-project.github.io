@@ -1068,6 +1068,14 @@
       "family_name": "dedede",
       "supported": true
     },
+    "Chromebook CX34 CX3402CBA": {
+      "audio_status": "Partial",
+      "code_name": "marasov",
+      "comment": "N/A",
+      "cpu_gen": "Alder Lake",
+      "family_name": "brya",
+      "supported": true
+    },
     "Chromebook CX34 Flip (CX3401) / ASUS Chromebook CX34 Flip (CX3401FBA) / ASUS Chromebook Enterprise CB34 Flip (CB3401) /  ASUS Chromebook Enterprise CX34 Flip (CX3401)": {
       "audio_status": "Partial",
       "code_name": "mithrax",
