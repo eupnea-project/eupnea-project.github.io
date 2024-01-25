@@ -5,7 +5,6 @@ export default {
   rewrites: {
     "docs/extra/overview.md": "overview.md",
     "docs/extra/faq.md": "faq.md",
-    "docs/extra/old-page.md": "old-page.md",
     "docs/extra/troubleshoot.md": "troubleshoot.md"
   },
   themeConfig: {
@@ -17,7 +16,6 @@ export default {
         items: [
           { text: "Overview", link: "/overview" },
           { text: "FAQ", link: "/faq" },
-          { text: "Old Page", link: "/old-page.md" },
           { text: "Troubleshooting", link: "/troubleshoot" },
         ]
       },
