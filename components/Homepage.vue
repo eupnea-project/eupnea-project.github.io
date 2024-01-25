@@ -13,7 +13,7 @@ import Chevron from "./Chevron.vue";
                     Boot a full Linux system and gain complete control over your device WITHOUT modifying the firmware.
                 </b></p>
             <p class="fade-in-light"><b>
-                    Note from the developer(s):</b> This project is officially dead and/or unmaintained(Though if I know Apacelus right he would revive it for the ten billionth time in a row in a month or so). If you have a chromebook, install <a href="https://mrchromebox.tech/#fwscript">MrChromebox's firmware</a>, or if you like this project, install <a href="https://github.com/FyraLabs/submarine">Submarine</a>, kind of like depthcharge. In my opinion, it would be better to install UEFI as it is supported by most devices, as it allows your chromebook to become a 'normal' laptop.
+                    Note from the developer(s):</b> This project is officially dead and/or unmaintained(Though if I know Apacelus right he would revive it for the ten billionth time in a row in a month or so). If you have a chromebook, install <a href="https://mrchromebox.tech/#fwscript">MrChromebox's firmware</a>, or if you like this project, install <a href="https://github.com/FyraLabs/submarine">Submarine</a>, kind of like depthcharge. In my opinion, UEFI would be better as it is supported by most devices, and it allows your chromebook to become a 'normal' laptop.
                 </p>
         </div>
         <div class="row fade-in">
