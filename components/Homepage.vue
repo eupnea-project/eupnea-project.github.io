@@ -48,15 +48,7 @@ import Chevron from "./Chevron.vue";
             </div>
         </div>
     </section>
-    
-    <p></p>
-    <a href="old-page">Go to Old Page</a>
-    <p></p>
-
-    <small>
-        hi milky. also apple sauce...fuck you!
-    </small>
-
+ 
     <footer>
         &copy; 2024 The Eupnea Project 
     </footer>
