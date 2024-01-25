@@ -10,13 +10,10 @@ import Chevron from "./Chevron.vue";
                 <b style="color: var(--eupnea-blue);">Chromebook</b><b style="color: var(--eupnea-green);">, your way</b>
             </h1>
             <p class="fade-in-light"><b>
-                    Boot a full Linux system and gain complete control over your device WITHOUT modifying the firmware.
+                    The Eupnea Project has beeen discontinued.
                 </b></p>
-            <p class="fade-in-light"><b>
-                    Note from the developer(s):</b> This project is officially dead and/or unmaintained(Though if I know Apacelus right he would revive it for the ten billionth time in a row in a month or so). 
-                </p>
             <h2 class="fade-in-light"><b>
-                   Use these projects instead:</b>
+                   Please use one of these projects instead:</b>
             </h2>
         </div>
         <div class="row fade-in">
@@ -27,7 +24,7 @@ import Chevron from "./Chevron.vue";
                         <h2>Coreboot</h2>
                     </span>
                     <p>
-                        With the help of MrChromebox's firmware script, we can run Coreboot(UEFI) on our chromebooks, allowing it to be used like a regular 'laptop'. Supported devices are <a href="https://mrchromebox.tech/#devices">here</a>.
+                        MrChromebox's UEFI/RW_L (turn chromebook into almost a normal laptop):
                     </p>
                     <a href="https://mrchromebox.tech/#fwscript">
                         <button class="big solid">Link</button>
@@ -42,7 +39,7 @@ import Chevron from "./Chevron.vue";
                         <h2>Submarine</h2>
                     </span>
                     <p>
-                        A product of Fyra labs, Submarine is a small linux environment that fits on a ChromeOS kernel partition. It's used to boot a full linux distro.
+                        FyraLab's submarine (does not require firmware modification)
                     </p>
                     <a href="https://github.com/FyraLabs/submarine">
                         <button class="big solid">Link</button>
