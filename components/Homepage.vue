@@ -108,8 +108,12 @@ import Chevron from "./Chevron.vue";
         </div>
     </section>
 
+    <small>
+        hi milky
+    </small>
+
     <footer>
-        &copy; 2023 The Eupnea Project
+        &copy; 2024 The Eupnea Project 
     </footer>
 </template>
 
