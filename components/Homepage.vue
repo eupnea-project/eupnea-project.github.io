@@ -10,7 +10,7 @@ import Chevron from "./Chevron.vue";
                 <b style="color: var(--eupnea-blue);">Chromebook</b><b style="color: var(--eupnea-green);">, your way</b>
             </h1>
             <p class="fade-in-light"><b>
-                    The Eupnea Project has beeen discontinued.
+                    The Eupnea Project has been discontinued.
                 </b></p>
             <h2 class="fade-in-light"><b>
                    Please use one of these projects instead:</b>
